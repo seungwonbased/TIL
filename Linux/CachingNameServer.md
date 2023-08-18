@@ -18,13 +18,13 @@ $ vi /etc/named.conf
 # /etc/named.conf
 
 options {
-				listen-on-port 53 { any; };
-				listen-on-v6 port 53 { none; };
-				...
-				allow-query { any; };
-				...
-				dnssec-validation no;
-				...
+	listen-on-port 53 { any; };
+	listen-on-v6 port 53 { none; };
+	...
+	allow-query { any; };
+	...
+	dnssec-validation no;
+	...
 }
 ```
 

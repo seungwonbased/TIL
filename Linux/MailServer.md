@@ -80,25 +80,25 @@ $ vi /etc/named.conf
 # /etc/named.conf
 
 options {
-				listen-on-port 53 { any; };
-				listen-on-v6 port 53 { none; };
-				...
-				allow-query { any; };
-				...
-				dnssec-validation no;
-				...
+	listen-on-port 53 { any; };
+	listen-on-v6 port 53 { none; };
+	...
+	allow-query { any; };
+	...
+	dnssec-validation no;
+	...
 }
 ...
 zone "naver.com" IN {
-				type master;
-				file "naver.com.db";
-				allow-update { none; };
+	type master;
+	file "naver.com.db";
+	allow-update { none; };
 };
 
 zone "daum.net" IN {
-				type master;
-				file "daum.net.db";
-				allow-update { none; };
+	type master;
+	file "daum.net.db";
+	allow-update { none; };
 };
 ```
 
@@ -114,23 +114,23 @@ $ vi daum.net.db
 ```
 
 ```bash
-$TTL     3H
-@        SOA      @       root.      (  2  1D  1H  1W  1H  )
-         IN       NS      @
-         IN       A       192.168.111.100
-         IN       MX      10      mail.naver.com.
+$TTL	3H
+@		SOA		@		root.      (  2  1D  1H  1W  1H  )
+		IN		NS      @
+		IN		A       192.168.111.100
+		IN		MX      10      mail.naver.com.
 
-mail     IN       A       192.168.111.100
+mail    IN      A       192.168.111.100
 ```
 
 ```bash
 $TTL     3H
-@        SOA      @       root.      (  2  1D  1H  1W  1H  )
-         IN       NS      @
-         IN       A       192.168.111.200
-         IN       MX      10      mail.daum.net.
+@       SOA      @       root.      (  2  1D  1H  1W  1H  )
+        IN       NS      @
+        IN       A       192.168.111.200
+        IN       MX      10      mail.daum.net.
 
-mail     IN       A       192.168.111.200
+mail    IN       A       192.168.111.200
 ```
 
 - $TTL: 도메인에 대한 정보를 다른 네임 서버에서 가져간 다음 가져간 네임 서버에 얼마나 보관할 것인지를 명시

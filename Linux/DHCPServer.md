@@ -46,12 +46,12 @@ $ vi /etc/dhcp/dhcpd.conf
 
 ddns-update-style interim;
 subnet 192.168.111.0 netmask 255.255.255.0 {
-        option    routers 192.168.111.2;
-        option    subnet-mask 255.255.255.0;
-        range     dynamic-bootp 192.168.111.55  192.168.111.99;
-        option    domain-name-servers 8.8.8.8;
-        default-lease-time  10000;
-        max-lease-time      50000;
+        option  routers 192.168.111.2;
+        option  subnet-mask 255.255.255.0;
+        range   dynamic-bootp 192.168.111.55  192.168.111.99;
+        option  domain-name-servers 8.8.8.8;
+        default-lease-time      10000;
+        max-lease-time  50000;
 }
 ```
 
