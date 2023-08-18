@@ -1,6 +1,6 @@
 # 캐싱 전용 네임 서버
 
-# BIND 설치 (Server)
+## BIND 설치 (Server)
 
 ```bash
 $ dnf -y install bind-*
@@ -8,7 +8,7 @@ $ dnf -y install bind-*
 
 - BIND (Berkeley Internet Name Domain): DNS를 구현한 소프트웨어의 하나로 가장 오래 된 도메인 서비스 시스템
 
-# named.conf 파일 수정 (Server)
+## named.conf 파일 수정 (Server)
 
 ```bash
 $ vi /etc/named.conf
@@ -30,11 +30,11 @@ options {
 
 - 포트 외부 접근을 허용하고, 쿼리를 허용할 대역을 설정
 
-# named 재시작, 상시 가동 설정 및 상태 점검 (Server)
+## named 재시작, 상시 가동 설정 및 상태 점검 (Server)
 
 ![Screenshot 2023-08-17 at 20.49.44.png](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/Screenshot_2023-08-17_at_20.49.44.png)
 
-# Firewall 설정 (Server)
+## Firewall 설정 (Server)
 
 ```bash
 $ firewall-config
@@ -42,11 +42,11 @@ $ firewall-config
 
 ![Screenshot 2023-08-17 at 20.51.05.png](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/Screenshot_2023-08-17_at_20.51.05.png)
 
-# Name server 작동 확인 (Server)
+## Name server 작동 확인 (Server)
 
 ![Screenshot 2023-08-17 at 20.51.53.png](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/Screenshot_2023-08-17_at_20.51.53.png)
 
-# Name server 고정 지정 (Server)
+## Name server 고정 지정 (Server)
 
 ```bash
 $ vi /etc/resolv.conf
@@ -63,6 +63,6 @@ nameserver 192.168.111.100
 - search는 호스트 + 도메인으로 사용할 도메인 명을 지정해둔 것
 - 192.168.111.100을 Name server로 사용할 것을 지정
 
-# 외부에서 Name server 작동 확인 (LinClient)
+## 외부에서 Name server 작동 확인 (LinClient)
 
 ![Screenshot 2023-08-17 at 20.56.14.png](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/Screenshot_2023-08-17_at_20.56.14.png)

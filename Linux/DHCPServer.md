@@ -1,12 +1,12 @@
 # DHCP 서버
 
-# DHCP 설치 확인 (Server)
+## DHCP 설치 확인 (Server)
 
 ```bash
 $ rpm -qa dhcp-client
 ```
 
-# VMware DHCP 끄기 (VMware)
+## VMware DHCP 끄기 (VMware)
 
 ![Screenshot 2023-08-18 at 15.21.19.png](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/Screenshot_2023-08-18_at_15.21.19.png)
 
@@ -24,13 +24,13 @@ $ rpm -qa dhcp-client
 
 - IP 할당 중지, 네트워크 연결 끊어짐
 
-# DHCP server 설치 (Server)
+## DHCP server 설치 (Server)
 
 ```bash
 $ dnf -y install dhcp-server
 ```
 
-# dhcpd.conf 파일 설치 (Server)
+## dhcpd.conf 파일 설치 (Server)
 
 ```bash
 $ vi /etc/dhcp/dhcpd.conf
@@ -63,7 +63,7 @@ subnet 192.168.111.0 netmask 255.255.255.0 {
 - `default-lease-time`: 임대 요청 만료 시간 (sec)
 - `max-lease-time`: 클라이언트가 IP를 가지고 있는 최대 시간 (sec)
 
-# IP 할당 확인 (Server(B) & LinClient)
+## IP 할당 확인 (Server(B) & LinClient)
 
 - **`Server(B)`**
 
@@ -75,7 +75,7 @@ subnet 192.168.111.0 netmask 255.255.255.0 {
 
 - IP 할당 성공
 
-# 할당 데이터베이스 확인 (Server)
+## 할당 데이터베이스 확인 (Server)
 
 ```bash
 $ cat /var/lib/dhcpd/dhtpd.leases

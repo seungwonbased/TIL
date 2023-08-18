@@ -1,6 +1,6 @@
 # 메일 서버
 
-# Sendmail 설치 (Server)
+## Sendmail 설치 (Server)
 
 ```bash
 $ vi dnf -y install sendmail
@@ -8,7 +8,7 @@ $ vi dnf -y install sendmail
 
 - SMTP 프로토콜을 이용해 다른 메일 서버로 메일을 전달하는 프로그램
 
-# hostname 파일 수정 (Server)
+## hostname 파일 수정 (Server)
 
 ```bash
 $ vi /etc/hostname
@@ -20,7 +20,7 @@ $ vi /etc/hostname
 mail.naver.com
 ```
 
-# hosts 파일 수정 (Server)
+## hosts 파일 수정 (Server)
 
 ```bash
 $ vi /etc/hosts
@@ -33,7 +33,7 @@ $ vi /etc/hosts
 192.168.111.100 mail.naver.com
 ```
 
-# local-host-names 파일 수정 (Server)
+## local-host-names 파일 수정 (Server)
 
 ```bash
 $ vi /etc/mail/local-host-names
@@ -45,7 +45,7 @@ $ vi /etc/mail/local-host-names
 mail.naver.com
 ```
 
-# network 파일 수정 (Server)
+## network 파일 수정 (Server)
 
 ```bash
 $ vi /etc/sysconfig/network
@@ -58,11 +58,11 @@ $ vi /etc/sysconfig/network
 HOSTNAME=mail.naver.com
 ```
 
-# Sendmail 설치 및 파일 수정 (Server(B))
+## Sendmail 설치 및 파일 수정 (Server(B))
 
 - 위 과정을 Server(B)에서는 mail.daum.net으로 수정
 
-# BIND 설치 (Server)
+## BIND 설치 (Server)
 
 ```bash
 $ dnf -y install bind-*
@@ -70,7 +70,7 @@ $ dnf -y install bind-*
 
 - Server에 Name server 설치
 
-# named.conf 파일 수정 (Server)
+## named.conf 파일 수정 (Server)
 
 ```bash
 $ vi /etc/named.conf
@@ -105,7 +105,7 @@ zone "daum.net" IN {
 - 포트 외부 접근을 허용하고, 쿼리를 허용할 대역을 설정
 - 도메인을 관리하는 데이터베이스 파일인 zone 파일을 지정
 
-# .com.db 파일 생성 (Server & Server(B))
+## .com.db 파일 생성 (Server & Server(B))
 
 ```bash
 $ cd /var/named
@@ -138,7 +138,7 @@ mail     IN       A       192.168.111.200
 - A: 해당 도메인의 실제 IP 주소를 설정하는 레코드
 - MX: 메일 서버로 사용하게 될 도메인을 지정
 
-# 메일 서버 구동 확인 (Server & Server(B))
+## 메일 서버 구동 확인 (Server & Server(B))
 
 ![Screenshot 2023-08-17 at 23.31.56.png](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/Screenshot_2023-08-17_at_23.31.56.png)
 

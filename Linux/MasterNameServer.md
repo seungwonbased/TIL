@@ -2,27 +2,27 @@
 
 ## HTTP 설치 (Server)
 
-```
+```bash
 $ vi dnf -y install httpd
 ```
 
 ## 테스트 HTML 파일 생성 (Server)
 
-```
+```bash
 $ vi /var/www/html/index.html
 ```
 
-```
+```html
 <h1>web page by seungwon</h1>
 ```
 
 ## named.conf 파일 수정 (Server)
 
-```
+```bash
 $ vi /etc/named.conf
 ```
 
-```
+```bash
 # /etc/named.conf
 
 options {
@@ -34,7 +34,7 @@ options {
 				dnssec-validation no;
 				...
 }
-...
+...bash
 zone "seungwon.com" IN {
 				type master;
 				file "seungwon.com.db";
@@ -47,11 +47,11 @@ zone "seungwon.com" IN {
 
 ## .com.db 파일 생성 (Server)
 
-```
+```bash
 $ vi /var/named/seungwon.com.db
 ```
 
-```
+```bash
 $TTL    3H
 @       SOA     @       root.   (2      1D      1H      1W      1H)
         IN      NS      @
@@ -67,19 +67,19 @@ ftp     IN      A       192.168.111.200
 
 ## FTP 설치 (Server(B))
 
-```
+```bash
 $ dnf -y install vsftpd
 ```
 
 ## FTP 설치 (LinClient)
 
-```
+```bash
 $ su -c 'dnf -y install ftp'
 ```
 
 ## nslookup 테스트 (LinClient)
 
-```
+```bash
 $ nslookup
 ```
 
@@ -89,7 +89,7 @@ $ nslookup
 
 ## 도메인 이용하여 외부 FTP 접속 (LinClient)
 
-```
+```bash
 $ ftp ftp.seungwon.com
 ```
 
