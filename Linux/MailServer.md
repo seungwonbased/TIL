@@ -114,7 +114,7 @@ $ vi daum.net.db
 ```
 
 ```bash
-$TTL     3H       
+$TTL     3H
 @        SOA      @       root.      (  2  1D  1H  1W  1H  )
          IN       NS      @
          IN       A       192.168.111.100
@@ -124,7 +124,7 @@ mail     IN       A       192.168.111.100
 ```
 
 ```bash
-$TTL     3H       
+$TTL     3H
 @        SOA      @       root.      (  2  1D  1H  1W  1H  )
          IN       NS      @
          IN       A       192.168.111.200
@@ -140,10 +140,6 @@ mail     IN       A       192.168.111.200
 
 # 메일 서버 구동 확인 (Server & Server(B))
 
-![Screenshot 2023-08-17 at 23.31.56.png](%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5%20b6db5bdc51d2432885a39bbe531699f4/Screenshot_2023-08-17_at_23.31.56.png)
+![Screenshot 2023-08-17 at 23.31.56.png](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/Screenshot_2023-08-17_at_23.31.56.png)
 
-![Screenshot 2023-08-17 at 23.41.36.png](%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5%20b6db5bdc51d2432885a39bbe531699f4/Screenshot_2023-08-17_at_23.41.36.png)
-
----
-
-[◀ 이전 페이지 돌아가기](../Linux,%20VMware%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%202d50778ce91c4b59839555f0accc1aeb.md)
+![Screenshot 2023-08-17 at 23.41.36.png](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/Screenshot_2023-08-17_at_23.41.36.png)

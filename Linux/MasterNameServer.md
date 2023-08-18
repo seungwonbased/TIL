@@ -83,7 +83,7 @@ $ su -c 'dnf -y install ftp'
 $ nslookup
 ```
 
-![4.PNG](%E1%84%86%E1%85%A1%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%20%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%B7%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5%209caa0c1507aa49048158599e5fa6bf02/4.png)
+![4.PNG](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/4.png)
 
 - 네임 서버 정상 작동
 
@@ -93,12 +93,8 @@ $ nslookup
 $ ftp ftp.seungwon.com
 ```
 
-![5.PNG](%E1%84%86%E1%85%A1%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%20%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%B7%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5%209caa0c1507aa49048158599e5fa6bf02/5.png)
+![5.PNG](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/5.png)
 
 # 도메인 이용하여 외부 웹 접속 (LinClient)
 
-![6.PNG](%E1%84%86%E1%85%A1%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%20%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%B7%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5%209caa0c1507aa49048158599e5fa6bf02/6.png)
-
----
-
-[◀ 이전 페이지 돌아가기](../Linux,%20VMware%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%202d50778ce91c4b59839555f0accc1aeb.md)
+![6.PNG](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/6.png)

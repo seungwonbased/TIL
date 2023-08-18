@@ -32,7 +32,7 @@ options {
 
 # named 재시작, 상시 가동 설정 및 상태 점검 (Server)
 
-![https://github.com/seungwonbased/TIL/blob/main/Linux/assets/Screenshot 2023-08-17 at 20.49.44.png](%E1%84%8F%E1%85%A2%E1%84%89%E1%85%B5%E1%86%BC%20%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%AD%E1%86%BC%20%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%B7%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5%20664f785aa1794b9691e4a965acef30ab/Screenshot_2023-08-17_at_20.49.44.png)
+![Screenshot 2023-08-17 at 20.49.44.png](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/Screenshot_2023-08-17_at_20.49.44.png)
 
 # Firewall 설정 (Server)
 
@@ -40,11 +40,11 @@ options {
 $ firewall-config
 ```
 
-![Screenshot 2023-08-17 at 20.51.05.png](%E1%84%8F%E1%85%A2%E1%84%89%E1%85%B5%E1%86%BC%20%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%AD%E1%86%BC%20%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%B7%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5%20664f785aa1794b9691e4a965acef30ab/Screenshot_2023-08-17_at_20.51.05.png)
+![Screenshot 2023-08-17 at 20.51.05.png](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/Screenshot_2023-08-17_at_20.51.05.png)
 
 # Name server 작동 확인 (Server)
 
-![Screenshot 2023-08-17 at 20.51.53.png](%E1%84%8F%E1%85%A2%E1%84%89%E1%85%B5%E1%86%BC%20%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%AD%E1%86%BC%20%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%B7%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5%20664f785aa1794b9691e4a965acef30ab/Screenshot_2023-08-17_at_20.51.53.png)
+![Screenshot 2023-08-17 at 20.51.53.png](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/Screenshot_2023-08-17_at_20.51.53.png)
 
 # Name server 고정 지정 (Server)
 
@@ -65,8 +65,4 @@ nameserver 192.168.111.100
 
 # 외부에서 Name server 작동 확인 (LinClient)
 
-![Screenshot 2023-08-17 at 20.56.14.png](%E1%84%8F%E1%85%A2%E1%84%89%E1%85%B5%E1%86%BC%20%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%AD%E1%86%BC%20%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%B7%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5%20664f785aa1794b9691e4a965acef30ab/Screenshot_2023-08-17_at_20.56.14.png)
-
----
-
-[◀ 이전 페이지 돌아가기](../Linux,%20VMware%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%202d50778ce91c4b59839555f0accc1aeb.md)
+![Screenshot 2023-08-17 at 20.56.14.png](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/Screenshot_2023-08-17_at_20.56.14.png)
