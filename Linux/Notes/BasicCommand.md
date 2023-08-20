@@ -134,7 +134,7 @@ $ mount [option] [device] [directory]
 
 ## 파일과 디렉터리의 소유와 허가권
 
-![FilePermission](https://github.com/seungwonbased/TIL/blob/main/Linix/assets/Screenshot_2023-08-20_at_20.41.08.png)
+![FilePemission](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/Screenshot_2023-08-20_at_20.41.08.png)
 
 - 파일 유형
   - 디렉터리일 경우에는 d, 일반적인 파일일 경우에는 -
