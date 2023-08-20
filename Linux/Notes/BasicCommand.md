@@ -134,4 +134,21 @@ $ mount [option] [device] [directory]
 
 ## 파일과 디렉터리의 소유와 허가권
 
+![파일 허가권](https://github.com/seungwonbased/TIL/blob/main/Linix/asset/Screenshot_2023-08-20_at_20.41.08.png)
+
+- 파일 유형
+  - 디렉터리일 경우에는 d, 일반적인 파일일 경우에는 -
+- 파일 허가권
+  - 3개씩 끊어서 읽음
+    - 첫 번째는 User의 파일 접근 권한
+    - 두 번째는 Group의 파일 접근 권한
+    - 세 번째는 그 외 사용자의 파일 접근 권한
+  - 8진수 숫자로도 표현 가능
+  - chmod: 파일 허가권 변경 명령어
+- 파일 소유권: 파일을 소유한 사용자와 그룹을 의미
+  - chown/chgrp: 파일의 소유권을 변경하는 명령어
+
+## INODE
+
+- inode는 리눅스/유닉스 파일 시스템에서 사용하는 자료구조
 -
