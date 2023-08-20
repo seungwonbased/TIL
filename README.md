@@ -4,6 +4,10 @@
 
 ## Linux
 
+### 필수 개념 및 명령어
+
+- [필수 개념 및 명령어](https://github.com/seungwonbased/TIL/blob/main/Linux/Notes/BasicCommand.md)
+
 ### 서버 구축
 
 #### 원격 서버 구축
