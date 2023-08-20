@@ -2,6 +2,10 @@
 
 열심히 해봐야겠습니다.
 
+## AWS
+
+## Databases
+
 ## Linux
 
 ### 필수 개념 및 명령어
@@ -44,5 +48,3 @@
 - [신뢰성 있는 TCP 데이터 스트림](https://github.com/seungwonbased/TIL/blob/main/Network/TCP/ReliableTCPDataStream.md)
 
 ## OAuth2.0
-
--

@@ -151,4 +151,210 @@ $ mount [option] [device] [directory]
 ## INODE
 
 - inode는 리눅스/유닉스 파일 시스템에서 사용하는 자료구조
--
+- 파일이나 디렉터리의 여러 정보를 가지고 있음
+- 모든 파일이나 디렉터리는 한 개의 inode를 가지며 inode에는 파일의 소유권, 허가권, 파일 종류 등의 정보와 해당 파일의 실제 위치가 있음
+- inode들이 모여있는 공간을 inode 블록이라고 함
+
+## 링크
+
+- 파일의 링크에는 하드 링크와 심볼릭 링크 (또는 소프트 링크) 두 가지가 있음
+- 하드 링크를 생성하면 하드 링크 파일만 하나 생성되며 같은 inode를 사용
+- 소프트 링크를 생성하면 새로운 inode를 만들고 데이터는 원본 파일을 연결하는 효과
+
+## RPM (Redhat Package Manager)
+
+- Windows의 "setup.exe"와 비슷한 설치 파일
+- 확장명은 .rpm이며 이를 패키지라고 부름
+
+```bash
+# U는 설치, v는 설치 과정, h는 설치 시 진행도를 #으로 표현하는 옵션
+
+$ rpm -Uvh PACKAGENAME
+```
+
+- RPM은 포로그램을 설치할 때 의존성이 있는 선행 패키지가 설치되어 있지 않으면 설치가 불가능하다는 게 단점
+
+## DNF (Danifired YUM)
+
+- RPM의 패키지 의존성 문제를 해결
+- 인터넷을 통해 필요한 파일을 Repository에서 자동으로 다운로드해서 설치
+
+### 작동 방식 설정 파일
+
+- /etc/yum.conf: 특별히 변경할 필요 없음
+- /etc/yum.repos.d/ 디렉터리: dnf 명령을 입력했을 때 검색하게 되는 네트워크의 주소가 들어 있는 여러 개의 파일이 있음
+- /etc/yum.repos.d/ 디렉터리의 .repo 파일: 패키지를 받아올 위치를 결정
+
+## 파일 압축과 묶기
+
+### 파일 압축
+
+- 압축 파일 확장명은 xz, bz2, gz, zip, Z 등
+  - xz나 bz2 압축률 좋음
+
+#### 파일 압축 관련 명령
+
+- xz: xz로 압축을 하거나 해제
+- bzip2: bz2로 압축을 하거나 해제
+- gzip: gz로 압축을 하거나 해제
+
+### 파일 묶기
+
+- 리눅스나 유닉스에서는 파일 압축과 파일 묶기는 별개의 프로그램으로 수행
+- 파일 묶기의 명령어는 tar이며 묶인 파일의 확장명도 .tar
+
+#### 파일 묶기 명령
+
+- 확장명 tar로 묶음 파일을 만들어 주거나 묶음을 풀어줌
+  - 동작: c(묶기), x(풀기), t(경로 확인)
+  - 옵션: f(파일), v(과정 보이기), J(tar + xz), z(tar + gz), j(tar + bz2)
+
+## 파일 위치 검색
+
+```bash
+# 기본 파일 찾기
+
+$ find [경로] [옵션] [조건] [action]
+```
+
+## Cron과 At
+
+### Cron
+
+- 주기적으로 반복되는 일을 자동적으로 실행될 수 있도록 설정
+- 관련된 데몬은 crond, 관련 파일은 /etc/crontab
+
+### at
+
+- cron은 주기적으로 반복되는 작업을 예약하는 것이지만 at은 일회성 작업을 예약
+
+## 네트워크 관련 명령어
+
+- nmtui: 네트워크와 관련된 대부분의 작업을 수행
+  - 자동 IP 주소 또는 고정 IP 주소 사용 결정
+  - IP 주소, 서브넷 마스크, 게이트웨이 정보 입력
+  - DNS 정보 입력
+  - 네트워크 카드 드라이버 설정
+  - 네트워크 장치 (ens160) 설정
+  - 텍스트 기반으로 작동
+- nslookup: DNS 서버의 작동을 테스트하는 명령어
+
+```bash
+# 네트워크 설정을 변경한 후에 변경된 내용을 시스템에 적용시키는 명령어
+
+$ systemctl [start/stop/restart/status] NetworkManager
+```
+
+```bash
+# 네트워크 장치를 On 또는 Off 시키는 명령어
+
+$ ifup [장치 이름]
+$ ifdown [장치 이름]
+```
+
+```bash
+# 장치의 IP 주소 설정 정보를 출력
+
+$ ifconfig [장치 이름]
+```
+
+```bash
+# 해당 컴퓨터가 네트워크 상에서 응답하는 지를 테스트하는 명령어
+
+$ ping [IP 주소 또는 URL]
+```
+
+## 네트워크 설정과 관련된 주요 파일
+
+- /etc/sysconfig/network: 네트워크의 기본적인 정보가 설정되어 있는 파일
+- /etc/sysconfig/network-scripts/ifcfg-ens160: ens 장치에 설정된 네트워크 정보가 있는 파일
+- /etc/resolv.conf: DNS 서버의 정보 및 호스트 이름이 있는 파일
+- /etc/hosts: 현 컴퓨터의 호스트 이름 및 FQDN이 있는 파일
+- 위 네 개 파일을 직접 편집하면 nmutui들 사용하지 않아도 됨
+
+## Pipe, Filter, Redirection
+
+### Pipe
+
+- 두 개의 프로그램을 연결해주는 연결 통로
+- "|" 문자 사용
+
+```bash
+$ ls -l /etc | more
+```
+
+### Filter
+
+- 필요한 것만 걸러주는 명령어
+- grep, tail, wc, sort, awk, sed 등
+- 주로 파이프와 같이 사용
+
+```bash
+$ ps -ef | grep bash
+```
+
+### Redirection
+
+- 표준 입출력의 방향을 바꿔줌
+- ">" 문자 사용
+
+```bash
+$ ls - l > list.txt
+```
+
+## Process, Daemon
+
+- 정의: 하드디스크에 저장된 실행코드가 메모리에 로딩되어 활성화된 것
+- Foreground process
+  - 실행하면 화면에 나타나 사용자와 상호작용하는 프로세스
+  - 대부분의 응용 프로그램
+- Background process
+  - 실행은 되었지만 화면에는 나타나지 않고 실행되는 프로세스
+  - 서버 데몬 등
+- Process number: 각각의 프로세스에 할당된 고유 번호
+- 작업 번호: 현재 실행되고 있는 백그라운드 프로세스의 순차 번호
+
+### 부모 프로세스와 자식 프로세스
+
+- 모든 프로세스는 부모 프로세스를 가지고 있음
+- 부모 프로세스를 kill 하면 자식 프로세스도 자동으로 kill 됨
+
+### 프로세스 관련 명령
+
+- ps: 현재 프로세스의 상태를 확인하는 명령어
+- kill: 프로세스를 강제로 종료하는 명령어
+- pstree: 프로세스의 관계를 트리 형태로 보여줌
+
+## Service, Socket
+
+### Service
+
+- 시스템과 독자적으로 구동되어 제공하는 프로세스
+  - 웹 서버, DB 서버, FTP 서버 등
+- 실행 및 종료는 대개 "systemctl start/stop/restart SERVICENAME"으로 사용됨
+- 서비스의 실행 스크립트 파일은 /usr/lib/systemd/system/ 디렉터리에 SERVICENAME.service 라는 이름으로 확인할 수 있음
+
+### Socket
+
+- 서비스는 항상 가동되지만 소켓은 외부에서 특정 서비스를 요청할 경우에 systemd가 구동시킴
+- 요청이 끝나면 소켓도 종료됨
+- 소켓으로 설정된 서비스를 요청할 때는 처음 연결되는 시간이 서비스에 비교했을 때 약간 더 걸릴 수 있음
+  - systemd가 서비스를 새로 구동하는 데 시간이 소요되기 대문
+- Telnet 서버 등
+- 소켓과 관련된 스크립트 파일은 /usr/lib/systemd/system/ 디렉터리에 SOCKETNAME.socket 이라는 이름으로 존재
+
+## GRUB 부트로더
+
+- 부트 정보를 사용자가 임의로 변경해 부팅할 수 있음
+  - 즉, 부트 정보가 올바르지 않더라도 수정하여 부팅할 수 있음
+- 다른 여러 가지 운영체제와 멀티부팅 가능
+- 대화형 설정을 제공
+- 비밀번호 분실 시 GRUB 부트로더로 해결 가능
+
+## 모듈의 개념과 커널 컴파일의 필요성
+
+![Module](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/Module.png)
+
+- 모듈: 필요할 때마다 호출하여 사용되는 코드
+
+![KernelCompile](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/KernelCompile.png)
