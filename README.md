@@ -6,7 +6,7 @@
 
 ## Databases
 
-- [기초 개념](https://github.com/seungwonbased/TIL/blob/main/Databases/)
+- [기초 개념](https://github.com/seungwonbased/TIL/blob/main/Databases/BasicDatabases.md)
 - [MySQL](https://github.com/seungwonbased/TIL/blob/main/Databases/)
 
 ## Linux
