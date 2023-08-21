@@ -358,3 +358,115 @@ $ ls - l > list.txt
 - 모듈: 필요할 때마다 호출하여 사용되는 코드
 
 ![KernelCompile](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/KernelCompile.png)
+
+## IDE, SATA, SCSI
+
+- 리눅스에서 하드디스크가 물리적으로 나눠진 것을 /dev/sda, /dev/sdb, /dev/sdc, ... 형식으로 부름
+- 디스크 파티션이 논리적으로 나눠진 것을 /dev/sda1, /dev/sda2, /dev/sda3, ... 형식으로 부름
+
+### IDE (Intergrated Drive Electronics)
+
+- 일반적인 메인보드에서 지원되는 하드디스크
+- ODD 등의 장치들의 인터페이스를 총칭
+
+### ATA (Adavanced Technology Attachment)
+
+- CD-ROM 드라이브나 하드디스크 장치 등을 IDE 인터페이스에 접속하기 위한 규격, 연결 방식
+- PATA: Parallel ATA
+- SATA: Serial ATA
+
+### SCSI (Small Computing System Interface)
+
+- 서버 환경이나 워크스테이션 등에 주로 이용되는 장치
+  - 빠른 RPM
+  - 빠른 전송률
+  - 긴 수명
+  - 안정적 데이터 보존률
+
+## 하드디스크 추가하기
+
+- 파티션을 그냥 사용할 수 없으며 반드시 특정한 디렉터리에 마운트 시켜야 사용 가능
+- fdisk: 파티션을 나눠주는 명령어
+- Partition type
+  - Primary Partition
+    - 실제 데이터를 저장하는 파티션
+    - 1 ~ 4개 까지 생성 가능
+  - Extended Partition
+    - 실제 데이터 저장이 불가능한 파티션
+    - 파티션 테이블 영역을 확장하는 용도
+    - 파일 시스템 및 마운트 지정 불가능
+    - 단 한 개의 파티션만 생성 가능
+  - Logical Partition
+    - 데이터 저장은 가능하나 운영체제 설치 불가
+    - 확장 영역의 크기 내에서 분할해서 사용 가능
+- mkfs: 파티션을 원하는 파일 시스템으로 포맷하는 명령어
+- fdisk를 사용한 파티션 분할, mkfs로 디스크 포맷까지 완료했다면 mount를 통해 사용 가능하도록 등록해야 함 (디렉터리 생성 후 mount)
+  - mount 후 /etc/fstab 파일에 설정으로 입력해 재부팅 후에도 자동으로 마운트 되어있을 수 있도록 함
+
+## RAID
+
+- 여러 개의 디스크를 하나의 디스크처럼 사용하는 방식
+- 하드웨어 RAID와 소프트웨어 RAID로 구분
+- 비용 절감 + 신뢰성 향상 + 성능 향상의 효과
+- mdadm: RAID 생성
+
+### 각 RAID 방식의 비교
+
+![RAID](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/RAID.png)
+
+#### Linear RAID
+
+- 최소 두 개의 하드디스크가 필요
+- 두 개 이상의 하드디스크를 한 개의 볼륨으로 사용
+- 앞 디스크부터 차례로 저장
+- 100%의 공간 효율성 (비용 저렴)
+
+#### RAID 0
+
+- 최소 두 개의 하드디스크가 필요
+- 모든 디스크에 동시에 저장됨
+- 100%의 공간 효율성 (비용 저렴)
+- 신뢰성 낮음
+- 빠른 성능을 요구하되 전부 잃어버려도 큰 문제가 되지 않는 자료가 적당
+
+#### RAID 1
+
+- Mirroring이라고 부름
+- 데이터 저장에 두 배의 용량이 필요
+- Fault-tolerance 제공 (신뢰성 높음)
+- 공간 효율 나쁨
+- 저장 속도, 성능은 변화 없음
+
+#### RAID 5
+
+![RAID5](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/RAID5.png)
+
+- RAID 1의 안정성, + RAID 0의 공간 효율성
+- 최소 세 개 이상의 하드디스크
+- 오류가 발생했을 때는 Parity를 이용해 데이터 복구
+- 디스크 개수 - 1의 공간을 사용
+- 어느 정도 결함을 허용해 주면서 공간 효율이 좋음
+
+#### RAID 6
+
+- RAID 6 방식은 RAID 5 방식이 개선된 것
+- 공간 효율은 RAID 5보다 약간 떨어지지만 두 개의 디스크가 동시에 고장나도 데이터에는 이상이 없도록 함
+- 최소 네 개의 하드디스크 필요
+- 공간 효율, 성능은 RAID 5보다 약간 떨어지는 반면에 데이터에 대한 성뢰도는 좀 더 높아지는 효과
+
+#### RAID 10
+
+- 최소 네 개의 하드디스크 필요
+- 두 개의 디스크를 RAID 0으로 묶어 용량을 늘리고, 각 pair를 또 묶어서 복제본을 만듦
+- 신뢰성과 성능을 모두 잡을 수 있지만, 디스크의 낭비가 발생
+
+## LVM (Logical Volumn Manager)
+
+![LVM](https://github.com/seungwonbased/TIL/blob/main/Linux/assets/LVM.png)
+
+- 하드디스크를 통합한 뒤 논리적인 크기로 분할하는 기법
+- 여러 개의 하드디스크를 한 개의 파일 시스템으로 사용
+
+### 구성
+
+-
