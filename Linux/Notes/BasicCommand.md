@@ -469,4 +469,37 @@ $ ls - l > list.txt
 
 ### 구성
 
--
+- Physical Volume: /dev/sda1, /dev/sdb1 등의 파티션
+- Volume Group: 물리 볼륨을 합쳐서 한 개의 물리 그룹으로 만드는 것
+- Logical Volumn: 볼륨 그룹을 한 개 이상으로 나눠서 논리 그룹으로 나눈 것
+
+## Shell
+
+### bash
+
+- 기본 Shell은 bash (Bourne Again Shell)
+
+#### 특징
+
+- Alias 기능 (명령어 단축 기능)
+- History 기능
+- 연산 기능
+- Job Control 기능
+- 자동 이름 완성 기능
+- 프롬프트 제어 기능
+- 명령 편집 기능
+
+#### Shell의 명령문 처리 방법
+
+- 명령어 [옵션] [인자]
+
+```bash
+# 예시
+
+$ rm -rf /mydir
+```
+
+### 환경 변수
+
+- echo $환경변수이름 으로 확인 가능
+- export 환경변수=값 으로 환경 변수 값을 설정
