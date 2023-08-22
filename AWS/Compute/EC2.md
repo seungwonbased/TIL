@@ -93,3 +93,4 @@
   - 이때, AWS는 AWS 바깥으로 나가는 트래픽에만 요금 부과
     - 수십 TB 파일을 업로드할 땐 무료
     - 해당 파일을 다운로드 할 땐 요금 청구
+- Reserved Instance는 20개, vCPU On-demand 표준 인스턴스 1,152개, vCPU Spot Instance 1,440개로 제한
