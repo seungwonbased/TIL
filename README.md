@@ -10,7 +10,7 @@
 
 ### Compute
 
-- [EC2](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [EC2](https://github.com/seungwonbased/TIL/blob/main/AWS/Compute/EC2.md)
 - [Elastic Beanstalk](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [Lambda](https://github.com/seungwonbased/TIL/blob/main/ToBeContinue.md)
 
@@ -52,7 +52,7 @@
 ## Databases
 
 - [기초 개념](https://github.com/seungwonbased/TIL/blob/main/Databases/BasicDatabases.md)
-- [MySQL](https://github.com/seungwonbased/TIL/blob/main/Databases/)
+- [MySQL](https://github.com/seungwonbased/TIL/blob/main/Databases/MySQL/MySQL.md)
 
 ## Linux
 
