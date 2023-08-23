@@ -42,9 +42,14 @@
 - 최대 75% 저렴
 - 수요 예측이 확실할 때 사용
 
-### Reserved Standard
+#### Reserved Standard
 
-### Reserved Convertible
+- 표준 RI는 장기 계약 시 특정 인스턴스 유형에 대해 큰 폭의 할인 제공
+
+#### Reserved Convertible
+
+- 컨버터블 RI는 할인 폭은 좀 더 작지만 계약 도중 다른 인스턴스 유형으로 변경 가능
+- 계약 중 다른 속성도 변경할 수 있음
 
 #### Reserved Instance 권장 소비자
 
@@ -80,8 +85,13 @@
 
 #### Dedicated Host 권장 소비자
 
-- EC2에서 Microsoft 및 Oracle 같은 공급업체의 적격 소프트웨어 라이센스를 사용할 경우
+- EC2에서 Microsoft 및 Oracle 같은 공급업체의 적격 소프트웨어 라이센스를 사용할 경우 (BYOL 환경이 필요한 경우)
 - 기존의 물리적 서버에서 EC2를 사용할 경우
+
+### 전용 인스턴스 (Dedicated Instance)
+
+- 인스턴스를 구동하면 그 인스턴스가 할당된 물리적 서버는 같은 AWS 계정의 인스턴스만 할당되어 사용하는 옵션
+- 인스턴스를 어떤 물리적 서버에 배치하고 구동할지 고객은 선택할 수 없으며 이는 AWS가 수행
 
 ## EC2 요금 정책
 
