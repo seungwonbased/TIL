@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Storage/EC2InstanceStorage.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Storage/EC2InstanceStorage.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Storage/EC2InstanceStorage.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Storage/EC2InstanceStorage.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,13 +148,14 @@
   },
   "active": "29f17f7a58edbfea",
   "lastOpenFiles": [
+    "AWS/Storage/EC2InstanceStorage.md",
+    "AWS/IAM/IAM.md",
+    "AWS/GlobalInfra/GlobalInfra.md",
     "AWS/Compute/EC2.md",
+    "README.md",
     "AWS/assets/IAMPoliciesStructure.png",
     "AWS/assets/SG2.png",
     "AWS/assets/SG1.png",
-    "AWS/Storage/EC2InstanceStorage.md",
-    "AWS/GlobalInfra/GlobalInfra.md",
-    "AWS/IAM/IAM.md",
     "AWS/assets/EFS.png",
     "AWS/assets/EBSVolume.png",
     "AWS/assets/IAMPoliciesInheritance.png",

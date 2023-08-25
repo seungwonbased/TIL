@@ -34,7 +34,7 @@
 - [AWS Audit Manager](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [Cognito](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [AWS Firewall Manager](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
-- [IAM](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [IAM](https://github.com/seungwonbased/TIL/blob/main/IAM/IAM.md)
 - [Key Management Service](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [AWS Network Firewall](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [Secrets Manager](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
@@ -42,8 +42,8 @@
 
 ### Storage
 
-- [EFS](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
-- [Elastic Disater Recovery](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [EBS & EFS](https://github.com/seungwonbased/TIL/blob/main/Storage/EC2InstanceStorage.md)
+- [Elastic Disaster Recovery](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [FSx](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [S3](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [S3 Glacier](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)

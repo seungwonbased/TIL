@@ -208,7 +208,7 @@
 - EFS-IA (Infrequent Access) tier: 파일을 검색할 경우 검색에 대한 비용 발생, 낮은 비용으로 파일 저장, 수명 주기 정책을 사용해야 함
 
 ### Availability and durability
-- Standard option: EFS를 다중 AZ에 설정, 프로덕션에 적합 (한 가용 영역이 중단되더라도 EFS 파일 시스템에 영향 X)
+- Standard option: EFS를 다중 AZ에 설정, 프로덕션에 적합 (한 가용 영역이 중단되더라도 EFS 파일 시스템에 영향 X)
 - One Zone EFS option: EFS를 하나의 AZ에 설정, 개발에 적합, 기본적으로 백업 활성화됨, EFS-IA tier와 호환됨 (EFS One Zone-IA)
 
 # EBS vs EFS 간략 정리

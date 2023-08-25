@@ -3,10 +3,10 @@
 - Amazon EC2는 클라우드에서 컴퓨팅 파워의 규모를 자유자재로 변경할 수 있는 웹 서비스
 - **IaaS (Infra as a Service)**
 - 64000 EBS IOPS를 달성하려면 **Nitro-based EC2**를 프로비저닝해야 함
-  - Non-nitro EC2 사용 시 최대 32000 EBS IOPS
+	- Non-nitro EC2 사용 시 최대 32000 EBS IOPS
 - EC2 인스턴스를 다시 시작하면 Public IP가 변경될 수 있음
-  - **Elastic IP (탄력적 IP)** 를 사용해 EC2 인스턴스에 고정 Public IPv4를 할당
-  - 기본적으로 모든 AWS 계정은 지역당 탄력적 IP 주소를 5개로 제한
+	- **Elastic IP (탄력적 IP)** 를 사용해 EC2 인스턴스에 고정 Public IPv4를 할당
+	- 기본적으로 모든 AWS 계정은 지역당 탄력적 IP 주소를 5개로 제한
 - EC2 인스턴스를 동일한 AZ에 배치해 데이터 전송 비용을 줄임
 - **EC2 Hibernate**는 인스턴스 메모리(RAM)의 내용을 Amazon EBS 루트 볼륨에 저장
 - **VM Import/Export**를 사용해 가상 머신 이미지를 가져오고 Amazon EC2 AMI로 변환하여 EC2 인스턴스를 시작
@@ -18,25 +18,25 @@
 - How much compute power & cores (**CPU**)
 - How much random-access memory (**RAM**)
 - How much **storage** space
-    - Network-attached (EBS & EFS)
-    - Hardware (EC2 Instance Store)
+	- Network-attached (EBS & EFS)
+	- Hardware (EC2 Instance Store)
 - **Network card**: speed of the card, Public IP address
 - **Firewall** rules: security group
 - **Bootstrap script** (configure at first launch): EC2 User data
-    **→ 원하는 대로 가상 머신을 선택하여 AWS에서 빌릴 수 있음!**
+	**→ 원하는 대로 가상 머신을 선택하여 AWS에서 빌릴 수 있음!**
 
 ### EC2 User data
 - 인스턴스를 Bootstrapping 할 수 있음
-    - Bootstrapping: 머신이 **작동될 때** 명령을 시작하는 것
-    - 스크립트는 처음 시작할 때 한 번만 실행되고 다시는 실행되지 않음
-    - 부팅 작업을 자동화하기 때문에 Bootstrapping이라는 이름을 갖게 됨
-    - 자동화하는 것
-        - 업데이트 설치
-        - 소프트웨어 설치
-        - 일반적인 파일을 인터넷에서 다운로드
-        - 그 외 원하는 모든 것
+	- Bootstrapping: 머신이 **작동될 때** 명령을 시작하는 것
+	- 스크립트는 처음 시작할 때 한 번만 실행되고 다시는 실행되지 않음
+	- 부팅 작업을 자동화하기 때문에 Bootstrapping이라는 이름을 갖게 됨
+	- 자동화하는 것
+		- 업데이트 설치
+		- 소프트웨어 설치
+		- 일반적인 파일을 인터넷에서 다운로드
+		- 그 외 원하는 모든 것
 - EC2 User data script는 루트 계정에서 실행됨
-    - 따라서 모든 명령문은 sudo로 실행
+	- 따라서 모든 명령문은 sudo로 실행
 
 ## EC2 Instance types
 
@@ -54,31 +54,31 @@
 
 #### Compute optimized instances
 - 컴퓨팅 집약적인 작업에 최적화됨
-    - 일부 데이터의 일괄 처리
-    - 미디어 트랜스코딩 작업
-    - 고성능 웹 서버
-    - 고성능 컴퓨팅 (HPC)
-    - 머신러닝
-    - 전용 게임 서버
-    - 등등
+	- 일부 데이터의 일괄 처리
+	- 미디어 트랜스코딩 작업
+	- 고성능 웹 서버
+	- 고성능 컴퓨팅 (HPC)
+	- 머신러닝
+	- 전용 게임 서버
+	- 등등
 - C로 시작하는 이름 (Compute)
 
 #### Memory optimized instances
 - 메모리에서 대규모 데이터셋을 처리하는 작업에서 빠른 퍼포먼스를 보임
-    - 인 메모리 데이터베이스
-    - 분산 웹 스케일 캐시 스토어 (예: elastic cache)
-    - Business Intelligence (BI)
-    - 대규모 비정형 데이터의 실시간 처리를 실행하는 애플리케이션
-    - 등등
+	- 인 메모리 데이터베이스
+	- 분산 웹 스케일 캐시 스토어 (예: elastic cache)
+	- Business Intelligence (BI)
+	- 대규모 비정형 데이터의 실시간 처리를 실행하는 애플리케이션
+	- 등등
 - R로 시작하는 이름 (X1, Z1 도 있긴 함) (RAM)
 
 #### Storage optimized instances
 - 로컬 스토리지에서 대규모의 데이터셋에 읽기와 쓰기 엑세스를 요구하는 storage 작업에 적합
-    - High frequency online transaction processing (OLTP) systems
-    - Relational & NoSQL databases
-    - 인 메모리 데이터베이스를 위한 캐시 (예: Radis)
-    - Data warehousing 애플리케이션
-    - 분산 파일 시스템
+	- High frequency online transaction processing (OLTP) systems
+	- Relational & NoSQL databases
+	- 인 메모리 데이터베이스를 위한 캐시 (예: Radis)
+	- Data warehousing 애플리케이션
+	- 분산 파일 시스템
 - I, G로 시작하는 이름 (H1도 있긴 함)
 
 # Security groups
@@ -92,10 +92,10 @@
 ## Deeper dive
 - Security group은 EC2 인스턴스의 방화벽 역할
 - 통제하는 것
-    - Port로의 액세스
-    - Authorized IP ranges → IPv4 and IPv6
-    - 외부에서 인스턴스로 들어오는 인바운드 네트워크
-    - 인스턴스에서 외부로 나가는 아웃바운드 네트워크
+	- Port로의 액세스
+	- Authorized IP ranges → IPv4 and IPv6
+	- 외부에서 인스턴스로 들어오는 인바운드 네트워크
+	- 인스턴스에서 외부로 나가는 아웃바운드 네트워크
 
 ## Diagram
 
@@ -103,14 +103,14 @@
 
 ## 알아야 할 것
 - 여러 인스턴스와 연결 가능
-    - 보안 그룹과 인스턴스와의 일대일 관계는 없음
+	- 보안 그룹과 인스턴스와의 일대일 관계는 없음
 - 보안 그룹은 **지역**과 **VPC**의 결합으로 통제되어 있음
-    - 지역을 전환하면 새 보안 그룹을 생성하거나 다른 VPC를 생성해야 함
+	- 지역을 전환하면 새 보안 그룹을 생성하거나 다른 VPC를 생성해야 함
 - 보안 그룹은 EC2 외부에 있음
-    - 그래서 트래픽이 차단되면 EC2 인스턴스는 보안 그룹을 볼 수 없음
+	- 그래서 트래픽이 차단되면 EC2 인스턴스는 보안 그룹을 볼 수 없음
 - SSH 액세스를 위해 하나의 별도 보안 그룹을 유지하는 것이 좋음
 - 타임아웃으로 애플리케이션에 접근할 수 없으면 그것은 보안 그룹 이슈임
-    - 연결 거부 이슈는 보안 그룹이 작동하는 것이고 애플리케이션에 문제가 생긴 등의 이슈임
+	- 연결 거부 이슈는 보안 그룹이 작동하는 것이고 애플리케이션에 문제가 생긴 등의 이슈임
 - 디폴트로 인바운드 트래픽은 블락되어 있음
 - 디폴트로 아웃바운드 트래픽은 Authorized
 
@@ -155,9 +155,9 @@
 ### **Savings Plans**
 - 컴퓨팅 리소스 사용량을 미리 지불해 할인받을 수 있는 요금 체계
 - 기존 RI와 비슷하지만 다른 요금 체계
-  - RI는 리전, 인스턴스 사이즈, 인스턴스 타입 등을 명시적으로 선택해 약정을 구매해야 했으며 한번 구매한 RI는 변경이 불가능하거나 재판매가 제한적이었음
+	- RI는 리전, 인스턴스 사이즈, 인스턴스 타입 등을 명시적으로 선택해 약정을 구매해야 했으며 한번 구매한 RI는 변경이 불가능하거나 재판매가 제한적이었음
 - Savings Plans는 시간당 사용 금액만 미리 산정해 약정
-  - 즉 인스턴스 사이즈, 인스턴스 타입과는 상관 없이 사용하고자 하는 금액을 설정
+	- 즉 인스턴스 사이즈, 인스턴스 타입과는 상관 없이 사용하고자 하는 금액을 설정
 - AWS는 Savings Plans가 RI와 비슷한 수준의 할인을 제공하면서 더 유연한 정책을 갖고 있으므로 RI 만료 이후에 Savings Plans를 사용할 것을 권장
 
 #### Savings Plans 종류
@@ -180,8 +180,8 @@
 - 경매 형식으로 시장에 남는 인스턴스를 구매해서 쓰는 방식
 - On-demand 요금에 비해 최대 90% 저렴
 - AWS가 임의로 인스턴스를 회수해갈 수 있음
-  - 반환 시간 예측 불가능
-  - 인스턴스 수요가 적어지면 다시 인스턴스를 할당받아 애플리케이션을 다시 구동 가능
+	- 반환 시간 예측 불가능
+	- 인스턴스 수요가 적어지면 다시 인스턴스를 할당받아 애플리케이션을 다시 구동 가능
 
 #### Spot Instance 원리
 
@@ -261,9 +261,9 @@
 - Spot < Reserved < On-demand < Dedicated
 - EC2의 가격 모델은 EBS와는 별도로 청구된다 (EBS는 사용한 만큼 지불)
 - 기타 데이터 통신 등의 비용은 별도로 청구
-  - 이때, AWS는 AWS 바깥으로 나가는 트래픽에만 요금 부과
-    - 수십 TB 파일을 업로드할 땐 무료
-    - 해당 파일을 다운로드 할 땐 요금 청구
+	- 이때, AWS는 AWS 바깥으로 나가는 트래픽에만 요금 부과
+		- 수십 TB 파일을 업로드할 땐 무료
+		- 해당 파일을 다운로드 할 땐 요금 청구
 - Reserved Instance는 20개, vCPU On-demand 표준 인스턴스 1,152개, vCPU Spot Instance 1,440개로 제한
 
 ## Elastic IP
@@ -272,10 +272,10 @@
 - Public IPv4이며 삭제하기 전까진 유지됨
 - 한 번에 한 인스턴스에만 attach 가능
 - 한 인스턴스에서 다른 인스턴스로 빠르게 이동함으로써 인스턴스 또는 소프트웨어의 오류를 마스킹할 때 사용할 수 있음
-  - 계정당 탄력적 IP를 5개만 쓸 수 있기 때문에 이런 일은 드물긴 함
+	- 계정당 탄력적 IP를 5개만 쓸 수 있기 때문에 이런 일은 드물긴 함
 - 결과적으로 탄력적 IP는 사용하지 않는 것이 좋음
-  - 매우 좋지 않은 아키텍처상 결정
-  - 대신 임의의 Public IP를 써서 DNS를 할당하는 것이 좋음
+	- 매우 좋지 않은 아키텍처상 결정
+	- 대신 임의의 Public IP를 써서 DNS를 할당하는 것이 좋음
 
 ## Placement Groups (배치 그룹)
 - EC2 인스턴스가 AWS 인프라에 배치되는 방식을 제어하고자 할 때 사용
@@ -313,7 +313,7 @@
 
 ##### 단점
 - 배치 그룹의 가용 영역당 **7개의 인스턴스**로 제한됨
-  - 배치 그룹의 규모가 제한됨
+	- 배치 그룹의 규모가 제한됨
 
 ##### Use Cases
 - 가용성을 극대화하고 위험을 줄여야하는 애플리케이션
@@ -337,26 +337,26 @@
 
 ## Elastic Network Interfaces (ENI)
 - VPC의 논리적 구성 요소이며 **가상 네트워크 카드**를 나타냄
-  - EC2 인스턴스를 생성하면 인스턴스당 하나 이상의 네트워크 인터페이스가 생성됨
-  - 직접 ENI를 만들고 인스턴스에 붙일 수 있음
+	- EC2 인스턴스를 생성하면 인스턴스당 하나 이상의 네트워크 인터페이스가 생성됨
+	- 직접 ENI를 만들고 인스턴스에 붙일 수 있음
 - ENI는 EC2 인스턴스가 네트워크에 액세스할 수 있게 해줌
 - ENI는 EC2 인스턴스 외부에서도 사용됨
 - 만들어도 비용 발생 안함
 - ENI는 다음과 같은 속성을 가질 수 있음
-  - 주요 사설 IPv4와 하나 이상의 보조 IPv4를 가질 수 있음
-  - 각 ENI는 사설 IPv4당 탄력적 IPv4를 갖거나 혹은 하나의 Public IPv4를 가질 수 있음
-    - 즉 사설 및 공용 IP가 하나씩 제공됨
-  - ENI에 하나 이상의 보안 그룹을 연결할 수 있음
+	- 주요 사설 IPv4와 하나 이상의 보조 IPv4를 가질 수 있음
+	- 각 ENI는 사설 IPv4당 탄력적 IPv4를 갖거나 혹은 하나의 Public IPv4를 가질 수 있음
+		- 즉 사설 및 공용 IP가 하나씩 제공됨
+	- ENI에 하나 이상의 보안 그룹을 연결할 수 있음
 - EC2 인스턴스와 독립적으로 ENI를 생성하고 즉시 연결하거나 장애 조치를 위해 EC2 인스턴스에서 이동시킬 수 있음
 - ENI는 특정 가용 영역(AZ)에 바인딩됨
-  - 특정 AZ에서 ENI를 생성하면 해당 AZ에만 바인딩할 수 있음
+	- 특정 AZ에서 ENI를 생성하면 해당 AZ에만 바인딩할 수 있음
 - 하나의 인스턴스에 장애가 나면 다른 인스턴스로 ENI를 옮겨 붙여서 사설 IP를 이동시킬 수 있음
-  -> 장애 조치에 유용
+	-> 장애 조치에 유용
 
 ## EC2 Hibernate
 - In-memory (RAM) 상태가 보존됨
 - 인스턴스 부팅이 빨라짐
-  - OS가 중지되거나 다시 시작되는 게 아니기 때문
+	- OS가 중지되거나 다시 시작되는 게 아니기 때문
 - RAM 상태가 루트 경로의 EBS 볼륨에 기록되기 때문에 루트 EBS 볼륨을 암호화해야 하고 용량도 충분해야 함
 
 ### Use cases
