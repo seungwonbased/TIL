@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "128f116a83bfe1fa",
+        "id": "16286aefa7f84b83",
         "type": "tabs",
         "children": [
           {
-            "id": "29f17f7a58edbfea",
+            "id": "5f241685b9b5dec5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,20 +146,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "29f17f7a58edbfea",
+  "active": "5f241685b9b5dec5",
   "lastOpenFiles": [
+    "AWS/Compute/ElasticLoadBalancer.md",
+    "AWS/assets/LB10.png",
+    "AWS/assets/LB9.png",
+    "AWS/assets/LB8.png",
+    "AWS/assets/LB7.png",
+    "AWS/assets/LB6.png",
+    "AWS/assets/LB5.png",
+    "AWS/assets/LB4.png",
+    "AWS/assets/LB3.png",
+    "AWS/assets/LB2.png",
+    "AWS/assets/LB1.png",
+    "AWS/Compute/EC2.md",
     "AWS/Storage/EC2InstanceStorage.md",
     "AWS/IAM/IAM.md",
     "AWS/GlobalInfra/GlobalInfra.md",
-    "AWS/Compute/EC2.md",
     "README.md",
-    "AWS/assets/IAMPoliciesStructure.png",
-    "AWS/assets/SG2.png",
-    "AWS/assets/SG1.png",
-    "AWS/assets/EFS.png",
-    "AWS/assets/EBSVolume.png",
-    "AWS/assets/IAMPoliciesInheritance.png",
-    "AWS/assets/IAMPoliciesStructure.png.png",
+    "Untitled.canvas",
+    "2023-08-25.md",
     "IAM (Identity and Access Management) 9caa549e09e94b0eb5de286de259177f/Screen_Shot_2023-03-10_at_20.42.49.png.md",
     "IAM (Identity and Access Management) 9caa549e09e94b0eb5de286de259177f/Screen_Shot_2023-03-10_at_19.30.24.png.md",
     "IAM (Identity and Access Management) 9caa549e09e94b0eb5de286de259177f",

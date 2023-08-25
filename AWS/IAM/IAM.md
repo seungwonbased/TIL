@@ -26,9 +26,7 @@
 ![IAMPoliciesStructure.png](https://github.com/seungwonbased/TIL/blob/main/AWS/assets/IAMPoliciesStructure.png)
 
 # 보안 정책
-
 ## Password policy
-
 ## MFA (Multi Factor Authentication)
 
 - AWS에서는 이 매커니즘을 필수적으로 사용하도록 권장됨
@@ -81,7 +79,6 @@
 	- IoT Device SDKs (Embedded C, Arduino, …)
 
 # AWS 서비스에 대한 IAM Role
-
 ## IAM Role
 
 - **`계정`에 생성할 수 있는, 특정 권한을 지닌 IAM 자격 증명**
@@ -94,7 +91,6 @@
 	- Roles for CloudFromation
 
 # IAM security tools
-
 ## IAM Credentials Report (account-level)
 
 - 모든 유저와 자격 증명의 상태를 리스트로 나타낸 report

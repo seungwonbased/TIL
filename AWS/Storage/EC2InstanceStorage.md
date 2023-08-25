@@ -1,4 +1,5 @@
 # AMI
+
 - Amazon Machine Image
 	- EC2 인스턴스를 통해 만든 이미지를 통칭
 	- Image: 설정과 실행에 필요한 모든 파일과 설정값들을 담고 있는 것
@@ -13,6 +14,7 @@
 	- AWS Marketplace AMI: 다른 유저가 만든 AMI
 
 ## AMI Process (from an EC2 instance)
+
 1. EC2 인스턴스를 원하는 대로 설정
 2. 인스턴스를 중지해 데이터 무결성 확보
 3. 해당 인스턴스를 바탕으로 AMI 구축, 이 과정에서 EBS 스냅샷 생성됨
@@ -41,32 +43,37 @@
 - EBS 볼륨을 생성하고 EC2에 연결해놓지 않아도 됨
 
 ## EBS Delete on Termination Attribute
+
 - EC2 인스턴스를 생성할 때 콘솔에서 EBS 볼륨을 생성하면 종료 시 삭제 옵션이 있음
 - 기본적으로 루트 볼륨에는 체크되어 있는데 새로운 EBS 볼륨에는 체크되어 있지 않음
 - 이 옵션을 통해 인스턴스 종료 시 EBS 행동을 제어할 수 있음
 - AWS 콘솔 또는 AWS CLI를 통해 조작 가능
 
 ## EBS Snapshot
+
 - EBS 볼륨의 특정 시점에 대한 백업
 - EC2 인스턴스에서 EBS 볼륨을 분리할 필요는 없지만 권장 사항임
 - 스냅샷은 다른 AZ나 리전에도 복사 가능
 
 ### EBS Snapshot Features
-
 #### EBS Snapshot Archive
+
 - 최대 75%까지 저렴한 아카이브 티어
 - 스냅샷을 아카이브 티어로 옮기면 아카이브를 복원하는 데 24 ~ 72시간 소요
 	- 즉시 복원 X
 
 #### Recycle Bin for EBS Snapshots
+
 - EBS 스냅샷을 삭제하는 경우 영구 삭제하는 대신 휴지통에 넣을 수 있음
 - 실수로 삭제한 경우 복구 가능
 - 휴지통에 보관되는 기간은 1일에서 1년 사이로 설정 가능
 
 #### Fast Snapshot Restore (FSR)
+
 - 스냅샷을 완전 초기화해 첫 사용에서의 지연 시간을 없애는 기능 (비쌈)
 
 ## EBS Volume Types
+
 - 다음 여섯 개의 타입
 	1. gp2 / gp3 (SSD): 범용 SSD 볼륨, 다양한 워크로드에 대해 가격과 성능의 절충안
 	2. io1 / io2 (SSD): 최고 성능인 SSD 볼륨, 미션 크리티컬이자 레이턴시가 낮고 대용량의 워크로드에 쓰임
@@ -77,6 +84,7 @@
 	- Root OS가 실행될 위치에 해당
 
 ### General Purpose SSD
+
 - 짧은 지연 시간, **효율적인 비용**의 스토리지
 - 시스템 부팅 볼륨에서 가상 데스크탑, 개발, 테스트 환경에서 사용 가능
 - 사이즈는 1GB ~ 16TB까지 다양
@@ -93,6 +101,7 @@
 	- **3 IOPS per GB**
 
 ### Provisioned IOPS (PIOPS) SSD
+
 - IOPS 성능을 유지할 필요가 있는 주요 비즈니스 애플리케이션에 적합
 - 16000 IOPS 이상을 요하는 애플리케이션에 적합
 - 일반적으로 데이터베이스 워크로드에 적합 (스토리지 퍼포먼스와 일관성에 민감)
@@ -108,6 +117,7 @@
 - EBS Multi-attach 지원
 
 ### Hard Disk Drives (HDD)
+
 - 부트 볼륨이 될 수 없음
 - 125mb ~ 16TB까지 확장
 - st1
@@ -122,6 +132,7 @@
 	- 최대 처리량은 초당 250mb, 최대 IOPS는 250
 
 ## EBS Multi-Attach (io1 / io2 family)
+
 - 하나의 EBS 볼륨을 같은 AZ에 있는 여러 EC2 인스턴스에 연결
 - 각 인스턴스는 고성능 볼륨에 대한 읽기 및 쓰기 권한을 모두 가짐
 	- 동시에 읽고 쓸 수 있음
@@ -133,6 +144,7 @@
 - 다중 연결을 실행하려면 **Cluster-aware 파일 시스템**을 사용해야 함 (not XFS, EX4, etc, ...)
 
 ## EBS Encryption
+
 - Encrypted EBS 볼륨을 생성하면
 	- 저장 데이터가 볼륨 내부에 암호화됨
 	- 인스턴스와 볼륨 간의 전송 데이터가 암호화됨
@@ -144,12 +156,14 @@
 - **KMS에서 암호화 키를 생성해 AES 암호화 표준을 가짐**
 
 ### Encryption: Encrypt an unencrypted EBS volume
+
 1. 볼륨의 EBS 스냅샷 생성
 2. 복사 기능을 이용해 EBS 스냅샷을 암호화
 3. 스냅샷을 이용해 새 EBS 볼륨을 생성하면 볼륨이 암호화됨
 4. 암호화된 볼륨을 인스턴스 원본에 연결
 
 # EC2 Instance Store
+
 - EBS 볼륨은 좋은 퍼포먼스를 내지만 한정된 퍼포먼스를 내는 네트워크 드라이브
 - 하드웨어 디스크의 높은 퍼포먼스가 필요하면 로컬 EC2 Instance Store 사용
 - EC2 인스턴스는 가상 머신이지만 실제로는 물리적 하드웨어에 연결되어 있는데, 이와 같은 서버는 해당 서버에 물리적으로 연결된 디스크 공간을 가짐
@@ -188,32 +202,36 @@
 - File system scales automatically -> 미리 프로비저닝하지 않아도 됨
 
 ## EFS Scale
+
 - 수천 개의 NFS 클라이언트에서 EFS에 동시 액세스할 수 있게 확장됨
 - 처리량은 10GB/s
 - 용량을 미리 프로비저닝하지 않아도 네트워크 파일 시스템이 PB 규모로 자동 확장됨
 
 ## Performance mode (set at EFS creation time)
+
 - 범용 모드 (General purpose) (default): 낮은 지연시간
 	- 웹 서버, CMS, etc, ...
 - 최대 I/O 모드 (Max I/O): 높은 지연시간, 처리량, 높은 병렬 처리
 	- 빅 데이터, 미디어 처리 작업 등
 ## Throughput mode (set at EFS creation time)
+
 - Bursting Throughput mode (default): 1TB 파일 시스템의 데이터 전송 속도는 50mb/s + 100mb/s까지 burst up, 사용 공간이 많을수록 버스팅 용량과 처리량이 늘어남
 - Provisioned Throughput mode: 스토리지 크기에 상관 없이 처리량 설정 가능
 
 ## EFS Storage Class (set at EFS creation time)
-
 ### Storage Tier 
+
 - Standard tier: 액세스가 빈번한 파일
 - EFS-IA (Infrequent Access) tier: 파일을 검색할 경우 검색에 대한 비용 발생, 낮은 비용으로 파일 저장, 수명 주기 정책을 사용해야 함
 
 ### Availability and durability
+
 - Standard option: EFS를 다중 AZ에 설정, 프로덕션에 적합 (한 가용 영역이 중단되더라도 EFS 파일 시스템에 영향 X)
 - One Zone EFS option: EFS를 하나의 AZ에 설정, 개발에 적합, 기본적으로 백업 활성화됨, EFS-IA tier와 호환됨 (EFS One Zone-IA)
 
 # EBS vs EFS 간략 정리
-
 ## EBS
+
 - Elastic Block Store
 - 한 번에 하나의 인스턴스에만 연결 가능
 - 특정 가용 영역에 한정
@@ -229,6 +247,7 @@
 - EBS 드라이브의 크기에 따라 청구됨 (Provisioned)
 
 ## EFS
+
 - Elastic File System
 - 여러 개의 가용 영역에 걸쳐 무수히 많은 인스턴스에 마운트될 수 있음
 - EFS Mount Target을 사용해 특정 AZ에서 EC2 인스턴스들과 EFS 드라이브를 연결해줄 수도 있음
