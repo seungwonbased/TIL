@@ -198,8 +198,8 @@
 - 최대 I/O 모드 (Max I/O): 높은 지연시간, 처리량, 높은 병렬 처리
 	- 빅 데이터, 미디어 처리 작업 등
 ## Throughput mode (set at EFS creation time)
-	- Bursting Throughput mode (default): 1TB 파일 시스템의 데이터 전송 속도는 50mb/s + 100mb/s까지 burst up, 사용 공간이 많을수록 버스팅 용량과 처리량이 늘어남
-	- Provisioned Throughput mode: 스토리지 크기에 상관 없이 처리량 설정 가능
+- Bursting Throughput mode (default): 1TB 파일 시스템의 데이터 전송 속도는 50mb/s + 100mb/s까지 burst up, 사용 공간이 많을수록 버스팅 용량과 처리량이 늘어남
+- Provisioned Throughput mode: 스토리지 크기에 상관 없이 처리량 설정 가능
 
 ## EFS Storage Class (set at EFS creation time)
 

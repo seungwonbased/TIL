@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Compute/EC2.md",
+                "file": "AWS/Storage/EC2InstanceStorage.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Compute/EC2.md",
+                "file": "AWS/Storage/EC2InstanceStorage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Compute/EC2.md",
+                "file": "AWS/Storage/EC2InstanceStorage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Compute/EC2.md"
+                "file": "AWS/Storage/EC2InstanceStorage.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "29f17f7a58edbfea",
   "lastOpenFiles": [
+    "AWS/Compute/EC2.md",
     "AWS/assets/IAMPoliciesStructure.png",
     "AWS/assets/SG2.png",
     "AWS/assets/SG1.png",
@@ -162,7 +163,6 @@
     "IAM (Identity and Access Management) 9caa549e09e94b0eb5de286de259177f/Screen_Shot_2023-03-10_at_19.30.24.png.md",
     "IAM (Identity and Access Management) 9caa549e09e94b0eb5de286de259177f",
     "AWS/IAM",
-    "AWS/Compute/EC2.md",
     "AWS/Storage"
   ]
 }
