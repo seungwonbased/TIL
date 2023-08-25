@@ -213,7 +213,7 @@
 
 - 하나의 랙이 실패하면 모든 인스턴스가 실패
 
-##### Use Case
+##### Use Cases
 
 - 빅 데이터와 같이 매우 빨라야 하는 작업을 수행하거나, 극히 짧은 지연 시간과 높은 네트워크 처리량을 필요로 하는 작업에 사용
 
@@ -235,7 +235,7 @@
 - 배치 그룹의 가용 영역당 **7개의 인스턴스**로 제한됨
   - 배치 그룹의 규모가 제한됨
 
-##### Use Case
+##### Use Cases
 
 - 가용성을 극대화하고 위험을 줄여야하는 애플리케이션
 - 인스턴스 오류를 서로 격리해야 하는 크리티컬 애플리케이션
@@ -252,7 +252,7 @@
 - 각 파티션은 다른 파티션의 실패로부터 격리됨
 - EC2 인스턴스가 어떤 파티션에 있는지 알기 위해 메타데이터 서비스를 사용해 이 정보에 액세스하는 옵션이 있음
 
-##### Use Case
+##### Use Cases
 
 - 파티션 전반에 걸쳐 데이터와 서버를 퍼뜨려 두도록 파티션 인식 가능한 애플리케이션의 경우
 - HDFS, Hadoop, Cassandra, Apache Kafka를 사용해 파티션을 인식하는 빅 데이터 애플리케이션
@@ -282,3 +282,17 @@
 - 인스턴스 부팅이 빨라짐
   - OS가 중지되거나 다시 시작되는 게 아니기 때문
 - RAM 상태가 루트 경로의 EBS 볼륨에 기록되기 때문에 루트 EBS 볼륨을 암호화해야 하고 용량도 충분해야 함
+
+### Use cases
+- Long-running processing
+- Saving the RAM state
+- Service that take time to initialize
+
+### Good to Know
+- Supported Instance Families: C3, C4, C5, I3, M3, M4, R3, R4, T2, T3, ...
+- Instance RAM Size: must be less than 150 GB
+- Instance Size: not supported for bare metal instances
+- AMI: Amazon Linux 2, Linux AMI, Ubuntu, RHEL, CentOS & Windows, ...
+- Root Volume: must be EBS, encrypted, not instance store, and large
+- Available for **On-demand, Reserved and Spot Instances**
+- An instance cannot be hibernated more than 60 days

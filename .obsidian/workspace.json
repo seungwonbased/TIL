@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Compute/EC2.md",
+                "file": "AWS/Storage/EC2InstanceStorage.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Compute/EC2.md",
+                "file": "AWS/Storage/EC2InstanceStorage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Compute/EC2.md",
+                "file": "AWS/Storage/EC2InstanceStorage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Compute/EC2.md"
+                "file": "AWS/Storage/EC2InstanceStorage.md"
               }
             }
           }
@@ -147,5 +147,9 @@
     }
   },
   "active": "29f17f7a58edbfea",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "AWS/Compute/EC2.md",
+    "AWS/Storage/EC2InstanceStorage.md",
+    "AWS/Storage"
+  ]
 }
