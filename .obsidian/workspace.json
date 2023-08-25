@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AWS/Compute/ElasticLoadBalancer.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "AWS/Compute/ElasticLoadBalancer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "AWS/Compute/ElasticLoadBalancer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "AWS/Compute/ElasticLoadBalancer.md"
               }
             }
           }
@@ -148,22 +148,23 @@
   },
   "active": "5f241685b9b5dec5",
   "lastOpenFiles": [
-    "AWS/Compute/ElasticLoadBalancer.md",
-    "AWS/assets/LB10.png",
-    "AWS/assets/LB9.png",
-    "AWS/assets/LB8.png",
-    "AWS/assets/LB7.png",
-    "AWS/assets/LB6.png",
-    "AWS/assets/LB5.png",
-    "AWS/assets/LB4.png",
-    "AWS/assets/LB3.png",
-    "AWS/assets/LB2.png",
-    "AWS/assets/LB1.png",
-    "AWS/Compute/EC2.md",
-    "AWS/Storage/EC2InstanceStorage.md",
-    "AWS/IAM/IAM.md",
+    "AWS/assets/LB20.png",
+    "AWS/assets/LB19.png",
+    "AWS/assets/LB18.png",
+    "AWS/assets/LB17.png",
+    "AWS/assets/LB16.png",
+    "AWS/assets/LB15.png",
+    "AWS/assets/LB14.png",
+    "AWS/assets/LB13.png",
+    "AWS/assets/LB12.png",
+    "AWS/assets/LB11.png",
+    "AWS/assets/LB21.png",
     "AWS/GlobalInfra/GlobalInfra.md",
+    "AWS/Compute/ElasticLoadBalancer.md",
+    "AWS/Storage/EC2InstanceStorage.md",
     "README.md",
+    "AWS/Compute/EC2.md",
+    "AWS/IAM/IAM.md",
     "Untitled.canvas",
     "2023-08-25.md",
     "IAM (Identity and Access Management) 9caa549e09e94b0eb5de286de259177f/Screen_Shot_2023-03-10_at_20.42.49.png.md",
