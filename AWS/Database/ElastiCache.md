@@ -79,7 +79,7 @@
 
 ## Patterns for ElastiCache
 
-![EC4](https://github.com/seungwonbased/TIL/blob/main/AWS/assets/EC4 .png)
+![EC4](https://github.com/seungwonbased/TIL/blob/main/AWS/assets/EC4.png)
 
 - 일래스티 캐시에 데이터를 불러오는 패턴에는 세 가지가 있음
 - Lazy Loading
@@ -96,7 +96,7 @@
 
 ## ElastiCache - Redis Use Case
 
-![EC5](https://github.com/seungwonbased/TIL/blob/main/AWS/assets/EC5 .png)
+![EC5](https://github.com/seungwonbased/TIL/blob/main/AWS/assets/EC5.png)
 
 - 레디스의 사용 사례
 - 시험을 위해 알아둬야할 게임 리더보드 생성
