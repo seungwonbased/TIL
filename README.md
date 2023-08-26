@@ -19,7 +19,7 @@
 
 - [DynamoDB](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [ElastiCache](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
-- [RDS](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [RDS & Aurora](https://github.com/seungwonbased/TIL/blob/main/RDS&Aurora.md)
 
 ### Networking & Content Delivery
 

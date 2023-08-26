@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "16286aefa7f84b83",
+        "id": "5fea4d238a2e153c",
         "type": "tabs",
         "children": [
           {
-            "id": "5f241685b9b5dec5",
+            "id": "d7433e6532dfaaa2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Compute/ElasticLoadBalancer.md",
+                "file": "AWS/Database/RDS&Aurora.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Compute/ElasticLoadBalancer.md",
+                "file": "AWS/Database/RDS&Aurora.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Compute/ElasticLoadBalancer.md",
+                "file": "AWS/Database/RDS&Aurora.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Compute/ElasticLoadBalancer.md"
+                "file": "AWS/Database/RDS&Aurora.md"
               }
             }
           }
@@ -146,8 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5f241685b9b5dec5",
+  "active": "0dae93edd5a9625d",
   "lastOpenFiles": [
+    "AWS/Database/ElastiCache.md",
+    "AWS/Database/RDS&Aurora.md",
+    "Untitled.md",
+    "AWS/Compute/ElasticLoadBalancer.md",
+    "AWS/Storage/EC2InstanceStorage.md",
+    "README.md",
+    "AWS/Database",
     "AWS/assets/LB20.png",
     "AWS/assets/LB19.png",
     "AWS/assets/LB18.png",
@@ -158,11 +165,7 @@
     "AWS/assets/LB13.png",
     "AWS/assets/LB12.png",
     "AWS/assets/LB11.png",
-    "AWS/assets/LB21.png",
     "AWS/GlobalInfra/GlobalInfra.md",
-    "AWS/Compute/ElasticLoadBalancer.md",
-    "AWS/Storage/EC2InstanceStorage.md",
-    "README.md",
     "AWS/Compute/EC2.md",
     "AWS/IAM/IAM.md",
     "Untitled.canvas",
