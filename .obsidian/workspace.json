@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Database/ElastiCache.md",
+                "file": "AWS/NetworkingContentDelivery/Route53.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Database/ElastiCache.md",
+                "file": "AWS/NetworkingContentDelivery/Route53.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Database/ElastiCache.md",
+                "file": "AWS/NetworkingContentDelivery/Route53.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Database/ElastiCache.md"
+                "file": "AWS/NetworkingContentDelivery/Route53.md"
               }
             }
           }
@@ -148,10 +148,13 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
-    "AWS/Database/RDS&Aurora.md",
+    "AWS/GlobalInfra/GlobalInfra.md",
     "Untitled.md",
+    "AWS/NetworkingContentDelivery/Route53.md",
     "README.md",
+    "AWS/NetworkingContentDelivery",
     "AWS/Database/ElastiCache.md",
+    "AWS/Database/RDS&Aurora.md",
     "AWS/assets/RDS15.png",
     "AWS/assets/RDS14.png",
     "AWS/assets/RDS13.png",
@@ -165,7 +168,6 @@
     "AWS/Compute/ElasticLoadBalancer.md",
     "AWS/Storage/EC2InstanceStorage.md",
     "AWS/Database",
-    "AWS/GlobalInfra/GlobalInfra.md",
     "AWS/Compute/EC2.md",
     "AWS/IAM/IAM.md",
     "Untitled.canvas",
