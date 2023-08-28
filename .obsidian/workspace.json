@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/NetworkingContentDelivery/GlobalAccelerator.md",
+                "file": "AWS/Storage/SnowFamily.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/NetworkingContentDelivery/GlobalAccelerator.md",
+                "file": "AWS/Storage/SnowFamily.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/NetworkingContentDelivery/GlobalAccelerator.md",
+                "file": "AWS/Storage/SnowFamily.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/NetworkingContentDelivery/GlobalAccelerator.md"
+                "file": "AWS/Storage/SnowFamily.md"
               }
             }
           }
@@ -148,19 +149,22 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
-    "README.md",
+    "AWS/assets/snow9.png",
+    "AWS/assets/snow8.png",
+    "AWS/assets/snow7.png",
+    "AWS/assets/snow6.png",
+    "AWS/assets/snow5.png",
+    "AWS/assets/snow4.png",
+    "AWS/assets/snow3.png",
+    "AWS/assets/snow2.png",
+    "AWS/assets/snow1.png",
     "AWS/NetworkingContentDelivery/GlobalAccelerator.md",
+    "AWS/Storage/SnowFamily.md",
+    "AWS/Storage/Untitled",
+    "README.md",
     "AWS/assets/ga3.png",
     "AWS/assets/ga2.png",
-    "AWS/assets/ga1.png",
     "AWS/NetworkingContentDelivery/CloudFront.md",
-    "AWS/assets/cf8.png",
-    "AWS/assets/cf7.png",
-    "AWS/assets/cf6.png",
-    "AWS/assets/cf5.png",
-    "AWS/assets/cf4.png",
-    "AWS/assets/cf3.png",
-    "AWS/assets/cf2.png",
     "AWS/Storage/S3Security.md",
     "AWS/Storage/S3.md",
     "AWS/IAM/IAM.md",
