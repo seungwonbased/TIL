@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Storage/S3Security.md",
+                "file": "AWS/NetworkingContentDelivery/CloudFront.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Storage/S3Security.md",
+                "file": "AWS/NetworkingContentDelivery/CloudFront.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Storage/S3Security.md",
+                "file": "AWS/NetworkingContentDelivery/CloudFront.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Storage/S3Security.md"
+                "file": "AWS/NetworkingContentDelivery/CloudFront.md"
               }
             }
           }
@@ -149,6 +149,10 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
+    "AWS/NetworkingContentDelivery/GlobalAccelerator.md",
+    "AWS/NetworkingContentDelivery/CloudFront.md",
+    "README.md",
+    "AWS/Storage/S3Security.md",
     "AWS/assets/se11.png",
     "AWS/assets/se10.png",
     "AWS/assets/se9.png",
@@ -159,9 +163,6 @@
     "AWS/assets/se4.png",
     "AWS/assets/se3.png",
     "AWS/assets/se2.png",
-    "AWS/assets/se1.png",
-    "README.md",
-    "AWS/Storage/S3Security.md",
     "AWS/Storage/S3.md",
     "AWS/IAM/IAM.md",
     "AWS/Compute/EC2.md",
