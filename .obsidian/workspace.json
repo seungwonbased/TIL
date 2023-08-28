@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/IAM/IAM.md",
+                "file": "AWS/Storage/S3.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/IAM/IAM.md",
+                "file": "AWS/Storage/S3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/IAM/IAM.md",
+                "file": "AWS/Storage/S3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/IAM/IAM.md"
+                "file": "AWS/Storage/S3.md"
               }
             }
           }
@@ -148,6 +149,18 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
+    "AWS/assets/as21.png",
+    "AWS/assets/as20.png",
+    "AWS/assets/as19.png",
+    "AWS/assets/as18.png",
+    "AWS/assets/as17.png",
+    "AWS/assets/as16.png",
+    "AWS/assets/as15.png",
+    "AWS/assets/as14.png",
+    "AWS/assets/as13.png",
+    "AWS/assets/as12.png",
+    "AWS/assets/as11.png",
+    "AWS/IAM/IAM.md",
     "AWS/Compute/EC2.md",
     "AWS/Compute/ElasticLoadBalancer.md",
     "AWS/Storage/S3.md",
@@ -155,16 +168,6 @@
     "AWS/SolutionsArchitectures/WhatIsTheTime.com.md",
     "AWS/SolutionsArchitectures",
     "AWS/NetworkingContentDelivery/Route53.md",
-    "AWS/assets/rt20.png",
-    "AWS/assets/rt19.png",
-    "AWS/assets/rt18.png",
-    "AWS/assets/rt17.png",
-    "AWS/assets/rt16.png",
-    "AWS/assets/rt15.png",
-    "AWS/assets/rt14.png",
-    "AWS/assets/rt13.png",
-    "AWS/assets/rt12.png",
-    "AWS/assets/rt11.png",
     "AWS/GlobalInfra/GlobalInfra.md",
     "Untitled.md",
     "AWS/NetworkingContentDelivery",
@@ -172,7 +175,6 @@
     "AWS/Database/RDS&Aurora.md",
     "AWS/Storage/EC2InstanceStorage.md",
     "AWS/Database",
-    "AWS/IAM/IAM.md",
     "Untitled.canvas",
     "2023-08-25.md",
     "IAM (Identity and Access Management) 9caa549e09e94b0eb5de286de259177f/Screen_Shot_2023-03-10_at_20.42.49.png.md",
