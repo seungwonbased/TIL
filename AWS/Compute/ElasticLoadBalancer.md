@@ -6,18 +6,18 @@
 
 - 애플리케이션 시스템이 조정을 통해 더 많은 양을 처리할 수 있음을 의미
 
-### 수직 확장성 (Vertical scalability)
+### 수직 확장성 (Vertical Scalability)
 
 - 인스턴스의 크기를 확장하는 것
 - 예시
-	- 주니어 개발자 → 시니어 개발자처럼 Up-scaling
-	- EC2 인스턴스에서 t2.micro → t2.large로 Up-scaling
+	- 주니어 개발자 → 시니어 개발자처럼 Up-Scaling
+	- EC2 인스턴스에서 t2.micro → t2.large로 Up-Scaling
 - 언제 사용하는가?
 	- 데이터베이스와 같이 분산되지 않은 시스템에서 흔히 사용
 	- RDS, ElastiCache
 - 확장할 수 있는 하드웨어 한계가 있음
 
-### 수평 확장성 (Horizontal scalability, Elasticity)
+### 수평 확장성 (Horizontal Scalability, Elasticity)
 
 - 애플리케이션 인스턴스나 시스템의 수를 늘리는 방법
 - 예시
@@ -27,7 +27,7 @@
 	- 웹이나 현대 애플리케이션은 대부분 분배 시스템으로 이뤄짐
 	- 아닌 것도 있음
 
-## 고가용성 (High availability)
+## 고가용성 (High Availability)
 ### 의미
 
 - 애플리케이션 또는 시스템을 적어도 둘 이상의 AWS의 AZ나 데이터 센터에서 가동 중이라는 것을 의미
@@ -38,36 +38,36 @@
 - 데이터 센터에서의 손실에서 살아남는 것
 - 센터 하나가 멈춰도 계속 작동이 가능하게끔 하는 것
 
-### Passive, active
+### Passive, Active
 
 - Passive: Active 시스템의 장애 시 요청을 처리할 수 있는 시스템
-	- RDS multi AZ를 갖추고 있다면 Passive high availability를 확보한 것
+	- RDS Multi AZ를 갖추고 있다면 Passive High Availability를 확보한 것
 - Active: 평상시 요청을 받아 처리할 수 있는 구동 중의 시스템
-	- 수평 확장을 하는 경우 Active high availability를 확보한 것
+	- 수평 확장을 하는 경우 Active High Availability를 확보한 것
 
 ## High Availability & Scalability for EC2
 
 - 수직 확장 → 인스턴스 크기 조정 (Scale up / down)
 	- From t2.nano → to u-12tv1.metal
 - 수평 확장 → 인스턴스 숫자 조정 (Scale out (늘림) / in (줄임))
-	- Auto scaling group
-	- Load balancer
+	- Auto Scaling Group
+	- Load Balancer
 - 고가용성 → 동일 애플리케이션의 동일 인스턴스를 다수의 AZ에 걸쳐 실행하는 경우를 의미
-	- Auto scaling group (multi AZ가 활성화 된)
-	- Load balancer (multi AZ가 활성화 된)
+	- Auto Scaling Group (Multi AZ가 활성화 된)
+	- Load Balancer (Multi AZ가 활성화 된)
 
 # Load Balancing
 
 ![LB1](https://github.com/seungwonbased/TIL/blob/main/AWS/assets/LB1.png)
 
-- Load balancer: 서버 혹은 서버셋으로 트래픽을 백엔드나 다운스트림 EC2 인스턴스 또는 서버들로 전달하는 역할
+- Load Balancer: 서버 혹은 서버셋으로 트래픽을 백엔드나 다운스트림 EC2 인스턴스 또는 서버들로 전달하는 역할
 
 ## 사용하는 이유
 
 - 부하를 다수의 다운스트림 인스턴스로 분산하기 위함
 - 애플리케이션에 DNS를 노출시켜 다운스트림 인스턴스의 장애를 원활히 처리
 	- 로드 밸런서가 상태 확인 매커니즘으로 어떤 인스턴스로 트래픽을 보낼 수 없는지 확인해 줌
-- 인스턴스의 상태를 정기적으로 체크 (Health check)
+- 인스턴스의 상태를 정기적으로 체크 (Health Check)
 - SSL 종료 가능 → 암호화된 HTTPS을 가질 수 있음
 - 쿠키로 고착성을 강화할 수 있음
 - 영역에 걸친 고가용성을 가짐
@@ -83,12 +83,12 @@
 	- 자체 로드 밸런서를 마련하는 것보다 저렴
 	- 자체 로드 밸런서를 직접 관리하려면 확장성 측면에서 굉장히 번거로움
 - 다수의 AWS 서비스와 통합되어 있음
-	- EC2 인스턴스, Auto scaling groups, Amazon ECS
+	- EC2 인스턴스, Auto Scaling Groups, Amazon ECS
 	- AWS Certificate Manager (ACM), CloudWatch
 	- Route 53, AWS WAF, AWS Global Accelerator
 	- 등등
 
-## Health checks
+## Health Checks
 
 - 상태 확인은 ELB가 EC2 인스턴스의 작동이 올바르게 되고 있는지의 여부를 확인하기 위해 사용
 	- 트래픽 요청에 정상적으로 응답이 가능한 지 체크
@@ -98,10 +98,10 @@
 
 - 만약 200(OK)로 응답하지 않는다면 인스턴스 상태가 좋지 않다고 기록됨
 
-## Types of load balancer on AWS
+## Types of Load Balancer on AWS
 
 - Classic Load Balancer (v1 - old generation) - 2009 - CLB
-	- HTTP, HTTPS, TCP, SSL (secure TCP)
+	- HTTP, HTTPS, TCP, SSL (Secure TCP)
 	- AWS는 이제 이 로드 밸런서의 사용을 권장하지 않음
 - Application Load Balancer (v2 - new generation) - 2016 - ALB
 	- HTTP, HTTPS, WebSocket
@@ -134,7 +134,7 @@
 </aside>
 
 - 7-layer, 즉 애플리케이션 계층 HTTP 전용 로드 밸런서
-- 머신 간 다수 HTTP 애플리케이션의 라우팅에 사용 → 이런 머신들은 Target group이라는 그룹으로 묶임
+- 머신 간 다수 HTTP 애플리케이션의 라우팅에 사용 → 이런 머신들은 Target Group이라는 그룹으로 묶임
 - 동일 EC2 인스턴스 상의 여러 애플리케이션에 부하를 분산 (예: 컨테이너, ECS 사용)
 - HTTP/2와 WebSocket을 지원
 - 리다이렉트 지원 (ex: From HTTP to HTTPS)
@@ -145,19 +145,19 @@
 - ALB는 마이크로 서비스나 컨테이너 기반 애플리케이션에 가장 좋은 로드 밸런서 (ex: Docker, Amazon ECS)
 	- 포트 매핑 기능이 있어서 ECS 인스턴스 동적 포트 리다이렉션을 가능하게 해줌
 
-## Target groups
+## Target Groups
 
-<aside> 💡 Target group: 대상을 오토 스케일링 할 수 있는 단위
-
+<aside>
+💡 Target Group: 대상을 오토 스케일링 할 수 있는 단위
 </aside>
 
 - 타겟 그룹이 될 수 있는 것
 	- EC2 인스턴스 (can be managed by an Auto Scaling Group) - HTTP
 	- ECS 작업 (ECS 자기 자신에 의해 관리됨) - HTTP
-	- Lambda functions - HTTP 요청이 JSON 이벤트로 번역됨, Serverless의 기반
+	- Lambda Functions - HTTP 요청이 JSON 이벤트로 번역됨, Serverless의 기반
 	- IP address - must be private IP addresses
 - ALB는 여러 타겟 그룹으로 라우팅 가능
-- Health check는 타겟 그룹 레벨에서 이뤄짐
+- Health Check는 타겟 그룹 레벨에서 이뤄짐
 
 ## 작동 방식
 
@@ -198,7 +198,7 @@
 	- 대규모 트래픽 처리에 적합
 - 가용 영역별로 하나의 고정 IP를 가짐
 	- 1~3개의 IP로만 액세스할 수 있는 애플리케이션을 만들라는 문제가 나오면 NLB를 고려
-- NLB 사용은 Free tier에 포함되지 않음
+- NLB 사용은 Free Tier에 포함되지 않음
 
 **→ 고성능, TCP, UDP, 정적 IP가 나오면 NLB를 생각**
 
@@ -222,7 +222,7 @@
 		- 동시에 두 개의 앞에 로드 밸런서가 위치할 수 있음
 	- Application Load Balancer
 		- 네트워크 로드 밸런서 덕분에 고정 IP 주소를 얻을 수 있고 애플리케이션 로드 밸런서 덕분에 HTTP 유형의 트래픽을 처리하는 규칙을 얻을 수 있음
-	- NLB 타겟 그룹이 수행하는 Health check
+	- NLB 타겟 그룹이 수행하는 Health Check
 		- TCP, HTTP, HTTPS 프로토콜 지원
 
 # Gateway Load Balancer
@@ -239,8 +239,8 @@
 	- 침입 탐지 및 방지 시스템에 사용
 - 3-layer 로드 밸런서 (네트워크 계층)
 - 두 가지 기능
-	- Transparent network gateway (투명 네트워크 게이트웨이): VPC의 모든 트래픽이 GWLB가 되는 단일 엔트리 / 출구를 통과
-	- Load balancer: 타겟 그룹의 가상 어플라이언스 플릿에 전반적으로 그 트래픽을 분산해 로드 밸런서가 됨
+	- Transparent Network Gateway (투명 네트워크 게이트웨이): VPC의 모든 트래픽이 GWLB가 되는 단일 엔트리 / 출구를 통과
+	- Load Balancer: 타겟 그룹의 가상 어플라이언스 플릿에 전반적으로 그 트래픽을 분산해 로드 밸런서가 됨
 - **6081번 포트의 GENEVE 프로토콜을 사용하라**
 
 ## Target groups
@@ -261,7 +261,7 @@
 - 이 동작은 CLB와 ALB에서 설정 가능
 - Cookie를 이용해 클라이언트에서 로드 밸런서로 요청의 일부로서 전송됨
 	- 쿠키가 만료되면 클라이언트가 다른 EC2 인스턴스로 리디렉션 될 수 있음
-- Use cases
+- Use Cases
 	- 사용자의 로그인 같은 중요한 정보를 취하는 세션 데이터를 잃지 않기 위해 사용자가 동일한 백엔드 인스턴스로 연결됨
 - 고정성(Stickiness)을 활성화하면 백엔드 EC2 인스턴스 부하에 불균형을 초래할 수 있음
 
@@ -274,7 +274,7 @@
 		- 애플리케이션에 필요한 모든 사용자 정의 속성을 포함할 수 있음
 		- 쿠키 이름은 각 대상 그룹별로 개별적 지정해야 함
 		- AWSALB, AWSALBAPP, AWSALBTG라는 이름은 ELB에 의해 예약되어 있어 사용 금지
-	- Application cookie
+	- Application Cookie
 		- 로드 밸런서에서 생성되는 쿠키
 		- 쿠키 네임은 AWSALBAPP
 - Duration-based Cookies

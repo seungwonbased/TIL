@@ -17,24 +17,24 @@
 
 # Policy
 
-## IAM policies inheritance
+## IAM Policies Inheritance
 
 ![IAMPoliciesInheritance.png](https://github.com/seungwonbased/TIL/blob/main/AWS/assets/IAMPoliciesInheritance.png)
 
-## IAM policies structure
+## IAM Policies Structure
 
 ![IAMPoliciesStructure.png](https://github.com/seungwonbased/TIL/blob/main/AWS/assets/IAMPoliciesStructure.png)
 
 # 보안 정책
-## Password policy
+## Password Policy
 ## MFA (Multi Factor Authentication)
 
 - AWS에서는 이 매커니즘을 필수적으로 사용하도록 권장됨
 - 유저는 권한에 따라 구성을 변경하거나 리소스를 삭제하는 등의 작업 가능
 - 적어도 루트 계정은 보안을 철저히 유지해야 하고 IAM 유저 또한 그러함
-- MFA = password + 보안 장치
+- MFA = Password + 보안 장치
 
-### MFA device options in AWS
+### MFA Device Options in AWS
 
 - Virtual MFA device
 	- 가상화 서비스

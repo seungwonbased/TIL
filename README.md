@@ -41,12 +41,16 @@
 - [Secrets Manager](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [WAF & Shield](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 
+### Solutions Architectures
+
+- [Solutions Architectures](https://github.com/seungwonbased/AWS/)
+
 ### Storage
 
 - [EBS & EFS](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/EC2InstanceStorage.md)
 - [Elastic Disaster Recovery](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [FSx](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
-- [S3](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [S3](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/S3.md)
 - [S3 Glacier](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [Storage Gateway](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 

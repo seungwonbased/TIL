@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/NetworkingContentDelivery/Route53.md",
+                "file": "AWS/IAM/IAM.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/NetworkingContentDelivery/Route53.md",
+                "file": "AWS/IAM/IAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/NetworkingContentDelivery/Route53.md",
+                "file": "AWS/IAM/IAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/NetworkingContentDelivery/Route53.md"
+                "file": "AWS/IAM/IAM.md"
               }
             }
           }
@@ -149,6 +148,13 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
+    "AWS/Compute/EC2.md",
+    "AWS/Compute/ElasticLoadBalancer.md",
+    "AWS/Storage/S3.md",
+    "README.md",
+    "AWS/SolutionsArchitectures/WhatIsTheTime.com.md",
+    "AWS/SolutionsArchitectures",
+    "AWS/NetworkingContentDelivery/Route53.md",
     "AWS/assets/rt20.png",
     "AWS/assets/rt19.png",
     "AWS/assets/rt18.png",
@@ -159,18 +165,13 @@
     "AWS/assets/rt13.png",
     "AWS/assets/rt12.png",
     "AWS/assets/rt11.png",
-    "AWS/assets/rt10.png",
     "AWS/GlobalInfra/GlobalInfra.md",
     "Untitled.md",
-    "AWS/NetworkingContentDelivery/Route53.md",
-    "README.md",
     "AWS/NetworkingContentDelivery",
     "AWS/Database/ElastiCache.md",
     "AWS/Database/RDS&Aurora.md",
-    "AWS/Compute/ElasticLoadBalancer.md",
     "AWS/Storage/EC2InstanceStorage.md",
     "AWS/Database",
-    "AWS/Compute/EC2.md",
     "AWS/IAM/IAM.md",
     "Untitled.canvas",
     "2023-08-25.md",

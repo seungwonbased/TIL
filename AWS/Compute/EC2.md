@@ -9,9 +9,9 @@
 	- 기본적으로 모든 AWS 계정은 지역당 탄력적 IP 주소를 5개로 제한
 - EC2 인스턴스를 동일한 AZ에 배치해 데이터 전송 비용을 줄임
 - **EC2 Hibernate**는 인스턴스 메모리(RAM)의 내용을 Amazon EBS 루트 볼륨에 저장
-- **VM Import/Export**를 사용해 가상 머신 이미지를 가져오고 Amazon EC2 AMI로 변환하여 EC2 인스턴스를 시작
+- **VM Import / Export**를 사용해 가상 머신 이미지를 가져오고 Amazon EC2 AMI로 변환하여 EC2 인스턴스를 시작
 
-## EC2 sizing & configuration options
+## EC2 Sizing & Configuration Options
 ### Options
 
 - **Operating system**: Linux, Windows, MacOs, …
@@ -25,7 +25,7 @@
 - **Bootstrap script** (configure at first launch): EC2 User data
 	**→ 원하는 대로 가상 머신을 선택하여 AWS에서 빌릴 수 있음!**
 
-### EC2 User data
+### EC2 User Data
 
 - 인스턴스를 Bootstrapping 할 수 있음
 	- Bootstrapping: 머신이 **작동될 때** 명령을 시작하는 것
@@ -49,12 +49,12 @@
 |    F, G, P     |   가속 컴퓨팅   |                           고성능 GPU, 그래픽 집약적 애플리케이션, 기계 학습, 음석 인식                            |
 |    D, H, I     | 스토리지 최적화 | EC2 인스턴스 스토리지, 높은 I/O 성능, HDFS, MapReduce file system, Spark, Hadoop, Redshift, Kafka, Elastic Search |
 
-#### General purpose instances
+#### General Purpose Instances
 
 - 웹 서버나 코드 리포지토리와 같은 다앙한 작업에 적합
 - 컴퓨팅, 메모리, 네트워킹 간의 균형이 잘 맞음
 
-#### Compute optimized instances
+#### Compute Optimized Instances
 
 - 컴퓨팅 집약적인 작업에 최적화됨
 	- 일부 데이터의 일괄 처리
@@ -66,37 +66,37 @@
 	- 등등
 - C로 시작하는 이름 (Compute)
 
-#### Memory optimized instances
+#### Memory Optimized Instances
 
 - 메모리에서 대규모 데이터셋을 처리하는 작업에서 빠른 퍼포먼스를 보임
 	- 인 메모리 데이터베이스
-	- 분산 웹 스케일 캐시 스토어 (예: elastic cache)
+	- 분산 웹 스케일 캐시 스토어 (예: ElastiCache)
 	- Business Intelligence (BI)
 	- 대규모 비정형 데이터의 실시간 처리를 실행하는 애플리케이션
 	- 등등
 - R로 시작하는 이름 (X1, Z1 도 있긴 함) (RAM)
 
-#### Storage optimized instances
+#### Storage Optimized Instances
 
-- 로컬 스토리지에서 대규모의 데이터셋에 읽기와 쓰기 엑세스를 요구하는 storage 작업에 적합
-	- High frequency online transaction processing (OLTP) systems
+- 로컬 스토리지에서 대규모의 데이터셋에 읽기와 쓰기 엑세스를 요구하는 Storage 작업에 적합
+	- High frequency Online Transaction Processing (OLTP) systems
 	- Relational & NoSQL databases
 	- 인 메모리 데이터베이스를 위한 캐시 (예: Radis)
-	- Data warehousing 애플리케이션
+	- Data Warehousing 애플리케이션
 	- 분산 파일 시스템
 - I, G로 시작하는 이름 (H1도 있긴 함)
 
-# Security groups
+# Security Groups
 ## Introduction
 
-- Security group은 AWS에서 네트워크 보안을 실행하는 데 핵심
+- Security Group은 AWS에서 네트워크 보안을 실행하는 데 핵심
 - EC2 인스턴스에 들어오고 나가는 트래픽을 허용하는 것을 제어
-- Security group은 출입이 허용된 것이 무엇인지 확인 가능
-- Security group은 IP나 다른 security group을 참조하여 rule을 만들 수 있음
+- Security Group은 출입이 허용된 것이 무엇인지 확인 가능
+- Security Group은 IP나 다른 Security Group을 참조하여 Rule을 만들 수 있음
 
-## Deeper dive
+## Deeper Dive
 
-- Security group은 EC2 인스턴스의 방화벽 역할
+- Security Group은 EC2 인스턴스의 방화벽 역할
 - 통제하는 것
 	- Port로의 액세스
 	- Authorized IP ranges → IPv4 and IPv6
@@ -205,7 +205,7 @@
 ![SpotInstance](https://github.com/seungwonbased/TIL/blob/main/AWS/assets/SpotInstance.png)
 
 - 원하는 지정 가격을 정하고, 이 지정 가격보다 비싸지면 반납해서 인스턴스를 중지시키고, 가격이 싸지면 다시 인스턴스를 사용하는 원리
-- 인스턴스를 종료하기 위해서는 스팟 요청(Spot request)을 먼저 취소해 AWS가 더 이상 새로운 인스턴스를 실행하지 않게끔 한 뒤에 연결된 스팟 인스턴스를 종료해야 함 (순서가 중요함)
+- 인스턴스를 종료하기 위해서는 스팟 요청(Spot Request)을 먼저 취소해 AWS가 더 이상 새로운 인스턴스를 실행하지 않게끔 한 뒤에 연결된 스팟 인스턴스를 종료해야 함 (순서가 중요함)
 
 #### Spot capacity pool
 
@@ -233,11 +233,11 @@
 2. diversified: 스팟 인스턴스가 기존에 정의한 모든 풀에 걸쳐 분산됨, 한 풀이 중단되더라도 다른 풀이 활성화 되어있음 (가용성 뛰어남, 긴 워크로드에 적합)
 3. capacityOptimized: 인스턴스의 개수에 따라 최적 용량으로 실행되고 적절한 풀을 찾아줌
 
-#### EC2 instance rebalance recommendation
+#### EC2 Instance Rebalance Recommendation
 
 - 스팟이 종료되려고 할 때 리밸런싱 권고 신호를 2분 전에 생성
 
-#### Spot Instance interruption
+#### Spot Instance Interruption
 
 - 최고 가격에 맞는 인스턴스가 더 이상 없을 경우 스팟 인스턴스를 중지하거나 절전 모드로 전환
 
@@ -248,7 +248,7 @@
 - 컴퓨팅 가격이 매우 저렴해야만 수익이 나는 애플리케이션
 - 대량의 서버 용량 추가로 긴급히 컴퓨팅 파워가 필요한 사용자
 
-#### Spot instance vs spot fleet
+#### Spot Instance vs Spot Fleet
 
 - AWS에서 **스팟 인스턴스는 미사용 EC2 인스턴스에 입찰할 수 있는 EC2 인스턴스 유형**으로, 온디맨드 인스턴스에 비해 훨씬 저렴한 비용으로 시작할 수 있습니다. 이러한 인스턴스는 EC2 Spot Market을 통해 사용할 수 있으며 **가격은 수요와 공급에 따라 결정**됩니다.
 
