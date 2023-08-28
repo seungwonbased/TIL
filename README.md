@@ -51,7 +51,7 @@
 - [Elastic Disaster Recovery](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [FSx](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [S3](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/S3.md)
-- [S3 Glacier](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [S3 Security](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/S3Security.md)
 - [Storage Gateway](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 
 ## Databases
