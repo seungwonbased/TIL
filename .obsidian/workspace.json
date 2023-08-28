@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Storage/SnowFamily.md",
+                "file": "AWS/Storage/FSx.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Storage/SnowFamily.md",
+                "file": "AWS/Storage/FSx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Storage/SnowFamily.md",
+                "file": "AWS/Storage/FSx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Storage/SnowFamily.md"
+                "file": "AWS/Storage/FSx.md"
               }
             }
           }
@@ -149,6 +149,13 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
+    "AWS/assets/fsx4.png",
+    "AWS/assets/fsx3.png",
+    "AWS/assets/fsx2.png",
+    "AWS/assets/fsx1.png",
+    "AWS/Storage/SnowFamily.md",
+    "AWS/Storage/FSx.md",
+    "Untitled.md",
     "AWS/assets/snow9.png",
     "AWS/assets/snow8.png",
     "AWS/assets/snow7.png",
@@ -156,14 +163,9 @@
     "AWS/assets/snow5.png",
     "AWS/assets/snow4.png",
     "AWS/assets/snow3.png",
-    "AWS/assets/snow2.png",
-    "AWS/assets/snow1.png",
     "AWS/NetworkingContentDelivery/GlobalAccelerator.md",
-    "AWS/Storage/SnowFamily.md",
     "AWS/Storage/Untitled",
     "README.md",
-    "AWS/assets/ga3.png",
-    "AWS/assets/ga2.png",
     "AWS/NetworkingContentDelivery/CloudFront.md",
     "AWS/Storage/S3Security.md",
     "AWS/Storage/S3.md",
@@ -174,7 +176,6 @@
     "AWS/SolutionsArchitectures",
     "AWS/NetworkingContentDelivery/Route53.md",
     "AWS/GlobalInfra/GlobalInfra.md",
-    "Untitled.md",
     "AWS/NetworkingContentDelivery",
     "AWS/Database/ElastiCache.md",
     "AWS/Database/RDS&Aurora.md",
