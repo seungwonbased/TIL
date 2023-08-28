@@ -24,9 +24,9 @@
 ### Networking & Content Delivery
 
 - [API Gateway](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
-- [CloudFront](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [CloudFront](https://github.com/seungwonbased/TIL/blob/main/AWS/NetworkingContentDelivery/CloudFront.md)
 - [Direct Connect](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
-- [Global Accelerator](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [Global Accelerator](https://github.com/seungwonbased/TIL/blob/main/AWS/NetworkingContentDelivery/GlobalAccelerator.md)
 - [Route 53](https://github.com/seungwonbased/TIL/blob/main/AWS/NetworkingContentDelivery/Route53.md)
 - [VPC](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 
