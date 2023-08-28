@@ -149,6 +149,9 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
+    "AWS/assets/ga3.png",
+    "AWS/assets/ga2.png",
+    "AWS/assets/ga1.png",
     "AWS/NetworkingContentDelivery/CloudFront.md",
     "AWS/NetworkingContentDelivery/GlobalAccelerator.md",
     "AWS/assets/cf8.png",
@@ -161,8 +164,6 @@
     "AWS/assets/cf1.png",
     "README.md",
     "AWS/Storage/S3Security.md",
-    "AWS/assets/se11.png",
-    "AWS/assets/se10.png",
     "AWS/Storage/S3.md",
     "AWS/IAM/IAM.md",
     "AWS/Compute/EC2.md",
