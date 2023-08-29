@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Container/ECREKSAppRunner.md",
+                "file": "AWS/Compute/Lambda.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Container/ECREKSAppRunner.md",
+                "file": "AWS/Compute/Lambda.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Container/ECREKSAppRunner.md",
+                "file": "AWS/Compute/Lambda.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Container/ECREKSAppRunner.md"
+                "file": "AWS/Compute/Lambda.md"
               }
             }
           }
@@ -149,20 +149,21 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
-    "AWS/assets/eea4.png",
-    "AWS/assets/eea3.png",
-    "AWS/assets/eea2.png",
-    "AWS/assets/eea1.png",
-    "AWS/Container/ECS.md",
-    "AWS/Container/ECREKSAppRunner.md",
+    "AWS/assets/svl12.png",
+    "AWS/assets/svl11.png",
+    "AWS/assets/svl10.png",
+    "AWS/assets/svl9.png",
+    "AWS/assets/svl8.png",
+    "AWS/assets/svl7.png",
+    "AWS/assets/svl6.png",
+    "AWS/assets/svl5.png",
+    "AWS/assets/svl4.png",
+    "AWS/assets/svl3.png",
+    "AWS/assets/svl2.png",
     "README.md",
-    "AWS/assets/ecs12.png",
-    "AWS/assets/ecs11.png",
-    "AWS/assets/ecs10.png",
-    "AWS/assets/ecs9.png",
-    "AWS/assets/ecs8.png",
-    "AWS/assets/ecs7.png",
-    "AWS/assets/ecs6.png",
+    "AWS/Compute/Lambda.md",
+    "AWS/Container/ECREKSAppRunner.md",
+    "AWS/Container/ECS.md",
     "AWS/Compute/EC2.md",
     "AWS/Container",
     "AWS/Compute/ElasticBeanstalk.md",
@@ -188,7 +189,6 @@
     "AWS/Storage/S3.md",
     "AWS/IAM/IAM.md",
     "AWS/SolutionsArchitectures",
-    "AWS/NetworkingContentDelivery/Route53.md",
     "AWS/NetworkingContentDelivery",
     "AWS/Database",
     "Untitled.canvas",

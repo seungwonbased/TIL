@@ -18,7 +18,7 @@
 - [EC2](https://github.com/seungwonbased/TIL/blob/main/AWS/Compute/EC2.md)
 - [Elastic Load Balancer](https://github.com/seungwonbased/TIL/blob/main/AWS/Compute/ElasticLoadBalancer.md)
 - [Elastic Beanstalk](https://github.com/seungwonbased/TIL/blob/main/AWS/Compute/ElasticBeanstalk.md)
-- [Lambda](https://github.com/seungwonbased/TIL/blob/main/ToBeContinue.md)
+- [Lambda](https://github.com/seungwonbased/TIL/blob/main/AWS/Compute/Lambda.md)
 
 ### Database
 
