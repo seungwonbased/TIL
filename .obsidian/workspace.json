@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AWS/Compute/ElasticBeanstalk.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "AWS/Compute/ElasticBeanstalk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "AWS/Compute/ElasticBeanstalk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "AWS/Compute/ElasticBeanstalk.md"
               }
             }
           }
@@ -148,8 +149,14 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
-    "AWS/SolutionsArchitectures/InstantiatingApplicationsQuickly.md",
+    "AWS/assets/bst3.png",
+    "AWS/assets/bst2.png",
+    "AWS/assets/bst1.png",
+    "AWS/Compute/EC2.md",
+    "AWS/Compute/ElasticLoadBalancer.md",
+    "AWS/Compute/ElasticBeanstalk.md",
     "README.md",
+    "AWS/SolutionsArchitectures/InstantiatingApplicationsQuickly.md",
     "AWS/SolutionsArchitectures/MyWordPress.com.md",
     "AWS/assets/mwp5.png",
     "AWS/assets/mwp4.png",
@@ -161,8 +168,6 @@
     "AWS/assets/mcl9.png",
     "AWS/assets/mcl8.png",
     "AWS/assets/mcl7.png",
-    "AWS/assets/mcl6.png",
-    "AWS/assets/mcl5.png",
     "AWS/IntegrationMessaging/MQ.md",
     "AWS/IntegrationMessaging/Kinesis.md",
     "AWS/IntegrationMessaging/SNS.md",
@@ -179,15 +184,11 @@
     "AWS/Storage/S3Security.md",
     "AWS/Storage/S3.md",
     "AWS/IAM/IAM.md",
-    "AWS/Compute/EC2.md",
-    "AWS/Compute/ElasticLoadBalancer.md",
     "AWS/SolutionsArchitectures",
     "AWS/NetworkingContentDelivery/Route53.md",
     "AWS/GlobalInfra/GlobalInfra.md",
     "AWS/NetworkingContentDelivery",
     "AWS/Database/ElastiCache.md",
-    "AWS/Database/RDS&Aurora.md",
-    "AWS/Storage/EC2InstanceStorage.md",
     "AWS/Database",
     "Untitled.canvas",
     "IAM (Identity and Access Management) 9caa549e09e94b0eb5de286de259177f",
