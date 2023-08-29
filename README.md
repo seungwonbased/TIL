@@ -24,7 +24,7 @@
 ### Integration & Messaging
 
 - [Kinesis](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
-- [SQS](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [SQS](https://github.com/seungwonbased/TIL/blob/main/AWS/IntegrationMessaging/SQS.md)
 - [SNS](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 
 ### Networking & Content Delivery
