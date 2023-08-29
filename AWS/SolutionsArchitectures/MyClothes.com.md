@@ -127,7 +127,7 @@
 
 ## Security Groups
 
-![mcl](https://github.com/seungwonbased/TIL/blob/main/AWS/assets/mcl9.png)
+![mcl](https://github.com/seungwonbased/TIL/blob/main/AWS/assets/mcl8.png)
 
 - 보안 그룹에 대해서는 매우 안전해야 함
 - ELB 쪽 어디에서나 HTTP HTTPS 트래픽을 열 수 있음
