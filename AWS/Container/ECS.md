@@ -33,7 +33,7 @@
 		- 아주 유명한 퍼블릭 리포지토리로 많은 기술에 맞는 기본 이미지를 찾을 수 있음
 		- Ubuntu나 MySQL과 같은 OS용 기본 이미지도 마찬가지
 	- Amazon ECR
-		- Private Repository: Amazon ECR
+		- Private Repository: Amazon ECR
 		- Public Repository: Amazon ECR Public Gallery
 
 ## Docker vs Virtual Machines
