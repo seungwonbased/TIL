@@ -22,7 +22,7 @@
 
 ### Database
 
-- [DynamoDB](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [DynamoDB](https://github.com/seungwonbased/TIL/blob/main/AWS/Database/DynamoDB.md)
 - [ElastiCache](https://github.com/seungwonbased/TIL/blob/main/AWS/Database/ElastiCache.md)
 - [RDS & Aurora](https://github.com/seungwonbased/TIL/blob/main/AWS/Database/RDS&Aurora.md)
 
