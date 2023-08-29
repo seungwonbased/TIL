@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/IntegrationMessaging/SNS.md",
+                "file": "AWS/IntegrationMessaging/Kinesis.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/IntegrationMessaging/SNS.md",
+                "file": "AWS/IntegrationMessaging/Kinesis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/IntegrationMessaging/SNS.md",
+                "file": "AWS/IntegrationMessaging/Kinesis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/IntegrationMessaging/SNS.md"
+                "file": "AWS/IntegrationMessaging/Kinesis.md"
               }
             }
           }
@@ -148,19 +149,22 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
-    "README.md",
+    "AWS/assets/kns7.png",
+    "AWS/assets/kns6.png",
+    "AWS/assets/kns5.png",
+    "AWS/assets/kns4.png",
+    "AWS/assets/kns3.png",
+    "AWS/assets/kns2.png",
+    "AWS/assets/kns1.png",
     "AWS/IntegrationMessaging/SNS.md",
+    "AWS/IntegrationMessaging/Kinesis.md",
+    "AWS/IntegrationMessaging/MQ.md",
+    "README.md",
     "AWS/assets/sns8.png",
     "AWS/assets/sns7.png",
     "AWS/assets/sns6.png",
     "AWS/assets/sns5.png",
-    "AWS/assets/sns4.png",
-    "AWS/assets/sns3.png",
-    "AWS/assets/sns2.png",
-    "AWS/assets/sns1.png",
     "AWS/IntegrationMessaging/SQS.md",
-    "AWS/assets/sqs13.png",
-    "AWS/assets/sqs12.png",
     "AWS/Storage/StorageGateway.md",
     "AWS/IntegrationMessaging",
     "AWS/Storage/StorageComparison.md",
@@ -187,7 +191,6 @@
     "Untitled.canvas",
     "2023-08-25.md",
     "IAM (Identity and Access Management) 9caa549e09e94b0eb5de286de259177f/Screen_Shot_2023-03-10_at_20.42.49.png.md",
-    "IAM (Identity and Access Management) 9caa549e09e94b0eb5de286de259177f/Screen_Shot_2023-03-10_at_19.30.24.png.md",
     "IAM (Identity and Access Management) 9caa549e09e94b0eb5de286de259177f",
     "AWS/IAM",
     "AWS/Storage"
