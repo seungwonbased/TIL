@@ -50,7 +50,8 @@
 
 ### Solutions Architectures
 
-- [Solutions Architectures](https://github.com/seungwonbased/AWS/)
+- [Stateless Application](https://github.com/seungwonbased/TIL/blob/mainAWS/SolutionsArchitectures/WhatIsTheTime.com.md)
+- 
 
 ### Storage
 

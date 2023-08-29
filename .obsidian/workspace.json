@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/SolutionsArchitectures/MyClothes.com.md",
+                "file": "AWS/SolutionsArchitectures/MyWordPress.com.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/SolutionsArchitectures/MyClothes.com.md",
+                "file": "AWS/SolutionsArchitectures/MyWordPress.com.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/SolutionsArchitectures/MyClothes.com.md",
+                "file": "AWS/SolutionsArchitectures/MyWordPress.com.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/SolutionsArchitectures/MyClothes.com.md"
+                "file": "AWS/SolutionsArchitectures/MyWordPress.com.md"
               }
             }
           }
@@ -149,20 +149,21 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
+    "AWS/assets/mwp5.png",
+    "AWS/assets/mwp4.png",
+    "AWS/assets/mwp3.png",
+    "AWS/assets/mwp2.png",
+    "AWS/assets/mwp1.png",
+    "AWS/SolutionsArchitectures/WhatIsTheTime.com.md",
+    "AWS/SolutionsArchitectures/MyWordPress.com.md",
+    "AWS/SolutionsArchitectures/MyClothes.com.md",
+    "README.md",
     "AWS/assets/mcl9.png",
     "AWS/assets/mcl8.png",
     "AWS/assets/mcl7.png",
     "AWS/assets/mcl6.png",
     "AWS/assets/mcl5.png",
     "AWS/assets/mcl4.png",
-    "AWS/assets/mcl3.png",
-    "AWS/assets/mcl2.png",
-    "AWS/assets/mcl1.png",
-    "AWS/SolutionsArchitectures/WhatIsTheTime.com.md",
-    "AWS/SolutionsArchitectures/MyClothes.com.md",
-    "AWS/assets/wtt9.png",
-    "AWS/assets/wtt8.png",
-    "README.md",
     "AWS/IntegrationMessaging/MQ.md",
     "AWS/IntegrationMessaging/Kinesis.md",
     "AWS/IntegrationMessaging/SNS.md",
@@ -190,7 +191,6 @@
     "AWS/Storage/EC2InstanceStorage.md",
     "AWS/Database",
     "Untitled.canvas",
-    "2023-08-25.md",
     "IAM (Identity and Access Management) 9caa549e09e94b0eb5de286de259177f",
     "AWS/IAM",
     "AWS/Storage"
