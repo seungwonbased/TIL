@@ -51,7 +51,8 @@
 ### Solutions Architectures
 
 - [Stateless Application](https://github.com/seungwonbased/TIL/blob/mainAWS/SolutionsArchitectures/WhatIsTheTime.com.md)
-- 
+- [Stateful Application - 1](https://github.com/seungwonbased/TIL/blob/mainAWS/SolutionsArchitectures/MyWordPress.com.md)
+- [Stateless Application - 2](https://github.com/seungwonbased/TIL/blob/mainAWS/SolutionsArchitectures/MyClothes.com.md)
 
 ### Storage
 

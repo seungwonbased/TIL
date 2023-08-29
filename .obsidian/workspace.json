@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/SolutionsArchitectures/MyWordPress.com.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/SolutionsArchitectures/MyWordPress.com.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/SolutionsArchitectures/MyWordPress.com.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/SolutionsArchitectures/MyWordPress.com.md"
+                "file": "README.md"
               }
             }
           }
@@ -149,13 +148,13 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
+    "AWS/SolutionsArchitectures/MyWordPress.com.md",
     "AWS/assets/mwp5.png",
     "AWS/assets/mwp4.png",
     "AWS/assets/mwp3.png",
     "AWS/assets/mwp2.png",
     "AWS/assets/mwp1.png",
     "AWS/SolutionsArchitectures/WhatIsTheTime.com.md",
-    "AWS/SolutionsArchitectures/MyWordPress.com.md",
     "AWS/SolutionsArchitectures/MyClothes.com.md",
     "README.md",
     "AWS/assets/mcl9.png",
@@ -163,7 +162,6 @@
     "AWS/assets/mcl7.png",
     "AWS/assets/mcl6.png",
     "AWS/assets/mcl5.png",
-    "AWS/assets/mcl4.png",
     "AWS/IntegrationMessaging/MQ.md",
     "AWS/IntegrationMessaging/Kinesis.md",
     "AWS/IntegrationMessaging/SNS.md",
