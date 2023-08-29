@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/SolutionsArchitectures/WhatIsTheTime.com.md",
+                "file": "AWS/SolutionsArchitectures/MyClothes.com.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/SolutionsArchitectures/WhatIsTheTime.com.md",
+                "file": "AWS/SolutionsArchitectures/MyClothes.com.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/SolutionsArchitectures/WhatIsTheTime.com.md",
+                "file": "AWS/SolutionsArchitectures/MyClothes.com.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/SolutionsArchitectures/WhatIsTheTime.com.md"
+                "file": "AWS/SolutionsArchitectures/MyClothes.com.md"
               }
             }
           }
@@ -149,20 +149,22 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
+    "AWS/assets/mcl8.png",
+    "AWS/assets/mcl7.png",
+    "AWS/assets/mcl6.png",
+    "AWS/assets/mcl5.png",
+    "AWS/assets/mcl4.png",
+    "AWS/assets/mcl3.png",
+    "AWS/assets/mcl2.png",
+    "AWS/assets/mcl1.png",
+    "AWS/SolutionsArchitectures/WhatIsTheTime.com.md",
+    "AWS/SolutionsArchitectures/MyClothes.com.md",
     "AWS/assets/wtt9.png",
     "AWS/assets/wtt8.png",
     "AWS/assets/wtt7.png",
-    "AWS/assets/wtt6.png",
-    "AWS/assets/wtt5.png",
-    "AWS/assets/wtt4.png",
-    "AWS/assets/wtt3.png",
-    "AWS/assets/wtt2.png",
-    "AWS/assets/wtt1.png",
     "README.md",
     "AWS/IntegrationMessaging/MQ.md",
-    "AWS/assets/mq1.png",
     "AWS/IntegrationMessaging/Kinesis.md",
-    "AWS/assets/kns7.png",
     "AWS/IntegrationMessaging/SNS.md",
     "AWS/IntegrationMessaging/SQS.md",
     "AWS/Storage/StorageGateway.md",
@@ -179,7 +181,6 @@
     "AWS/IAM/IAM.md",
     "AWS/Compute/EC2.md",
     "AWS/Compute/ElasticLoadBalancer.md",
-    "AWS/SolutionsArchitectures/WhatIsTheTime.com.md",
     "AWS/SolutionsArchitectures",
     "AWS/NetworkingContentDelivery/Route53.md",
     "AWS/GlobalInfra/GlobalInfra.md",
@@ -190,7 +191,6 @@
     "AWS/Database",
     "Untitled.canvas",
     "2023-08-25.md",
-    "IAM (Identity and Access Management) 9caa549e09e94b0eb5de286de259177f/Screen_Shot_2023-03-10_at_20.42.49.png.md",
     "IAM (Identity and Access Management) 9caa549e09e94b0eb5de286de259177f",
     "AWS/IAM",
     "AWS/Storage"
