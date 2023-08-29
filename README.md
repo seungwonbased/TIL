@@ -24,6 +24,7 @@
 ### Integration & Messaging
 
 - [Kinesis](https://github.com/seungwonbased/TIL/blob/main/AWS/IntegrationMessaging/Kinesis.md)
+- [MQ](https://github.com/seungwonbased/TIL/blob/main/AWS/IntegrationMessaging/MQ.md)
 - [SQS](https://github.com/seungwonbased/TIL/blob/main/AWS/IntegrationMessaging/SQS.md)
 - [SNS](https://github.com/seungwonbased/TIL/blob/main/AWS/IntegrationMessaging/SNS.md)
 
