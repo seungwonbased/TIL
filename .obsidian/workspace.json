@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Compute/ElasticBeanstalk.md",
+                "file": "AWS/Container/ECS.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Compute/ElasticBeanstalk.md",
+                "file": "AWS/Container/ECS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Compute/ElasticBeanstalk.md",
+                "file": "AWS/Container/ECS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Compute/ElasticBeanstalk.md"
+                "file": "AWS/Container/ECS.md"
               }
             }
           }
@@ -149,25 +149,27 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
-    "AWS/assets/bst3.png",
-    "AWS/assets/bst2.png",
-    "AWS/assets/bst1.png",
+    "AWS/assets/ecs12.png",
+    "AWS/assets/ecs11.png",
+    "AWS/assets/ecs10.png",
+    "AWS/assets/ecs9.png",
+    "AWS/assets/ecs8.png",
+    "AWS/assets/ecs7.png",
+    "AWS/assets/ecs6.png",
+    "AWS/assets/ecs5.png",
+    "AWS/assets/ecs4.png",
+    "AWS/assets/ecs3.png",
+    "AWS/assets/ecs2.png",
     "AWS/Compute/EC2.md",
-    "AWS/Compute/ElasticLoadBalancer.md",
-    "AWS/Compute/ElasticBeanstalk.md",
+    "AWS/Container/ECS.md",
     "README.md",
+    "AWS/Container",
+    "AWS/Compute/ElasticBeanstalk.md",
+    "AWS/Compute/ElasticLoadBalancer.md",
     "AWS/SolutionsArchitectures/InstantiatingApplicationsQuickly.md",
     "AWS/SolutionsArchitectures/MyWordPress.com.md",
-    "AWS/assets/mwp5.png",
-    "AWS/assets/mwp4.png",
-    "AWS/assets/mwp3.png",
-    "AWS/assets/mwp2.png",
-    "AWS/assets/mwp1.png",
     "AWS/SolutionsArchitectures/WhatIsTheTime.com.md",
     "AWS/SolutionsArchitectures/MyClothes.com.md",
-    "AWS/assets/mcl9.png",
-    "AWS/assets/mcl8.png",
-    "AWS/assets/mcl7.png",
     "AWS/IntegrationMessaging/MQ.md",
     "AWS/IntegrationMessaging/Kinesis.md",
     "AWS/IntegrationMessaging/SNS.md",
@@ -188,7 +190,6 @@
     "AWS/NetworkingContentDelivery/Route53.md",
     "AWS/GlobalInfra/GlobalInfra.md",
     "AWS/NetworkingContentDelivery",
-    "AWS/Database/ElastiCache.md",
     "AWS/Database",
     "Untitled.canvas",
     "IAM (Identity and Access Management) 9caa549e09e94b0eb5de286de259177f",
