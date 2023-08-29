@@ -58,7 +58,7 @@
 - [FSx](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/FSx.md)
 - [S3](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/S3.md)
 - [S3 Security](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/S3Security.md)
-- [Snow Family](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/SnowFamily)
+- [Snow Family](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/SnowFamily.md)
 - [Storage Comprison](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/StorageComparison.md)
 - [Storage Gateway & ETC](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/StorageGateway.md)
 

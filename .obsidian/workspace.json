@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Storage/StorageGateway.md",
+                "file": "AWS/IntegrationMessaging/SQS.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Storage/StorageGateway.md",
+                "file": "AWS/IntegrationMessaging/SQS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Storage/StorageGateway.md",
+                "file": "AWS/IntegrationMessaging/SQS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Storage/StorageGateway.md"
+                "file": "AWS/IntegrationMessaging/SQS.md"
               }
             }
           }
@@ -148,24 +149,24 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
-    "AWS/assets/gate9.png",
-    "AWS/assets/gate8.png",
-    "AWS/assets/gate7.png",
-    "AWS/assets/gate6.png",
-    "AWS/assets/gate5.png",
-    "AWS/assets/gate4.png",
-    "AWS/assets/gate3.png",
-    "AWS/assets/gate2.png",
-    "AWS/assets/gate1.png",
-    "AWS/IntegrationMessaging/SQS.md",
+    "AWS/assets/sqs13.png",
+    "AWS/assets/sqs12.png",
+    "AWS/assets/sqs11.png",
+    "AWS/assets/sqs10.png",
+    "AWS/assets/sqs9.png",
+    "AWS/assets/sqs8.png",
+    "AWS/assets/sqs7.png",
+    "AWS/assets/sqs6.png",
+    "AWS/assets/sqs5.png",
+    "AWS/assets/sqs4.png",
+    "AWS/assets/sqs3.png",
     "README.md",
+    "AWS/Storage/StorageGateway.md",
+    "AWS/IntegrationMessaging/SQS.md",
     "AWS/IntegrationMessaging",
     "AWS/Storage/StorageComparison.md",
-    "AWS/Storage/StorageGateway.md",
     "AWS/Storage/SnowFamily.md",
     "AWS/Storage/FSx.md",
-    "AWS/assets/fsx4.png",
-    "AWS/assets/fsx3.png",
     "Untitled.md",
     "AWS/NetworkingContentDelivery/GlobalAccelerator.md",
     "AWS/Storage/Untitled",
