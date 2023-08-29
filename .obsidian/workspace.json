@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Storage/FSx.md",
+                "file": "AWS/Storage/StorageGateway.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Storage/FSx.md",
+                "file": "AWS/Storage/StorageGateway.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Storage/FSx.md",
+                "file": "AWS/Storage/StorageGateway.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Storage/FSx.md"
+                "file": "AWS/Storage/StorageGateway.md"
               }
             }
           }
@@ -149,23 +148,27 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
-    "AWS/assets/fsx4.png",
-    "AWS/assets/fsx3.png",
-    "AWS/assets/fsx2.png",
-    "AWS/assets/fsx1.png",
+    "AWS/assets/gate9.png",
+    "AWS/assets/gate8.png",
+    "AWS/assets/gate7.png",
+    "AWS/assets/gate6.png",
+    "AWS/assets/gate5.png",
+    "AWS/assets/gate4.png",
+    "AWS/assets/gate3.png",
+    "AWS/assets/gate2.png",
+    "AWS/assets/gate1.png",
+    "AWS/IntegrationMessaging/SQS.md",
+    "README.md",
+    "AWS/IntegrationMessaging",
+    "AWS/Storage/StorageComparison.md",
+    "AWS/Storage/StorageGateway.md",
     "AWS/Storage/SnowFamily.md",
     "AWS/Storage/FSx.md",
+    "AWS/assets/fsx4.png",
+    "AWS/assets/fsx3.png",
     "Untitled.md",
-    "AWS/assets/snow9.png",
-    "AWS/assets/snow8.png",
-    "AWS/assets/snow7.png",
-    "AWS/assets/snow6.png",
-    "AWS/assets/snow5.png",
-    "AWS/assets/snow4.png",
-    "AWS/assets/snow3.png",
     "AWS/NetworkingContentDelivery/GlobalAccelerator.md",
     "AWS/Storage/Untitled",
-    "README.md",
     "AWS/NetworkingContentDelivery/CloudFront.md",
     "AWS/Storage/S3Security.md",
     "AWS/Storage/S3.md",

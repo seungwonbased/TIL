@@ -6,7 +6,7 @@
 
 ### AWS Global Infrastructure
 
-- [Regions, Availability Zones, Edge Locations](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [Regions, Availability Zones](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 
 ### Compute
 
@@ -20,6 +20,12 @@
 - [DynamoDB](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [ElastiCache](https://github.com/seungwonbased/TIL/blob/main/AWS/Database/ElastiCache.md)
 - [RDS & Aurora](https://github.com/seungwonbased/TIL/blob/main/AWS/Database/RDS&Aurora.md)
+
+### Integration & Messaging
+
+- [Kinesis](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [SQS](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [SNS](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 
 ### Networking & Content Delivery
 
@@ -49,10 +55,12 @@
 
 - [EBS & EFS](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/EC2InstanceStorage.md)
 - [Elastic Disaster Recovery](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
-- [FSx](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [FSx](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/FSx.md)
 - [S3](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/S3.md)
 - [S3 Security](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/S3Security.md)
-- [Storage Gateway](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [Snow Family](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/SnowFamily)
+- [Storage Comprison](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/StorageComparison.md)
+- [Storage Gateway & ETC](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/StorageGateway.md)
 
 ## Databases
 
