@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AWS/SolutionsArchitectures/WhatIsTheTime.com.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "AWS/SolutionsArchitectures/WhatIsTheTime.com.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "AWS/SolutionsArchitectures/WhatIsTheTime.com.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "AWS/SolutionsArchitectures/WhatIsTheTime.com.md"
               }
             }
           }
@@ -148,20 +149,21 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
+    "AWS/assets/wtt9.png",
+    "AWS/assets/wtt8.png",
+    "AWS/assets/wtt7.png",
+    "AWS/assets/wtt6.png",
+    "AWS/assets/wtt5.png",
+    "AWS/assets/wtt4.png",
+    "AWS/assets/wtt3.png",
+    "AWS/assets/wtt2.png",
+    "AWS/assets/wtt1.png",
+    "README.md",
     "AWS/IntegrationMessaging/MQ.md",
     "AWS/assets/mq1.png",
     "AWS/IntegrationMessaging/Kinesis.md",
-    "README.md",
     "AWS/assets/kns7.png",
-    "AWS/assets/kns6.png",
-    "AWS/assets/kns5.png",
-    "AWS/assets/kns4.png",
-    "AWS/assets/kns3.png",
-    "AWS/assets/kns2.png",
-    "AWS/assets/kns1.png",
     "AWS/IntegrationMessaging/SNS.md",
-    "AWS/assets/sns8.png",
-    "AWS/assets/sns7.png",
     "AWS/IntegrationMessaging/SQS.md",
     "AWS/Storage/StorageGateway.md",
     "AWS/IntegrationMessaging",
