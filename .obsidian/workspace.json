@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/SolutionsArchitectures/MicroService.md",
+                "file": "AWS/SolutionsArchitectures/SoftwareUpdatesOffloading.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/SolutionsArchitectures/MicroService.md",
+                "file": "AWS/SolutionsArchitectures/SoftwareUpdatesOffloading.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/SolutionsArchitectures/MicroService.md",
+                "file": "AWS/SolutionsArchitectures/SoftwareUpdatesOffloading.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/SolutionsArchitectures/MicroService.md"
+                "file": "AWS/SolutionsArchitectures/SoftwareUpdatesOffloading.md"
               }
             }
           }
@@ -149,11 +149,16 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
+    "AWS/assets/suo2.png",
+    "AWS/assets/suo1.png",
+    "AWS/suo2.png",
+    "AWS/suo1.png",
+    "AWS/SolutionsArchitectures/MicroService.md",
+    "AWS/SolutionsArchitectures/SoftwareUpdatesOffloading.md",
+    "README.md",
     "AWS/assets/micro1.png",
     "AWS/SolutionsArchitectures/MyBlog.com.md",
     "AWS/SolutionsArchitectures/InstantiatingApplicationsQuickly.md",
-    "AWS/SolutionsArchitectures/MicroService.md",
-    "README.md",
     "AWS/assets/myb6.png",
     "AWS/assets/myb5.png",
     "AWS/assets/myb4.png",
@@ -162,10 +167,6 @@
     "AWS/assets/myb1.png",
     "AWS/SolutionsArchitectures/MyClothes.com.md",
     "AWS/SolutionsArchitectures/MyTodoList.md",
-    "AWS/assets/mtl4.png",
-    "AWS/assets/mtl3.png",
-    "AWS/assets/mtl2.png",
-    "AWS/assets/mtl1.png",
     "AWS/SolutionsArchitectures/MyWordPress.com.md",
     "AWS/SolutionsArchitectures/WhatIsTheTime.com.md",
     "AWS/Security/Cognito.md",
@@ -187,7 +188,6 @@
     "AWS/IntegrationMessaging/SQS.md",
     "AWS/Storage/StorageGateway.md",
     "AWS/IntegrationMessaging",
-    "AWS/Storage/StorageComparison.md",
     "AWS/Storage/Untitled",
     "AWS/SolutionsArchitectures",
     "AWS/NetworkingContentDelivery",
