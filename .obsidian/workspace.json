@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Database/DynamoDB.md",
+                "file": "AWS/NetworkingContentDelivery/APIGateway.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Database/DynamoDB.md",
+                "file": "AWS/NetworkingContentDelivery/APIGateway.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Database/DynamoDB.md",
+                "file": "AWS/NetworkingContentDelivery/APIGateway.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Database/DynamoDB.md"
+                "file": "AWS/NetworkingContentDelivery/APIGateway.md"
               }
             }
           }
@@ -149,20 +149,21 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
+    "AWS/assets/apg2.png",
+    "AWS/assets/apg1.png",
+    "README.md",
+    "AWS/NetworkingContentDelivery/APIGateway.md",
+    "AWS/Database/DynamoDB.md",
     "AWS/assets/dnd6.png",
     "AWS/assets/dnd5.png",
     "AWS/assets/dnd4.png",
     "AWS/assets/dnd3.png",
     "AWS/assets/dnd2.png",
     "AWS/assets/dnd1.png",
-    "README.md",
-    "AWS/Database/DynamoDB.md",
     "AWS/Compute/Lambda.md",
     "AWS/assets/svl12.png",
     "AWS/assets/svl11.png",
     "AWS/assets/svl10.png",
-    "AWS/assets/svl9.png",
-    "AWS/assets/svl8.png",
     "AWS/Container/ECREKSAppRunner.md",
     "AWS/Container/ECS.md",
     "AWS/Compute/EC2.md",
@@ -187,7 +188,6 @@
     "AWS/Storage/Untitled",
     "AWS/NetworkingContentDelivery/CloudFront.md",
     "AWS/Storage/S3Security.md",
-    "AWS/Storage/S3.md",
     "AWS/SolutionsArchitectures",
     "AWS/NetworkingContentDelivery",
     "AWS/Database",
