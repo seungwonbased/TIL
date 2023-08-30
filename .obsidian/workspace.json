@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AWS/Orchestration/StepFunctions.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "AWS/Orchestration/StepFunctions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "AWS/Orchestration/StepFunctions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "AWS/Orchestration/StepFunctions.md"
               }
             }
           }
@@ -148,10 +149,14 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
+    "AWS/assets/step1.png",
+    "AWS/Orchestration/MQ.md",
+    "AWS/Orchestration/StepFunctions.md",
+    "README.md",
+    "AWS/Orchestration",
     "AWS/NetworkingContentDelivery/APIGateway.md",
     "AWS/assets/apg2.png",
     "AWS/assets/apg1.png",
-    "README.md",
     "AWS/Database/DynamoDB.md",
     "AWS/assets/dnd6.png",
     "AWS/assets/dnd5.png",
@@ -172,7 +177,6 @@
     "AWS/SolutionsArchitectures/MyWordPress.com.md",
     "AWS/SolutionsArchitectures/WhatIsTheTime.com.md",
     "AWS/SolutionsArchitectures/MyClothes.com.md",
-    "AWS/IntegrationMessaging/MQ.md",
     "AWS/IntegrationMessaging/Kinesis.md",
     "AWS/IntegrationMessaging/SNS.md",
     "AWS/IntegrationMessaging/SQS.md",
@@ -185,7 +189,6 @@
     "AWS/NetworkingContentDelivery/GlobalAccelerator.md",
     "AWS/Storage/Untitled",
     "AWS/NetworkingContentDelivery/CloudFront.md",
-    "AWS/Storage/S3Security.md",
     "AWS/SolutionsArchitectures",
     "AWS/NetworkingContentDelivery",
     "AWS/Database",

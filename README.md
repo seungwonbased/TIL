@@ -29,7 +29,6 @@
 ### Integration & Messaging
 
 - [Kinesis](https://github.com/seungwonbased/TIL/blob/main/AWS/IntegrationMessaging/Kinesis.md)
-- [MQ](https://github.com/seungwonbased/TIL/blob/main/AWS/IntegrationMessaging/MQ.md)
 - [SQS](https://github.com/seungwonbased/TIL/blob/main/AWS/IntegrationMessaging/SQS.md)
 - [SNS](https://github.com/seungwonbased/TIL/blob/main/AWS/IntegrationMessaging/SNS.md)
 
@@ -41,6 +40,11 @@
 - [Global Accelerator](https://github.com/seungwonbased/TIL/blob/main/AWS/NetworkingContentDelivery/GlobalAccelerator.md)
 - [Route 53](https://github.com/seungwonbased/TIL/blob/main/AWS/NetworkingContentDelivery/Route53.md)
 - [VPC](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+
+### Orchestration
+
+ - [MQ](https://github.com/seungwonbased/TIL/blob/main/AWS/Orchestration/MQ.md)
+ - [Step Functions](https://github.com/seungwonbased/TIL/blob/main/AWS/Orchestration/StepFunctions.md)
 
 ### Security, Identity & Compliance
 
