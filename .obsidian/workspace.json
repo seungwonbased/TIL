@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/DataAnalytics/OpenSearch.md",
+                "file": "AWS/DataAnalytics/EMR.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/DataAnalytics/OpenSearch.md",
+                "file": "AWS/DataAnalytics/EMR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/DataAnalytics/OpenSearch.md",
+                "file": "AWS/DataAnalytics/EMR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/DataAnalytics/OpenSearch.md"
+                "file": "AWS/DataAnalytics/EMR.md"
               }
             }
           }
@@ -162,12 +162,13 @@
   },
   "active": "fefd5916d75c8df7",
   "lastOpenFiles": [
+    "README.md",
+    "AWS/DataAnalytics/EMR.md",
+    "AWS/DataAnalytics/OpenSearch.md",
     "AWS/assets/oser3.png",
     "AWS/assets/oser2.png",
     "AWS/assets/oser1.png",
     "AWS/DataAnalytics/Redshift.md",
-    "AWS/DataAnalytics/OpenSearch.md",
-    "README.md",
     "AWS/assets/reds4.png",
     "AWS/assets/reds3.png",
     "AWS/assets/reds2.png",
@@ -188,7 +189,6 @@
     "GoogleCloud/assets/overview.png",
     "GoogleCloud/Core/Storage/Storage.md",
     "GoogleCloud/assets/cst7.png",
-    "GoogleCloud/assets/cst6.png",
     "GoogleCloud/Core/Storage/SQL.md",
     "GoogleCloud/Core/Storage/Spanner.md",
     "GoogleCloud/Core/Storage/Firestore.md",
