@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Orchestration/StepFunctions.md",
+                "file": "AWS/Security/Cognito.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Orchestration/StepFunctions.md",
+                "file": "AWS/Security/Cognito.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Orchestration/StepFunctions.md",
+                "file": "AWS/Security/Cognito.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Orchestration/StepFunctions.md"
+                "file": "AWS/Security/Cognito.md"
               }
             }
           }
@@ -149,10 +149,18 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
+    "AWS/assets/cog3.png",
+    "AWS/assets/cog2.png",
+    "AWS/assets/cog1.png",
+    "AWS/cog3.png",
+    "AWS/cog2.png",
+    "AWS/cog1.png",
+    "AWS/Security/IAM.md",
+    "AWS/Security/Cognito.md",
+    "README.md",
+    "AWS/Orchestration/StepFunctions.md",
     "AWS/assets/step1.png",
     "AWS/Orchestration/MQ.md",
-    "AWS/Orchestration/StepFunctions.md",
-    "README.md",
     "AWS/Orchestration",
     "AWS/NetworkingContentDelivery/APIGateway.md",
     "AWS/assets/apg2.png",
@@ -160,13 +168,7 @@
     "AWS/Database/DynamoDB.md",
     "AWS/assets/dnd6.png",
     "AWS/assets/dnd5.png",
-    "AWS/assets/dnd4.png",
-    "AWS/assets/dnd3.png",
-    "AWS/assets/dnd2.png",
-    "AWS/assets/dnd1.png",
     "AWS/Compute/Lambda.md",
-    "AWS/assets/svl12.png",
-    "AWS/assets/svl11.png",
     "AWS/Container/ECREKSAppRunner.md",
     "AWS/Container/ECS.md",
     "AWS/Compute/EC2.md",
@@ -186,15 +188,13 @@
     "AWS/Storage/SnowFamily.md",
     "AWS/Storage/FSx.md",
     "Untitled.md",
-    "AWS/NetworkingContentDelivery/GlobalAccelerator.md",
     "AWS/Storage/Untitled",
-    "AWS/NetworkingContentDelivery/CloudFront.md",
     "AWS/SolutionsArchitectures",
     "AWS/NetworkingContentDelivery",
     "AWS/Database",
     "Untitled.canvas",
     "IAM (Identity and Access Management) 9caa549e09e94b0eb5de286de259177f",
-    "AWS/IAM",
+    "AWS/Security",
     "AWS/Storage"
   ]
 }

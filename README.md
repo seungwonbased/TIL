@@ -49,9 +49,9 @@
 ### Security, Identity & Compliance
 
 - [AWS Audit Manager](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
-- [Cognito](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [Cognito](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/Cognito.md)
 - [AWS Firewall Manager](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
-- [IAM](https://github.com/seungwonbased/TIL/blob/main/AWS/IAM/IAM.md)
+- [IAM](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/IAM.md)
 - [Key Management Service](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [AWS Network Firewall](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [Secrets Manager](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
