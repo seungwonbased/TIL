@@ -23,7 +23,7 @@
 	- 항목 ID를 얻은 후에는 DynamoDB를 호출해 DynamoDB 테이블에서 전체 항목을 검색
 - OpenSearch로 검색하지만 메인 소스 데이터는 DynamoDB에 남아 있음
 
-## OpenSearch Patterns CloudWatch Logs
+## OpenSearch Patterns CloudWatch Logs
 
 ![oser](https://github.com/seungwonbased/TIL/blob/main/AWS/assets/oser2.png)
 
