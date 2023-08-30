@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AWS/DataAnalytics/MSK.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "AWS/DataAnalytics/MSK.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "AWS/DataAnalytics/MSK.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "AWS/DataAnalytics/MSK.md"
               }
             }
           }
@@ -162,11 +162,14 @@
   },
   "active": "fefd5916d75c8df7",
   "lastOpenFiles": [
+    "AWS/assets/msk2.png",
+    "AWS/assets/msk1.png",
+    "AWS/DataAnalytics/Redshift.md",
+    "AWS/DataAnalytics/MSK.md",
+    "README.md",
     "AWS/DataAnalytics/KinesisDataAnalytics.md",
     "AWS/assets/knda2.png",
     "AWS/assets/knda1.png",
-    "AWS/DataAnalytics/Redshift.md",
-    "README.md",
     "AWS/DataAnalytics/LakeFormation.md",
     "AWS/assets/lake2.png",
     "AWS/assets/lake1.png",
@@ -179,7 +182,6 @@
     "AWS/assets/qus2.png",
     "AWS/assets/qus1.png",
     "AWS/DataAnalytics/EMR.md",
-    "AWS/assets/oser3.png",
     "AWS/DataAnalytics/Athena.md",
     "AWS/Database/ElastiCache.md",
     "AWS/Database/ETC.md",
@@ -198,7 +200,6 @@
     "GoogleCloud/Core/Storage/Firestore.md",
     "GoogleCloud/Core/Storage/Bigtable.md",
     "GoogleCloud/Core/Storage/Filestore.md",
-    "GoogleCloud/Core/VM/NetworkArchi.md",
     "GoogleCloud/Core/Storage",
     "GoogleCloud/Core/untitled folder",
     "GoogleCloud/Core/VM",

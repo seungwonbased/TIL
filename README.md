@@ -27,6 +27,7 @@
 - [Glue](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/Glue.md)
 - [Kinesis Data Analytics](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/KinesisDataAnalytics.md)
 - [Lake Formation](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/LakeFormation.md)
+- [MSK](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/MSK.md)
 - [OpenSearch](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/OpenSearch.md) 
 - [QuickSight](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/QuickSight.md)
 - [Redshift](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/Redshift.md)
