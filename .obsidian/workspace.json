@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/DataAnalytics/QuickSight.md",
+                "file": "AWS/DataAnalytics/Glue.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/DataAnalytics/QuickSight.md",
+                "file": "AWS/DataAnalytics/Glue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/DataAnalytics/QuickSight.md",
+                "file": "AWS/DataAnalytics/Glue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/DataAnalytics/QuickSight.md"
+                "file": "AWS/DataAnalytics/Glue.md"
               }
             }
           }
@@ -162,11 +162,15 @@
   },
   "active": "fefd5916d75c8df7",
   "lastOpenFiles": [
+    "AWS/assets/glue3.png",
+    "AWS/assets/glue2.png",
+    "AWS/assets/glue1.png",
+    "AWS/DataAnalytics/Redshift.md",
+    "AWS/DataAnalytics/Glue.md",
+    "README.md",
+    "AWS/DataAnalytics/QuickSight.md",
     "AWS/assets/qus2.png",
     "AWS/assets/qus1.png",
-    "AWS/DataAnalytics/Redshift.md",
-    "AWS/DataAnalytics/QuickSight.md",
-    "README.md",
     "AWS/DataAnalytics/EMR.md",
     "AWS/DataAnalytics/OpenSearch.md",
     "AWS/assets/oser3.png",
@@ -175,9 +179,7 @@
     "AWS/assets/reds4.png",
     "AWS/assets/reds3.png",
     "AWS/assets/reds2.png",
-    "AWS/assets/reds1.png",
     "AWS/DataAnalytics/Athena.md",
-    "AWS/assets/athe2.png",
     "AWS/Database/ElastiCache.md",
     "AWS/Database/ETC.md",
     "AWS/Database/DynamoDB.md",
@@ -189,7 +191,6 @@
     "GoogleCloud/Core/ResourcesAndAccess.md",
     "GoogleCloud/Core/Storage.md",
     "GoogleCloud/Overview.md",
-    "GoogleCloud/assets/overview.png",
     "GoogleCloud/Core/Storage/Storage.md",
     "GoogleCloud/Core/Storage/SQL.md",
     "GoogleCloud/Core/Storage/Spanner.md",
@@ -199,7 +200,6 @@
     "GoogleCloud/Core/VM/NetworkArchi.md",
     "GoogleCloud/Core/VM/IP.md",
     "GoogleCloud/Core/Introducing.md",
-    "GoogleCloud/Core/VirtualMachines.md",
     "GoogleCloud/Core/Storage",
     "GoogleCloud/Core/untitled folder",
     "GoogleCloud/Core/VM",
