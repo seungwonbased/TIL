@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AWS/MachineLearning/Rekognition.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2652f7470e6e250a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS/IntegrationMessaging/SNS.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 206.5,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "AWS/MachineLearning/Rekognition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "AWS/MachineLearning/Rekognition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "AWS/MachineLearning/Rekognition.md"
               }
             }
           }
@@ -148,12 +161,15 @@
   },
   "active": "919fe5f912d436ed",
   "lastOpenFiles": [
+    "AWS/assets/rek1.png",
+    "AWS/IntegrationMessaging/SNS.md",
+    "AWS/MachineLearning/Rekognition.md",
+    "README.md",
     "Spring/WebApplications/WSWAS.md",
     "Spring/Spring.md",
     "Spring/WebApplications/Servlet.md",
     "Spring/WebApplications/MultiThread.md",
     "Spring/WebApplications/HTMLHTTPAPI.md",
-    "README.md",
     "Spring/assets/html2.png",
     "Spring/assets/html1.png",
     "Spring/assets/multi2.png",
@@ -186,9 +202,6 @@
     "Spring",
     "GoogleCloud/Core.md",
     "GoogleCloud/Core/ResourcesAndAccess.md",
-    "GoogleCloud/Core/Storage.md",
-    "GoogleCloud/Overview.md",
-    "GoogleCloud/Core/Storage/Storage.md",
     "GoogleCloud/Core/Storage",
     "GoogleCloud/Core/untitled folder",
     "GoogleCloud/Core/VM",
