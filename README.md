@@ -59,11 +59,11 @@
 
 ### Solutions Architectures
 
-- [Serverless Application](https://github.com/seungwonbased/TIL/blob/mainAWS/SolutionsArchitectures/MyTodoList.md)
-- [Stateless Application](https://github.com/seungwonbased/TIL/blob/mainAWS/SolutionsArchitectures/WhatIsTheTime.com.md)
-- [Stateful Application - 1](https://github.com/seungwonbased/TIL/blob/mainAWS/SolutionsArchitectures/MyWordPress.com.md)
-- [Stateful Application - 2](https://github.com/seungwonbased/TIL/blob/mainAWS/SolutionsArchitectures/MyClothes.com.md)
-- [Instantiating Applications Quickly](https://github.com/seungwonbased/TIL/blob/mainAWS/SolutionsArchitectures/InstantiatingApplicationsQuickly.md)
+- [Serverless Application - 1](https://github.com/seungwonbased/TIL/blob/main/AWS/SolutionsArchitectures/MyTodoList.md)
+- [Stateless Application](https://github.com/seungwonbased/TIL/blob/main/AWS/SolutionsArchitectures/WhatIsTheTime.com.md)
+- [Stateful Application - 1](https://github.com/seungwonbased/TIL/blob/main/AWS/SolutionsArchitectures/MyWordPress.com.md)
+- [Stateful Application - 2](https://github.com/seungwonbased/TIL/blob/main/AWS/SolutionsArchitectures/MyClothes.com.md)
+- [Instantiating Applications Quickly](https://github.com/seungwonbased/TIL/blob/main/AWS/SolutionsArchitectures/InstantiatingApplicationsQuickly.md)
 
 ### Storage
 
