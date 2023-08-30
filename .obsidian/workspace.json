@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "GoogleCloud/Core/Storage/Storage.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "GoogleCloud/Core/Storage/Storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "GoogleCloud/Core/Storage/Storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "GoogleCloud/Core/Storage/Storage.md"
               }
             }
           }
@@ -148,51 +148,52 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
-    "AWS/Database/ETC.md",
-    "AWS/assets/dbetc.png",
-    "AWS/Database/RDS&Aurora.md",
-    "AWS/Storage/S3.md",
-    "AWS/Database/DynamoDB.md",
-    "AWS/Database/ElastiCache.md",
-    "AWS/Database/ChoosingTheRightDatabase.md",
-    "AWS/GlobalInfra/GlobalInfra.md",
-    "AWS/SolutionsArchitectures/SoftwareUpdatesOffloading.md",
-    "AWS/assets/suo2.png",
-    "AWS/assets/suo1.png",
-    "AWS/suo2.png",
-    "AWS/suo1.png",
-    "AWS/SolutionsArchitectures/MicroService.md",
-    "README.md",
-    "AWS/assets/micro1.png",
-    "AWS/SolutionsArchitectures/MyBlog.com.md",
-    "AWS/SolutionsArchitectures/InstantiatingApplicationsQuickly.md",
-    "AWS/assets/myb6.png",
-    "AWS/assets/myb5.png",
-    "AWS/assets/myb4.png",
-    "AWS/assets/myb3.png",
-    "AWS/SolutionsArchitectures/MyClothes.com.md",
-    "AWS/SolutionsArchitectures/MyTodoList.md",
-    "AWS/SolutionsArchitectures/MyWordPress.com.md",
-    "AWS/SolutionsArchitectures/WhatIsTheTime.com.md",
-    "AWS/Security/Cognito.md",
-    "AWS/Security/IAM.md",
-    "AWS/Orchestration/StepFunctions.md",
-    "AWS/Orchestration/MQ.md",
-    "AWS/Orchestration",
-    "AWS/NetworkingContentDelivery/APIGateway.md",
-    "AWS/Compute/Lambda.md",
-    "AWS/Container/ECREKSAppRunner.md",
-    "AWS/Container/ECS.md",
-    "AWS/Compute/EC2.md",
-    "AWS/Container",
-    "AWS/IntegrationMessaging",
-    "AWS/Storage/Untitled",
-    "AWS/SolutionsArchitectures",
-    "AWS/NetworkingContentDelivery",
-    "AWS/Database",
-    "Untitled.canvas",
-    "IAM (Identity and Access Management) 9caa549e09e94b0eb5de286de259177f",
-    "AWS/Security",
-    "AWS/Storage"
+    "GoogleCloud/assets/cst7.png",
+    "GoogleCloud/assets/cst6.png",
+    "GoogleCloud/assets/cst5.png",
+    "GoogleCloud/assets/cst4.png",
+    "GoogleCloud/assets/cst3.png",
+    "GoogleCloud/assets/cst2.png",
+    "GoogleCloud/assets/cst1.png",
+    "GoogleCloud/Core/Storage.md",
+    "GoogleCloud/Core/Storage/Storage.md",
+    "GoogleCloud/Core/Storage/SQL.md",
+    "GoogleCloud/Core/Storage/Spanner.md",
+    "GoogleCloud/assets/sql2.png",
+    "GoogleCloud/assets/sql1.png",
+    "GoogleCloud/assets/span3.png",
+    "GoogleCloud/assets/span2.png",
+    "GoogleCloud/Core/Storage/Firestore.md",
+    "GoogleCloud/Core/Storage/Bigtable.md",
+    "GoogleCloud/Core/Storage/Filestore.md",
+    "GoogleCloud/Core/VM/NetworkArchi.md",
+    "GoogleCloud/Core/VM/IP.md",
+    "GoogleCloud/Core/ResourcesAndAccess.md",
+    "GoogleCloud/Core/Introducing.md",
+    "GoogleCloud/Core/VirtualMachines.md",
+    "GoogleCloud/Core.md",
+    "GoogleCloud/Core/Storage/Storage e0fbc27f41734fab92525effeedf5790.md",
+    "GoogleCloud/Core/Storage/Memorystore.md",
+    "GoogleCloud/Core/Storage/Cloud Storage e0fbc27f41734fab92525effeedf5790.md",
+    "GoogleCloud/Core/Storage/Cloud SQL aaf891dfb77b442aa91b528d107d461b.md",
+    "GoogleCloud/Core/Storage/Cloud Spanner 6b22f3aa54f546a893f7f5cdbad5af1b.md",
+    "GoogleCloud/Core/Storage/Cloud Memorystore 78f44ca2103f47cb91776e4824c039f8.md",
+    "GoogleCloud/Core/Storage/Cloud Firestore e596365050fa460289d6e4088112977f.md",
+    "GoogleCloud/Core/Storage/Cloud Filestore 119dbe930767425c923ea9394cde0b47.md",
+    "GoogleCloud/Core/Storage/Cloud Bigtable d919e90fcfe64202844d5b56a5ee3c0a.md",
+    "GoogleCloud/Core/Storage",
+    "GoogleCloud/Core/untitled folder",
+    "GoogleCloud/Core/VM/ImageDisk.md",
+    "GoogleCloud/Core/VM/GeneralCompute.md",
+    "GoogleCloud/Core/VM/SpecialComputing.md",
+    "GoogleCloud/Core/VM",
+    "GoogleCloud/Core/ResourceAccess",
+    "GoogleCloud/Core/Introducing",
+    "Identity and Access Management bf848391028d4d5d949e660fbedc116b",
+    "GoogleCloud/Core",
+    "Untitled",
+    "GoogleCloud/ElasticGoogleCloudInfrastructureScalingAndAu 69156de9750747239c580b6a78ea4d6f/Network Interconnect 011d64cf9b084d4c8edaad5b5c96ceed",
+    "GoogleCloud/ElasticGoogleCloudInfrastructureScalingAndAu 69156de9750747239c580b6a78ea4d6f/Managed Services 4195f69571f045cdb2cddf6ed192fe7c",
+    "Untitled.canvas"
   ]
 }
