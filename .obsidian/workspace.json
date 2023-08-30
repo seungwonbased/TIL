@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AWS/DataAnalytics/OpenSearch.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -97,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/DataAnalytics/Redshift.md",
+                "file": "AWS/DataAnalytics/OpenSearch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/DataAnalytics/Redshift.md",
+                "file": "AWS/DataAnalytics/OpenSearch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/DataAnalytics/Redshift.md"
+                "file": "AWS/DataAnalytics/OpenSearch.md"
               }
             }
           }
@@ -158,14 +160,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d7433e6532dfaaa2",
+  "active": "fefd5916d75c8df7",
   "lastOpenFiles": [
+    "AWS/assets/oser3.png",
+    "AWS/assets/oser2.png",
+    "AWS/assets/oser1.png",
+    "AWS/DataAnalytics/Redshift.md",
+    "AWS/DataAnalytics/OpenSearch.md",
+    "README.md",
     "AWS/assets/reds4.png",
     "AWS/assets/reds3.png",
     "AWS/assets/reds2.png",
     "AWS/assets/reds1.png",
-    "README.md",
-    "AWS/DataAnalytics/Redshift.md",
     "AWS/DataAnalytics/Athena.md",
     "AWS/assets/athe2.png",
     "AWS/Database/ElastiCache.md",
@@ -183,9 +189,6 @@
     "GoogleCloud/Core/Storage/Storage.md",
     "GoogleCloud/assets/cst7.png",
     "GoogleCloud/assets/cst6.png",
-    "GoogleCloud/assets/cst5.png",
-    "GoogleCloud/assets/cst4.png",
-    "GoogleCloud/assets/cst3.png",
     "GoogleCloud/Core/Storage/SQL.md",
     "GoogleCloud/Core/Storage/Spanner.md",
     "GoogleCloud/Core/Storage/Firestore.md",
@@ -197,7 +200,6 @@
     "GoogleCloud/Core/VirtualMachines.md",
     "GoogleCloud/Core/Storage/Storage e0fbc27f41734fab92525effeedf5790.md",
     "GoogleCloud/Core/Storage/Memorystore.md",
-    "GoogleCloud/Core/Storage/Cloud Storage e0fbc27f41734fab92525effeedf5790.md",
     "GoogleCloud/Core/Storage",
     "GoogleCloud/Core/untitled folder",
     "GoogleCloud/Core/VM",
