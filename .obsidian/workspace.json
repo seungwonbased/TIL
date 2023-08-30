@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/DataAnalytics/LakeFormation.md",
+                "file": "AWS/DataAnalytics/KinesisDataAnalytics.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 206.5,
     "collapsed": true
   },
   "right": {
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/DataAnalytics/LakeFormation.md",
+                "file": "AWS/DataAnalytics/KinesisDataAnalytics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/DataAnalytics/LakeFormation.md",
+                "file": "AWS/DataAnalytics/KinesisDataAnalytics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/DataAnalytics/LakeFormation.md"
+                "file": "AWS/DataAnalytics/KinesisDataAnalytics.md"
               }
             }
           }
@@ -162,11 +162,14 @@
   },
   "active": "fefd5916d75c8df7",
   "lastOpenFiles": [
+    "AWS/assets/knda2.png",
+    "AWS/assets/knda1.png",
+    "AWS/DataAnalytics/Redshift.md",
+    "AWS/DataAnalytics/KinesisDataAnalytics.md",
+    "README.md",
+    "AWS/DataAnalytics/LakeFormation.md",
     "AWS/assets/lake2.png",
     "AWS/assets/lake1.png",
-    "AWS/DataAnalytics/Redshift.md",
-    "AWS/DataAnalytics/LakeFormation.md",
-    "README.md",
     "AWS/DataAnalytics/OpenSearch.md",
     "AWS/DataAnalytics/Glue.md",
     "AWS/assets/glue3.png",
@@ -178,8 +181,6 @@
     "AWS/DataAnalytics/EMR.md",
     "AWS/assets/oser3.png",
     "AWS/assets/oser2.png",
-    "AWS/assets/oser1.png",
-    "AWS/assets/reds4.png",
     "AWS/DataAnalytics/Athena.md",
     "AWS/Database/ElastiCache.md",
     "AWS/Database/ETC.md",
@@ -199,7 +200,6 @@
     "GoogleCloud/Core/Storage/Bigtable.md",
     "GoogleCloud/Core/Storage/Filestore.md",
     "GoogleCloud/Core/VM/NetworkArchi.md",
-    "GoogleCloud/Core/VM/IP.md",
     "GoogleCloud/Core/Storage",
     "GoogleCloud/Core/untitled folder",
     "GoogleCloud/Core/VM",
