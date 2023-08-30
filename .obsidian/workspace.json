@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/SolutionsArchitectures/SoftwareUpdatesOffloading.md",
+                "file": "AWS/Database/ETC.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/SolutionsArchitectures/SoftwareUpdatesOffloading.md",
+                "file": "AWS/Database/ETC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/SolutionsArchitectures/SoftwareUpdatesOffloading.md",
+                "file": "AWS/Database/ETC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/SolutionsArchitectures/SoftwareUpdatesOffloading.md"
+                "file": "AWS/Database/ETC.md"
               }
             }
           }
@@ -149,12 +148,20 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
+    "AWS/assets/dbetc.png",
+    "AWS/Database/RDS&Aurora.md",
+    "AWS/Database/ETC.md",
+    "AWS/Storage/S3.md",
+    "AWS/Database/DynamoDB.md",
+    "AWS/Database/ElastiCache.md",
+    "AWS/Database/ChoosingTheRightDatabase.md",
+    "AWS/GlobalInfra/GlobalInfra.md",
+    "AWS/SolutionsArchitectures/SoftwareUpdatesOffloading.md",
     "AWS/assets/suo2.png",
     "AWS/assets/suo1.png",
     "AWS/suo2.png",
     "AWS/suo1.png",
     "AWS/SolutionsArchitectures/MicroService.md",
-    "AWS/SolutionsArchitectures/SoftwareUpdatesOffloading.md",
     "README.md",
     "AWS/assets/micro1.png",
     "AWS/SolutionsArchitectures/MyBlog.com.md",
@@ -164,7 +171,6 @@
     "AWS/assets/myb4.png",
     "AWS/assets/myb3.png",
     "AWS/assets/myb2.png",
-    "AWS/assets/myb1.png",
     "AWS/SolutionsArchitectures/MyClothes.com.md",
     "AWS/SolutionsArchitectures/MyTodoList.md",
     "AWS/SolutionsArchitectures/MyWordPress.com.md",
@@ -175,18 +181,11 @@
     "AWS/Orchestration/MQ.md",
     "AWS/Orchestration",
     "AWS/NetworkingContentDelivery/APIGateway.md",
-    "AWS/Database/DynamoDB.md",
     "AWS/Compute/Lambda.md",
     "AWS/Container/ECREKSAppRunner.md",
     "AWS/Container/ECS.md",
     "AWS/Compute/EC2.md",
     "AWS/Container",
-    "AWS/Compute/ElasticBeanstalk.md",
-    "AWS/Compute/ElasticLoadBalancer.md",
-    "AWS/IntegrationMessaging/Kinesis.md",
-    "AWS/IntegrationMessaging/SNS.md",
-    "AWS/IntegrationMessaging/SQS.md",
-    "AWS/Storage/StorageGateway.md",
     "AWS/IntegrationMessaging",
     "AWS/Storage/Untitled",
     "AWS/SolutionsArchitectures",
