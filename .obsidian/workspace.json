@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Security/Cognito.md",
+                "file": "AWS/SolutionsArchitectures/MyTodoList.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Security/Cognito.md",
+                "file": "AWS/SolutionsArchitectures/MyTodoList.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Security/Cognito.md",
+                "file": "AWS/SolutionsArchitectures/MyTodoList.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Security/Cognito.md"
+                "file": "AWS/SolutionsArchitectures/MyTodoList.md"
               }
             }
           }
@@ -149,6 +149,16 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
+    "AWS/assets/mtl4.png",
+    "AWS/assets/mtl3.png",
+    "AWS/assets/mtl2.png",
+    "AWS/assets/mtl1.png",
+    "AWS/SolutionsArchitectures/MyClothes.com.md",
+    "AWS/SolutionsArchitectures/MyTodoList.md",
+    "AWS/SolutionsArchitectures/InstantiatingApplicationsQuickly.md",
+    "AWS/SolutionsArchitectures/MyWordPress.com.md",
+    "AWS/SolutionsArchitectures/WhatIsTheTime.com.md",
+    "AWS/Security/Cognito.md",
     "AWS/assets/cog3.png",
     "AWS/assets/cog2.png",
     "AWS/assets/cog1.png",
@@ -156,18 +166,13 @@
     "AWS/cog2.png",
     "AWS/cog1.png",
     "AWS/Security/IAM.md",
-    "AWS/Security/Cognito.md",
     "README.md",
     "AWS/Orchestration/StepFunctions.md",
     "AWS/assets/step1.png",
     "AWS/Orchestration/MQ.md",
     "AWS/Orchestration",
     "AWS/NetworkingContentDelivery/APIGateway.md",
-    "AWS/assets/apg2.png",
-    "AWS/assets/apg1.png",
     "AWS/Database/DynamoDB.md",
-    "AWS/assets/dnd6.png",
-    "AWS/assets/dnd5.png",
     "AWS/Compute/Lambda.md",
     "AWS/Container/ECREKSAppRunner.md",
     "AWS/Container/ECS.md",
@@ -175,10 +180,6 @@
     "AWS/Container",
     "AWS/Compute/ElasticBeanstalk.md",
     "AWS/Compute/ElasticLoadBalancer.md",
-    "AWS/SolutionsArchitectures/InstantiatingApplicationsQuickly.md",
-    "AWS/SolutionsArchitectures/MyWordPress.com.md",
-    "AWS/SolutionsArchitectures/WhatIsTheTime.com.md",
-    "AWS/SolutionsArchitectures/MyClothes.com.md",
     "AWS/IntegrationMessaging/Kinesis.md",
     "AWS/IntegrationMessaging/SNS.md",
     "AWS/IntegrationMessaging/SQS.md",
@@ -187,7 +188,6 @@
     "AWS/Storage/StorageComparison.md",
     "AWS/Storage/SnowFamily.md",
     "AWS/Storage/FSx.md",
-    "Untitled.md",
     "AWS/Storage/Untitled",
     "AWS/SolutionsArchitectures",
     "AWS/NetworkingContentDelivery",

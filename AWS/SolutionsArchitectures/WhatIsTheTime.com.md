@@ -1,4 +1,4 @@
-# Solutions Architecture: WhatIsTheTime.com
+# Solutions Architectures: WhatIsTheTime.com
 
 ## Stateless Web App: WhatIsTheTime.com
 

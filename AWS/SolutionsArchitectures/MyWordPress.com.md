@@ -1,4 +1,4 @@
-# Solutions Architecture: MyWordPress.com
+# Solutions Architectures: MyWordPress.com
 ## Stateful Web App: MyWordPress.com
 
 - 상태 유지 웹 애플리케이션인 MyWordPress.com

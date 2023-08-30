@@ -1,4 +1,4 @@
-# Solutions Architecture: MyClothes.com
+# Solutions Architectures: MyClothes.com
 ## Stateful Web App: MyClothes.com
 
 -  상태 유지 웹 애플리케이션인 MyClothes.com
