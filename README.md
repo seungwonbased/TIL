@@ -24,6 +24,7 @@
 
 - [DynamoDB](https://github.com/seungwonbased/TIL/blob/main/AWS/Database/DynamoDB.md)
 - [ElastiCache](https://github.com/seungwonbased/TIL/blob/main/AWS/Database/ElastiCache.md)
+- [ETC](https://github.com/seungwonbased/TIL/blob/main/AWS/Database/ETC.md)
 - [RDS & Aurora](https://github.com/seungwonbased/TIL/blob/main/AWS/Database/RDS&Aurora.md)
 
 ### Integration & Messaging

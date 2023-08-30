@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Database/ETC.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Database/ETC.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Database/ETC.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Database/ETC.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
+    "AWS/Database/ETC.md",
     "AWS/assets/dbetc.png",
     "AWS/Database/RDS&Aurora.md",
-    "AWS/Database/ETC.md",
     "AWS/Storage/S3.md",
     "AWS/Database/DynamoDB.md",
     "AWS/Database/ElastiCache.md",
@@ -170,7 +170,6 @@
     "AWS/assets/myb5.png",
     "AWS/assets/myb4.png",
     "AWS/assets/myb3.png",
-    "AWS/assets/myb2.png",
     "AWS/SolutionsArchitectures/MyClothes.com.md",
     "AWS/SolutionsArchitectures/MyTodoList.md",
     "AWS/SolutionsArchitectures/MyWordPress.com.md",
