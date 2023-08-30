@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AWS/DataAnalytics/Athena.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "AWS/DataAnalytics/Athena.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "AWS/DataAnalytics/Athena.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "AWS/DataAnalytics/Athena.md"
               }
             }
           }
@@ -148,12 +149,19 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
+    "AWS/assets/athe2.png",
+    "AWS/Database/ElastiCache.md",
+    "AWS/Database/ETC.md",
+    "AWS/Database/DynamoDB.md",
+    "AWS/Database/ChoosingTheRightDatabase.md",
+    "AWS/DataAnalytics/Athena.md",
+    "README.md",
+    "AWS/DataAnalytics",
     "GoogleCloud/Core/ResourceAccess/IAM.md",
     "Spring",
     "GoogleCloud/Core.md",
     "GoogleCloud/Core/ResourcesAndAccess.md",
     "GoogleCloud/Core/Storage.md",
-    "README.md",
     "GoogleCloud/Overview.md",
     "GoogleCloud/assets/overview.png",
     "GoogleCloud/Core/Storage/Storage.md",
@@ -179,21 +187,14 @@
     "GoogleCloud/Core/Storage/Memorystore.md",
     "GoogleCloud/Core/Storage/Cloud Storage e0fbc27f41734fab92525effeedf5790.md",
     "GoogleCloud/Core/Storage/Cloud SQL aaf891dfb77b442aa91b528d107d461b.md",
-    "GoogleCloud/Core/Storage/Cloud Spanner 6b22f3aa54f546a893f7f5cdbad5af1b.md",
-    "GoogleCloud/Core/Storage/Cloud Memorystore 78f44ca2103f47cb91776e4824c039f8.md",
-    "GoogleCloud/Core/Storage/Cloud Firestore e596365050fa460289d6e4088112977f.md",
-    "GoogleCloud/Core/Storage/Cloud Filestore 119dbe930767425c923ea9394cde0b47.md",
-    "GoogleCloud/Core/Storage/Cloud Bigtable d919e90fcfe64202844d5b56a5ee3c0a.md",
     "GoogleCloud/Core/Storage",
     "GoogleCloud/Core/untitled folder",
-    "GoogleCloud/Core/VM/ImageDisk.md",
     "GoogleCloud/Core/VM",
     "GoogleCloud/Core/ResourceAccess",
     "GoogleCloud/Core/Introducing",
     "Identity and Access Management bf848391028d4d5d949e660fbedc116b",
     "GoogleCloud/Core",
     "GoogleCloud/ElasticGoogleCloudInfrastructureScalingAndAu 69156de9750747239c580b6a78ea4d6f/Network Interconnect 011d64cf9b084d4c8edaad5b5c96ceed",
-    "GoogleCloud/ElasticGoogleCloudInfrastructureScalingAndAu 69156de9750747239c580b6a78ea4d6f/Managed Services 4195f69571f045cdb2cddf6ed192fe7c",
     "Untitled.canvas"
   ]
 }

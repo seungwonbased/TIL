@@ -20,6 +20,10 @@
 - [Elastic Beanstalk](https://github.com/seungwonbased/TIL/blob/main/AWS/Compute/ElasticBeanstalk.md)
 - [Lambda](https://github.com/seungwonbased/TIL/blob/main/AWS/Compute/Lambda.md)
 
+### Data & Analytics
+
+- [Athena](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/Athena.md)
+
 ### Database
 
 - [DynamoDB](https://github.com/seungwonbased/TIL/blob/main/AWS/Database/DynamoDB.md)
