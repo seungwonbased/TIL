@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GoogleCloud/Core/Storage/Storage.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GoogleCloud/Core/Storage/Storage.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GoogleCloud/Core/Storage/Storage.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GoogleCloud/Core/Storage/Storage.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,6 +148,10 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
+    "GoogleCloud/Overview.md",
+    "GoogleCloud/assets/overview.png",
+    "README.md",
+    "GoogleCloud/Core/Storage/Storage.md",
     "GoogleCloud/assets/cst7.png",
     "GoogleCloud/assets/cst6.png",
     "GoogleCloud/assets/cst5.png",
@@ -156,13 +160,10 @@
     "GoogleCloud/assets/cst2.png",
     "GoogleCloud/assets/cst1.png",
     "GoogleCloud/Core/Storage.md",
-    "GoogleCloud/Core/Storage/Storage.md",
     "GoogleCloud/Core/Storage/SQL.md",
     "GoogleCloud/Core/Storage/Spanner.md",
     "GoogleCloud/assets/sql2.png",
     "GoogleCloud/assets/sql1.png",
-    "GoogleCloud/assets/span3.png",
-    "GoogleCloud/assets/span2.png",
     "GoogleCloud/Core/Storage/Firestore.md",
     "GoogleCloud/Core/Storage/Bigtable.md",
     "GoogleCloud/Core/Storage/Filestore.md",
@@ -184,8 +185,6 @@
     "GoogleCloud/Core/Storage",
     "GoogleCloud/Core/untitled folder",
     "GoogleCloud/Core/VM/ImageDisk.md",
-    "GoogleCloud/Core/VM/GeneralCompute.md",
-    "GoogleCloud/Core/VM/SpecialComputing.md",
     "GoogleCloud/Core/VM",
     "GoogleCloud/Core/ResourceAccess",
     "GoogleCloud/Core/Introducing",
