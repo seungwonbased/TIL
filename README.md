@@ -59,12 +59,13 @@
 
 ### Solutions Architectures
 
+- [Instantiating Applications Quickly](https://github.com/seungwonbased/TIL/blob/main/AWS/SolutionsArchitectures/InstantiatingApplicationsQuickly.md)
+- [Micro Service Architecture](https://github.com/seungwonbased/TIL/blob/main/AWS/SolutionsArchitectures/MicroService.md)
 - [Serverless Application - 1](https://github.com/seungwonbased/TIL/blob/main/AWS/SolutionsArchitectures/MyTodoList.md)
 - [Serverless Application - 2](https://github.com/seungwonbased/TIL/blob/main/AWS/SolutionsArchitectures/MyBlog.com.md)
 - [Stateless Application](https://github.com/seungwonbased/TIL/blob/main/AWS/SolutionsArchitectures/WhatIsTheTime.com.md)
 - [Stateful Application - 1](https://github.com/seungwonbased/TIL/blob/main/AWS/SolutionsArchitectures/MyWordPress.com.md)
 - [Stateful Application - 2](https://github.com/seungwonbased/TIL/blob/main/AWS/SolutionsArchitectures/MyClothes.com.md)
-- [Instantiating Applications Quickly](https://github.com/seungwonbased/TIL/blob/main/AWS/SolutionsArchitectures/InstantiatingApplicationsQuickly.md)
 
 ### Storage
 
