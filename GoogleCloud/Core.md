@@ -2,7 +2,7 @@
 
 - [Introducing Google Cloud](https://github.com/seungwonbased/TIL/blob/main/GoogleCloud/Core/Introducing.md)
 
-- [Resources and Access in the Cloud](https://github.com/seungwonbased/TIL/blob/main/GoogleCloud/Core/ResourceAndAccess.md)
+- [Resources and Access in the Cloud](https://github.com/seungwonbased/TIL/blob/main/GoogleCloud/Core/ResourceAccess.md)
 
 - [Virtual Machines and Networks in the Cloud](https://github.com/seungwonbased/TIL/blob/main/GoogleCloud/Core/VirtualMachines.md)
 

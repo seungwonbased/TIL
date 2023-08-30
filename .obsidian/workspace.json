@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "GoogleCloud/Core.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "GoogleCloud/Core.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "GoogleCloud/Core.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "GoogleCloud/Core.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "d7433e6532dfaaa2",
   "lastOpenFiles": [
+    "README.md",
     "GoogleCloud/Overview.md",
     "GoogleCloud/assets/overview.png",
-    "README.md",
     "GoogleCloud/Core/Storage/Storage.md",
     "GoogleCloud/assets/cst7.png",
     "GoogleCloud/assets/cst6.png",
