@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/DataAnalytics/EMR.md",
+                "file": "AWS/DataAnalytics/QuickSight.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/DataAnalytics/EMR.md",
+                "file": "AWS/DataAnalytics/QuickSight.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/DataAnalytics/EMR.md",
+                "file": "AWS/DataAnalytics/QuickSight.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/DataAnalytics/EMR.md"
+                "file": "AWS/DataAnalytics/QuickSight.md"
               }
             }
           }
@@ -162,13 +162,16 @@
   },
   "active": "fefd5916d75c8df7",
   "lastOpenFiles": [
+    "AWS/assets/qus2.png",
+    "AWS/assets/qus1.png",
+    "AWS/DataAnalytics/Redshift.md",
+    "AWS/DataAnalytics/QuickSight.md",
     "README.md",
     "AWS/DataAnalytics/EMR.md",
     "AWS/DataAnalytics/OpenSearch.md",
     "AWS/assets/oser3.png",
     "AWS/assets/oser2.png",
     "AWS/assets/oser1.png",
-    "AWS/DataAnalytics/Redshift.md",
     "AWS/assets/reds4.png",
     "AWS/assets/reds3.png",
     "AWS/assets/reds2.png",
@@ -188,7 +191,6 @@
     "GoogleCloud/Overview.md",
     "GoogleCloud/assets/overview.png",
     "GoogleCloud/Core/Storage/Storage.md",
-    "GoogleCloud/assets/cst7.png",
     "GoogleCloud/Core/Storage/SQL.md",
     "GoogleCloud/Core/Storage/Spanner.md",
     "GoogleCloud/Core/Storage/Firestore.md",
@@ -198,8 +200,6 @@
     "GoogleCloud/Core/VM/IP.md",
     "GoogleCloud/Core/Introducing.md",
     "GoogleCloud/Core/VirtualMachines.md",
-    "GoogleCloud/Core/Storage/Storage e0fbc27f41734fab92525effeedf5790.md",
-    "GoogleCloud/Core/Storage/Memorystore.md",
     "GoogleCloud/Core/Storage",
     "GoogleCloud/Core/untitled folder",
     "GoogleCloud/Core/VM",
