@@ -151,3 +151,8 @@
 # Spring
 
 ### 웹 애플리케이션의 이해
+
+- [Web Server, Web Application Server](https://github.com/seungwonbased/TIL/blob/main/Spring/WebApplications/WSWAS.md)
+- [Servlet](https://github.com/seungwonbased/TIL/blob/main/Spring/WebApplications/Servlet.md)
+- [Multi Thread](https://github.com/seungwonbased/TIL/blob/main/Spring/WebApplications/MultiThread.md)
+- [HTML, HTTP API](https://github.com/seungwonbased/TIL/blob/main/Spring/WebApplications/HTMLHTTPAPI.md)

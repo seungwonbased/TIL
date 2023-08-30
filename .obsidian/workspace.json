@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5fea4d238a2e153c",
+        "id": "d8d1155552b2526b",
         "type": "tabs",
         "children": [
           {
-            "id": "d7433e6532dfaaa2",
+            "id": "919fe5f912d436ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/DataAnalytics/Redshift.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fefd5916d75c8df7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS/DataAnalytics/BigDataIngestionPipeline.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5,
-    "collapsed": true
+    "width": 206.5
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/DataAnalytics/BigDataIngestionPipeline.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/DataAnalytics/BigDataIngestionPipeline.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/DataAnalytics/BigDataIngestionPipeline.md"
+                "file": "README.md"
               }
             }
           }
@@ -160,28 +146,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fefd5916d75c8df7",
+  "active": "919fe5f912d436ed",
   "lastOpenFiles": [
-    "AWS/assets/bdpl1.png",
+    "Spring/WebApplications/WSWAS.md",
+    "Spring/Spring.md",
+    "Spring/WebApplications/Servlet.md",
+    "Spring/WebApplications/MultiThread.md",
+    "Spring/WebApplications/HTMLHTTPAPI.md",
+    "README.md",
+    "Spring/assets/html2.png",
+    "Spring/assets/html1.png",
+    "Spring/assets/multi2.png",
+    "Spring/assets/multi1.png",
+    "Spring/assets/servlet1.png",
+    "Spring/assets/wswas1.png",
+    "Spring/assets",
+    "Spring/WebApplications",
+    "AWS/MachineLearning",
     "AWS/DataAnalytics/Redshift.md",
     "AWS/DataAnalytics/BigDataIngestionPipeline.md",
-    "README.md",
+    "AWS/assets/bdpl1.png",
     "AWS/DataAnalytics/MSK.md",
     "AWS/assets/msk2.png",
     "AWS/assets/msk1.png",
     "AWS/DataAnalytics/KinesisDataAnalytics.md",
     "AWS/assets/knda2.png",
-    "AWS/assets/knda1.png",
     "AWS/DataAnalytics/LakeFormation.md",
-    "AWS/assets/lake2.png",
-    "AWS/assets/lake1.png",
     "AWS/DataAnalytics/OpenSearch.md",
     "AWS/DataAnalytics/Glue.md",
-    "AWS/assets/glue3.png",
-    "AWS/assets/glue2.png",
-    "AWS/assets/glue1.png",
     "AWS/DataAnalytics/QuickSight.md",
-    "AWS/assets/qus2.png",
     "AWS/DataAnalytics/EMR.md",
     "AWS/DataAnalytics/Athena.md",
     "AWS/Database/ElastiCache.md",
@@ -196,18 +189,11 @@
     "GoogleCloud/Core/Storage.md",
     "GoogleCloud/Overview.md",
     "GoogleCloud/Core/Storage/Storage.md",
-    "GoogleCloud/Core/Storage/SQL.md",
-    "GoogleCloud/Core/Storage/Spanner.md",
-    "GoogleCloud/Core/Storage/Firestore.md",
-    "GoogleCloud/Core/Storage/Bigtable.md",
     "GoogleCloud/Core/Storage",
     "GoogleCloud/Core/untitled folder",
     "GoogleCloud/Core/VM",
     "GoogleCloud/Core/ResourceAccess",
     "GoogleCloud/Core/Introducing",
-    "Identity and Access Management bf848391028d4d5d949e660fbedc116b",
-    "GoogleCloud/Core",
-    "GoogleCloud/ElasticGoogleCloudInfrastructureScalingAndAu 69156de9750747239c580b6a78ea4d6f/Network Interconnect 011d64cf9b084d4c8edaad5b5c96ceed",
     "Untitled.canvas"
   ]
 }
