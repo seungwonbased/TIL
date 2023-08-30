@@ -23,6 +23,7 @@
 ### Data & Analytics
 
 - [Athena](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/Athena.md)
+- [Big Data Ingestion Pipeline](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/BigDataIngestionPipeline.md)
 - [EMR](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/EMR.md)
 - [Glue](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/Glue.md)
 - [Kinesis Data Analytics](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/KinesisDataAnalytics.md)

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/DataAnalytics/MSK.md",
+                "file": "AWS/DataAnalytics/BigDataIngestionPipeline.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/DataAnalytics/MSK.md",
+                "file": "AWS/DataAnalytics/BigDataIngestionPipeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/DataAnalytics/MSK.md",
+                "file": "AWS/DataAnalytics/BigDataIngestionPipeline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/DataAnalytics/MSK.md"
+                "file": "AWS/DataAnalytics/BigDataIngestionPipeline.md"
               }
             }
           }
@@ -162,11 +162,13 @@
   },
   "active": "fefd5916d75c8df7",
   "lastOpenFiles": [
+    "AWS/assets/bdpl1.png",
+    "AWS/DataAnalytics/Redshift.md",
+    "AWS/DataAnalytics/BigDataIngestionPipeline.md",
+    "README.md",
+    "AWS/DataAnalytics/MSK.md",
     "AWS/assets/msk2.png",
     "AWS/assets/msk1.png",
-    "AWS/DataAnalytics/Redshift.md",
-    "AWS/DataAnalytics/MSK.md",
-    "README.md",
     "AWS/DataAnalytics/KinesisDataAnalytics.md",
     "AWS/assets/knda2.png",
     "AWS/assets/knda1.png",
@@ -180,7 +182,6 @@
     "AWS/assets/glue1.png",
     "AWS/DataAnalytics/QuickSight.md",
     "AWS/assets/qus2.png",
-    "AWS/assets/qus1.png",
     "AWS/DataAnalytics/EMR.md",
     "AWS/DataAnalytics/Athena.md",
     "AWS/Database/ElastiCache.md",
@@ -199,7 +200,6 @@
     "GoogleCloud/Core/Storage/Spanner.md",
     "GoogleCloud/Core/Storage/Firestore.md",
     "GoogleCloud/Core/Storage/Bigtable.md",
-    "GoogleCloud/Core/Storage/Filestore.md",
     "GoogleCloud/Core/Storage",
     "GoogleCloud/Core/untitled folder",
     "GoogleCloud/Core/VM",
