@@ -23,6 +23,7 @@
 ### Data & Analytics
 
 - [Athena](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/Athena.md)
+- [Redshift](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/Redshift.md)
 
 ### Database
 
