@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/DataAnalytics/KinesisDataAnalytics.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/DataAnalytics/KinesisDataAnalytics.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/DataAnalytics/KinesisDataAnalytics.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/DataAnalytics/KinesisDataAnalytics.md"
+                "file": "README.md"
               }
             }
           }
@@ -162,10 +162,10 @@
   },
   "active": "fefd5916d75c8df7",
   "lastOpenFiles": [
+    "AWS/DataAnalytics/KinesisDataAnalytics.md",
     "AWS/assets/knda2.png",
     "AWS/assets/knda1.png",
     "AWS/DataAnalytics/Redshift.md",
-    "AWS/DataAnalytics/KinesisDataAnalytics.md",
     "README.md",
     "AWS/DataAnalytics/LakeFormation.md",
     "AWS/assets/lake2.png",
@@ -180,7 +180,6 @@
     "AWS/assets/qus1.png",
     "AWS/DataAnalytics/EMR.md",
     "AWS/assets/oser3.png",
-    "AWS/assets/oser2.png",
     "AWS/DataAnalytics/Athena.md",
     "AWS/Database/ElastiCache.md",
     "AWS/Database/ETC.md",

@@ -25,7 +25,7 @@
 - [Athena](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/Athena.md)
 - [EMR](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/EMR.md)
 - [Glue](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/Glue.md)
-- [Kinesis Data Analytics for SQL application](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/KinesisDataAnalytics.md)
+- [Kinesis Data Analytics](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/KinesisDataAnalytics.md)
 - [Lake Formation](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/LakeFormation.md)
 - [OpenSearch](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/OpenSearch.md) 
 - [QuickSight](https://github.com/seungwonbased/TIL/blob/main/AWS/DataAnalytics/QuickSight.md)
