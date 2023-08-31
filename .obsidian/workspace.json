@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Security/IAM.md",
+                "file": "AWS/Security/ControlTower.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65ea1677a5a130fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS/Database/DynamoDB.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Security/IAM.md",
+                "file": "AWS/Security/ControlTower.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Security/IAM.md",
+                "file": "AWS/Security/ControlTower.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Security/IAM.md"
+                "file": "AWS/Security/ControlTower.md"
               }
             }
           }
@@ -149,6 +161,18 @@
   },
   "active": "2652f7470e6e250a",
   "lastOpenFiles": [
+    "AWS/assets/mad3.png",
+    "AWS/assets/mad2.png",
+    "AWS/assets/mad1.png",
+    "AWS/assets/act1.png",
+    "AWS/Database/DynamoDB.md",
+    "AWS/Security/ControlTower.md",
+    "README.md",
+    "AWS/Directory/ActiveDirectory.md",
+    "AWS/Security/IAM.md",
+    "AWS/Directory",
+    "Untitled 1",
+    "Untitled",
     "AWS/assets/iam17.png",
     "AWS/assets/iam16.png",
     "AWS/assets/iam15.png",
@@ -156,18 +180,12 @@
     "AWS/assets/iam13.png",
     "AWS/assets/iam12.png",
     "AWS/assets/iam11.png",
-    "AWS/assets/iam10.png",
-    "AWS/assets/iam9.png",
-    "AWS/assets/iam8.png",
-    "AWS/assets/iam7.png",
     "Portfolio/READMETemplate.md",
-    "AWS/Security/IAM.md",
     "AWS/Security/Cognito.md",
     "Spring/SpringContainerBean/SpringContainer.md",
     "ToBeContinued.md",
     "Portfolio",
     "Spring/SpringInitializr/SpringInitializr.md",
-    "README.md",
     "Spring/Logging/Logging.md",
     "Spring/Logging",
     "Spring/SpringContainerBean/BeanLifecycleCallback.md",
@@ -188,13 +206,7 @@
     "AWS/MachineLearning/SageMaker.md",
     "AWS/Monitoring",
     "AWS/MachineLearning/Summary.md",
-    "AWS/MachineLearning/Textract.md",
-    "AWS/MachineLearning/Personalize.md",
-    "AWS/MachineLearning/Kendra.md",
     "Spring/assets",
-    "Spring/WebApplications",
-    "AWS/MachineLearning",
-    "AWS/DataAnalytics",
     "Untitled.canvas"
   ]
 }
