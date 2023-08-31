@@ -48,8 +48,6 @@
 
 ### Machine Learning
 
-- #### [Summary](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Summary.md)
-
 - [Comprehend](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Comprehend.md)
 - [Forecast](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Forecast.md)
 - [Kendra](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Kendra.md)
@@ -61,6 +59,8 @@
 - [Textract](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Textract.md)
 - [Transcribe](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Transcribe.md)
 - [Translate](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Translate.md)
+
+- #### [Summary](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Summary.md)
 
 ### Networking & Content Delivery
 
