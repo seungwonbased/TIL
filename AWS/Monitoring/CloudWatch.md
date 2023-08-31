@@ -205,3 +205,77 @@
 - 경보 알림을 시험해 보고 싶다면 set-alarm-state라는 CLI 호출을 사용하면 됨
 	- 이것은 특정 임계값이 도달하지 않아도 경보를 트리거하고 싶을 때 유용
 	- 본인의 인프라 내에서 경보가 올바르게 트리거되어 제대로 된 결과를 내는지 여부를 알 수 있음
+
+## CloudWatch Insights
+### CloudWatch Container Insights
+
+![cwa](https://github.com/seungwonbased/TIL/blob/main/AWS/assets/cwa10.png)
+
+- CloudWatch Container Insights
+- 이름에서 알 수 있듯이 컨테이너로부터 지표와 로그를 수집, 집계, 요약하는 서비스
+- Amazon ECS나 Amazon EKS, EC2의 Kubernetes 플랫폼에 직접 실행하는 컨테이너에서 사용할 수 있음
+	- ECS와 EKS의 Fargate에 배포된 컨테이너에서도 사용할 수 있음
+- CloudWatch Container Insights를 사용하면 컨테이너로부터 지표와 로그를 손쉽게 추출해서 CloudWatch에 세분화된 대시보드를 만들 수 있음
+- CloudWatch Container Insights를 Amazon EKS나 Kubernetes EC2에서 실행되는 Kubernetes에서 사용할 경우 컨테이너화된 버전의 CloudWatch 에이전트를 사용해야 컨테이너를 찾을 수 있음
+- 이 첫 번째 유형을 잘 기억
+
+### CloudWatch Lambda Insights
+
+![cwa](https://github.com/seungwonbased/TIL/blob/main/AWS/assets/cwa11.png)
+
+- CloudWatch Lambda Insights
+- AWS Lambda에서 실행되는 서버리스 애플리케이션을 위한 모니터링과 트러블 슈팅 솔루션
+- 이 역시도 CPU 시간, 메모리 디스크, 네트워크, 콜드 스타트나 Lambda 작업자 종료와 같은 정보를 포함한 시스템 수준의 지표를 수집, 집계, 요약
+- Lambda 함수를 위해 Lambda 계층으로 제공됨
+- 자세히는 몰라도 되고 Lambda 함수 옆에서 실행되며 Lambda Insights라는 대시보드를 생성해 Lambda 함수의 성능을 모니터링한다는 것만 알면 됨
+	- AWS Lambda에서 실행되는 서버리스 애플리케이션의 세부 모니터링이 필요할 때 사용
+
+### CloudWatch Contributor Insights
+
+![cwa](https://github.com/seungwonbased/TIL/blob/main/AWS/assets/cwa12.png)
+
+- CloudWatch Contributor Insights
+- 기고자(Contributor) 데이터를 표시하는 시계열 데이터를 생성하고 로그를 분석하는 서비스
+- 예를 들어 상위 N개의 기고자나 총 고유 기고자 수 및 사용량을 볼 수 있음
+- 이 서비스는 네트워크의 상위 대화자를 찾고 시스템 성능에 영향을 미치는 대상을 파악할 수 있음
+- VPC 로그, DNS 로그 등 AWS가 생성한 모든 로그에서 작동
+- 예시
+	- 불량 호스트를 식별해 낼 수 있음
+	- 네트워크 로그나 VPC 로그를 확인해서 사용량이 가장 많은 네트워크 사용자를 찾을 수 있음
+	- DNS 로그에서는 오류를 가장 많이 생성하는 URL을 찾을 수 있음
+- 사용량이 많은 네트워크 사용자를 식별하는 방법
+	- 모든 네트워크 요청에 대해 VPC 내에서 생성되는 로그인 VPC 플로우 로그가 CloudWatch Logs로 전달되고, CloudWatch Contributor Insights가 분석
+	- 이를 통해 VPC에 트래픽을 생성하는 상위 10개의 IP 주소를 찾고 좋은 사용자인지 나쁜 사용자인지 판단
+- 상위 10개의 기고자 또는 비슷한 걸 본다면 Contributor Insights를 떠올리세요
+	- 로그를 통해 상위 대상을 찾을 수 있음
+- 규칙은 직접 생성하거나 AWS가 생성한 간단한 규칙을 활용할 수 있음
+- 백그라운드에서는 CloudWatch Logs가 활용됨
+- 또한 내장된 규칙이 있어 다른 AWS 서비스에서 가져온 지표도 분석할 수 있음
+
+### CloudWatch Application Insights
+
+- CloudWatch Application Insights
+- 모니터링하는 애플리케이션의 잠재적인 문제와 진행 중인 문제를 분리할 수 있도록 자동화된 대시보드를 제공
+- Java나 .NET Microsoft IIS 웹 서버나 특정 데이터베이스를 선택해 선택한 기술로만 애플리케이션을 실행할 수 있음
+- EBS, RDC, ELB ASG, Lambda, SQS, DynamoDB, S3 버킷과 같은 AWS 리소스에 연결됨
+- ECS 클러스터 EKS 클러스터와 SNS 주제 API Gateway도 있음
+- 애플리케이션에 문제가 있는 경우 CloudWatch Application Insights는 자동으로 대시보드를 생성하여 서비스의 잠재적인 문제를 보여 줌
+- 자동화된 대시보드를 생성할 때 백그라운드에서는 내부에서 SageMaker 머신 러닝 서비스가 사용됨
+	- 이를 통해 애플리케이션 상태 가시성을 더 높일 수 있음
+	- 따라서 트러블 슈팅이나 애플리케이션을 보수하는 시간이 줄어듬
+	- AWS의 다른 리소스나 서비스를 사용하는 애플리케이션에 문제가 발생하면 자동으로 CloudWatch Applications Insights 대시보드에 표시해 주기 때문
+- 발견된 문제와 알림은 모두 Amazon EventBridge와 SSM OpsCenter로 전달됨
+	- 애플리케이션에서 문제가 탐지되면 알림이 올 것임
+
+### CloudWatch Insights and Operational Visibility
+
+- 이 서비스들은 개괄적으로만 알면 됨
+- CloudWatch Container Insights
+	- ECS, EKS, EC2의 Kubernetes, Fargate로부터 오는 로그와 지표를 위한 것
+	- Kubernetes를 사용한다면 실행할 에이전트가 필요
+- CloudWatch Lambda Insights
+	- AWS Lambda에서 실행되는 서버리스 애플리케이션의 트러블 슈팅을 위한 세부 지표를 제공
+- CloudWatch Contributors Insights
+	- CloudWatch Logs를 통해 상위 N개의 기고자를 찾음
+- CloudWatch Application Insights
+	- 자동화된 대시보드를 생성해 사용하는 애플리케이션과 관련된 AWS 서비스나 애플리케이션의 트러블 슈팅을 도움

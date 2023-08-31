@@ -63,6 +63,7 @@
 
 ### Monitoring, Audit and Performance
 
+- [CloudTrail](https://github.com/seungwonbased/TIL/blob/main/AWS/Monitoring/CloudTrail.md)
 - [CloudWatch](https://github.com/seungwonbased/TIL/blob/main/AWS/Monitoring/CloudWatch.md)
 - [EventBridge](https://github.com/seungwonbased/TIL/blob/main/AWS/Monitoring/EventBridge.md)
 

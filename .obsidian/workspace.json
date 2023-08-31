@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Monitoring/EventBridge.md",
+                "file": "AWS/Monitoring/CloudTrail.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Monitoring/EventBridge.md",
+                "file": "AWS/Monitoring/CloudTrail.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Monitoring/EventBridge.md",
+                "file": "AWS/Monitoring/CloudTrail.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Monitoring/EventBridge.md"
+                "file": "AWS/Monitoring/CloudTrail.md"
               }
             }
           }
@@ -161,20 +161,20 @@
   },
   "active": "919fe5f912d436ed",
   "lastOpenFiles": [
+    "AWS/Monitoring/CloudWatch.md",
+    "AWS/Monitoring/CloudTrail.md",
+    "README.md",
+    "AWS/Monitoring/EventBridge.md",
     "AWS/assets/aeb4.png",
     "AWS/assets/aeb3.png",
     "AWS/assets/aeb2.png",
     "AWS/assets/aeb1.png",
-    "AWS/Monitoring/CloudWatch.md",
-    "AWS/Monitoring/EventBridge.md",
-    "README.md",
     "AWS/assets/cwa9.png",
     "AWS/assets/cwa8.png",
     "AWS/assets/cwa7.png",
     "AWS/assets/cwa6.png",
     "AWS/assets/cwa5.png",
     "AWS/assets/cwa4.png",
-    "AWS/assets/cwa3.png",
     "AWS/MachineLearning/SageMaker.md",
     "AWS/Monitoring",
     "AWS/MachineLearning/Summary.md",
