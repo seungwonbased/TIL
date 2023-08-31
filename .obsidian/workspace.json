@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/MachineLearning/SageMaker.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AWS/Monitoring/CloudWatch.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,17 +158,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2652f7470e6e250a",
+  "active": "919fe5f912d436ed",
   "lastOpenFiles": [
+    "AWS/assets/cwa9.png",
+    "AWS/assets/cwa8.png",
+    "AWS/assets/cwa7.png",
+    "AWS/assets/cwa6.png",
+    "AWS/assets/cwa5.png",
+    "AWS/assets/cwa4.png",
+    "AWS/assets/cwa3.png",
+    "AWS/assets/cwa2.png",
+    "AWS/assets/cwa1.png",
+    "AWS/MachineLearning/SageMaker.md",
+    "AWS/Monitoring/CloudWatch.md",
+    "README.md",
+    "AWS/Monitoring",
     "AWS/assets/textract1.png",
     "AWS/assets/sage1.png",
-    "AWS/assets/person1.png",
-    "AWS/assets/kendra1.png",
-    "AWS/assets/forecast1.png",
     "AWS/MachineLearning/Summary.md",
-    "README.md",
     "AWS/MachineLearning/Textract.md",
-    "AWS/MachineLearning/SageMaker.md",
     "AWS/MachineLearning/Personalize.md",
     "AWS/MachineLearning/Kendra.md",
     "AWS/MachineLearning/Forecast.md",
@@ -185,13 +192,7 @@
     "AWS/MachineLearning/LexConnect.md",
     "AWS/MachineLearning/Comprehend.md",
     "AWS/IntegrationMessaging/SNS.md",
-    "AWS/assets/rek1.png",
     "Spring/Spring.md",
-    "Spring/assets/html2.png",
-    "Spring/assets/html1.png",
-    "Spring/assets/multi2.png",
-    "Spring/assets/multi1.png",
-    "Spring/assets/servlet1.png",
     "Spring/assets",
     "Spring/WebApplications",
     "AWS/MachineLearning",
@@ -199,14 +200,12 @@
     "AWS/DataAnalytics/BigDataIngestionPipeline.md",
     "AWS/DataAnalytics/MSK.md",
     "AWS/DataAnalytics/KinesisDataAnalytics.md",
-    "AWS/DataAnalytics/LakeFormation.md",
     "AWS/DataAnalytics",
     "Spring",
     "GoogleCloud/Core/Storage",
     "GoogleCloud/Core/untitled folder",
     "GoogleCloud/Core/VM",
     "GoogleCloud/Core/ResourceAccess",
-    "GoogleCloud/Core/Introducing",
     "Untitled.canvas"
   ]
 }
