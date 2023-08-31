@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/SpringContainerBean/BeanLifecycleCallback.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/SpringContainerBean/BeanLifecycleCallback.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/SpringContainerBean/BeanLifecycleCallback.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/SpringContainerBean/BeanLifecycleCallback.md"
+                "file": "README.md"
               }
             }
           }
@@ -159,15 +159,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0dae93edd5a9625d",
+  "active": "2652f7470e6e250a",
   "lastOpenFiles": [
+    "Spring/Logging/Logging.md",
+    "Spring/assets/logging1.png",
+    "Spring/SpringContainerBean/SpringContainer.md",
+    "Spring/SpringInitializr/SpringInitializr.md",
+    "Spring/Logging",
+    "Spring/SpringContainerBean/BeanLifecycleCallback.md",
+    "Spring/SpringInitializr",
     "Spring/SpringContainerBean/AutomatedDependencyInjection.md",
     "Spring/SpringContainerBean/ComponentScan.md",
     "Spring/SpringContainerBean/SingletonContainer.md",
-    "Spring/SpringContainerBean/SpringContainer.md",
     "README.md",
     "Spring/OOP/OOP.md",
-    "Spring/SpringContainerBean/BeanLifecycleCallback.md",
     "Spring/assets/scan2.png",
     "Spring/assets/scan1.png",
     "Spring/assets/container3.png",
@@ -185,7 +190,6 @@
     "AWS/assets/config1.png",
     "AWS/Monitoring/CloudTrail.md",
     "AWS/assets/trail5.png",
-    "AWS/assets/trail4.png",
     "AWS/Monitoring/EventBridge.md",
     "AWS/MachineLearning/SageMaker.md",
     "AWS/Monitoring",
@@ -197,15 +201,11 @@
     "AWS/IntegrationMessaging/Kinesis.md",
     "Spring/WebApplications/MultiThread.md",
     "Spring/WebApplications/Servlet.md",
-    "Spring/WebApplications/WSWAS.md",
-    "AWS/MachineLearning/Rekognition.md",
     "Spring/assets",
     "Spring/WebApplications",
     "AWS/MachineLearning",
     "AWS/DataAnalytics",
     "Spring",
-    "GoogleCloud/Core/Storage",
-    "GoogleCloud/Core/untitled folder",
     "Untitled.canvas"
   ]
 }

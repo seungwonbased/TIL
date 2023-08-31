@@ -173,6 +173,10 @@
 
 # Spring
 
+### Logging
+
+- [Logging](https://github.com/seungwonbased/TIL/blob/main/Spring/Logging/Logging.md)
+
 ### Object Oriented Programming
 
 - [OOP](https://github.com/seungwonbased/TIL/blob/main/Spring/OOP/OOP.md)
@@ -185,6 +189,10 @@
 - [Component Scan](https://github.com/seungwonbased/TIL/blob/main/Spring/SpringContainerBean/ComponentScan.md)
 - [Automated Dependency Injection](https://github.com/seungwonbased/TIL/blob/main/Spring/SpringContainerBean/AutomatedDependencyInjection.md)
 - [빈 생명주기 콜백](https://github.com/seungwonbased/TIL/blob/main/Spring/SpringContainerBean/BeanLifecycleCallback.md)
+
+### Spring Initializr
+
+- [Spring Initializr](https://github.com/seungwonbased/TIL/blob/main/Spring/SpringInitializr/SpringInitializr.md)
 
 ### 웹 애플리케이션의 이해
 
