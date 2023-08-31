@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Security/ControlTower.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5,
-    "collapsed": true
+    "width": 206.5
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Security/ControlTower.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Security/ControlTower.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Security/ControlTower.md"
+                "file": "README.md"
               }
             }
           }
@@ -161,14 +160,14 @@
   },
   "active": "2652f7470e6e250a",
   "lastOpenFiles": [
+    "AWS/Security/ActiveDirectory.md",
+    "AWS/Security/ControlTower.md",
     "AWS/assets/mad3.png",
     "AWS/assets/mad2.png",
     "AWS/assets/mad1.png",
     "AWS/assets/act1.png",
     "AWS/Database/DynamoDB.md",
-    "AWS/Security/ControlTower.md",
     "README.md",
-    "AWS/Directory/ActiveDirectory.md",
     "AWS/Security/IAM.md",
     "AWS/Directory",
     "Untitled 1",
@@ -179,7 +178,6 @@
     "AWS/assets/iam14.png",
     "AWS/assets/iam13.png",
     "AWS/assets/iam12.png",
-    "AWS/assets/iam11.png",
     "Portfolio/READMETemplate.md",
     "AWS/Security/Cognito.md",
     "Spring/SpringContainerBean/SpringContainer.md",
