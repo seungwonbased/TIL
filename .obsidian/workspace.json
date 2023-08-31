@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/MachineLearning/Rekognition.md",
+                "file": "AWS/MachineLearning/SageMaker.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/IntegrationMessaging/SNS.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5,
-    "collapsed": true
+    "width": 206.5
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/MachineLearning/Rekognition.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/MachineLearning/Rekognition.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/MachineLearning/Rekognition.md"
+                "file": "README.md"
               }
             }
           }
@@ -159,49 +159,49 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "919fe5f912d436ed",
+  "active": "2652f7470e6e250a",
   "lastOpenFiles": [
-    "AWS/assets/rek1.png",
-    "AWS/IntegrationMessaging/SNS.md",
-    "AWS/MachineLearning/Rekognition.md",
+    "AWS/assets/textract1.png",
+    "AWS/assets/sage1.png",
+    "AWS/assets/person1.png",
+    "AWS/assets/kendra1.png",
+    "AWS/assets/forecast1.png",
+    "AWS/MachineLearning/Summary.md",
     "README.md",
-    "Spring/WebApplications/WSWAS.md",
-    "Spring/Spring.md",
-    "Spring/WebApplications/Servlet.md",
-    "Spring/WebApplications/MultiThread.md",
+    "AWS/MachineLearning/Textract.md",
+    "AWS/MachineLearning/SageMaker.md",
+    "AWS/MachineLearning/Personalize.md",
+    "AWS/MachineLearning/Kendra.md",
+    "AWS/MachineLearning/Forecast.md",
+    "AWS/IntegrationMessaging/Kinesis.md",
     "Spring/WebApplications/HTMLHTTPAPI.md",
+    "Spring/WebApplications/MultiThread.md",
+    "Spring/WebApplications/Servlet.md",
+    "Spring/WebApplications/WSWAS.md",
+    "AWS/MachineLearning/Rekognition.md",
+    "AWS/MachineLearning/Transcribe.md",
+    "AWS/MachineLearning/Polly.md",
+    "AWS/MachineLearning/Translate.md",
+    "AWS/MachineLearning/LexConnect.md",
+    "AWS/MachineLearning/Comprehend.md",
+    "AWS/IntegrationMessaging/SNS.md",
+    "AWS/assets/rek1.png",
+    "Spring/Spring.md",
     "Spring/assets/html2.png",
     "Spring/assets/html1.png",
     "Spring/assets/multi2.png",
     "Spring/assets/multi1.png",
     "Spring/assets/servlet1.png",
-    "Spring/assets/wswas1.png",
     "Spring/assets",
     "Spring/WebApplications",
     "AWS/MachineLearning",
     "AWS/DataAnalytics/Redshift.md",
     "AWS/DataAnalytics/BigDataIngestionPipeline.md",
-    "AWS/assets/bdpl1.png",
     "AWS/DataAnalytics/MSK.md",
-    "AWS/assets/msk2.png",
-    "AWS/assets/msk1.png",
     "AWS/DataAnalytics/KinesisDataAnalytics.md",
-    "AWS/assets/knda2.png",
     "AWS/DataAnalytics/LakeFormation.md",
-    "AWS/DataAnalytics/OpenSearch.md",
-    "AWS/DataAnalytics/Glue.md",
-    "AWS/DataAnalytics/QuickSight.md",
-    "AWS/DataAnalytics/EMR.md",
-    "AWS/DataAnalytics/Athena.md",
-    "AWS/Database/ElastiCache.md",
-    "AWS/Database/ETC.md",
-    "AWS/Database/DynamoDB.md",
-    "AWS/Database/ChoosingTheRightDatabase.md",
     "AWS/DataAnalytics",
-    "GoogleCloud/Core/ResourceAccess/IAM.md",
     "Spring",
-    "GoogleCloud/Core.md",
-    "GoogleCloud/Core/ResourcesAndAccess.md",
     "GoogleCloud/Core/Storage",
     "GoogleCloud/Core/untitled folder",
     "GoogleCloud/Core/VM",

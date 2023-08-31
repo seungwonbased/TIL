@@ -46,6 +46,21 @@
 - [SQS](https://github.com/seungwonbased/TIL/blob/main/AWS/IntegrationMessaging/SQS.md)
 - [SNS](https://github.com/seungwonbased/TIL/blob/main/AWS/IntegrationMessaging/SNS.md)
 
+### Machine Learning
+
+- ##### [Summary](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Summary.md)
+- [Comprehend](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Comprehend.md)
+- [Forecast](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Forecast.md)
+- [Kendra](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Kendra.md)
+- [Lex + Connect](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/LexConnect.md)
+- [Personalize](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Personalize.md)
+- [Polly](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Polly.md)
+- [Rekognition](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Rekognition.md)
+- [SageMaker](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/SageMaker.md)
+- [Textract](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Textract.md)
+- [Transcribe](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Transcribe.md)
+- [Translate](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Translate.md)
+
 ### Networking & Content Delivery
 
 - [API Gateway](https://github.com/seungwonbased/TIL/blob/main/AWS/NetworkingContentDelivery/APIGateway.md)
