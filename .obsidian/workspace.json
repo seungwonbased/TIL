@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Monitoring/CloudTrail.md",
+                "file": "AWS/Monitoring/Config.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Monitoring/CloudTrail.md",
+                "file": "AWS/Monitoring/Config.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Monitoring/CloudTrail.md",
+                "file": "AWS/Monitoring/Config.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Monitoring/CloudTrail.md"
+                "file": "AWS/Monitoring/Config.md"
               }
             }
           }
@@ -161,7 +161,12 @@
   },
   "active": "919fe5f912d436ed",
   "lastOpenFiles": [
+    "AWS/assets/config3.png",
+    "AWS/assets/config2.png",
+    "AWS/assets/config1.png",
     "AWS/Monitoring/CloudWatch.md",
+    "AWS/Monitoring/Config.md",
+    "README.md",
     "AWS/Monitoring/CloudTrail.md",
     "AWS/assets/trail5.png",
     "AWS/assets/trail4.png",
@@ -171,10 +176,7 @@
     "AWS/assets/cwa12.png",
     "AWS/assets/cwa11.png",
     "AWS/assets/cwa10.png",
-    "README.md",
     "AWS/Monitoring/EventBridge.md",
-    "AWS/assets/aeb4.png",
-    "AWS/assets/aeb3.png",
     "AWS/MachineLearning/SageMaker.md",
     "AWS/Monitoring",
     "AWS/MachineLearning/Summary.md",
@@ -199,7 +201,6 @@
     "Spring/WebApplications",
     "AWS/MachineLearning",
     "AWS/DataAnalytics/Redshift.md",
-    "AWS/DataAnalytics/BigDataIngestionPipeline.md",
     "AWS/DataAnalytics",
     "Spring",
     "GoogleCloud/Core/Storage",
