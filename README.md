@@ -95,6 +95,7 @@
 - [AWS Network Firewall](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [Secrets Manager](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [WAF & Shield](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [암호화 기초](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/encryption101.md)
 
 ### Solutions Architectures
 

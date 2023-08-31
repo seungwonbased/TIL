@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AWS/Security/Encryption101.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 206.5,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "AWS/Security/Encryption101.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "AWS/Security/Encryption101.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "AWS/Security/Encryption101.md"
               }
             }
           }
@@ -160,14 +161,18 @@
   },
   "active": "2652f7470e6e250a",
   "lastOpenFiles": [
+    "AWS/assets/enc3.png",
+    "AWS/assets/enc2.png",
+    "AWS/assets/enc1.png",
+    "AWS/Database/DynamoDB.md",
+    "AWS/Security/Encryption101.md",
+    "README.md",
     "AWS/Security/ActiveDirectory.md",
     "AWS/Security/ControlTower.md",
     "AWS/assets/mad3.png",
     "AWS/assets/mad2.png",
     "AWS/assets/mad1.png",
     "AWS/assets/act1.png",
-    "AWS/Database/DynamoDB.md",
-    "README.md",
     "AWS/Security/IAM.md",
     "AWS/Directory",
     "Untitled 1",
@@ -176,8 +181,6 @@
     "AWS/assets/iam16.png",
     "AWS/assets/iam15.png",
     "AWS/assets/iam14.png",
-    "AWS/assets/iam13.png",
-    "AWS/assets/iam12.png",
     "Portfolio/READMETemplate.md",
     "AWS/Security/Cognito.md",
     "Spring/SpringContainerBean/SpringContainer.md",
@@ -203,7 +206,6 @@
     "AWS/Monitoring/EventBridge.md",
     "AWS/MachineLearning/SageMaker.md",
     "AWS/Monitoring",
-    "AWS/MachineLearning/Summary.md",
     "Spring/assets",
     "Untitled.canvas"
   ]
