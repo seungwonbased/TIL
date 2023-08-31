@@ -64,6 +64,7 @@
 ### Monitoring, Audit and Performance
 
 - [CloudWatch](https://github.com/seungwonbased/TIL/blob/main/AWS/Monitoring/CloudWatch.md)
+- [EventBridge](https://github.com/seungwonbased/TIL/blob/main/AWS/Monitoring/EventBridge.md)
 
 ### Networking & Content Delivery
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AWS/Monitoring/EventBridge.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 206.5,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "AWS/Monitoring/EventBridge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "AWS/Monitoring/EventBridge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "AWS/Monitoring/EventBridge.md"
               }
             }
           }
@@ -160,6 +161,13 @@
   },
   "active": "919fe5f912d436ed",
   "lastOpenFiles": [
+    "AWS/assets/aeb4.png",
+    "AWS/assets/aeb3.png",
+    "AWS/assets/aeb2.png",
+    "AWS/assets/aeb1.png",
+    "AWS/Monitoring/CloudWatch.md",
+    "AWS/Monitoring/EventBridge.md",
+    "README.md",
     "AWS/assets/cwa9.png",
     "AWS/assets/cwa8.png",
     "AWS/assets/cwa7.png",
@@ -167,14 +175,8 @@
     "AWS/assets/cwa5.png",
     "AWS/assets/cwa4.png",
     "AWS/assets/cwa3.png",
-    "AWS/assets/cwa2.png",
-    "AWS/assets/cwa1.png",
     "AWS/MachineLearning/SageMaker.md",
-    "AWS/Monitoring/CloudWatch.md",
-    "README.md",
     "AWS/Monitoring",
-    "AWS/assets/textract1.png",
-    "AWS/assets/sage1.png",
     "AWS/MachineLearning/Summary.md",
     "AWS/MachineLearning/Textract.md",
     "AWS/MachineLearning/Personalize.md",
@@ -199,7 +201,6 @@
     "AWS/DataAnalytics/Redshift.md",
     "AWS/DataAnalytics/BigDataIngestionPipeline.md",
     "AWS/DataAnalytics/MSK.md",
-    "AWS/DataAnalytics/KinesisDataAnalytics.md",
     "AWS/DataAnalytics",
     "Spring",
     "GoogleCloud/Core/Storage",
