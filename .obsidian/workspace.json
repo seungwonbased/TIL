@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Security/Encryption101.md",
+                "file": "AWS/Security/KMS.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 206.5,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Security/Encryption101.md",
+                "file": "AWS/Security/KMS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Security/Encryption101.md",
+                "file": "AWS/Security/KMS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Security/Encryption101.md"
+                "file": "AWS/Security/KMS.md"
               }
             }
           }
@@ -160,10 +161,11 @@
   },
   "active": "2652f7470e6e250a",
   "lastOpenFiles": [
-    "README.md",
-    "AWS/Security/KMS.md",
-    "AWS/Security/Encryption101.md",
+    "AWS/assets/kms1.png",
     "AWS/Database/DynamoDB.md",
+    "AWS/Security/KMS.md",
+    "README.md",
+    "AWS/Security/Encryption101.md",
     "AWS/assets/enc3.png",
     "AWS/assets/enc2.png",
     "AWS/assets/enc1.png",
@@ -203,7 +205,6 @@
     "AWS/Monitoring/Config.md",
     "AWS/Monitoring/CloudTrail.md",
     "AWS/Monitoring/EventBridge.md",
-    "AWS/MachineLearning/SageMaker.md",
     "AWS/Monitoring",
     "Spring/assets",
     "Untitled.canvas"
