@@ -58,7 +58,7 @@
 - [SageMaker](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/SageMaker.md)
 - [Textract](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Textract.md)
 - [Transcribe](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Transcribe.md)
-- [Translate](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Translate.md
+- [Translate](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Translate.md)
 - #### [Summary](https://github.com/seungwonbased/TIL/blob/main/AWS/MachineLearning/Summary.md)
 
 ### Networking & Content Delivery
