@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Security/Encryption101.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5,
-    "collapsed": true
+    "width": 206.5
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Security/Encryption101.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Security/Encryption101.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Security/Encryption101.md"
+                "file": "README.md"
               }
             }
           }
@@ -159,14 +158,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2652f7470e6e250a",
+  "active": "0dae93edd5a9625d",
   "lastOpenFiles": [
+    "AWS/Security/KMS.md",
+    "README.md",
+    "AWS/Security/Encryption101.md",
+    "AWS/Database/DynamoDB.md",
     "AWS/assets/enc3.png",
     "AWS/assets/enc2.png",
     "AWS/assets/enc1.png",
-    "AWS/Database/DynamoDB.md",
-    "AWS/Security/Encryption101.md",
-    "README.md",
     "AWS/Security/ActiveDirectory.md",
     "AWS/Security/ControlTower.md",
     "AWS/assets/mad3.png",
@@ -180,7 +180,6 @@
     "AWS/assets/iam17.png",
     "AWS/assets/iam16.png",
     "AWS/assets/iam15.png",
-    "AWS/assets/iam14.png",
     "Portfolio/READMETemplate.md",
     "AWS/Security/Cognito.md",
     "Spring/SpringContainerBean/SpringContainer.md",
