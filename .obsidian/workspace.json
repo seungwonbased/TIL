@@ -13,25 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Security/KMS.md",
+                "file": "AWS/Security/CertificateManager.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "65ea1677a5a130fd",
+            "id": "4d575b6723b840f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Database/DynamoDB.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Security/KMS.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Security/KMS.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Security/KMS.md"
+                "file": "README.md"
               }
             }
           }
@@ -159,29 +160,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2652f7470e6e250a",
+  "active": "4d575b6723b840f9",
   "lastOpenFiles": [
-    "AWS/assets/kms1.png",
-    "AWS/Database/DynamoDB.md",
-    "AWS/Security/KMS.md",
+    "AWS/Security/CertificateManager.md",
+    "AWS/assets/acm4.png",
+    "AWS/assets/acm3.png",
+    "AWS/assets/acm2.png",
+    "AWS/assets/acm1.png",
+    "AWS/Security/IAM.md",
+    "AWS/Security/SecretsManager.md",
     "README.md",
+    "AWS/assets/secrets1.png",
+    "AWS/Security/SSM.md",
+    "AWS/assets/ssm4.png",
+    "AWS/assets/ssm3.png",
+    "AWS/assets/ssm2.png",
+    "AWS/assets/ssm1.png",
+    "AWS/Security/KMS.md",
+    "AWS/assets/kms4.png",
+    "AWS/Security/S3ReplicationEncryption.md",
+    "AWS/Database/DynamoDB.md",
     "AWS/Security/Encryption101.md",
-    "AWS/assets/enc3.png",
-    "AWS/assets/enc2.png",
-    "AWS/assets/enc1.png",
     "AWS/Security/ActiveDirectory.md",
     "AWS/Security/ControlTower.md",
-    "AWS/assets/mad3.png",
-    "AWS/assets/mad2.png",
-    "AWS/assets/mad1.png",
-    "AWS/assets/act1.png",
-    "AWS/Security/IAM.md",
     "AWS/Directory",
     "Untitled 1",
     "Untitled",
-    "AWS/assets/iam17.png",
-    "AWS/assets/iam16.png",
-    "AWS/assets/iam15.png",
     "Portfolio/READMETemplate.md",
     "AWS/Security/Cognito.md",
     "Spring/SpringContainerBean/SpringContainer.md",
@@ -200,11 +204,7 @@
     "Spring/SpringContainerBean/DIIoCBean.md",
     "Spring/SpringContainerBean",
     "AWS/Monitoring/CloudWatch.md",
-    "AWS/Monitoring/CWCTC.md",
     "Spring/OOP",
-    "AWS/Monitoring/Config.md",
-    "AWS/Monitoring/CloudTrail.md",
-    "AWS/Monitoring/EventBridge.md",
     "AWS/Monitoring",
     "Spring/assets",
     "Untitled.canvas"
