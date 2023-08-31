@@ -67,6 +67,7 @@
 - [CloudWatch](https://github.com/seungwonbased/TIL/blob/main/AWS/Monitoring/CloudWatch.md)
 - [Config](https://github.com/seungwonbased/TIL/blob/main/AWS/Monitoring/Config.md)
 - [EventBridge](https://github.com/seungwonbased/TIL/blob/main/AWS/Monitoring/EventBridge.md)
+- #### [CloudWatch vs CloudTrail vs Config](https://github.com/seungwonbased/TIL/blob/main/AWS/Monitoring/CWCTC.md)
 
 ### Networking & Content Delivery
 
