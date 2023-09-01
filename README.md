@@ -86,14 +86,14 @@
 ### Security, Identity & Compliance
 
 - [Active Directory](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/ActiveDirectory.md)
-- [AWS Audit Manager](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
-- [AWS Firewall Manager](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [Audit Manager](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [Certificate Manager](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/CertificateManager.md)
 - [Cognito](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/Cognito.md)
 - [Control Tower](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/ControlTower.md)
+- [Firewall Manager](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/FirewallManager.md)
 - [IAM](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/IAM.md)
 - [Key Management Service](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/KMS.md)
-- [AWS Network Firewall](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [Network Firewall](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [Secrets Manager](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/SecretsManager.md)
 - [SSM Parameter Store](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/SSM.md)
 - [WAF & Shield](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/WAFShield.md)
@@ -101,6 +101,7 @@
 
 ### Solutions Architectures
 
+- [Best Practices for DDoS Resiliency](https://github.com/seungwonbased/TIL/blob/main/AWS/SolutionsArchitectures/BestPracticesForDDoS.md)
 - [Instantiating Applications Quickly](https://github.com/seungwonbased/TIL/blob/main/AWS/SolutionsArchitectures/InstantiatingApplicationsQuickly.md)
 - [Micro Service Architecture](https://github.com/seungwonbased/TIL/blob/main/AWS/SolutionsArchitectures/MicroService.md)
 - [Serverless Application - 1](https://github.com/seungwonbased/TIL/blob/main/AWS/SolutionsArchitectures/MyTodoList.md)

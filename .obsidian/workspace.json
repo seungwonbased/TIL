@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Security/CertificateManager.md",
+                "file": "AWS/Security/WAFShield.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,9 +30,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ea2e06cb0cc0da14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS/Monitoring/Config.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "AWS/Security/WAFShield.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "AWS/Security/WAFShield.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "AWS/Security/WAFShield.md"
               }
             }
           }
@@ -160,8 +171,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4d575b6723b840f9",
+  "active": "2652f7470e6e250a",
   "lastOpenFiles": [
+    "AWS/assets/waf1.png",
+    "AWS/SolutionsArchitectures/BestPracticesForDDoS.md",
+    "README.md",
+    "AWS/Security/FirewallManager.md",
+    "AWS/Security/WAFShield.md",
+    "AWS/Monitoring/Config.md",
     "AWS/Security/CertificateManager.md",
     "AWS/assets/acm4.png",
     "AWS/assets/acm3.png",
@@ -169,7 +186,6 @@
     "AWS/assets/acm1.png",
     "AWS/Security/IAM.md",
     "AWS/Security/SecretsManager.md",
-    "README.md",
     "AWS/assets/secrets1.png",
     "AWS/Security/SSM.md",
     "AWS/assets/ssm4.png",
@@ -199,11 +215,7 @@
     "Spring/SpringContainerBean/AutomatedDependencyInjection.md",
     "Spring/SpringContainerBean/ComponentScan.md",
     "Spring/SpringContainerBean/SingletonContainer.md",
-    "Spring/OOP/OOP.md",
-    "Spring/WebApplications/HTMLHTTPAPI.md",
-    "Spring/SpringContainerBean/DIIoCBean.md",
     "Spring/SpringContainerBean",
-    "AWS/Monitoring/CloudWatch.md",
     "Spring/OOP",
     "AWS/Monitoring",
     "Spring/assets",
