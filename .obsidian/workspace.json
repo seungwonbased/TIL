@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d8d1155552b2526b",
+        "id": "37bb906aba711f9e",
         "type": "tabs",
         "children": [
           {
-            "id": "bcc4c0a8ff51331c",
+            "id": "e190aae959e326b7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network/Basic/PortForwarding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fe485510cdb1c82d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network/Basic/Firewall.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5d8f457103c46e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 200
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -110,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -171,49 +138,50 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0dae93edd5a9625d",
+  "active": "e190aae959e326b7",
   "lastOpenFiles": [
-    "Network/Basic/Router.md",
-    "Network/Basic/PortForwarding.md",
-    "Network/Basic/Firewall.md",
-    "스크랩.md",
-    "Network/Basic",
-    "기술 구현 보고서.md",
-    "Linux/DHCPServer.md",
+    "AWS/Security/Security.md",
     "README.md",
-    "AWS/Security/WAFShield.md",
+    "AWS/Storage/Storage.md",
+    "GoogleCloud/Core/VM/GeneralCompute.md",
+    "AWS/Amazon Web Service.md",
+    "AWS/SolutionsArchitectures/Solutions Architectures.md",
+    "AWS/Orchestration/Orchestration.md",
+    "AWS/NetworkingContentDelivery/Networking Content Delivery.md",
+    "AWS/Monitoring/Monitoring.md",
+    "AWS/Monitoring/CWCTC.md",
+    "AWS/MachineLearning/Machine Learning.md",
+    "AWS/MachineLearning/Kendra.md",
+    "AWS/MachineLearning/Comprehend.md",
+    "AWS/GlobalInfra/AWS Global Infra.md",
+    "AWS/IntegrationMessaging/Integration Messaging.md",
+    "AWS/Database/Database.md",
+    "AWS/DataAnalytics/Data Analytics.md",
+    "AWS/Container/Container.md",
+    "AWS/DataAnalytics/Untitled.md",
+    "AWS/Container/ECREKSAppRunner.md",
+    "AWS/Compute/Compute.md",
+    "Network/Basic/Router.md",
+    "Network/Basic/Firewall.md",
+    "2023-09-13.md",
+    "Network/Basic/Untitled.canvas",
+    "Network/Basic/Switch.md",
+    "Network/Basic/LAN.md",
+    "Network/Basic",
     "AWS/assets/waf1.png",
-    "AWS/SolutionsArchitectures/BestPracticesForDDoS.md",
-    "AWS/Security/FirewallManager.md",
-    "AWS/Monitoring/Config.md",
-    "AWS/Security/CertificateManager.md",
     "AWS/assets/acm4.png",
     "AWS/assets/acm3.png",
     "AWS/assets/acm2.png",
     "AWS/assets/acm1.png",
-    "AWS/Security/IAM.md",
-    "AWS/Security/SecretsManager.md",
     "AWS/assets/secrets1.png",
-    "AWS/Security/SSM.md",
     "AWS/assets/ssm4.png",
     "AWS/assets/ssm3.png",
     "AWS/assets/ssm2.png",
     "AWS/assets/ssm1.png",
-    "AWS/Security/KMS.md",
-    "AWS/Security/S3ReplicationEncryption.md",
-    "AWS/Database/DynamoDB.md",
-    "AWS/Security/Encryption101.md",
-    "AWS/Security/ActiveDirectory.md",
-    "AWS/Security/ControlTower.md",
     "AWS/Directory",
     "Untitled 1",
     "Untitled",
-    "Portfolio/READMETemplate.md",
-    "AWS/Security/Cognito.md",
-    "Spring/SpringContainerBean/SpringContainer.md",
-    "ToBeContinued.md",
     "Portfolio",
-    "Spring/SpringInitializr/SpringInitializr.md",
     "Spring/Logging",
     "Spring/SpringInitializr",
     "Spring/SpringContainerBean",
