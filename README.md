@@ -6,7 +6,7 @@
 
 ### AWS Global Infrastructure
 
-- [Regions, Availability Zones](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [[Regions, Availability Zones]](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 
 ### Container
 
