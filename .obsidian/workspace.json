@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/SolutionsArchitectures/BestPracticesForDDoS.md",
+                "file": "AWS/Security/GuardDuty.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b623b318d34ba4f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS/Security/ActiveDirectory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b42aa739a5b7a9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS/Security/InspectorMacie.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd8d6b31de312a0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/SolutionsArchitectures/BestPracticesForDDoS.md",
+                "file": "AWS/Security/InspectorMacie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/SolutionsArchitectures/BestPracticesForDDoS.md",
+                "file": "AWS/Security/InspectorMacie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/SolutionsArchitectures/BestPracticesForDDoS.md"
+                "file": "AWS/Security/InspectorMacie.md"
               }
             }
           }
@@ -147,12 +184,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "964eac6732e17b0b",
+  "active": "6b42aa739a5b7a9b",
   "lastOpenFiles": [
-    "AWS/assets/ddos1.png",
+    "AWS/assets/macie1.png",
+    "AWS/assets/inspector1.png",
+    "AWS/assets/guard1.png",
+    "README.md",
+    "AWS/Security/InspectorMacie.md",
+    "AWS/Security/GuardDuty.md",
     "AWS/Security/ActiveDirectory.md",
     "AWS/SolutionsArchitectures/BestPracticesForDDoS.md",
-    "README.md",
+    "AWS/assets/ddos1.png",
     "Network/HTTP/HTTPHeaderCache.md",
     "Network/HTTP/HTTP.md",
     "[.md",
@@ -165,9 +207,6 @@
     "Network/assets/hc11.png",
     "Network/assets/hc10.png",
     "Network/assets/hc9.png",
-    "Network/assets/hc8.png",
-    "Network/assets/hc7.png",
-    "Network/assets/hc6.png",
     "Network/HTTP/InternetCommunication.md",
     "Network/HTTP/HTTPCode.md",
     "Network/HTTP/HTTPMethod.md",
@@ -186,8 +225,6 @@
     "Network/Basic/Layer.md",
     "Network/Basic/DHCP.md",
     "Network/Basic/PortForwarding.md",
-    "Network/Basic/DNS.md",
-    "Network/Basic/Firewall.md",
     "Network/Basic/Untitled.canvas",
     "Network/Basic",
     "AWS/Directory",
