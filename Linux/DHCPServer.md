@@ -1,5 +1,7 @@
 # DHCP 서버
 
+> [DHCP 개념](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/DHCP.md)
+
 ## DHCP 설치 확인 (Server)
 
 ```bash
