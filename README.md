@@ -191,7 +191,7 @@
 
 ### HTTP
 
-- [HTTP](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/HTTP.md)
+- [HTTP](https://github.com/seungwonbased/TIL/blob/main/Network/HTTP/HTTP.md)
 
 ### TCP
 

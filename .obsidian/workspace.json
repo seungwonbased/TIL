@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Network/HTTP/HTTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Network/HTTP/HTTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Network/HTTP/HTTP.md"
               }
             }
           }
@@ -183,8 +183,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "964eac6732e17b0b",
+  "active": "0b2188a0af6194a3",
   "lastOpenFiles": [
+    "README.md",
     "Network/HTTP/HTTP.md",
     "[.md",
     "인터넷 통신 c4f15772b27942ffabc27519de34466c/Screen_Shot_2023-01-18_at_10.02.08.png.md",
@@ -206,7 +207,6 @@
     "Network/HTTP/HyperTextTransferProtocol.md",
     "Network/HTTP/HTTPGeneralHeader.md",
     "Network/HTTP/URIWebBrowser.md",
-    "README.md",
     "인터넷 통신 c4f15772b27942ffabc27519de34466c",
     "Network/Basic/ARP.md",
     "Network/Basic/SocketPort.md",
