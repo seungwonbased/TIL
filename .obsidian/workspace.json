@@ -149,6 +149,7 @@
   },
   "active": "964eac6732e17b0b",
   "lastOpenFiles": [
+    "AWS/assets/ddos1.png",
     "AWS/Security/ActiveDirectory.md",
     "AWS/SolutionsArchitectures/BestPracticesForDDoS.md",
     "README.md",
@@ -187,7 +188,6 @@
     "Network/Basic/PortForwarding.md",
     "Network/Basic/DNS.md",
     "Network/Basic/Firewall.md",
-    "Network/Basic/Router.md",
     "Network/Basic/Untitled.canvas",
     "Network/Basic",
     "AWS/Directory",
