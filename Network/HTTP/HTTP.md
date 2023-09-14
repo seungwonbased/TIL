@@ -5,7 +5,7 @@
 
 </aside>
 
-- [인터넷 통신](https://github.com/seungwonbased/TIL/blob/main/Network/HTTP/InternetCommunication.md)
+- [인터넷 통신](https://github.com/seungwonbased/TIL/blob/main/Network/HTTP/InternetConnection.md)
 
 - [URI와 웹 브라우저 요청 흐름](https://github.com/seungwonbased/TIL/blob/main/Network/HTTP/URLWebBrowser.md)
 
