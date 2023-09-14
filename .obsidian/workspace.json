@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/TCP/TCPBasic.md",
+                "file": "Network/Basic/DNSBasic.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/TCP/TCPBasic.md",
+                "file": "Network/Basic/DNSBasic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/TCP/TCPBasic.md",
+                "file": "Network/Basic/DNSBasic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/TCP/TCPBasic.md"
+                "file": "Network/Basic/DNSBasic.md"
               }
             }
           }
@@ -149,9 +149,14 @@
   },
   "active": "a7e46959457652c6",
   "lastOpenFiles": [
-    "Network/TCP/ReliableTCPDataStream.md",
-    "Network/TCP/TCPBasic.md",
+    "Network/assets/tcp1.png",
+    "Network/assets/dns3.png",
+    "Network/assets/dns2.png",
+    "Network/assets/dns1.png",
     "README.md",
+    "Network/Basic/DNSBasic.md",
+    "Network/Basic/TCPBasic.md",
+    "Network/TCP/ReliableTCPDataStream.md",
     "Databases/MySQL/MySQL.md",
     "AWS/SolutionsArchitectures/BestPracticesForDDoS.md",
     "스크랩.md",
@@ -173,8 +178,6 @@
     "AWS/GlobalInfra/AWS Global Infra.md",
     "AWS/IntegrationMessaging/Integration Messaging.md",
     "AWS/Database/Database.md",
-    "AWS/DataAnalytics/Data Analytics.md",
-    "AWS/Container/Container.md",
     "Network/Basic/Untitled.canvas",
     "Network/Basic",
     "AWS/assets/waf1.png",
@@ -184,9 +187,6 @@
     "AWS/assets/acm1.png",
     "AWS/assets/secrets1.png",
     "AWS/assets/ssm4.png",
-    "AWS/assets/ssm3.png",
-    "AWS/assets/ssm2.png",
-    "AWS/assets/ssm1.png",
     "AWS/Directory",
     "Untitled 1",
     "Untitled",
