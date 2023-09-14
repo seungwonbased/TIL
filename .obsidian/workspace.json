@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "37bb906aba711f9e",
+        "id": "c0ba1cda44fa8dee",
         "type": "tabs",
         "children": [
           {
-            "id": "e190aae959e326b7",
+            "id": "a7e46959457652c6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Network/TCP/TCPBasic.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Network/TCP/TCPBasic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Network/TCP/TCPBasic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Network/TCP/TCPBasic.md"
+              }
             }
           }
         ]
@@ -138,10 +147,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e190aae959e326b7",
+  "active": "a7e46959457652c6",
   "lastOpenFiles": [
-    "AWS/Security/Security.md",
+    "Network/TCP/ReliableTCPDataStream.md",
+    "Network/TCP/TCPBasic.md",
     "README.md",
+    "Databases/MySQL/MySQL.md",
+    "AWS/SolutionsArchitectures/BestPracticesForDDoS.md",
+    "스크랩.md",
+    "Network/Basic/Network Basic.md",
+    "Network/Basic/PortForwarding.md",
+    "기술 구현 보고서.md",
+    "AWS/Security/Security.md",
     "AWS/Storage/Storage.md",
     "GoogleCloud/Core/VM/GeneralCompute.md",
     "AWS/Amazon Web Service.md",
@@ -158,15 +175,7 @@
     "AWS/Database/Database.md",
     "AWS/DataAnalytics/Data Analytics.md",
     "AWS/Container/Container.md",
-    "AWS/DataAnalytics/Untitled.md",
-    "AWS/Container/ECREKSAppRunner.md",
-    "AWS/Compute/Compute.md",
-    "Network/Basic/Router.md",
-    "Network/Basic/Firewall.md",
-    "2023-09-13.md",
     "Network/Basic/Untitled.canvas",
-    "Network/Basic/Switch.md",
-    "Network/Basic/LAN.md",
     "Network/Basic",
     "AWS/assets/waf1.png",
     "AWS/assets/acm4.png",
