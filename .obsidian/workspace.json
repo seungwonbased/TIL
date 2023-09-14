@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "964eac6732e17b0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/HTTP/HTTP.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/HTTP/HTTP.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/HTTP/HTTP.md"
+                "file": "README.md"
               }
             }
           }
@@ -171,10 +183,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b2188a0af6194a3",
+  "active": "964eac6732e17b0b",
   "lastOpenFiles": [
-    "[.md",
     "Network/HTTP/HTTP.md",
+    "[.md",
     "인터넷 통신 c4f15772b27942ffabc27519de34466c/Screen_Shot_2023-01-18_at_10.02.08.png.md",
     "Network/HTTP/Network Port forwarding & AWS 0f1ab405be6142fd8a9e89af1dc0bd67.md",
     "Network/HTTP/HTTPHeaderCache.md",

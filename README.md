@@ -173,25 +173,25 @@
 
 ### Basic
 
-- [Layer](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/Layer.md)
-- [MAC](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/MAC.md)
-- [Socket & Port](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/SocketPort.md)
+- [Layer](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/Layer.md)
+- [MAC](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/MAC.md)
+- [Socket & Port](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/SocketPort.md)
 
 ### ARP
 
-- [ARP](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/ARP.md)
+- [ARP](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/ARP.md)
 
 ### DHCP
 
-- [DHCP](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/DHCP.md)
+- [DHCP](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/DHCP.md)
 
 ### DNS
 
-- [DNS](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/DNS.md)
+- [DNS](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/DNS.md)
 
 ### HTTP
 
-- [HTTP](https://github.com/seungwonbased/TIL/blob/main/Network/HTTP/HTTP.md)
+- [HTTP](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/HTTP.md)
 
 ### TCP
 
