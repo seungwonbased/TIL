@@ -173,11 +173,11 @@
 
 ### DNS
 
-- [DNS 기초](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/DNSBasic.md)
+- [DNS 개념](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/DNS.md)
 
 ### TCP
 
-- [TCP 기초](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/TCPBasic.md)
+- [TCP 개념](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/TCP.md)
 - [신뢰성 있는 TCP 데이터 스트림](https://github.com/seungwonbased/TIL/blob/main/Network/TCP/ReliableTCPDataStream.md)
 
 # OAuth2.0

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/Basic/DNSBasic.md",
+                "file": "Network/Basic/DHCP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/Basic/DNSBasic.md",
+                "file": "Network/Basic/DHCP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/Basic/DNSBasic.md",
+                "file": "Network/Basic/DHCP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/Basic/DNSBasic.md"
+                "file": "Network/Basic/DHCP.md"
               }
             }
           }
@@ -148,19 +148,23 @@
   },
   "active": "a7e46959457652c6",
   "lastOpenFiles": [
+    "Network/assets/dhcp2.png",
+    "Network/assets/dhcp1.png",
+    "Network/Basic/DNS.md",
+    "Network/Basic/DHCP.md",
     "README.md",
-    "Network/Basic/DNSBasic.md",
+    "Network/Basic/LAN.md",
+    "Network/Basic/Network Basic.md",
+    "Network/Basic/TCP.md",
+    "Network/Basic/PortForwarding.md",
     "Network/assets/tcp1.png",
     "Network/assets/dns3.png",
     "Network/assets/dns2.png",
     "Network/assets/dns1.png",
-    "Network/Basic/TCPBasic.md",
     "Network/TCP/ReliableTCPDataStream.md",
     "Databases/MySQL/MySQL.md",
     "AWS/SolutionsArchitectures/BestPracticesForDDoS.md",
     "스크랩.md",
-    "Network/Basic/Network Basic.md",
-    "Network/Basic/PortForwarding.md",
     "기술 구현 보고서.md",
     "AWS/Security/Security.md",
     "AWS/Storage/Storage.md",
@@ -175,8 +179,6 @@
     "AWS/MachineLearning/Kendra.md",
     "AWS/MachineLearning/Comprehend.md",
     "AWS/GlobalInfra/AWS Global Infra.md",
-    "AWS/IntegrationMessaging/Integration Messaging.md",
-    "AWS/Database/Database.md",
     "Network/Basic/Untitled.canvas",
     "Network/Basic",
     "AWS/assets/waf1.png",
@@ -184,7 +186,6 @@
     "AWS/assets/acm3.png",
     "AWS/assets/acm2.png",
     "AWS/assets/acm1.png",
-    "AWS/assets/secrets1.png",
     "AWS/Directory",
     "Untitled 1",
     "Untitled",
