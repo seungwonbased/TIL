@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "964eac6732e17b0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS/Security/GuardDuty.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b623b318d34ba4f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS/Security/ActiveDirectory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6b42aa739a5b7a9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/HTTP/URLWebBrowser.md",
+                "file": "Network/Security/WebSecurity.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/Basic/ARP.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/HTTP/URLWebBrowser.md",
+                "file": "Network/Security/WebSecurity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/HTTP/URLWebBrowser.md",
+                "file": "Network/Security/WebSecurity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/HTTP/URLWebBrowser.md"
+                "file": "Network/Security/WebSecurity.md"
               }
             }
           }
@@ -185,14 +160,20 @@
   },
   "active": "6b42aa739a5b7a9b",
   "lastOpenFiles": [
-    "Network/HTTP/HTTP.md",
-    "Network/Basic/Attack.md",
-    "Network/Basic/ARP.md",
-    "Network/Basic/SocketPort.md",
-    "Network/Basic/PortForwarding.md",
     "README.md",
-    "AWS/Security/GuardDuty.md",
+    "Network/Security/WebSecurity.md",
+    "Network/Security/Attack.md",
+    "스크랩.md",
+    "Network/Security",
+    "Network/Basic/SocketPort.md",
+    "Network/HTTP/URLWebBrowser.md",
+    "Network/Basic/DHCP.md",
+    "Network/Untitled.md",
     "AWS/Security/ActiveDirectory.md",
+    "AWS/Security/GuardDuty.md",
+    "Network/Basic/ARP.md",
+    "Network/HTTP/HTTP.md",
+    "Network/Basic/PortForwarding.md",
     "Network/Basic/TCP.md",
     "AWS/Security/InspectorMacie.md",
     "AWS/assets/macie1.png",
@@ -215,15 +196,10 @@
     "Network/HTTP/HTTPMethod.md",
     "Network/HTTP/HyperTextTransferProtocol.md",
     "Network/HTTP/HTTPGeneralHeader.md",
-    "Network/HTTP/URLWebBrowser.md",
     "인터넷 통신 c4f15772b27942ffabc27519de34466c",
     "HTTP header 일반 헤더 2d1da6b8498f4dc58ca9a3c45da1f727/Screen_Shot_2023-01-18_at_14.09.43.png.md",
     "HTTP header 일반 헤더 2d1da6b8498f4dc58ca9a3c45da1f727",
     "Network/HTTP",
-    "Network/Basic/Switch.md",
-    "Network/Basic/MAC.md",
-    "Network/Basic/Layer.md",
-    "Network/Basic/DHCP.md",
     "Network/Basic/Untitled.canvas",
     "Network/Basic",
     "AWS/Directory",
@@ -231,7 +207,6 @@
     "Untitled",
     "Portfolio",
     "Spring/Logging",
-    "Spring/SpringInitializr",
     "Untitled.canvas"
   ]
 }
