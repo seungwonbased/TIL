@@ -175,7 +175,6 @@
 
 ### Basic
 
-- [네트워크 공격 유형](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/Attack.md)
 - [Layer](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/Layer.md)
 - [MAC](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/MAC.md)
 - [Socket & Port](https://github.com/seungwonbased/TIL/blob/main/Network/Basic/SocketPort.md)
@@ -205,6 +204,7 @@
 
 - [CSRF, CORS, XSS, CSP](https://github.com/seungwonbased/TIL/blob/main/Network/Security/WebSecurity.md)
 - [Scanning, Sniffing, Spoofing, Flooding](https://github.com/seungwonbased/TIL/blob/main/Network/Security/Attack.md)
+- [계층별 공격 유형](https://github.com/seungwonbased/TIL/blob/main/Network/Security/AttackOnLayer.md)
 
 # OAuth2.0
 
