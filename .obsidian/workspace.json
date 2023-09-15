@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/HTTP/HTTP.md",
+                "file": "Network/HTTP/URLWebBrowser.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/HTTP/HTTP.md",
+                "file": "Network/HTTP/URLWebBrowser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/HTTP/HTTP.md",
+                "file": "Network/HTTP/URLWebBrowser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/HTTP/HTTP.md"
+                "file": "Network/HTTP/URLWebBrowser.md"
               }
             }
           }
@@ -186,6 +185,7 @@
   },
   "active": "6b42aa739a5b7a9b",
   "lastOpenFiles": [
+    "Network/HTTP/HTTP.md",
     "Network/Basic/Attack.md",
     "Network/Basic/ARP.md",
     "Network/Basic/SocketPort.md",
@@ -193,7 +193,6 @@
     "README.md",
     "AWS/Security/GuardDuty.md",
     "AWS/Security/ActiveDirectory.md",
-    "Network/HTTP/HTTP.md",
     "Network/Basic/TCP.md",
     "AWS/Security/InspectorMacie.md",
     "AWS/assets/macie1.png",
@@ -216,7 +215,7 @@
     "Network/HTTP/HTTPMethod.md",
     "Network/HTTP/HyperTextTransferProtocol.md",
     "Network/HTTP/HTTPGeneralHeader.md",
-    "Network/HTTP/URIWebBrowser.md",
+    "Network/HTTP/URLWebBrowser.md",
     "인터넷 통신 c4f15772b27942ffabc27519de34466c",
     "HTTP header 일반 헤더 2d1da6b8498f4dc58ca9a3c45da1f727/Screen_Shot_2023-01-18_at_14.09.43.png.md",
     "HTTP header 일반 헤더 2d1da6b8498f4dc58ca9a3c45da1f727",
