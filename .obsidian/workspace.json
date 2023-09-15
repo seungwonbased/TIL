@@ -37,19 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Security/InspectorMacie.md",
+                "file": "Network/HTTP/HTTP.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fd8d6b31de312a0a",
+            "id": "471309d7119e1d08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Network/Basic/ARP.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Security/InspectorMacie.md",
+                "file": "Network/HTTP/HTTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Security/InspectorMacie.md",
+                "file": "Network/HTTP/HTTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Security/InspectorMacie.md"
+                "file": "Network/HTTP/HTTP.md"
               }
             }
           }
@@ -186,17 +186,22 @@
   },
   "active": "6b42aa739a5b7a9b",
   "lastOpenFiles": [
+    "Network/Basic/Attack.md",
+    "Network/Basic/ARP.md",
+    "Network/Basic/SocketPort.md",
+    "Network/Basic/PortForwarding.md",
+    "README.md",
+    "AWS/Security/GuardDuty.md",
+    "AWS/Security/ActiveDirectory.md",
+    "Network/HTTP/HTTP.md",
+    "Network/Basic/TCP.md",
+    "AWS/Security/InspectorMacie.md",
     "AWS/assets/macie1.png",
     "AWS/assets/inspector1.png",
     "AWS/assets/guard1.png",
-    "README.md",
-    "AWS/Security/InspectorMacie.md",
-    "AWS/Security/GuardDuty.md",
-    "AWS/Security/ActiveDirectory.md",
     "AWS/SolutionsArchitectures/BestPracticesForDDoS.md",
     "AWS/assets/ddos1.png",
     "Network/HTTP/HTTPHeaderCache.md",
-    "Network/HTTP/HTTP.md",
     "[.md",
     "인터넷 통신 c4f15772b27942ffabc27519de34466c/Screen_Shot_2023-01-18_at_10.02.08.png.md",
     "Network/HTTP/Network Port forwarding & AWS 0f1ab405be6142fd8a9e89af1dc0bd67.md",
@@ -206,7 +211,6 @@
     "Network/assets/hc12.png",
     "Network/assets/hc11.png",
     "Network/assets/hc10.png",
-    "Network/assets/hc9.png",
     "Network/HTTP/InternetCommunication.md",
     "Network/HTTP/HTTPCode.md",
     "Network/HTTP/HTTPMethod.md",
@@ -214,17 +218,13 @@
     "Network/HTTP/HTTPGeneralHeader.md",
     "Network/HTTP/URIWebBrowser.md",
     "인터넷 통신 c4f15772b27942ffabc27519de34466c",
-    "Network/Basic/ARP.md",
-    "Network/Basic/SocketPort.md",
     "HTTP header 일반 헤더 2d1da6b8498f4dc58ca9a3c45da1f727/Screen_Shot_2023-01-18_at_14.09.43.png.md",
     "HTTP header 일반 헤더 2d1da6b8498f4dc58ca9a3c45da1f727",
     "Network/HTTP",
     "Network/Basic/Switch.md",
-    "Network/Basic/TCP.md",
     "Network/Basic/MAC.md",
     "Network/Basic/Layer.md",
     "Network/Basic/DHCP.md",
-    "Network/Basic/PortForwarding.md",
     "Network/Basic/Untitled.canvas",
     "Network/Basic",
     "AWS/Directory",
