@@ -18,3 +18,5 @@
 - [HTTP Header: 일반 헤더](https://github.com/seungwonbased/TIL/blob/main/Network/HTTP/HTTPGeneralHeader.md)
 
 - [HTTP Header: 캐시와 조건부 요청](https://github.com/seungwonbased/TIL/blob/main/Network/HTTP/HTTPHeaderCache.md)
+
+- [Redirection vs Forwarding](https://github.com/seungwonbased/TIL/blob/main/Network/HTTP/RedirectionForward.md)
