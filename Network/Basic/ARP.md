@@ -17,8 +17,8 @@
 	- ARP Reply
 	- RARP Request
 	- RARP Reply
-6) 7) 송신자의 MAC 주소와 IP 주소
-8) 9) 수신자의 MAC 주소와 IP 주소
+6) 7\) 송신자의 MAC 주소와 IP 주소
+8) 9\) 수신자의 MAC 주소와 IP 주소
 
 ## ARP 동작
 
