@@ -84,7 +84,7 @@
 		- Access-Control-Allow-Credentials
 		- 등등
 
-## CORS 요청 방식
+## CORS 요청 방식
 ### Simple Request
 
 - 다음과 같은 조건을 만족하면 브라우저는 해당 CORS 요청을 Simple Request로 처리

@@ -6,7 +6,7 @@
 
 ### AWS Global Infrastructure
 
-- [Regions, Availability Zones](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [Regions, Availability Zones](https://github.com/seungwonbased/TIL/blob/main/GlobalInfra/GlobalInfra.md)
 
 ### Container
 
@@ -76,7 +76,7 @@
 - [Direct Connect](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [Global Accelerator](https://github.com/seungwonbased/TIL/blob/main/AWS/NetworkingContentDelivery/GlobalAccelerator.md)
 - [Route 53](https://github.com/seungwonbased/TIL/blob/main/AWS/NetworkingContentDelivery/Route53.md)
-- [VPC](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
+- [VPC](https://github.com/seungwonbased/TIL/blob/main/NetworkingContentDelivery/VPC.md)
 
 ### Orchestration
 
@@ -86,7 +86,6 @@
 ### Security, Identity & Compliance
 
 - [Active Directory](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/ActiveDirectory.md)
-- [Audit Manager](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [Certificate Manager](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/CertificateManager.md)
 - [Cognito](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/Cognito.md)
 - [Control Tower](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/ControlTower.md)
@@ -95,7 +94,6 @@
 - [IAM](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/IAM.md)
 - [Inspector & Macie](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/InspectorMacie.md)
 - [Key Management Service](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/KMS.md)
-- [Network Firewall](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [Secrets Manager](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/SecretsManager.md)
 - [SSM Parameter Store](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/SSM.md)
 - [WAF & Shield](https://github.com/seungwonbased/TIL/blob/main/AWS/Security/WAFShield.md)
@@ -116,7 +114,6 @@
 ### Storage
 
 - [EBS & EFS](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/EC2InstanceStorage.md)
-- [Elastic Disaster Recovery](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 - [FSx](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/FSx.md)
 - [S3](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/S3.md)
 - [S3 Security](https://github.com/seungwonbased/TIL/blob/main/AWS/Storage/S3Security.md)

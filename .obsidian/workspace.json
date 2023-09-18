@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/Security/AttackOnLayer.md",
+                "file": "Network/Security/WebSecurity.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "06625b4bb6b674ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS/NetworkingContentDelivery/VPC.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -86,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/Security/AttackOnLayer.md",
+                "file": "Network/Security/WebSecurity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/Security/AttackOnLayer.md",
+                "file": "Network/Security/WebSecurity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/Security/AttackOnLayer.md"
+                "file": "Network/Security/WebSecurity.md"
               }
             }
           }
@@ -149,7 +160,13 @@
   },
   "active": "471309d7119e1d08",
   "lastOpenFiles": [
+    "AWS/NetworkingContentDelivery/Route53.md",
+    "AWS/NetworkingContentDelivery/VPC.md",
+    "AWS/NetworkingContentDelivery/Networking Content Delivery.md",
+    "AWS/NetworkingContentDelivery/GlobalAccelerator.md",
     "README.md",
+    "AWS/GlobalInfra/AWS Global Infra.md",
+    "AWS/GlobalInfra/GlobalInfra.md",
     "Network/Security/AttackOnLayer.md",
     "스크랩.md",
     "Network/Security/WebSecurity.md",
@@ -174,18 +191,12 @@
     "Network/HTTP/HTTPHeaderCache.md",
     "[.md",
     "인터넷 통신 c4f15772b27942ffabc27519de34466c/Screen_Shot_2023-01-18_at_10.02.08.png.md",
-    "Network/HTTP/Network Port forwarding & AWS 0f1ab405be6142fd8a9e89af1dc0bd67.md",
     "Network/assets/hc15.png",
     "Network/assets/hc14.png",
     "Network/assets/hc13.png",
     "Network/assets/hc12.png",
     "Network/assets/hc11.png",
     "Network/assets/hc10.png",
-    "Network/HTTP/InternetCommunication.md",
-    "Network/HTTP/HTTPCode.md",
-    "Network/HTTP/HTTPMethod.md",
-    "Network/HTTP/HyperTextTransferProtocol.md",
-    "Network/HTTP/HTTPGeneralHeader.md",
     "인터넷 통신 c4f15772b27942ffabc27519de34466c",
     "HTTP header 일반 헤더 2d1da6b8498f4dc58ca9a3c45da1f727",
     "Network/HTTP",
