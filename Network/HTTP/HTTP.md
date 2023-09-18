@@ -19,4 +19,4 @@
 
 - [HTTP Header: 캐시와 조건부 요청](https://github.com/seungwonbased/TIL/blob/main/Network/HTTP/HTTPHeaderCache.md)
 
-- [Redirection vs Forwarding](https://github.com/seungwonbased/TIL/blob/main/Network/HTTP/RedirectionForward.md)
+- [Redirection vs Forwarding](https://github.com/seungwonbased/TIL/blob/main/Network/HTTP/RedirectForward.md)
