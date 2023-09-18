@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/Basic/ARP.md",
+                "file": "Linux/Notes/BasicCommand.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/Basic/ARP.md",
+                "file": "Linux/Notes/BasicCommand.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/Basic/ARP.md",
+                "file": "Linux/Notes/BasicCommand.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/Basic/ARP.md"
+                "file": "Linux/Notes/BasicCommand.md"
               }
             }
           }
@@ -161,6 +161,9 @@
   },
   "active": "b32a2cb6d492bca3",
   "lastOpenFiles": [
+    "Network/Basic/DNS.md",
+    "Network/Basic/DHCP.md",
+    "Network/Basic/ARP.md",
     "README.md",
     "Network/Basic/SocketPort.md",
     "Network/Basic/MAC.md",
@@ -193,11 +196,8 @@
     "Network/Security/Attack.md",
     "Network/Security",
     "Network/HTTP/URLWebBrowser.md",
-    "Network/Basic/DHCP.md",
     "Network/Untitled.md",
     "AWS/Security/ActiveDirectory.md",
-    "AWS/Security/GuardDuty.md",
-    "Network/Basic/ARP.md",
     "인터넷 통신 c4f15772b27942ffabc27519de34466c",
     "HTTP header 일반 헤더 2d1da6b8498f4dc58ca9a3c45da1f727",
     "Network/HTTP",

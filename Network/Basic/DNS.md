@@ -25,13 +25,13 @@
 		- 이들은 13개의 Root 서버의 사본
 	- 12개의 기관에서 관리
 	- TLD 서버의 IP 주소들을 제공
-- **TLD (Top-Level Domain) 최상위 레벨 도메인 서버**
+- **TLD (Top-Level Domain) (최상위 레벨) 도메인 서버**
 	- com, org, net, edu, gov, kr, uk, fr 와 같은 상위 레벨 도메인
 	- 책임 DNS 서버에 대한 IP 주소를 제공
-- **Authoritative 책임 DNS 서버**
+- **Authoritative (책임) DNS 서버**
 	- 인터넷에 접근하기 쉬운 호스트 (웹 서버, 메일 서버 등)를 가진 기관은 공개적인 DNS 레코드를 제공
 	- 기관의 DNS 서버는 DNS 레코드를 가지고 있음
-- **Local 로컬 DNS 네임 서버**
+- **Local (로컬) DNS 서버**
 	- DNS 계층에 속하지 않으며, 대신 IP 주소를 제공하거나 질의
 	- 웹 캐시와 비슷한 역할
 
@@ -46,14 +46,14 @@
 - 도메인을 구성하는 최상위 영역
 - DNS 서버는 사용자가 쿼리한 도메인에 대한 값을 직접 갖고 있거나 캐시에 저장된 정보를 이용해서 응답 
 - DNS 서버에 해당 도메인의 정보가 없으면 루트 도메인을 관리하는 루트 DNS에 쿼리
-- 루트 DNS는 전 세계에 13개가 있고, DNS 서버를 설치하면 루트 DNS의 IP 주소를 기록한 힌트(hint) 파일을 가지고 있어 루트 DNS 관련 정보를 별도로 설정할 필요가 없음
+- 루트 DNS는 전 세계에 13개가 있고, DNS 서버를 설치하면 루트 DNS의 IP 주소를 기록한 힌트(Hint) 파일을 가지고 있어 루트 DNS 관련 정보를 별도로 설정할 필요가 없음
 
 ## TLD (Top-Level Domain)
 
 - IANA(Internet Assigned Numbers Authority)에서 6가지 유형으로 구분    
 	- https://www.iana.org/domains/root/db
 - 종류
-	- generic (gTLD)
+	- **generic (gTLD)**
 		- 특별한 제한없이 일반적으로 사용되는 최상위 도메인으로 세 글자 이상으로 구성 
 		- 1980년대 7개의 gTLD (필요에 의해 새로운 gTLD가 지속적으로 만들어지고 있음)
 			- com
@@ -63,24 +63,24 @@
 			- mil
 			- net
 			- org
-	- country-code (ccTLD)
+	- **country-code (ccTLD)**
 		- 국가 최상위 도메인으로 ISO 3166 표준에 의해 규정된 두 글자의 국가 코드를 사용
 			- 우리나라는 kr을 사용하고, 영국은 ISO 3166 표준이 아닌 uk라는 별도 ccTLD를 사용
 		- 일반적으로 ccTLD를 사용하는 경우, Second Level TLD에는 gTLD에서 구분한 것처럼 사이트 용도에 따른 코드를 사용
 			- co.kr, go.kr, ...
 		- 우리나라는 gTLD를 두 글자로 줄여 사용하지만 호주나 대만에서는 그대로 사용
 			- com.au, gov.au, com.tw, gov.tw, ...
-	- sponsored(sTLD)
+	- **sponsored(sTLD)**
 		- 특정 목적을 위한 스폰서를 두고 있는 최상위 도메인
 		- 스폰서는 특정 민족공동체, 전문가 집단, 지리적 위치 등이 속할 수 있음
 		- .aero, .asia, .edu, .museum ....
-	- infrastructure
+	- **infrastructure**
 		- 운용상 중요한 인프라 식별자 공간을 지원하기 위해 전용으로 사용되는 최상위 도메인
 		- .arpa, ...
-	- generic-restricted(grTLD)
+	- **generic-restricted(grTLD)**
 		- 특정 기준을 충족하는 사람이나 단체가 사용할 수 있는 최상위 도메인
 		- .biz, .name, .pro, ...
-	- test(tTLD)
+	- **test(tTLD)**
 		- IDN 개발 프로세스에서 테스트 목적으로 사용하는 최상위 도메인
 		- .test, ...
 
@@ -90,13 +90,14 @@
 
 - 재귀적 질의와 반복적 질의는 DNS 질의 메시지에 헤더 플래그 정보에 의해 결정됨
 	- DNS 질의 메시지 헤더의 RD(Recursive Desired) 플래그가 1로 세팅된 경우, 재귀적 질의(Recursive Query)
-	- 반면 이 플래그가 0인 경우, 반복적 질의(Interactive Query)가 됩니다.
+	- 반면 이 플래그가 0인 경우, 반복적 질의(Interactive Query)
 
 ### Recursive Query
 
 - 상대 네임 서버에게 자신을 대신하여 원하는 도메인의 데이터를 인터넷에서 조회하여 응답해달라는 의미  
 - 네임 서버는 캐시 데이터 영역에서 질의된 대상 데이터를 조회
 	- 데이터가 없는 경우, 리졸버 루틴을 가동시켜 인터넷 루트 네임 서버로부터 질의 절차를 순차적으로 수행하여 질의 대상 데이터를 파악해 나간 후 최종 데이터를 파악한 경우 응답 처리
+
 ### Iterative Query
 
 - 루트 네임 서버로부터 도메인의 트리 형태 계층 구조를 따라 순차적으로 반복하여 진행하는 질의 (위임된 네임서버 정보를 따라 질의)
