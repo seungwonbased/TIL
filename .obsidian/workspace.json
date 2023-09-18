@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/HTTP/RedirectForward.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ffaf14ff94e868a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network/HTTP/HTTP.md",
+                "file": "Network/Security/WebSecurity.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/HTTP/HTTP.md",
+                "file": "Network/Security/WebSecurity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/HTTP/HTTP.md",
+                "file": "Network/Security/WebSecurity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/HTTP/HTTP.md"
+                "file": "Network/Security/WebSecurity.md"
               }
             }
           }
@@ -159,14 +147,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ffaf14ff94e868a",
+  "active": "471309d7119e1d08",
   "lastOpenFiles": [
-    "README.md",
     "Network/HTTP/RedirectForward.md",
+    "Network/Security/SQLInjection.md",
+    "Network/HTTP/HTTP.md",
+    "README.md",
     "Network/HTTP/HTTPCode.md",
     "Network/HTTP/HTTPGeneralHeader.md",
     "Network/Security/WebSecurity.md",
-    "Network/Security/SQLInjection.md",
     "Network/Security/AccessControl.md",
     "Network/Basic/ProxyServer.md",
     "AWS/assets/vpc12.png",
@@ -196,7 +185,6 @@
     "AWS/Security/ActiveDirectory.md",
     "AWS/Security/GuardDuty.md",
     "Network/Basic/ARP.md",
-    "Network/HTTP/HTTP.md",
     "Network/Basic/PortForwarding.md",
     "인터넷 통신 c4f15772b27942ffabc27519de34466c",
     "HTTP header 일반 헤더 2d1da6b8498f4dc58ca9a3c45da1f727",
