@@ -179,7 +179,7 @@ SELECT '2008-12-31 23:59:59' + INTERVAL 1 SECOND - INTERVAL 2 SECOND;
 
 ```sql
 CREATE TABLE comments (
-		content VARCHAR(200),
-		created_at TIMESTAMP DEFAULT NOW()
+	content VARCHAR(200),
+	created_at TIMESTAMP DEFAULT NOW()
 );
 ```

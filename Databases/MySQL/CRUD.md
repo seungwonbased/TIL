@@ -9,7 +9,7 @@ CREATE TABLE (테이블 이름) (column, column, …);
 # READ: SELECT
 
 ```SQL
-SELECT column, column, …** FROM **table;
+SELECT column, column, … FROM table;
 ```
 
 - *: All columns

@@ -46,7 +46,7 @@ SELECT MIN or MAX(col) FROM tab
 ```sql
 SELECT * FROM books
 WHERE pages = (SELECT MIN(pages)
-				FROM books);
+	FROM books);
 ```    
 
 # SUM

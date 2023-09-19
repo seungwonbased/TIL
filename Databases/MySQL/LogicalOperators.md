@@ -111,10 +111,10 @@ WHERE released_year >= 2000 AND
 
 ```sql
 SELECT title, released_year, **<- 콤마 꼭 써야함!!!**
-			CASE
-				WHEN released_year >= 2000 THEN 'Modern Lit'
-				ELSE '20th Century Lit'
-			END AS GENRE
+	CASE
+		WHEN released_year >= 2000 THEN 'Modern Lit'
+		ELSE '20th Century Lit'
+	END AS GENRE
 FROM books;
 -> title, released_year, GENRE (released_year가 2000보다 크거나 같으면
 				장르가 'Modern Lit'이 되고, 그렇지 않으면
@@ -129,10 +129,10 @@ SELECT
 FROM books;		
 
 SELECT title, stock_quantity, **<- 콤마 꼭 써야함!!!**
-			CASE
-				WHEN stock_quantity BETWEEN 0 AND 50 THEN '*' <- 콤마 쓰면 안 됨!!!
-				WHEN stock_quantity BETWEEN 51 AND 100 THEN '**'
-				ELSE '***'
-			END AS STOCK
+	CASE
+		WHEN stock_quantity BETWEEN 0 AND 50 THEN '*' <- 콤마 쓰면 안 됨!!!
+		WHEN stock_quantity BETWEEN 51 AND 100 THEN '**'
+		ELSE '***'
+	END AS STOCK
 FROM books;
 ```
