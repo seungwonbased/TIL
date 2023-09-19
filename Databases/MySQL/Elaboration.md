@@ -1,4 +1,4 @@
-# 선택사항 정교화
+# 선택사항 정교화하기
 
 # Distinct
 
@@ -39,7 +39,7 @@ WHERE col LIKE ‘문자열 with WILDCARDS’
 
 - 와일드카드 종류
     
-    ![elaboration](https://github.com/seungwonbased/TIL/blob/main/Databases/assets/Eleboration.png)
+    ![elaboration](https://github.com/seungwonbased/TIL/blob/main/Databases/assets/Elaboration.png)
     
     - %: 포함, 검색하고자 하는 문자열 양쪽에 위치하면 그 문자열을 포함한 모든 걸 조회 가능, 뒤에만 있다면 그 문자열로 시작하는 모든 걸 조회 가능 …
     - _: 하나의 문자를 특정시킴, 가령 ‘____ ‘이면 네 문자 길이의 문자열을 특정

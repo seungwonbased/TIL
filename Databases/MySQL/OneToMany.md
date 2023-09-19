@@ -22,8 +22,8 @@ CREATE TABLE orders (
     amount DECIMAL(8, 2),
     customer_id INT,
     FOREIGN KEY(customer_id) 
-				REFERENCES customers(id)
-				ON DELETE CASCADE <- 외래키에 상응하는 열이 삭제되면 이 열도 삭제
+		REFERENCES customers(id)
+		ON DELETE CASCADE <- 외래키에 상응하는 열이 삭제되면 이 열도 삭제
 );
 ```
 
@@ -68,7 +68,7 @@ WHERE customers.id = orders.customer_id;
 /* Explicit inner join */
 SELECT * FROM customers
 (INNER) JOIN orders
-		ON customers.id = orders.customer_id;
+	ON customers.id = orders.customer_id;
 ```
 
 ## LEFT JOIN
@@ -80,17 +80,17 @@ SELECT * FROM customers
 ```sql
 SELECT * FROM customers
 LEFT JOIN orders
-		ON customers.id = orders.customer_id;
+	ON customers.id = orders.customer_id;
 -> 예를 들어 위와 같이 주문한 사람과 주문하지 않은 사람 모두를 살펴보고 싶을 때 사용...
 -> 주문하지 않았다면 주문 부분에 NULL 값이 삽입됨
 
 SELECT
-		first_name,
-		last_name,
-		IFNULL(SUM(amount), 0) AS total_spent -> 첫번째 파라미터가 NULL이면 0으로
+	first_name,
+	last_name,
+	IFNULL(SUM(amount), 0) AS total_spent -> 첫번째 파라미터가 NULL이면 0으로
 FROM customers
 LEFT JOIN orders
-		ON customers.id = orders.customer_id
+	ON customers.id = orders.customer_id
 GROUP BY customers.id
 ORDER BY total_spent;
 

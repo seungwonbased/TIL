@@ -17,13 +17,13 @@
 
 ```sql
 SELECT
-		title,
-		rating,
-		CONCAT(first_name, ' ', last_name) AS reviewer
+	title,
+	rating,
+	CONCAT(first_name, ' ', last_name) AS reviewer
 FROM reviewers
 INNER JOIN reviews
-		ON reviewers.id = reviews.reviewer_id
+	ON reviewers.id = reviews.reviewer_id
 INNER JOIN series
-		ON series.id = reviews.series_id
+	ON series.id = reviews.series_id
 ORDER BY title;
 ```

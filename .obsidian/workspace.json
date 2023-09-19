@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/MySQL/OneToMany.md",
+                "file": "Databases/MySQL/Trigger.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/MySQL/OneToMany.md",
+                "file": "Databases/MySQL/Trigger.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/MySQL/OneToMany.md",
+                "file": "Databases/MySQL/Trigger.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/MySQL/OneToMany.md"
+                "file": "Databases/MySQL/Trigger.md"
               }
             }
           },
@@ -158,21 +158,21 @@
   },
   "active": "74615e91413fe22f",
   "lastOpenFiles": [
-    "Databases/MySQL/MySQL.md",
     "Databases/MySQL/ManyToMany.md",
+    "Databases/MySQL/OneToMany.md",
     "Databases/MySQL/LogicalOperators.md",
+    "Databases/MySQL/AggregateFunctions.md",
     "Databases/MySQL/Elaboration.md",
+    "Databases/MySQL/CRUD.md",
+    "Databases/MySQL/MySQL.md",
     "Databases/MySQL/DataTypes.md",
     "Databases/MySQL/Database.md",
-    "Databases/MySQL/CRUD.md",
-    "Databases/MySQL/AggregateFunctions.md",
     "선택사항 정교화하기 1e926526dbf14f7bb7dcc438aa6b2cf4/Screen_Shot_2023-01-17_at_11.45.55.png.md",
     "선택사항 정교화하기 1e926526dbf14f7bb7dcc438aa6b2cf4",
     "Databases/MySQL/Trigger.md",
     "Databases/assets/Elaboration.png",
     "AWS/assets/SpotInstance 1.png",
     "Databases/MySQL/StringFunctions.md",
-    "Databases/MySQL/OneToMany.md",
     "Databases/MySQL/Read this aa87f289ac5d495b8c0a56c0a5258bec.md",
     "Network/Security/HashEncryption.md",
     "Network/Security/Attack.md",

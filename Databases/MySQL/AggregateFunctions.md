@@ -9,11 +9,11 @@ SELECT COUNT(col (혹은 *)) FROM tab;
 ```
 
 - String functions, 선택 정교화와 함께 사용 가능
-    
-    ```sql
-예: SELECT COUNT(DISTINCT author_fname) FROM books;
-    ```
-    
+- 예시
+
+```sql
+SELECT COUNT(DISTINCT author_fname) FROM books;
+```
 
 # GROUP BY
 
@@ -42,13 +42,12 @@ SELECT MIN or MAX(col) FROM tab
     - pages column의 가장 작은 값과 title의 가장 앞에 있는 값이 조회될 것
         - 이것은 의도한 바가 아님, MIN(pages)의 title을 조회하고 싶음
         - 서브 쿼리 이용
-        
-        ```sql
+ 
+```sql
 SELECT * FROM books
 WHERE pages = (SELECT MIN(pages)
 				FROM books);
-        ```
-        
+```    
 
 # SUM
 

@@ -9,7 +9,7 @@ CREATE TABLE (테이블 이름) (column, column, …);
 # READ: SELECT
 
 ```SQL
-SELECT **column, column, …** FROM **table;**
+SELECT column, column, …** FROM **table;
 ```
 
 - *: All columns
@@ -17,13 +17,13 @@ SELECT **column, column, …** FROM **table;**
 ## WHERE
 
 ```SQL
-SELECT columns FROM table **WHERE 조건**;
+SELECT columns FROM table WHERE 조건;
 ```
 
 ## Aliases
 
 ```SQL
-SELECT column **AS (출력할 이름),** column **AS (출력할 이름)**, column, … FROM table;
+SELECT column AS (출력할 이름), column AS (출력할 이름), column, … FROM table;
 ```
 
 # UPDATE: UPDATE

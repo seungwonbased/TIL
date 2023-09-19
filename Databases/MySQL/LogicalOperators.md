@@ -56,7 +56,7 @@ WHERE released_year BETWEEN 2004 AND 2015;
 
 SELECT birthdt FROM people
 WHERE birthdt BETWEEN CAST('2023-01-26' AS DATETIME)
-								AND CAST('2024-01-26' AS DATETIME);
+AND CAST('2024-01-26' AS DATETIME);
 ```
 
 # IN, NOT IN
@@ -70,15 +70,15 @@ WHERE birthdt BETWEEN CAST('2023-01-26' AS DATETIME)
 ```sql
 SELECT title, author_lname FROM books
 WHERE author_lname = 'Carver' OR
-		author_lname = 'Lahiri' OR
+	author_lname = 'Lahiri' OR
 		author_lname = 'Smith';
 
 SELECT title, author_lname FROM books
 WHERE author_lname != 'Carver' AND
-		author_lname != 'Lahiri' AND
-		author_lname != 'Smith';
+	author_lname != 'Lahiri' AND
+	author_lname != 'Smith';
 
-		-> NOT IN 일 때는 AND를 써야함!!!
+	-> NOT IN 일 때는 AND를 써야함!!!
 ```
 
 ### IN을 사용했을 때
@@ -98,13 +98,13 @@ WHERE author_lname NOT IN ('Carver', 'Lahiri', 'Smith');
 ```sql
 SELECT title, released_year FROM books
 WHERE released_year >= 2000 AND
-		released_year NOT IN (2000, 2002, 2004, 2006, 2008, 2010, ...);
+	released_year NOT IN (2000, 2002, 2004, 2006, 2008, 2010, ...);
 
 =
 
 SELECT title, released_year FROM books
 WHERE released_year >= 2000 AND
-		released_year % 2 != 0;
+	released_year % 2 != 0;
 ```
 
 # CASE statements, IF()
@@ -117,8 +117,8 @@ SELECT title, released_year, **<- 콤마 꼭 써야함!!!**
 			END AS GENRE
 FROM books;
 -> title, released_year, GENRE (released_year가 2000보다 크거나 같으면
-								장르가 'Modern Lit'이 되고, 그렇지 않으면
-								장르가 '20th Century Lit'이 됨) 를 출력
+				장르가 'Modern Lit'이 되고, 그렇지 않으면
+				장르가 '20th Century Lit'이 됨) 를 출력
 
 IF()를 쓰면?
 
