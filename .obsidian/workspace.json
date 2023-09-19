@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Network/Security/WebSecurity.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Network/Security/WebSecurity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Network/Security/WebSecurity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Network/Security/WebSecurity.md"
               }
             }
           }
@@ -162,6 +163,7 @@
   "active": "93544f3011babc94",
   "lastOpenFiles": [
     "Network/Security/HashEncryption.md",
+    "README.md",
     "Network/Security/WebSecurity.md",
     "Network/Basic/SocketPort.md",
     "Databases/MySQL/MySQL.md",
@@ -170,7 +172,6 @@
     "Network/Basic/DNS.md",
     "Network/Basic/DHCP.md",
     "Network/Basic/ARP.md",
-    "README.md",
     "Network/Basic/MAC.md",
     "Network/HTTP/RedirectForward.md",
     "Network/Security/SQLInjection.md",
