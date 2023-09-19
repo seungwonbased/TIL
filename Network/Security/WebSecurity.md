@@ -66,14 +66,14 @@
 - 동일 출처 정책
 - 브라우저의 토큰이나 쿠키와 같이 사용자의 정보와 관련된 데이터의 탈취를 막기 위해 생긴 정책
 - 예를 들어, "https://www.example.com" 에서 요청을 보낸다면 서버는 동일한 URL로만 응답을 보낼 수 있음
-- 동일 출처는 프로토콜, 호스트. 포트의 동일 여부로 판단됨
+- 동일 출처는 프로토콜, 호스트, 포트의 동일 여부로 판단됨
 	- 쿼리 스트링은 달라도 괜찮음
 
 ## CORS 주요 개념
 
 - Origin
 	- 프로토콜, 호스트, 포트로 정의됨
-	- 예를 들어, "https://www.example.com" 과 "https://api.example.com" 은 서로 다른 출처
+	- 예를 들어, "https://www.example.com" 과 "https://api.example.com" 은 서로 다른 Origin
 - 요청과 응답 헤더
 	- CORS는 HTTP 요청과 응답 헤더를 사용하여 동작
 	- 중요한 헤더
@@ -148,7 +148,8 @@
 
 # CSP (Content Security Policy)
 
-- XSS와 데이터 주입 공격을 비롯한 특정 유형의 공격을 탐지하고 완화하는 데 도움이 되는 추가 보안 계층
+- XSS와 데이터 주입 공격을 비롯한 특정 유형의 공격을 탐지하고 완화하는 데 도움이 되는 브라우저 차원의 추가 보안 계층
+- 서버에서 주로 Content-Security-Policy 헤더에 정책을 작성해서 브라우저로 내려줌
 - 웹 페이지 내에서 불러오는 리소스들의 제한을 조절하는 매커니즘
-	- 주로 Cross-Origin scripting을 제한
+	- 주로 Cross-Origin Scripting을 제한
 - 완전히 막는 방법은 아니며, 예방 차원임
