@@ -45,12 +45,12 @@
 5. HTTP Method 검증
 	- 서버는 요청의 HTTP 메서드를 확인하여, 민감한 작업에는 POST 또는 PUT과 같은 안전한 메서드만 허용
 		- GET 요청은 민감한 작업에 사용되지 않도록 해야 함
-1. CORS (Cross-Origin Resource Sharing) 설정
+6. CORS (Cross-Origin Resource Sharing) 설정
 	- 웹 애플리케이션은 필요한 경우 CORS 설정을 사용하여 다른 도메인에서의 요청을 제어하고 허용할 Origin를 지정
-2. Content Security Policy (CSP)
+7. Content Security Policy (CSP)
 	- CSP를 사용하여 웹 페이지에서 특정 Origin에서 리소스를 로드할 수 있는지를 제어
 		- 이를 통해 외부 Origin에서의 스크립트 실행을 방지할 수 있음
-3. 더 많은 로그 및 감사
+8. 더 많은 로그 및 감사
 	- 서버 및 애플리케이션에서 발생한 모든 요청과 작업을 기록하고 감사
 		- 이러한 로그를 통해 CSRF 공격 발생 여부를 식별하고 대응할 수 있음
 
@@ -110,7 +110,7 @@
 		- 등등
 
 ## CORS 요청 방식
-### Simple Request
+### Simple Requests
 
 - 다음과 같은 조건을 만족하면 브라우저는 해당 CORS 요청을 Simple Request로 처리
 	- HTTP Method가 GET, POST, HEAD 중 하나인 경우
@@ -127,7 +127,7 @@
 	3. CORS 요청이 유효하다면 서버는 응답 헤더에 **Accecss-Control-Allow-Origin** 헤더를 추가해 사용자에게 다시 전송
 		- 유효하지 않다면 브라우저는 해당 응답을 허용하지 않고 CORS 에러를 반환
 
-### Preflight Request
+### Preflight Requests
 
 - Simple Request의 조건을 만족하지 못할 시 브라우저가 자동으로 생성
 - Simple Request와 달리 OPTIONS 메서드를 통해 다른 Origin의 리소스로 HTTP 요청을 미리 보내 (Preflight) 실제 요청이 전송하기에 안전한지 확인
@@ -178,3 +178,16 @@
 - 웹 페이지 내에서 불러오는 리소스들의 제한을 조절하는 매커니즘
 	- 주로 Cross-Origin Scripting을 제한
 - 완전히 막는 방법은 아니며, 예방 차원임
+
+# 파일 업로드 취약점
+
+- 파일의 크기나 개수를 제한하지 않음
+	- 불필요하게 크거나 많은 파일을 업로드해서 서버의 연결 자원 및 디스크 자원 고갈
+		- 정상적인 서비스 방해 (DDoS)
+- 파일의 확장자를 제한하지 않음
+	- 악성 코드가 포함된 파일이 업로드될 수 있음
+		- 서버 사이드에서 실행되는 악성 코드인 경우 해당 서버의 제어권을 탈취할 수 있음 (e.g., Web Shell)
+		- 클라이언트 사이드에서 실행되는 파일인 경우 해당 서버는 악성 코드 유포지로 악용될 수 있음
+- 외부에서 접근 가능한 경로에 파일을 저장
+	- 서버 사이드에 악성 코드를 심을 수 있음
+	- 웹 루트 밖에 있는 디렉터리에 파일을 저장하도록 하고, 불러올 때는 \<img src="download?file:...">과 같은 **다운로드 기능**을 구현해야 함
