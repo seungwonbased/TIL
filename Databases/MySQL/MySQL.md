@@ -20,18 +20,18 @@ DESC table_name; -> Describe table
 
 - [CRUD](https://github.com/seungwonbased/TIL/blob/main/Databases/MySQL/CRUD.md)
 
-- [String functions](https://github.com/seungwonbased/TIL/blob/main/Databases/MySQL/StringFunctions.md)
+- [String Functions](https://github.com/seungwonbased/TIL/blob/main/Databases/MySQL/StringFunctions.md)
 
-- [선택사항 정교화하기](https://github.com/seungwonbased/TIL/blob/main/Databases/MySQL/MoreFunctions.md)
+- [선택사항 정교화하기](https://github.com/seungwonbased/TIL/blob/main/Databases/MySQL/Elaboration.md)
 
-- [Aggregate functions, 집계 함수](https://github.com/seungwonbased/TIL/blob/main/Databases/MySQL/AggregateFunctions.md)
+- [Aggregate Functions, 집계 함수](https://github.com/seungwonbased/TIL/blob/main/Databases/MySQL/AggregateFunctions.md)
 
-- [Data types](https://github.com/seungwonbased/TIL/blob/main/Databases/MySQL/DataTypes.md)
+- [Data Types](https://github.com/seungwonbased/TIL/blob/main/Databases/MySQL/DataTypes.md)
 
-- [Logical operators](https://github.com/seungwonbased/TIL/blob/main/Databases/MySQL/LogicalOperators.md)
+- [Logical Operators](https://github.com/seungwonbased/TIL/blob/main/Databases/MySQL/LogicalOperators.md)
 
-- [Relationship: One to many](https://github.com/seungwonbased/TIL/blob/main/Databases/MySQL/OneToMany.md)
+- [Relationship: One to Many](https://github.com/seungwonbased/TIL/blob/main/Databases/MySQL/OneToMany.md)
 
-- [Relationship: Many to many](https://github.com/seungwonbased/TIL/blob/main/Databases/MySQL/ManyToMany.md)
+- [Relationship: Many to Many](https://github.com/seungwonbased/TIL/blob/main/Databases/MySQL/ManyToMany.md)
 
 - [Trigger](https://github.com/seungwonbased/TIL/blob/main/Databases/MySQL/Trigger.md)

@@ -2,7 +2,7 @@
 - [[AWS/Compute/Compute|Compute]]
 - [[Container]]
 - [[Data Analytics]]
-- [[Database]]
+- [[AWS/Database/Database]]
 - [[Integration Messaging]]
 - [[Machine Learning]]
 - [[Monitoring]]
