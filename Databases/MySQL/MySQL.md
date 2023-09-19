@@ -10,11 +10,11 @@ DESC table_name; -> Describe table
 
 # Reference Manual
 
-## [MySQL 8.0 Reference Manual](https://dev.mysql.com/doc/refman/8.0/en/)
+> [MySQL 8.0 Reference Manual](https://dev.mysql.com/doc/refman/8.0/en/)
 
 # 쿼리 연습
 
-## [Solve SQL Code Challenges](https://www.hackerrank.com/domains/sql)
+> [Solve SQL Code Challenges](https://www.hackerrank.com/domains/sql)
 
 # 이론 및 정리
 
