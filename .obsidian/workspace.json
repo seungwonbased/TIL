@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/Security/WebSecurity.md",
+                "file": "Network/Security/HashEncryption.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "93544f3011babc94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/Security/WebSecurity.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/Security/WebSecurity.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/Security/WebSecurity.md"
+                "file": "README.md"
               }
             }
           }
@@ -146,8 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "471309d7119e1d08",
+  "active": "93544f3011babc94",
   "lastOpenFiles": [
+    "Network/Security/HashEncryption.md",
+    "Network/Security/WebSecurity.md",
     "Network/Basic/SocketPort.md",
     "Databases/MySQL/MySQL.md",
     "Databases/BasicDatabases.md",
@@ -157,7 +172,6 @@
     "Network/Basic/ARP.md",
     "README.md",
     "Network/Basic/MAC.md",
-    "Network/Security/WebSecurity.md",
     "Network/HTTP/RedirectForward.md",
     "Network/Security/SQLInjection.md",
     "Network/HTTP/HTTP.md",
@@ -183,7 +197,6 @@
     "AWS/GlobalInfra/GlobalInfra.md",
     "Network/Security/AttackOnLayer.md",
     "스크랩.md",
-    "Network/Security/Attack.md",
     "Network/Security",
     "인터넷 통신 c4f15772b27942ffabc27519de34466c",
     "HTTP header 일반 헤더 2d1da6b8498f4dc58ca9a3c45da1f727",
