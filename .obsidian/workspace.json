@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "25786c9f6feb2d85",
+        "id": "ffc8df062bb846e9",
         "type": "tabs",
         "children": [
           {
-            "id": "d4e90ef7a9dbd395",
+            "id": "d3c918cacf89bf1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/Security/WAF.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "448af9b2722d11e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
+                "file": "Docker/DockerArchitecture.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Docker/DockerArchitecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Docker/DockerArchitecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Docker/DockerArchitecture.md"
               }
             }
           },
@@ -169,12 +156,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "448af9b2722d11e2",
+  "active": "d3c918cacf89bf1f",
   "lastOpenFiles": [
+    "Docker/assets/arc3.png",
+    "Docker/assets/arc2.png",
+    "Docker/assets/arc1.png",
+    "Untitled.md",
+    "Docker/DockerArchitecture.md",
+    "AWS/Security/CertificateManager.md",
+    "Docker/assets",
+    "Network/Basic/TCP.md",
+    "Docker",
+    "README.md",
     "Network/Security/WAF.md",
     "Network/Security/WebSecurity.md",
-    "README.md",
-    "Untitled.md",
     "Databases/MySQL/OneToMany.md",
     "Databases/MySQL/LogicalOperators.md",
     "Databases/MySQL/DataTypes.md",
@@ -196,18 +191,12 @@
     "Network/Basic/SocketPort.md",
     "Databases/BasicDatabases.md",
     "Linux/Notes/BasicCommand.md",
-    "Network/Basic/DNS.md",
-    "Network/Basic/DHCP.md",
-    "Network/Basic/ARP.md",
-    "Network/Basic/MAC.md",
     "AWS/assets/vpc12.png",
     "AWS/assets/vpc11.png",
     "AWS/assets/vpc10.png",
     "AWS/assets/vpc9.png",
     "AWS/assets/vpc8.png",
     "AWS/assets/vpc7.png",
-    "AWS/assets/vpc6.png",
-    "AWS/assets/vpc5.png",
     "Network/Security",
     "인터넷 통신 c4f15772b27942ffabc27519de34466c",
     "HTTP header 일반 헤더 2d1da6b8498f4dc58ca9a3c45da1f727",
@@ -216,8 +205,6 @@
     "Network/Basic",
     "AWS/Directory",
     "Untitled 1",
-    "Untitled",
-    "Portfolio",
     "Untitled.canvas"
   ]
 }
