@@ -200,13 +200,16 @@
 ### Security
 
 - [Access Control](https://github.com/seungwonbased/TIL/blob/main/Network/Security/AccessControl.md)
-- [CSRF, CORS, XSS, CSP, 파일 업로드 취약점](https://github.com/seungwonbased/TIL/blob/main/Network/Security/WebSecurity.md)
+- [CSRF, CORS, XSS, CSP, 파일 업로드 취약점, 경로 조작](https://github.com/seungwonbased/TIL/blob/main/Network/Security/WebSecurity.md)
 - [Hash & Encryption](https://github.com/seungwonbased/TIL/blob/main/Network/Security/HashEncryption.md)
 - [Scanning, Sniffing, Spoofing, Flooding](https://github.com/seungwonbased/TIL/blob/main/Network/Security/Attack.md)
 - [SQL Injection](https://github.com/seungwonbased/TIL/blob/main/Network/Security/SQLInjection.md)
 - [계층별 공격 유형](https://github.com/seungwonbased/TIL/blob/main/Network/Security/AttackOnLayer.md)
+- [웹 방화벽, WAF](https://github.com/seungwonbased/TIL/blob/main/Network/Security/WAF.md)
 
-# OAuth2.0
+# OAuth 2.0
+
+- [OAuth 2.0](https://github.com/seungwonbased/TIL/blob/main/ToBeContinued.md)
 
 # Spring
 
