@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/DockerArchitecture.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/DockerArchitecture.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/DockerArchitecture.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/DockerArchitecture.md"
+                "file": "README.md"
               }
             }
           },
@@ -158,11 +158,11 @@
   },
   "active": "d3c918cacf89bf1f",
   "lastOpenFiles": [
+    "Docker/DockerArchitecture.md",
     "Docker/assets/arc3.png",
     "Docker/assets/arc2.png",
     "Docker/assets/arc1.png",
     "Untitled.md",
-    "Docker/DockerArchitecture.md",
     "AWS/Security/CertificateManager.md",
     "Docker/assets",
     "Network/Basic/TCP.md",
@@ -196,7 +196,6 @@
     "AWS/assets/vpc10.png",
     "AWS/assets/vpc9.png",
     "AWS/assets/vpc8.png",
-    "AWS/assets/vpc7.png",
     "Network/Security",
     "인터넷 통신 c4f15772b27942ffabc27519de34466c",
     "HTTP header 일반 헤더 2d1da6b8498f4dc58ca9a3c45da1f727",
