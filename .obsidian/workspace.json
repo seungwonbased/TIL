@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ffc8df062bb846e9",
+        "id": "c96ef74199a8b1d9",
         "type": "tabs",
         "children": [
           {
-            "id": "d3c918cacf89bf1f",
+            "id": "0ed4fad8cbd1aab1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Docker/BasicCommand.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Docker/BasicCommand.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Docker/BasicCommand.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Docker/BasicCommand.md"
               }
             }
           },
@@ -156,9 +157,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d3c918cacf89bf1f",
+  "active": "0ed4fad8cbd1aab1",
   "lastOpenFiles": [
     "Docker/DockerArchitecture.md",
+    "Docker/BasicCommand.md",
+    "Databases/MySQL/AggregateFunctions.md",
+    "Docker/ImagesContainers.md",
+    "README.md",
     "Docker/assets/arc3.png",
     "Docker/assets/arc2.png",
     "Docker/assets/arc1.png",
@@ -167,13 +172,11 @@
     "Docker/assets",
     "Network/Basic/TCP.md",
     "Docker",
-    "README.md",
     "Network/Security/WAF.md",
     "Network/Security/WebSecurity.md",
     "Databases/MySQL/OneToMany.md",
     "Databases/MySQL/LogicalOperators.md",
     "Databases/MySQL/DataTypes.md",
-    "Databases/MySQL/AggregateFunctions.md",
     "Databases/MySQL/StringFunctions.md",
     "Databases/MySQL/CRUD.md",
     "Databases/MySQL/Trigger.md",
@@ -190,7 +193,6 @@
     "Network/Security/Attack.md",
     "Network/Basic/SocketPort.md",
     "Databases/BasicDatabases.md",
-    "Linux/Notes/BasicCommand.md",
     "AWS/assets/vpc12.png",
     "AWS/assets/vpc11.png",
     "AWS/assets/vpc10.png",
