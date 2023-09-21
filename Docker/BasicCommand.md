@@ -15,7 +15,7 @@ docker build [options] [Dockerfile 경로 또는 URL]
 
 ## docker build 주요 옵션
 
-### -t
+### -t, --tag
 
 ```docker
 docker build -t my-image:1.0 .
@@ -23,7 +23,7 @@ docker build -t my-image:1.0 .
 
 - 이미지명과 태그명을 붙이는 것
 - 실제 사용에서 거의 필수
-### -f 
+### -f, --file
 
 ```docker
 docker build -t my-image:1.0 -f /path/to/Dockerfile .
