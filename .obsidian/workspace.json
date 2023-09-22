@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Docker/Dockerfile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Docker/Dockerfile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Docker/Dockerfile.md"
               }
             }
           },
@@ -181,10 +181,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75dabb783284e4bb",
+  "active": "0ed4fad8cbd1aab1",
   "lastOpenFiles": [
-    "Docker/Dockerfile.md",
     "README.md",
+    "Docker/Dockerfile.md",
     "Docker/주의사항.md",
     "Docker/Docker.md",
     "Docker/BasicCommand.md",
