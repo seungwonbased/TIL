@@ -1,2 +1,0 @@
-# Images vs Containers
-

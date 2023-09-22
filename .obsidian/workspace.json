@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/BasicCommand.md",
+                "file": "Docker/Dockerfile.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "238d42817498c389",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Docker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75dabb783284e4bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -86,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/BasicCommand.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/BasicCommand.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/BasicCommand.md"
+                "file": "README.md"
               }
             }
           },
@@ -157,13 +181,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ed4fad8cbd1aab1",
+  "active": "75dabb783284e4bb",
   "lastOpenFiles": [
-    "Docker/DockerArchitecture.md",
-    "Docker/BasicCommand.md",
-    "Databases/MySQL/AggregateFunctions.md",
-    "Docker/ImagesContainers.md",
+    "Docker/Dockerfile.md",
     "README.md",
+    "Docker/주의사항.md",
+    "Docker/Docker.md",
+    "Docker/BasicCommand.md",
+    "Docker/LAB.md",
+    "Databases/MySQL/AggregateFunctions.md",
     "Docker/assets/arc3.png",
     "Docker/assets/arc2.png",
     "Docker/assets/arc1.png",
@@ -191,8 +217,6 @@
     "Databases/MySQL/Read this aa87f289ac5d495b8c0a56c0a5258bec.md",
     "Network/Security/HashEncryption.md",
     "Network/Security/Attack.md",
-    "Network/Basic/SocketPort.md",
-    "Databases/BasicDatabases.md",
     "AWS/assets/vpc12.png",
     "AWS/assets/vpc11.png",
     "AWS/assets/vpc10.png",

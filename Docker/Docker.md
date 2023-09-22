@@ -56,52 +56,14 @@
 
 ![arc](https://github.com/seungwonbased/TIL/blob/main/Docker/assets/arc2.png)
 
-## Dockerfile 구조와 명령어
+## Dockerfile
 
 ![arc](https://github.com/seungwonbased/TIL/blob/main/Docker/assets/arc3.png)
-
-## Dockerfile
 
 - 도커 이미지를 빌드하는 데 필요한 모든 명령어를 순서대로 기술한 텍스트 파일
 - 컨테이너에 설치해야 하는 패키지 (FROM), 추가해야 하는 소스코드 (ADD, COPY), 실행해야 하는 명령어와 쉘 스크립트 (RUN, CMD) 등을 기록한 파일
 - Dockerfile을 사용하면 직접 컨테이너를 생성하고 이미지로 커밋해야 하는 번거로움을 덜 수 있을 뿐 아니라 깃과 같은 개발 도구를 통해 애플리케이션의 빌드 및 배포를 자동화할 수 있음
 - 설치되는 것들에 대한 명세를 볼 수 있어 감사할 수 있기 때문에 보안적으로 안전
-
-### Dockerfile 기본 명령어
-
-|명령어|동작|
-|:---:|:---:|
-|**FROM**|기본 이미지|
-|**RUN**|쉘 명령어 실행|
-|**CMD**|컨테이너 기본 실행 명령어 (Entrypoint의 인자로 사용)|
-|**EXPOSE**|오픈되는 포트 정보|
-|ENV|환경변수 설정|
-|ADD|파일 또는 디렉토리 추가, URL/ZIP 사용 가능|
-|**COPY**|파일 또는 디렉토리 추가|
-|ENTRYPOINT|컨테이너 기본 실행 명령어|
-|VOLUMNE|외부 마운트 포인트 생성|
-|USER|RUN, CMD, ENTRYPOINT를 실행하는 사용자|
-|**WORKDIR**|작업 디렉토리 설정|
-|ARGS|빌드 타임 환경변수 생성|
-|LABEL|key-value 데이터|
-|ONBUILD|다른 빌드의 베이스로 사용될 떄 사용하는 명령어|
-
-- FROM
-	- Base Image를 가져옴
-	- Full 이미지 이름은 레지스트리, 베이스 이미지 이름, 태그, 네임스페이스 등으로 이뤄짐
-	- e.g., FROM    golang:1.9
-		- 레지스트리가 없으면 디폴트로 Dockerhub
-		- 태그가 없으면 디폴트로 Latest
-- RUN
-	- 컨테이너에서 실행할 명령어를 지정
-	- e.g., RUN    mkdir /echo
-- COPY
-	- 호스트의 파일을 컨테이너에 복사
-	- e.g., COPY    main.go /echo
-- CMD
-	- 컨테이너 실행 시 실행할 명령어
-	- e.g., CMD    ["go", "run", "/echo/main.go"]
-- ...
 
 ## Context
 
@@ -118,3 +80,4 @@
 	- 이미지를 새로 빌드하거나 업데이트할 때, 이전 버전의 이미지는 Dangling 이미지로 남을 수 있음
 2. 컨테이너 삭제
 	- 컨테이너를 삭제할 때, 해당 컨테이너에 연결된 이미지가 Dangling 이미지로 남을 수 있음
+
