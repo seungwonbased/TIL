@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Docker/Dockerfile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Docker/Dockerfile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Docker/Dockerfile.md"
               }
             }
           },
@@ -182,12 +182,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75dabb783284e4bb",
+  "active": "238d42817498c389",
   "lastOpenFiles": [
+    "README.md",
     "Docker/assets/file1.png",
     "Docker/Dockerfile.md",
     "Docker/BasicCommand.md",
-    "README.md",
     "Docker/Docker.md",
     "Docker/주의사항.md",
     "Docker/LAB.md",
@@ -222,7 +222,6 @@
     "AWS/assets/vpc11.png",
     "AWS/assets/vpc10.png",
     "AWS/assets/vpc9.png",
-    "AWS/assets/vpc8.png",
     "Network/Security",
     "인터넷 통신 c4f15772b27942ffabc27519de34466c",
     "HTTP header 일반 헤더 2d1da6b8498f4dc58ca9a3c45da1f727",

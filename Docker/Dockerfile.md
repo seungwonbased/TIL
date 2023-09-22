@@ -70,7 +70,7 @@
 	- CMD 인자 값을 주는 방식으로 변경 가능
 - ENTRYPOINT가 설정되었다면 cmd는 단지 ENTRYPOINT에 대한 인자의 기능을 수행
 	- 기본 설정된 ENTRYPOINT 명령 뒤에 붙게 됨
-- ENTRYPOINT run할 때 CMD로 덮어쓸 수 없기 때문에 명령을 보호하는 목적으로 사용함
+- ENTRYPOINT run할 때 CMD로 덮어쓸 수 없기 때문에 명령을 보호하는 목적으로 사용함
 
 ## Dockerfile 작성 시 유의사항
 
