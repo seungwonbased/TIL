@@ -108,5 +108,9 @@
 - \--no-install-recommends 플래그 사용
 	- 추천 및 제안 패키지가 자동으로 설치되는 것을 방지
 	- e.g., apt-get install --no-install-recommends
+#### 3. apt 패키지 매니저의 캐시 삭제
+- apt 패키지 매니저의 캐시를 삭제해 이미지 크기 최적화
+- RUN rm -rf /var/lib/apt/lists/\*
+
 
 
