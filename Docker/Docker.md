@@ -9,7 +9,7 @@
 	- Docker Compose
 	- Docker Content Trust
 	- Kubernetes
-	- Credential Helperw
+	- Credential Helpers
 
 # 도커의 구성 요소
 

@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -184,11 +183,11 @@
   },
   "active": "238d42817498c389",
   "lastOpenFiles": [
+    "Docker/Docker.md",
+    "Docker/Dockerfile.md",
     "README.md",
     "Docker/assets/file1.png",
-    "Docker/Dockerfile.md",
     "Docker/BasicCommand.md",
-    "Docker/Docker.md",
     "Docker/주의사항.md",
     "Docker/LAB.md",
     "Databases/MySQL/AggregateFunctions.md",
