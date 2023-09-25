@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Dockerfile.md",
+                "file": "Docker/BasicCommand.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/ImageTagging.md",
+                "file": "스크랩.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Docker/VolumeMount.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/ImageTagging.md",
+                "file": "Docker/VolumeMount.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/ImageTagging.md",
+                "file": "Docker/VolumeMount.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/ImageTagging.md"
+                "file": "Docker/VolumeMount.md"
               }
             }
           },
@@ -181,12 +181,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "238d42817498c389",
+  "active": "75dabb783284e4bb",
   "lastOpenFiles": [
-    "README.md",
     "Docker/Dockerfile.md",
-    "Docker/ImageTagging.md",
     "Docker/BasicCommand.md",
+    "스크랩.md",
+    "Docker/VolumeMount.md",
+    "README.md",
+    "Docker/ImageTagging.md",
     "Docker/BuildContext.md",
     "Docker/Docker.md",
     "Docker/assets/file1.png",
@@ -213,11 +215,9 @@
     "Databases/MySQL/Elaboration.md",
     "Databases/MySQL/MySQL.md",
     "Databases/MySQL/Database.md",
-    "선택사항 정교화하기 1e926526dbf14f7bb7dcc438aa6b2cf4/Screen_Shot_2023-01-17_at_11.45.55.png.md",
     "선택사항 정교화하기 1e926526dbf14f7bb7dcc438aa6b2cf4",
     "Databases/assets/Elaboration.png",
     "AWS/assets/SpotInstance 1.png",
-    "Databases/MySQL/Read this aa87f289ac5d495b8c0a56c0a5258bec.md",
     "AWS/assets/vpc12.png",
     "AWS/assets/vpc11.png",
     "AWS/assets/vpc10.png",
