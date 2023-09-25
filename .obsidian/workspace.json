@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Docker/ImageTagging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Docker/ImageTagging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Docker/ImageTagging.md"
               }
             }
           },
@@ -181,13 +181,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75dabb783284e4bb",
+  "active": "238d42817498c389",
   "lastOpenFiles": [
+    "README.md",
+    "Docker/Dockerfile.md",
     "Docker/ImageTagging.md",
     "Docker/BasicCommand.md",
-    "Docker/Dockerfile.md",
     "Docker/BuildContext.md",
-    "README.md",
     "Docker/Docker.md",
     "Docker/assets/file1.png",
     "Docker/주의사항.md",
