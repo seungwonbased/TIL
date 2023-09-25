@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/BasicCommand.md",
+                "file": "Docker/Dockerfile.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Dockerfile.md",
+                "file": "Docker/ImageTagging.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Dockerfile.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Dockerfile.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Dockerfile.md"
+                "file": "README.md"
               }
             }
           },
@@ -181,13 +181,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "238d42817498c389",
+  "active": "75dabb783284e4bb",
   "lastOpenFiles": [
-    "Docker/Docker.md",
-    "Docker/Dockerfile.md",
-    "README.md",
-    "Docker/assets/file1.png",
+    "Docker/ImageTagging.md",
     "Docker/BasicCommand.md",
+    "Docker/Dockerfile.md",
+    "Docker/BuildContext.md",
+    "README.md",
+    "Docker/Docker.md",
+    "Docker/assets/file1.png",
     "Docker/주의사항.md",
     "Docker/LAB.md",
     "Databases/MySQL/AggregateFunctions.md",
@@ -216,7 +218,6 @@
     "Databases/assets/Elaboration.png",
     "AWS/assets/SpotInstance 1.png",
     "Databases/MySQL/Read this aa87f289ac5d495b8c0a56c0a5258bec.md",
-    "Network/Security/HashEncryption.md",
     "AWS/assets/vpc12.png",
     "AWS/assets/vpc11.png",
     "AWS/assets/vpc10.png",
