@@ -11,7 +11,7 @@
 	- **⚠️ : 호스트와 컨테이너 간의 데이터 공유가 아님!**
         - 호스트와 컨테이너 간의 데이터 공유는 Bind mount로
 
-## Two Types of Volume
+## Two Types of Volumes
 
 ### Anonymous Volumes
 
@@ -69,7 +69,7 @@
 	- 그 대신 특정 데이터를 호스트 머신 파일 시스템에 아웃소싱
 	- 이러한 특징이 성능과 효율성에 도움이 됨
 
-### 2. docker run -v \name:/app/data ...
+### 2. docker run -v name:/app/data ...
 
 - Named Volume (명명된 볼륨) 생성
 - Dockerfile에서 생성할 수 없음
@@ -101,14 +101,14 @@
 	- 도커가 더 이상 해당 디렉터리나 그 하위 폴더에 쓰기 작업을 할 수 없음
 - Binding Mount를 통해 컨테이너와 실시간 데이터 공유가 가능하면서 작업이 명확해진다는 장점이 있음
 - 더 구체적인 하위 볼륨을 특정한다면 Read-only 제한보다 우선하게 할 수 있음
-	- docker run -v $(pwd):/app:ro -v \data:/app/data
+	- docker run -v $(pwd):/app:ro -v data:/app/data
 	- 이렇게 하면 컨테이너 내부의 /app/data에는 애플리케이션이 쓰기 작업을 할 수 있음
 
-# COPY vs Binding Mounts
+# Bind Mount, but still COPY?
 
-- 바인드 마운트로 호스트 머신 상 경로로 주어진 전체 디렉터리를 볼륨으로 사용하는데도 Dockerfile에서 COPY를 통해 이미지가 생성될 때 스냅샷에서 복사해야 하는 이유
+- 바인드 마운트로 호스트 머신 상 경로로 주어진 전체 디렉터리를 볼륨으로 사용하는데도 Dockerfile에서 COPY를 통해 이미지가 생성될 때 스냅샷에서 복사해야 함
 	- COPY 명령을 안 할 수는 있지만 권장되지는 않음
-- docker run 명령은 개발 중에 사용하는 명령
+- docker run은 개발 중에 사용하는 명령
 	- 개발 중에 바인드 마운트를 사용해 코드에 변경 사항을 실행 중인 컨테이너에 즉시 반영
 	- 개발을 마치면 컨테이너를 서버에 띄움
 	- 그 때는 바인드 마운트를 사용해서 띄우지 않기 때문에 COPY 명령어를 Dockerfile에 넣어둬야 함

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/BasicCommand.md",
+                "file": "Docker/VolumeMount.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/VolumeMount.md",
+                "file": "Docker/ARGENV.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e1a6db25e88a4cd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Formatting.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -181,16 +193,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75dabb783284e4bb",
+  "active": "0ed4fad8cbd1aab1",
   "lastOpenFiles": [
+    "Docker/BasicCommand.md",
+    "Docker/Formatting.md",
+    "Docker/ARGENV.md",
     "README.md",
     "스크랩.md",
-    "Docker/VolumeMount.md",
-    "Docker/BasicCommand.md",
-    "Docker/Dockerfile.md",
+    "Docker/PrivateRegistry.md",
     "Docker/ImageTagging.md",
-    "Docker/BuildContext.md",
     "Docker/Docker.md",
+    "Docker/Dockerfile.md",
+    "Docker/VolumeMount.md",
+    "Docker/dockerignore.md",
+    "Docker/BuildContext.md",
     "Docker/assets/file1.png",
     "Docker/주의사항.md",
     "Docker/LAB.md",
@@ -211,10 +227,6 @@
     "Databases/MySQL/StringFunctions.md",
     "Databases/MySQL/CRUD.md",
     "Databases/MySQL/Trigger.md",
-    "Databases/MySQL/ManyToMany.md",
-    "Databases/MySQL/Elaboration.md",
-    "Databases/MySQL/MySQL.md",
-    "Databases/MySQL/Database.md",
     "선택사항 정교화하기 1e926526dbf14f7bb7dcc438aa6b2cf4",
     "Databases/assets/Elaboration.png",
     "AWS/assets/SpotInstance 1.png",
