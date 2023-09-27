@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/VolumeMount.md",
+                "file": "Docker/Compose.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +49,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/ContainerNetwork.md",
+                "file": "Docker/Docker.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Docker/Compose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Docker/Compose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Docker/Compose.md"
               }
             }
           },
@@ -193,21 +193,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "238d42817498c389",
+  "active": "0ed4fad8cbd1aab1",
   "lastOpenFiles": [
+    "Docker/YAML.md",
+    "Docker/VolumeMount.md",
+    "Docker/Compose.md",
+    "README.md",
+    "Docker/assets/yaml1.png",
+    "Docker/Docker.md",
+    "Docker/BuildContext.md",
+    "Docker/BasicCommand.md",
     "Docker/ContainerNetwork.md",
     "Docker/ARGENV.md",
-    "README.md",
     "Docker/Formatting.md",
-    "Docker/VolumeMount.md",
-    "Docker/BasicCommand.md",
     "스크랩.md",
     "Docker/PrivateRegistry.md",
     "Docker/ImageTagging.md",
-    "Docker/Docker.md",
     "Docker/Dockerfile.md",
     "Docker/dockerignore.md",
-    "Docker/BuildContext.md",
     "Docker/assets/file1.png",
     "Docker/주의사항.md",
     "Docker/LAB.md",
@@ -225,15 +228,12 @@
     "Databases/MySQL/OneToMany.md",
     "Databases/MySQL/LogicalOperators.md",
     "Databases/MySQL/DataTypes.md",
-    "Databases/MySQL/StringFunctions.md",
-    "Databases/MySQL/CRUD.md",
     "선택사항 정교화하기 1e926526dbf14f7bb7dcc438aa6b2cf4",
     "Databases/assets/Elaboration.png",
     "AWS/assets/SpotInstance 1.png",
     "AWS/assets/vpc12.png",
     "AWS/assets/vpc11.png",
     "AWS/assets/vpc10.png",
-    "AWS/assets/vpc9.png",
     "Network/Security",
     "인터넷 통신 c4f15772b27942ffabc27519de34466c",
     "HTTP header 일반 헤더 2d1da6b8498f4dc58ca9a3c45da1f727",
