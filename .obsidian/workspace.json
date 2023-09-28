@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Compose.md",
+                "file": "Docker/LAB/DockerizedRecipeBook.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Compose.md",
+                "file": "Docker/LAB/DockerizedRecipeBook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Compose.md",
+                "file": "Docker/LAB/DockerizedRecipeBook.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Compose.md"
+                "file": "Docker/LAB/DockerizedRecipeBook.md"
               }
             }
           },
@@ -195,9 +194,14 @@
   },
   "active": "0ed4fad8cbd1aab1",
   "lastOpenFiles": [
+    "Docker/LAB.md",
+    "Docker/LAB/DockerizedRecipeBook.md",
+    "Docker/Compose.md",
+    "Docker/LAB",
+    "logs",
+    "node_modules",
     "Docker/YAML.md",
     "Docker/VolumeMount.md",
-    "Docker/Compose.md",
     "README.md",
     "Docker/assets/yaml1.png",
     "Docker/Docker.md",
@@ -213,7 +217,6 @@
     "Docker/dockerignore.md",
     "Docker/assets/file1.png",
     "Docker/주의사항.md",
-    "Docker/LAB.md",
     "Databases/MySQL/AggregateFunctions.md",
     "Docker/assets/arc3.png",
     "Docker/assets/arc2.png",
@@ -227,7 +230,6 @@
     "Network/Security/WebSecurity.md",
     "Databases/MySQL/OneToMany.md",
     "Databases/MySQL/LogicalOperators.md",
-    "Databases/MySQL/DataTypes.md",
     "선택사항 정교화하기 1e926526dbf14f7bb7dcc438aa6b2cf4",
     "Databases/assets/Elaboration.png",
     "AWS/assets/SpotInstance 1.png",
@@ -239,9 +241,6 @@
     "HTTP header 일반 헤더 2d1da6b8498f4dc58ca9a3c45da1f727",
     "Network/HTTP",
     "Network/Basic/Untitled.canvas",
-    "Network/Basic",
-    "AWS/Directory",
-    "Untitled 1",
     "Untitled.canvas"
   ]
 }
