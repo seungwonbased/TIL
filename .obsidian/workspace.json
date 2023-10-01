@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/LAB/DockerizedRecipeBook.md",
+                "file": "Docker/Compose.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/LAB/DockerizedRecipeBook.md",
+                "file": "Docker/Compose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/LAB/DockerizedRecipeBook.md",
+                "file": "Docker/Compose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/LAB/DockerizedRecipeBook.md"
+                "file": "Docker/Compose.md"
               }
             }
           },
@@ -194,8 +194,9 @@
   },
   "active": "0ed4fad8cbd1aab1",
   "lastOpenFiles": [
-    "Docker/LAB.md",
+    "Docker/Formatting.md",
     "Docker/LAB/DockerizedRecipeBook.md",
+    "Docker/LAB.md",
     "Docker/Compose.md",
     "Docker/LAB",
     "logs",
@@ -209,7 +210,6 @@
     "Docker/BasicCommand.md",
     "Docker/ContainerNetwork.md",
     "Docker/ARGENV.md",
-    "Docker/Formatting.md",
     "스크랩.md",
     "Docker/PrivateRegistry.md",
     "Docker/ImageTagging.md",
