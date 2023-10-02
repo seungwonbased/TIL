@@ -4,52 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c96ef74199a8b1d9",
+        "id": "a36841cb93d4e309",
         "type": "tabs",
         "children": [
           {
-            "id": "0ed4fad8cbd1aab1",
+            "id": "6a4a6fc64aabefd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Compose.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "238d42817498c389",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "75dabb783284e4bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/ARGENV.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "779cf721b0ba850f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Docker.md",
+                "file": "Portfolio/READMETemplate.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Compose.md",
+                "file": "Portfolio/READMETemplate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Compose.md",
+                "file": "Portfolio/READMETemplate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Compose.md"
+                "file": "Portfolio/READMETemplate.md"
               }
             }
           },
@@ -192,24 +156,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ed4fad8cbd1aab1",
+  "active": "6a4a6fc64aabefd6",
   "lastOpenFiles": [
-    "Docker/Formatting.md",
+    "Docker/Docker.md",
+    "Docker/ARGENV.md",
+    "README.md",
     "Docker/LAB/DockerizedRecipeBook.md",
-    "Docker/LAB.md",
+    "Docker/LAB/DockerizedRecipeBook 1.md",
     "Docker/Compose.md",
+    "Docker/Formatting.md",
+    "Docker/LAB.md",
     "Docker/LAB",
     "logs",
     "node_modules",
     "Docker/YAML.md",
     "Docker/VolumeMount.md",
-    "README.md",
     "Docker/assets/yaml1.png",
-    "Docker/Docker.md",
     "Docker/BuildContext.md",
     "Docker/BasicCommand.md",
     "Docker/ContainerNetwork.md",
-    "Docker/ARGENV.md",
     "스크랩.md",
     "Docker/PrivateRegistry.md",
     "Docker/ImageTagging.md",
@@ -229,7 +194,6 @@
     "Network/Security/WAF.md",
     "Network/Security/WebSecurity.md",
     "Databases/MySQL/OneToMany.md",
-    "Databases/MySQL/LogicalOperators.md",
     "선택사항 정교화하기 1e926526dbf14f7bb7dcc438aa6b2cf4",
     "Databases/assets/Elaboration.png",
     "AWS/assets/SpotInstance 1.png",
