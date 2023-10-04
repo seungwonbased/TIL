@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "a36841cb93d4e309",
+        "id": "8fd3e8178c12d8f7",
         "type": "tabs",
         "children": [
           {
-            "id": "6a4a6fc64aabefd6",
+            "id": "90e8ea09c0a0e004",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/READMETemplate.md",
+                "file": "K8s/Resources.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd09c202b48e932e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "K8s/Vagrant.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Portfolio/READMETemplate.md",
+                "file": "K8s/Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Portfolio/READMETemplate.md",
+                "file": "K8s/Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio/READMETemplate.md"
+                "file": "K8s/Resources.md"
               }
             }
           },
@@ -156,11 +169,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6a4a6fc64aabefd6",
+  "active": "90e8ea09c0a0e004",
   "lastOpenFiles": [
-    "Docker/Docker.md",
-    "Docker/ARGENV.md",
     "README.md",
+    "K8s/Vagrant.md",
+    "K8s/Basic.md",
+    "K8s/Resources.md",
+    "Linux/DHCPServer.md",
+    "Linux/FTPServer.md",
+    "K8s/assets/basic1.png",
+    "스크랩.md",
+    "Linux/CachingNameServer.md",
+    "K8s/assets",
+    "Portfolio/READMETemplate.md",
+    "K8s",
+    "Portfolio/MSA.md",
+    "Docker/ARGENV.md",
+    "Docker/Docker.md",
     "Docker/LAB/DockerizedRecipeBook.md",
     "Docker/LAB/DockerizedRecipeBook 1.md",
     "Docker/Compose.md",
@@ -175,35 +200,23 @@
     "Docker/BuildContext.md",
     "Docker/BasicCommand.md",
     "Docker/ContainerNetwork.md",
-    "스크랩.md",
     "Docker/PrivateRegistry.md",
     "Docker/ImageTagging.md",
     "Docker/Dockerfile.md",
     "Docker/dockerignore.md",
     "Docker/assets/file1.png",
-    "Docker/주의사항.md",
-    "Databases/MySQL/AggregateFunctions.md",
     "Docker/assets/arc3.png",
     "Docker/assets/arc2.png",
     "Docker/assets/arc1.png",
-    "Untitled.md",
-    "AWS/Security/CertificateManager.md",
     "Docker/assets",
-    "Network/Basic/TCP.md",
     "Docker",
-    "Network/Security/WAF.md",
-    "Network/Security/WebSecurity.md",
-    "Databases/MySQL/OneToMany.md",
     "선택사항 정교화하기 1e926526dbf14f7bb7dcc438aa6b2cf4",
     "Databases/assets/Elaboration.png",
     "AWS/assets/SpotInstance 1.png",
     "AWS/assets/vpc12.png",
     "AWS/assets/vpc11.png",
-    "AWS/assets/vpc10.png",
     "Network/Security",
     "인터넷 통신 c4f15772b27942ffabc27519de34466c",
-    "HTTP header 일반 헤더 2d1da6b8498f4dc58ca9a3c45da1f727",
-    "Network/HTTP",
     "Network/Basic/Untitled.canvas",
     "Untitled.canvas"
   ]
