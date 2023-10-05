@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "K8s/Vagrant.md",
+                "file": "K8s/Pods.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "K8s/Resources.md",
+                "file": "K8s/Pods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "K8s/Resources.md",
+                "file": "K8s/Pods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "K8s/Resources.md"
+                "file": "K8s/Pods.md"
               }
             }
           },
@@ -169,12 +170,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90e8ea09c0a0e004",
+  "active": "fd09c202b48e932e",
   "lastOpenFiles": [
-    "README.md",
-    "K8s/Vagrant.md",
     "K8s/Basic.md",
+    "K8s/Pods.md",
+    "K8s/Vagrant.md",
     "K8s/Resources.md",
+    "README.md",
     "Linux/DHCPServer.md",
     "Linux/FTPServer.md",
     "K8s/assets/basic1.png",
@@ -203,7 +205,6 @@
     "Docker/PrivateRegistry.md",
     "Docker/ImageTagging.md",
     "Docker/Dockerfile.md",
-    "Docker/dockerignore.md",
     "Docker/assets/file1.png",
     "Docker/assets/arc3.png",
     "Docker/assets/arc2.png",
