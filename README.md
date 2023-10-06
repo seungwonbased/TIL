@@ -150,6 +150,9 @@
 - [K8s Basic](https://github.com/seungwonbased/TIL/blob/main/K8s/Basic.md)
 - [Vagrant Basic](https://github.com/seungwonbased/TIL/blob/main/K8s/Vagrant.md)
 - [K8s Resources](https://github.com/seungwonbased/TIL/blob/main/K8s/Resources.md)
+- [Pods](https://github.com/seungwonbased/TIL/blob/main/K8s/Pods.md)
+- [ReplicaSet](https://github.com/seungwonbased/TIL/blob/main/K8s/Pods.md)
+- [Deployment](https://github.com/seungwonbased/TIL/blob/main/K8s/Deployments.md)
 
 # Linux
 

@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "K8s/Deployment.md",
+                "file": "K8s/Deployments.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "37a7c19b1a25c0f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "K8s/ReplicaSet.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "K8s/Deployment.md",
+                "file": "K8s/Deployments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "K8s/Deployment.md",
+                "file": "K8s/Deployments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "K8s/Deployment.md"
+                "file": "K8s/Deployments.md"
               }
             }
           },
@@ -171,12 +184,13 @@
   },
   "active": "fd09c202b48e932e",
   "lastOpenFiles": [
+    "K8s/ReplicaSet.md",
+    "README.md",
     "K8s/Pods.md",
-    "K8s/Deployment.md",
+    "K8s/Deployments.md",
     "K8s/Resources.md",
     "K8s/Basic.md",
     "K8s/Vagrant.md",
-    "README.md",
     "Linux/DHCPServer.md",
     "Linux/FTPServer.md",
     "K8s/assets/basic1.png",
@@ -203,7 +217,6 @@
     "Docker/BasicCommand.md",
     "Docker/ContainerNetwork.md",
     "Docker/PrivateRegistry.md",
-    "Docker/ImageTagging.md",
     "Docker/assets/file1.png",
     "Docker/assets/arc3.png",
     "Docker/assets/arc2.png",
