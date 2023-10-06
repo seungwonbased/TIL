@@ -1,3 +1,10 @@
+# Deployment
+
+- Deployment는 Pod와 ReplicaSet에 대한 선언적 업데이트를 제공
+- Deployment에서 의도하는 상태를 설명하고, 디플로이먼트 컨트롤러(Controller)는 현재 상태에서 의도하는 상태로 비율을 조정하며 변경
+
+> **참고:** 디플로이먼트가 소유하는 레플리카셋은 관리하지 말아야 함
+
 # The "Deployment" Object
 
 - Deployment 객체는 쿠버네티스로 작업할 때 작업하는 주요 객체 중 하나
