@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "K8s/Resources.md",
+                "file": "K8s/Basic.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -111,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "K8s/Deployments.md",
+                "file": "K8s/Basic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "K8s/Deployments.md",
+                "file": "K8s/Basic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "K8s/Deployments.md"
+                "file": "K8s/Basic.md"
               }
             }
           },
@@ -182,13 +180,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd09c202b48e932e",
+  "active": "90e8ea09c0a0e004",
   "lastOpenFiles": [
+    "K8s/Resources.md",
+    "K8s/Deployments.md",
     "K8s/ReplicaSet.md",
     "README.md",
     "K8s/Pods.md",
-    "K8s/Deployments.md",
-    "K8s/Resources.md",
     "K8s/Basic.md",
     "K8s/Vagrant.md",
     "Linux/DHCPServer.md",
