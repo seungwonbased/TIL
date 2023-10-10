@@ -148,11 +148,15 @@
 # Kubernetes
 
 - [K8s Basic](https://github.com/seungwonbased/TIL/blob/main/K8s/Basic.md)
+- [YAML Basic](https://github.com/seungwonbased/TIL/blob/main/K8s/YAML.md)
 - [Vagrant Basic](https://github.com/seungwonbased/TIL/blob/main/K8s/Vagrant.md)
 - [K8s Resources](https://github.com/seungwonbased/TIL/blob/main/K8s/Resources.md)
 - [Pods](https://github.com/seungwonbased/TIL/blob/main/K8s/Pods.md)
 - [ReplicaSet](https://github.com/seungwonbased/TIL/blob/main/K8s/Pods.md)
 - [Deployment](https://github.com/seungwonbased/TIL/blob/main/K8s/Deployments.md)
+- [Deployment Strategies](https://github.com/seungwonbased/TIL/blob/main/K8s/DeploymentStrategies.md)
+- [DaemonSet](https://github.com/seungwonbased/TIL/blob/main/K8s/DaemonSet.md)
+- [Service](https://github.com/seungwonbased/TIL/blob/main/K8s/Service.md)
 
 # Linux
 

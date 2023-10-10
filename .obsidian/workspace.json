@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "K8s/Deployments.md",
+                "file": "K8s/Service.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,13 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "K8s/ReplicaSet.md",
+                "file": "Docker/ARGENV.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e17969c8f181caf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "K8s/Basic.md",
+                "file": "K8s/Service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "K8s/Basic.md",
+                "file": "K8s/Service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "K8s/Basic.md"
+                "file": "K8s/Service.md"
               }
             }
           },
@@ -180,25 +193,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90e8ea09c0a0e004",
+  "active": "fd09c202b48e932e",
   "lastOpenFiles": [
-    "K8s/Resources.md",
-    "K8s/Deployments.md",
-    "K8s/ReplicaSet.md",
+    "K8s/assets/service2.png",
+    "K8s/assets/service1.png",
     "README.md",
-    "K8s/Pods.md",
+    "Docker/YAML.md",
+    "스크랩.md",
+    "K8s/DeploymentStrategies.md",
     "K8s/Basic.md",
+    "K8s/Service.md",
+    "K8s/DaemonSet.md",
+    "K8s/Deployments.md",
+    "Docker/ARGENV.md",
+    "K8s/ReplicaSet.md",
+    "K8s/Resources.md",
+    "K8s/Pods.md",
     "K8s/Vagrant.md",
     "Linux/DHCPServer.md",
     "Linux/FTPServer.md",
     "K8s/assets/basic1.png",
-    "스크랩.md",
     "Linux/CachingNameServer.md",
     "K8s/assets",
     "Portfolio/READMETemplate.md",
     "K8s",
     "Portfolio/MSA.md",
-    "Docker/ARGENV.md",
     "Docker/Docker.md",
     "Docker/LAB/DockerizedRecipeBook.md",
     "Docker/LAB/DockerizedRecipeBook 1.md",
@@ -208,13 +227,8 @@
     "Docker/LAB",
     "logs",
     "node_modules",
-    "Docker/YAML.md",
     "Docker/VolumeMount.md",
     "Docker/assets/yaml1.png",
-    "Docker/BuildContext.md",
-    "Docker/BasicCommand.md",
-    "Docker/ContainerNetwork.md",
-    "Docker/PrivateRegistry.md",
     "Docker/assets/file1.png",
     "Docker/assets/arc3.png",
     "Docker/assets/arc2.png",
@@ -225,7 +239,6 @@
     "Databases/assets/Elaboration.png",
     "AWS/assets/SpotInstance 1.png",
     "AWS/assets/vpc12.png",
-    "AWS/assets/vpc11.png",
     "Network/Security",
     "인터넷 통신 c4f15772b27942ffabc27519de34466c",
     "Network/Basic/Untitled.canvas",
