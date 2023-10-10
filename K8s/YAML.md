@@ -186,3 +186,5 @@ student:
    - name: '홍길동'
      <<: *default_school # default_school 변수 내용물을 대입
 ```
+
+
