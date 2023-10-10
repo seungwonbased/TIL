@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "K8s/Service.md",
+                "file": "K8s/YAML.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "K8s/Service.md",
+                "file": "K8s/YAML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "K8s/Service.md",
+                "file": "K8s/YAML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "K8s/Service.md"
+                "file": "K8s/YAML.md"
               }
             }
           },
@@ -195,14 +196,15 @@
   },
   "active": "fd09c202b48e932e",
   "lastOpenFiles": [
+    "스크랩.md",
+    "K8s/YAML.md",
+    "K8s/Service.md",
     "K8s/assets/service2.png",
     "K8s/assets/service1.png",
     "README.md",
     "Docker/YAML.md",
-    "스크랩.md",
     "K8s/DeploymentStrategies.md",
     "K8s/Basic.md",
-    "K8s/Service.md",
     "K8s/DaemonSet.md",
     "K8s/Deployments.md",
     "Docker/ARGENV.md",
@@ -238,7 +240,6 @@
     "선택사항 정교화하기 1e926526dbf14f7bb7dcc438aa6b2cf4",
     "Databases/assets/Elaboration.png",
     "AWS/assets/SpotInstance 1.png",
-    "AWS/assets/vpc12.png",
     "Network/Security",
     "인터넷 통신 c4f15772b27942ffabc27519de34466c",
     "Network/Basic/Untitled.canvas",
