@@ -149,6 +149,7 @@
 
 - [K8s Basic](https://github.com/seungwonbased/TIL/blob/main/K8s/Basic.md)
 - [YAML Basic](https://github.com/seungwonbased/TIL/blob/main/K8s/YAML.md)
+- [Configuration File](https://github.com/seungwonbased/TIL/blob/main/K8s/ConfigurationFile.md)
 - [Vagrant Basic](https://github.com/seungwonbased/TIL/blob/main/K8s/Vagrant.md)
 - [K8s Resources](https://github.com/seungwonbased/TIL/blob/main/K8s/Resources.md)
 - [Pods](https://github.com/seungwonbased/TIL/blob/main/K8s/Pods.md)

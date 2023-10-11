@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "K8s/YAML.md",
+                "file": "K8s/DeploymentStrategies.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MSA-2.md",
+                "file": "K8s/Service.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MSA-2.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MSA-2.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MSA-2.md"
+                "file": "README.md"
               }
             }
           },
@@ -205,27 +205,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56c3c69623c21f16",
+  "active": "e17969c8f181caf2",
   "lastOpenFiles": [
-    "Network/Basic/Screenshot 2023-10-10 at 20.50.51.png",
+    "Docker/ARGENV.md",
+    "K8s/Service.md",
+    "K8s/ConfigurationFile.md",
+    "K8s/DeploymentStrategies.md",
+    "K8s/YAML.md",
     "MSA-2.md",
+    "Network/Basic/Screenshot 2023-10-10 at 20.50.51.png",
     "Network/Basic/Screenshot 2023-10-10 at 20.45.33.png",
     "Network/Basic/Screenshot 2023-10-10 at 20.55.20.png",
     "Network/Basic/Screenshot 2023-10-10 at 20.54.23.png",
-    "K8s/ConfigurationFile.md",
     "MSA-2",
-    "K8s/YAML.md",
     "K8s/Basic.md",
     "스크랩.md",
-    "K8s/Service.md",
     "K8s/assets/service2.png",
     "K8s/assets/service1.png",
     "README.md",
     "Docker/YAML.md",
-    "K8s/DeploymentStrategies.md",
     "K8s/DaemonSet.md",
     "K8s/Deployments.md",
-    "Docker/ARGENV.md",
     "K8s/ReplicaSet.md",
     "K8s/Resources.md",
     "K8s/Pods.md",
