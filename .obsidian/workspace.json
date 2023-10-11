@@ -25,18 +25,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "K8s/ConfigurationFile.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "56c3c69623c21f16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "K8s/Service.md",
                 "mode": "source",
                 "source": false
@@ -62,6 +50,18 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "847a22236a0eba77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "K8s/Ingress.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -134,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "K8s/Ingress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "K8s/Ingress.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "K8s/Ingress.md"
               }
             }
           },
@@ -205,29 +206,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e17969c8f181caf2",
+  "active": "847a22236a0eba77",
   "lastOpenFiles": [
+    "K8s/assets/ing2.png",
+    "K8s/assets/ing1.png",
+    "MSA-2.md",
+    "K8s/Ingress.md",
+    "Docker/ARGENV.md",
+    "K8s/Service.md",
+    "K8s/assets/service4.png",
+    "K8s/ConfigurationFile.md",
+    "README.md",
+    "스크랩.md",
     "K8s/assets/service3.png",
     "K8s/assets/ds4.png",
     "K8s/assets/ds3.png",
     "K8s/assets/ds2.png",
     "K8s/assets/ds1.png",
-    "Docker/ARGENV.md",
-    "K8s/Service.md",
-    "K8s/ConfigurationFile.md",
     "K8s/DeploymentStrategies.md",
     "K8s/YAML.md",
-    "MSA-2.md",
     "Network/Basic/Screenshot 2023-10-10 at 20.50.51.png",
     "Network/Basic/Screenshot 2023-10-10 at 20.45.33.png",
     "Network/Basic/Screenshot 2023-10-10 at 20.55.20.png",
-    "Network/Basic/Screenshot 2023-10-10 at 20.54.23.png",
     "MSA-2",
     "K8s/Basic.md",
-    "스크랩.md",
-    "K8s/assets/service2.png",
-    "K8s/assets/service1.png",
-    "README.md",
     "Docker/YAML.md",
     "K8s/DaemonSet.md",
     "K8s/Deployments.md",
@@ -245,7 +247,6 @@
     "Docker/Docker.md",
     "Docker/LAB/DockerizedRecipeBook.md",
     "Docker/LAB/DockerizedRecipeBook 1.md",
-    "Docker/Compose.md",
     "Docker/LAB",
     "logs",
     "node_modules",

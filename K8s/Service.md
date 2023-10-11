@@ -50,6 +50,7 @@
 ![service](https://github.com/seungwonbased/TIL/blob/main/K8s/assets/service3.png)
 
 - 클라우드 플랫폼에서 제공하는 로드 밸런서를 동적으로 프로비저닝해 Pod에 연결
+- 로드 밸런서에서 들어오는 트래픽을 클러스터 내의 Pod로 전달
 - **NodePort 타입과 마찬가지로 외부에서 Pod에 접근할 수 있는 서비스 타입**
 - 일반적으로 온프레미스 환경에서는 NodePort 타입의 서비스를 사용하고, 퍼블릭 클라우드 환경에서는 LoadBalancer 타입의 서비스를 사용해서 애플리케이션을 외부에 노출
 
@@ -71,5 +72,10 @@
 
 ### ExternalName
 
+![service](https://github.com/seungwonbased/TIL/blob/main/K8s/assets/service4.png)
+
 - 외부 서비스를 쿠버네티스 내부에서 호출하고자 할 때 사용
-- 클러스터 내의 파드에서 외부 IP 주소에 서비스의 이름으로 접근할 수 있음
+- 클러스터 내의 Pod에서 외부 IP 주소에 서비스의 이름으로 접근할 수 있음
+- Pod에서 쿠버네티스 클러스터 외부의 엔드포인트에 접속하기 위한 이름을 해결해주는 역할
+	- i.g., 퍼블릭 클라우드의 데이터베이스 또는 인공지능 API 서비스 등에 접근할 때 사용
+
