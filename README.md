@@ -148,16 +148,20 @@
 # Kubernetes
 
 - [K8s Basic](https://github.com/seungwonbased/TIL/blob/main/K8s/Basic.md)
+- [Namespace](https://github.com/seungwonbased/TIL/blob/main/K8s/Namespace.md)
 - [YAML Basic](https://github.com/seungwonbased/TIL/blob/main/K8s/YAML.md)
 - [Configuration File](https://github.com/seungwonbased/TIL/blob/main/K8s/ConfigurationFile.md)
 - [Vagrant Basic](https://github.com/seungwonbased/TIL/blob/main/K8s/Vagrant.md)
-- [K8s Resources](https://github.com/seungwonbased/TIL/blob/main/K8s/Resources.md)
+- [Resources](https://github.com/seungwonbased/TIL/blob/main/K8s/Resources.md)
 - [Pods](https://github.com/seungwonbased/TIL/blob/main/K8s/Pods.md)
 - [ReplicaSet](https://github.com/seungwonbased/TIL/blob/main/K8s/Pods.md)
 - [Deployment](https://github.com/seungwonbased/TIL/blob/main/K8s/Deployments.md)
 - [Deployment Strategies](https://github.com/seungwonbased/TIL/blob/main/K8s/DeploymentStrategies.md)
 - [DaemonSet](https://github.com/seungwonbased/TIL/blob/main/K8s/DaemonSet.md)
 - [Service](https://github.com/seungwonbased/TIL/blob/main/K8s/Service.md)
+- [Ingress](https://github.com/seungwonbased/TIL/blob/main/K8s/Ingress.md)
+- [Namespace](https://github.com/seungwonbased/TIL/blob/main/K8s/Namespace.md)
+- [Config Map & Secret](https://github.com/seungwonbased/TIL/blob/main/K8s/ConfigMapSecret.md)
 
 # Linux
 
