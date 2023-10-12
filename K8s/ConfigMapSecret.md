@@ -120,7 +120,7 @@ HOME=/root
 ```
 - 선택한 Config Map의 Key=Value가 별칭으로 컨테이너의 환경 변수로 설정됨
 
-#### 2. 컨피그맵의 값을 파드 내부의 파일로 마운트해서 사용
+#### 2. Config Map 값을 Pod 내부의 파일로 마운트해서 사용
 - 2.1. Config Map의 모든 Key=Value 쌍을 Pod에 파일로 마운트하는 방법
 - 예시
 ```yaml
