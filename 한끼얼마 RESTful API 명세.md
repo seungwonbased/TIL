@@ -7,20 +7,24 @@
 |3|DELETE|/posts/{int:post_id}|레시피 삭제|
 |4||/posts/forms|레시피 신규 작성 폼|
 |5|POST|/posts/forms|레시피 신규 등록|
-|6|GET|/posts/forms/{int:post_id}|레시피 수정 폼|
-|7|PUT|/posts/forms/{int:post_id}|레시피 수정 등록|
-|8|POST|/posts/{int:post_id}/likes|레시피 좋아요|
-|9|POST|/posts/{int:post_id}/comments|댓글 작성|
-|10|POST|/posts/{int:post_id}/comments/likes|댓글 좋아요|
-|11|PUT|/posts/{int:post_id}/comments/{int:comment_id}|댓글 수정|
-|12|DELETE|/posts/{int:post_id}/comments/{int:comment_id}|댓글 삭제|
-|13||/member/forms|신규 회원 가입 폼|
-|14|POST|/member/forms|신규 회원 가입|
-|15|POST|/login|로그인|
-|16|POST|/logout|로그아웃|
+|6|GET|/posts/forms/ingredients|재료 리스트 조회|
+|7|GET|/posts/forms/{int:post_id}|레시피 수정 폼|
+|8|PUT|/posts/forms/{int:post_id}|레시피 수정 등록|
+|9|POST|/posts/{int:post_id}/likes|레시피 좋아요|
+|10|POST|/posts/{int:post_id}/comments|댓글 작성|
+|11|POST|/posts/{int:post_id}/comments/likes|댓글 좋아요|
+|12|PUT|/posts/{int:post_id}/comments/{int:comment_id}|댓글 수정|
+|13|DELETE|/posts/{int:post_id}/comments/{int:comment_id}|댓글 삭제|
+|14||/member/forms|신규 회원 가입 폼|
+|15|POST|/member/forms|신규 회원 가입|
+|16|POST|/login|로그인|
+|17|POST|/logout|로그아웃|
 
 # 상세 명세
 ## `GET` 1. /posts
+
+> 레시피 리스트 조회
+
 ### Request
 #### Request Parameters
 
@@ -33,9 +37,7 @@
 
 ```json
 // header
-{
-	"Content-Type": "application/json"
-}
+"Content-Type": "application/json"
 ```
 
 ### Response
@@ -73,14 +75,15 @@
 ```
 
 ## 2. `GET` /posts/{int:post_id}
+
+> 레시피 상세 조회
+
 ### Request
 #### Request Message
 
 ```json
 // header
-{
-	"Content-Type": "application/json"
-}
+"Content-Type": "application/json"
 ```
 
 ### Response
@@ -125,7 +128,22 @@
 }
 ```
 
+## 3. `DELETE` /posts/{int:post_id}
+
+> 레시피 삭제
+
+### Request
+
+```json
+{
+
+}
+```
+
 ## 5. `POST` /posts/forms
+
+> 레시피 신규 등록
+
 ### Request
 
 ```json
@@ -134,10 +152,115 @@
 		"title": "string, 레시피 제목",
 		"content": "text, 레시피 내용",
 	},
-	"food": [
+	"ingredient": [
 		{
-			
-		}
+			"id": 43,
+			"quantity": 500
+		},
+		{
+			"id": 12,
+			"quantity": 300
+		},
+		{
+			"id": 33,
+			"quantity": 250
+		},
+		...
 	]
 }
 ```
+
+## 6. `GET` /posts/forms/ingredients
+
+> 재료 리스트 조회
+
+### Request
+
+```json
+// header
+"Content-Type": "application/json" 
+```
+
+### Response
+
+```json
+// body
+{
+	ingredient: [
+		{
+			"id": 1,
+			"name": "재료 이름"
+		},
+		{
+			"id": 2,
+			"name": "재료 이름"
+		},
+		{
+			"id": 3,
+			"name": "재료 이름"
+		},
+		...
+	]
+}
+```
+
+## 7. `GET` /posts/forms/{int:post_id}
+
+> 레시피 수정 폼
+
+### Response
+
+```json
+{
+	"post": {
+		"title": "string, 레시피 제목",
+		"content": "text, 레시피 내용",
+	},
+	"ingredient": [
+		{
+			"id": 43,
+			"quantity": 500
+		},
+		{
+			"id": 12,
+			"quantity": 300
+		},
+		{
+			"id": 33,
+			"quantity": 250
+		},
+		...
+	]
+}
+```
+
+## 8. `PUT` /posts/forms/{int:post_id}
+
+> 레시피 수정 등록
+
+### Request
+
+```json
+{
+	"post": {
+		"title": "string, 레시피 제목",
+		"content": "text, 레시피 내용",
+	},
+	"ingredient": [
+		{
+			"id": 43,
+			"quantity": 500
+		},
+		{
+			"id": 12,
+			"quantity": 300
+		},
+		{
+			"id": 33,
+			"quantity": 250
+		},
+		...
+	]
+}
+```
+
