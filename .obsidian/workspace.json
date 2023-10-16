@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "K8s/Resources.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,14 +85,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "한끼얼마 RESTful API 명세.md",
+                "file": "K8s/Resources.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "한끼얼마 RESTful API 명세.md",
+                "file": "K8s/Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "한끼얼마 RESTful API 명세.md",
+                "file": "K8s/Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "한끼얼마 RESTful API 명세.md"
+                "file": "K8s/Resources.md"
               }
             }
           },
@@ -229,8 +229,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5d0cdd39f3a76582",
+  "active": "e17969c8f181caf2",
   "lastOpenFiles": [
+    "README.md",
+    "K8s/Resources.md",
+    "K8s/Basic.md",
+    "한끼얼마 RESTful API 명세.md",
     "K8s/assets/job5.png",
     "K8s/assets/job4.png",
     "K8s/assets/job3.png",
@@ -242,9 +246,7 @@
     "K8s/Deployments.md",
     "K8s/assets/ns1.png",
     "K8s/assets/cm1.png",
-    "README.md",
     "K8s/Namespace.md",
-    "한끼얼마 RESTful API 명세.md",
     "K8s/DeploymentStrategies.md",
     "K8s/Ingress.md",
     "Untitled",
@@ -255,14 +257,11 @@
     "K8s/assets/service4.png",
     "K8s/ConfigurationFile.md",
     "스크랩.md",
-    "K8s/assets/service3.png",
     "K8s/YAML.md",
     "MSA-2",
-    "K8s/Basic.md",
     "Docker/YAML.md",
     "K8s/DaemonSet.md",
     "K8s/ReplicaSet.md",
-    "K8s/Resources.md",
     "K8s/Pods.md",
     "K8s/Vagrant.md",
     "Linux/DHCPServer.md",

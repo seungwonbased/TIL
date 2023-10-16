@@ -148,7 +148,6 @@
 # Kubernetes
 
 - [K8s Basic](https://github.com/seungwonbased/TIL/blob/main/K8s/Basic.md)
-- [Namespace](https://github.com/seungwonbased/TIL/blob/main/K8s/Namespace.md)
 - [YAML Basic](https://github.com/seungwonbased/TIL/blob/main/K8s/YAML.md)
 - [Configuration File](https://github.com/seungwonbased/TIL/blob/main/K8s/ConfigurationFile.md)
 - [Vagrant Basic](https://github.com/seungwonbased/TIL/blob/main/K8s/Vagrant.md)
@@ -162,6 +161,7 @@
 - [Ingress](https://github.com/seungwonbased/TIL/blob/main/K8s/Ingress.md)
 - [Namespace](https://github.com/seungwonbased/TIL/blob/main/K8s/Namespace.md)
 - [Config Map & Secret](https://github.com/seungwonbased/TIL/blob/main/K8s/ConfigMapSecret.md)
+- [Job & CronJob](https://github.com/seungwonbased/TIL/blob/main/K8s/JobCronJob.md)
 
 # Linux
 
