@@ -186,7 +186,7 @@
 ```json
 // body
 {
-	ingredient: [
+	"ingredient": [
 		{
 			"id": 1,
 			"name": "재료 이름"
