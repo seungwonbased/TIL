@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "K8s/ConfigMapSecret.md",
+                "file": "한끼얼마 RESTful API 명세.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -159,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "K8s/ConfigMapSecret.md",
+                "file": "한끼얼마 RESTful API 명세.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "K8s/ConfigMapSecret.md",
+                "file": "한끼얼마 RESTful API 명세.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "K8s/ConfigMapSecret.md"
+                "file": "한끼얼마 RESTful API 명세.md"
               }
             }
           },
@@ -232,15 +231,21 @@
   },
   "active": "5d0cdd39f3a76582",
   "lastOpenFiles": [
-    "K8s/assets/ns1.png",
-    "K8s/assets/cm1.png",
+    "K8s/assets/job5.png",
+    "K8s/assets/job4.png",
+    "K8s/assets/job3.png",
+    "K8s/assets/job2.png",
+    "K8s/assets/job1.png",
+    "K8s/JobCronJob.md",
     "K8s/Service.md",
     "K8s/ConfigMapSecret.md",
+    "K8s/Deployments.md",
+    "K8s/assets/ns1.png",
+    "K8s/assets/cm1.png",
     "README.md",
     "K8s/Namespace.md",
     "한끼얼마 RESTful API 명세.md",
     "K8s/DeploymentStrategies.md",
-    "K8s/Deployments.md",
     "K8s/Ingress.md",
     "Untitled",
     "K8s/assets/ing2.png",
@@ -251,12 +256,7 @@
     "K8s/ConfigurationFile.md",
     "스크랩.md",
     "K8s/assets/service3.png",
-    "K8s/assets/ds4.png",
-    "K8s/assets/ds3.png",
-    "K8s/assets/ds2.png",
-    "K8s/assets/ds1.png",
     "K8s/YAML.md",
-    "Network/Basic/Screenshot 2023-10-10 at 20.50.51.png",
     "MSA-2",
     "K8s/Basic.md",
     "Docker/YAML.md",
@@ -271,7 +271,6 @@
     "K8s/assets",
     "Portfolio/READMETemplate.md",
     "K8s",
-    "Portfolio/MSA.md",
     "Docker/LAB",
     "logs",
     "node_modules",
