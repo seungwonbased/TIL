@@ -162,6 +162,7 @@
 - [Namespace](https://github.com/seungwonbased/TIL/blob/main/K8s/Namespace.md)
 - [Config Map & Secret](https://github.com/seungwonbased/TIL/blob/main/K8s/ConfigMapSecret.md)
 - [Job & CronJob](https://github.com/seungwonbased/TIL/blob/main/K8s/JobCronJob.md)
+- [Storage](https://github.com/seungwonbased/TIL/blob/main/K8s/Storage.md)
 
 # Linux
 

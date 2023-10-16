@@ -63,3 +63,48 @@ spec:
 
 ![job](https://github.com/seungwonbased/TIL/blob/main/K8s/assets/job5.png)
 
+# CronJob
+
+> Cron: UNIX 계열 운영체제에 구현된 시간 기반의 스케줄러
+
+- Job을 시간 기준으로 관리하도록 생성
+- 지정한 시간에 한 번만 Job을 실행하거나 지정한 시간동안 주기적으로 Job을 반복 실행
+	- [Cron 형식](https://github.com/seungwonbased/TIL/blob/main/K8s/cron.md)의 시간을 지정
+- **주로 애플리케이션 프로그램 데이터, 데이터베이스와 같은 중요 데이터를 백업하는 데 사용**
+	- 프로젝트할 때 사용 가능
+- 생성된 Pod의 개수가 정해진 수를 넘어서면 가비지 컬렉터 컨트롤러가 종료된 Pod를 삭제
+
+## CronJob과 Job의 관계
+
+![job](https://github.com/seungwonbased/TIL/blob/main/K8s/assets/job6.png)
+
+## CronJob 설정
+### spec.schedule
+
+- **Cron 형식으로 스케줄을 기술**
+- 분 (0-59), 시 (0-23), 일 (1-31), 월 (1-12), 요일 (0-7, 0: 일요일, 7: 일요일)
+
+### spec.startingDeadlineSeconds
+
+- 지정된 시간에 CronJob이 실행되지 못했을 때 필드 값으로 설정한 시간까지 지나면 CronJob이 실행되지 않게 함
+
+### spec.concurrentPolicy
+
+- CronJob이 실행하는 Job의 동시성을 관리
+- 병렬성과는 개념이 조금 다름
+	- 앞에 실행한 Job이 끝나지 않더라도 시간이 되면 새로운 Job을 띄울 것인지를 관리
+- Allow
+	- 기본값, 여러 개의 Job을 동시에 실행할 수 있게 함
+- Fobid
+	- 동시 실행을 금지
+- Replace
+	- 앞에 실행했던 Job이 실행 중인 상태에서 새로운 Job을 실행할 시간이 되면 이전에 실행 중이던 Job을 새로운 Job으로 대체
+
+### spec.successfulJobHistoryLimit
+
+- 정상 종료된 Job 내역의 보관 개수
+	- 기본값: 3
+
+### spec.failedJobHistoryLimit
+
+- 비정상 종료된 Job 내역의 보관 개수
