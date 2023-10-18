@@ -15,10 +15,10 @@
 |11|POST|/posts/{int:post_id}/comments/likes|댓글 좋아요|
 |12|PUT|/posts/{int:post_id}/comments/{int:comment_id}|댓글 수정|
 |13|DELETE|/posts/{int:post_id}/comments/{int:comment_id}|댓글 삭제|
-|14||/member/forms|신규 회원 가입 폼|
-|15|POST|/member/forms|신규 회원 가입|
-|16|POST|/login|로그인|
-|17|POST|/logout|로그아웃|
+|14||/members/forms|신규 회원 가입 폼|
+|15|POST|/members/forms|신규 회원 가입|
+|16|POST|/members/login|로그인|
+|17|POST|/members/logout|로그아웃|
 
 # 상세 명세
 ## `GET` 1. /posts
@@ -186,18 +186,24 @@
 ```json
 // body
 {
-	"ingredient": [
+	"ingredients": [
 		{
 			"id": 1,
-			"name": "재료 이름"
+			"name": "재료 이름",
+			"price": 25000,
+			"unit": 500
 		},
 		{
 			"id": 2,
-			"name": "재료 이름"
+			"name": "재료 이름",
+			"price": 25000,
+			"unit": 500
 		},
 		{
 			"id": 3,
-			"name": "재료 이름"
+			"name": "재료 이름",
+			"price": 25000,
+			"unit": 500
 		},
 		...
 	]
@@ -245,6 +251,7 @@
 	"post": {
 		"title": "string, 레시피 제목",
 		"content": "text, 레시피 내용",
+		"user_id": 32
 	},
 	"ingredient": [
 		{

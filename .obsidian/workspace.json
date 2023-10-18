@@ -68,6 +68,30 @@
             }
           },
           {
+            "id": "77d2437e2d577566",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "K8s/StatefulSet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7c8052ef36abbf6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SSG.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "847a22236a0eba77",
             "type": "leaf",
             "state": {
@@ -80,7 +104,7 @@
             }
           },
           {
-            "id": "5d0cdd39f3a76582",
+            "id": "aac4d32ee0a7811f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -92,19 +116,19 @@
             }
           },
           {
-            "id": "b88c3a5d51111e99",
+            "id": "c7b1806e9d802aa5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "한끼얼마 RESTful API 명세.md",
+                "file": "React/Basic.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -171,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "한끼얼마 RESTful API 명세.md",
+                "file": "React/Basic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "한끼얼마 RESTful API 명세.md",
+                "file": "React/Basic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "한끼얼마 RESTful API 명세.md"
+                "file": "React/Basic.md"
               }
             }
           },
@@ -242,15 +266,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b88c3a5d51111e99",
+  "active": "c7b1806e9d802aa5",
   "lastOpenFiles": [
+    "React/Basic.md",
+    "한끼얼마 RESTful API 명세.md",
+    "README.md",
+    "K8s/Deployments.md",
+    "K8s/StatefulSet.md",
+    "React",
+    "SSG.md",
+    "K8s/Storage.md",
     "K8s/assets/store3.png",
     "K8s/assets/store2.png",
     "K8s/assets/store1.png",
     "K8s/assets/job6.png",
-    "README.md",
-    "한끼얼마 RESTful API 명세.md",
-    "K8s/Storage.md",
     "K8s/JobCronJob.md",
     "K8s/Resources.md",
     "cron.md",
@@ -262,13 +291,10 @@
     "K8s/assets/job1.png",
     "K8s/Service.md",
     "K8s/ConfigMapSecret.md",
-    "K8s/Deployments.md",
     "K8s/assets/ns1.png",
-    "K8s/assets/cm1.png",
     "K8s/Namespace.md",
     "K8s/DeploymentStrategies.md",
     "K8s/Ingress.md",
-    "Untitled",
     "MSA-2.md",
     "Docker/ARGENV.md",
     "K8s/ConfigurationFile.md",
@@ -280,8 +306,6 @@
     "K8s/ReplicaSet.md",
     "K8s/Pods.md",
     "K8s/Vagrant.md",
-    "Linux/DHCPServer.md",
-    "Linux/FTPServer.md",
     "K8s/assets",
     "K8s",
     "Docker/LAB",
