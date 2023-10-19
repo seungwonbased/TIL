@@ -258,9 +258,9 @@ or
 or
 
 {  
-    "id": post.id,  
-    "title": post.title,  
-    "content": post.content
+    "id": 13,  
+    "title": "레시피 제목",  
+    "content": "레시피 내용"
 }
 ```
 
