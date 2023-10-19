@@ -17,6 +17,7 @@
 |13|POST|/members/forms|신규 회원 가입|
 |14|POST|/members/login|로그인|
 |15|POST|/members/logout|로그아웃|
+|16|GET|/members/tokens|JWT 토큰 재발급|
 
 # 상세 명세
 ## 1. `GET` /posts
