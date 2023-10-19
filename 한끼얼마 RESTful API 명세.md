@@ -11,15 +11,15 @@
 |7|PUT|/posts/forms/{int:post_id}|레시피 수정 등록|
 |8|POST|/posts/{int:post_id}/likes|레시피 좋아요|
 |9|POST|/posts/{int:post_id}/comments|댓글 작성|
-|10|POST|/posts/{int:post_id}/comments/likes|댓글 좋아요|
-|11|PUT|/posts/{int:post_id}/comments/{int:comment_id}|댓글 수정|
-|12|DELETE|/posts/{int:post_id}/comments/{int:comment_id}|댓글 삭제|
+|10|POST|/posts/comments/likes|댓글 좋아요|
+|11|PUT|/posts/comments/{int:comment_id}|댓글 수정|
+|12|DELETE|/posts/comments/{int:comment_id}|댓글 삭제|
 |13|POST|/members/forms|신규 회원 가입|
 |14|POST|/members/login|로그인|
 |15|POST|/members/logout|로그아웃|
 
 # 상세 명세
-## `GET` 1. /posts
+## 1. `GET` /posts
 
 > 레시피 리스트 조회
 
@@ -31,8 +31,7 @@
 |pageNo|1|조회하려는 페이지 번호를 전달|
 |pageSize|10|조회하려는 페이지에서 데이터의 개수|
 
-### Response
-#### Response Body
+### Response Body
 
 ```json
 {
@@ -73,8 +72,7 @@
 
 > 레시피 상세 조회
 
-### Response
-#### Response Body
+### Response Body
 
 ```json
 {
@@ -554,9 +552,9 @@ or
 }
 ```
 
-## 15.  `POST` /members/refresh
+## 16.  `POST` /members/tokens
 
-> 로그아웃
+> 토큰 리프레시
 
 ### Request Header
 
