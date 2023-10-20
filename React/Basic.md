@@ -570,7 +570,7 @@ console.log(c, d, e, f);
 ```
 
 ### Use Cases
-#### 1. Swaping
+#### 1. Swaping
 
 ```javascript
 let x = 10;
