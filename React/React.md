@@ -1,4 +1,4 @@
-\# JSX
+# JSX
 
 - A Syntax eXtension to JavaScript
 - 자바스크립트 확장 문법
@@ -231,7 +231,7 @@ function App() {
         // 물론 이렇게 하는 것도 가능
       }
       
-      { // 이렇게 하면 닫는 중괄호가 해석도지 않을 수도 있음}
+      { // 이렇게 하면 닫는 중괄호가 해석되지 않을 수도 있음}
       }
       <div className="react">{name}</div>
     </>
@@ -241,18 +241,3 @@ function App() {
 export default App;
 ```
 
-# Component
-## Class형 Component
-## Function형 Component
-## props 활용
-
-- Properties 줄임말
-- 컴포넌트의 속성을 설정할 때 사용
-- props 변수의 값은 해당 컴포넌트를 사용하는 부모 컴포넌트에서 설정
-- 컴포넌트 자신은 해당 props 값을 읽기 전용으로 사용만 가능
-
-```
-<Parent>
-<Child 변수_이름=변수_값 변수_이름=변수_값></Child>
-</Parent>
-```

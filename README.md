@@ -170,6 +170,7 @@
 ### 필수 개념 및 명령어
 
 - [필수 개념 및 명령어](https://github.com/seungwonbased/TIL/blob/main/Linux/Notes/BasicCommand.md)
+- [Cron](https://github.com/seungwonbased/TIL/blob/main/Linux/cron.md)
 
 ### 서버 구축
 
@@ -241,6 +242,8 @@
 
 - [ES6](https://github.com/seungwonbased/TIL/blob/main/React/Basic.md)
 - [React](https://github.com/seungwonbased/TIL/blob/main/React/React.md)
+- [Component](https://github.com/seungwonbased/TIL/blob/main/React/Component.md)
+- [EventHandling](https://github.com/seungwonbased/TIL/blob/main/React/EventHandling.md)
 
 # Spring
 

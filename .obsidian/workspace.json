@@ -80,55 +80,19 @@
             }
           },
           {
-            "id": "7c8052ef36abbf6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SSG.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "847a22236a0eba77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "K8s/Ingress.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7b1806e9d802aa5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/Basic.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6c90d3bef4d19aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/React.md",
+                "file": "React/EventHandling.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -178,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -194,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/React.md",
+                "file": "React/EventHandling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/React.md",
+                "file": "React/EventHandling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/React.md"
+                "file": "React/EventHandling.md"
               }
             }
           },
@@ -265,15 +230,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c6c90d3bef4d19aa",
+  "active": "847a22236a0eba77",
   "lastOpenFiles": [
     "K8s/Ingress.md",
-    "().md",
     "React/React.md",
-    "AWS/assets/as12.png",
-    "README.md",
-    "React/Basic.md",
     "한끼얼마 RESTful API 명세.md",
+    "README.md",
+    "MSA-2.md",
+    "Linux/cron.md",
+    "().md",
+    "React/EventHandling.md",
+    "React/Component.md",
+    "React/Basic.md",
+    "AWS/assets/as12.png",
     "K8s/assets/sfs3.png",
     "K8s/assets/sfs2.png",
     "K8s/assets/sfs1.png",
@@ -288,7 +257,6 @@
     "K8s/assets/job6.png",
     "K8s/JobCronJob.md",
     "K8s/Resources.md",
-    "cron.md",
     "K8s/Basic.md",
     "K8s/assets/job5.png",
     "K8s/assets/job4.png",
@@ -296,15 +264,12 @@
     "K8s/ConfigMapSecret.md",
     "K8s/Namespace.md",
     "K8s/DeploymentStrategies.md",
-    "MSA-2.md",
     "Docker/ARGENV.md",
     "K8s/ConfigurationFile.md",
     "스크랩.md",
     "K8s/YAML.md",
     "MSA-2",
     "Docker/YAML.md",
-    "K8s/DaemonSet.md",
-    "K8s/ReplicaSet.md",
     "K8s/assets",
     "K8s",
     "Docker/LAB",
