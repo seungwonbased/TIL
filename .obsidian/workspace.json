@@ -92,6 +92,30 @@
             }
           },
           {
+            "id": "a61a89add4f12bd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "한끼얼마 RESTful API 명세.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "11a5a33960a57e76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "한끼얼마 RESTful API 명세.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bb6122a8771938c1",
             "type": "leaf",
             "state": {
@@ -104,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -154,8 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -171,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/Hooks.md",
+                "file": "한끼얼마 RESTful API 명세.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/Hooks.md",
+                "file": "한끼얼마 RESTful API 명세.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/Hooks.md"
+                "file": "한끼얼마 RESTful API 명세.md"
               }
             }
           },
@@ -242,15 +265,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "847a22236a0eba77",
+  "active": "11a5a33960a57e76",
   "lastOpenFiles": [
+    "회의.md",
+    "스크랩.md",
+    "Workflow&Convention.md",
+    "ToBeContinued.md",
     "README.md",
+    "K8s/Deployments.md",
+    "한끼얼마 RESTful API 명세.md",
     "React/Hooks.md",
+    "Untitled",
     "React/Ref.md",
     "React/EventHandling.md",
     "K8s/Ingress.md",
     "React/React.md",
-    "한끼얼마 RESTful API 명세.md",
     "MSA-2.md",
     "Linux/cron.md",
     "().md",
@@ -260,7 +289,6 @@
     "K8s/assets/sfs3.png",
     "K8s/assets/sfs2.png",
     "K8s/assets/sfs1.png",
-    "K8s/Deployments.md",
     "K8s/StatefulSet.md",
     "React",
     "SSG.md",
@@ -277,10 +305,6 @@
     "K8s/Service.md",
     "K8s/ConfigMapSecret.md",
     "K8s/Namespace.md",
-    "K8s/DeploymentStrategies.md",
-    "Docker/ARGENV.md",
-    "K8s/ConfigurationFile.md",
-    "스크랩.md",
     "MSA-2",
     "K8s/assets",
     "K8s",
@@ -289,7 +313,6 @@
     "node_modules",
     "Docker/assets",
     "Docker",
-    "선택사항 정교화하기 1e926526dbf14f7bb7dcc438aa6b2cf4",
     "Network/Basic/Untitled.canvas",
     "Untitled.canvas"
   ]

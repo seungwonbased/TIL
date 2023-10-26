@@ -125,8 +125,9 @@
 
 |Key|Value|Desc|
 |---|---|---|
-|Autorization|eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...|JWT 토큰|
+|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
+|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
 
 ### Request Body
 
@@ -152,8 +153,9 @@ or
 
 |Key|Value|Desc|
 |---|---|---|
-|Autorization|eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...|JWT 토큰|
+|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
+|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
 
 ### Request Body
 
@@ -243,8 +245,9 @@ or
 
 |Key|Value|Desc|
 |---|---|---|
-|Autorization|eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...|JWT 토큰|
+|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
+|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
 
 ### Response Body
 
@@ -316,8 +319,9 @@ or
 
 |Key|Value|Desc|
 |---|---|---|
-|Autorization|eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...|JWT 토큰|
+|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
+|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
 
 ### Response Body
 
@@ -349,8 +353,9 @@ or
 
 |Key|Value|Desc|
 |---|---|---|
-|Autorization|eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...|JWT 토큰|
+|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
+|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
 
 ### Request Body
 
@@ -377,8 +382,9 @@ or
 
 |Key|Value|Desc|
 |---|---|---|
-|Autorization|eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...|JWT 토큰|
+|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
+|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
 
 ### Response Body
 
@@ -411,8 +417,9 @@ or
 
 |Key|Value|Desc|
 |---|---|---|
-|Autorization|eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...|JWT 토큰|
+|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
+|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
 
 ### Request Body
 
@@ -446,8 +453,9 @@ or
 
 |Key|Value|Desc|
 |---|---|---|
-|Autorization|eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...|JWT 토큰|
+|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
+|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
 
 ### Response Body
 
@@ -541,8 +549,9 @@ or
 
 |Key|Value|Desc|
 |---|---|---|
-|Autorization|eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...|JWT 토큰|
+|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
+|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
 
 ### Response Body
 
@@ -561,10 +570,9 @@ or
 
 |Key|Value|Desc|
 |---|---|---|
-|Autorization|eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...|JWT 토큰|
+|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
-|refresh_token_cookie|eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.e|JWT 리프레시 토큰|
-|csrf_refresh_token|4202dab2-47a3-4cb9-bb28-ebc8ffcd54a1; Path=/|CSRF 토큰|
+|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
 
 ### Response Header
 
