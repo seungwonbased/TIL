@@ -56,9 +56,12 @@ git commit -m "fix: 로그인 토큰 오류 슈정"
 		- 코딩 스타일에 맞게 코드를 변환
 	- ESLint
 		- 문법 에러와 코드 품질 검사
+- Airbnb Style Guide
 
 # Tools
 
-- IDE: VSCode, PyCharm
+- IDE
+	- FE: VSCode
+	- BE: PyCharm
 - Library: Recoil, styled
 - Test Tools: Postman

@@ -1,3 +1,7 @@
+# Base URL for Test
+
+> https://rest-recipe-book-dptb.run.goorm.site
+
 # 요청 URL
 
 |Index|Method|URI|Description|
@@ -17,7 +21,8 @@
 |13|POST|/members/forms|신규 회원 가입|
 |14|POST|/members/login|로그인|
 |15|POST|/members/logout|로그아웃|
-|16|GET|/members/tokens|JWT 토큰 재발급|
+|16|POST|/members/validation|아이디 중복 체크|
+|17|GET|/members/tokens|JWT 토큰 재발급|
 
 # 상세 명세
 ## 1. `GET` /posts
@@ -41,12 +46,14 @@
 			"id": 14,
 			"title": "레시피 제목",
 			"create_date": "작성일",
+			"username": "유저네임",
 			"user_id": "유저 ID"
 		},
 		{
 			"id": 13,
 			"title": "레시피 제목",
 			"create_date": "작성일",
+			"username": "유저네임",
 			"user_id": "유저 ID"
 		},
 		{
@@ -54,6 +61,7 @@
 			"title": "레시피 제목",
 			"create_date": "작성일",
 			"user_id": "유저 ID",
+			"username": "유저네임",
 			"user_id": "유저 ID"
 		},
 		...
@@ -61,6 +69,7 @@
 			"id": 5,
 			"title": "레시피 제목",
 			"create_date": "작성일",
+			"username": "유저네임",
 			"user_id": "유저 ID"
 		}
 	],
@@ -81,7 +90,7 @@
 		"id": 13,
 		"title": "레시피 제목",
 		"content": "레시피 내용",
-		"user_id": "레시피 작성자",
+		"user_id": "레시피 작성자 ID",
 		"create_date": "레시피 작성일",
 		"modify_date": "레시피 수정일",
 		"price": 13400,
@@ -90,7 +99,8 @@
 	"comment": [
 		{
 			"id": 16,
-			"user_id": "댓글 작성자",
+			"user_id": "댓글 작성자 ID",
+			"username": "댓글 작성자 유저네임",
 			"content": "댓글 내용",
 			"create_date": "댓글 작성일",
 			"modify_date": "댓글 수정일",
@@ -98,17 +108,19 @@
 		},
 		{
 			"id": 15,
-			"user_id": "string, 댓글 작성자",
-			"content": "text, 댓글 내용",
-			"create_date": "string, 댓글 작성일",
+			"user_id": "댓글 작성자 ID",
+			"username": "댓글 작성자 유저네임",
+			"content": "댓글 내용",
+			"create_date": "댓글 작성일",
 			"modify_date": "댓글 수정일",
 			"like": 0
 		},
 		{
 			"id": 17,
-			"user_id": "string, 댓글 작성자",
-			"content": "text, 댓글 내용",
-			"create_date": "string, 댓글 작성일",
+			"user_id": "댓글 작성자 ID",
+			"username": "댓글 작성자 유저네임",
+			"content": "댓글 내용",
+			"create_date": "댓글 작성일",
 			"modify_date": "댓글 수정일",
 			"like": 1
 		},
@@ -125,9 +137,8 @@
 
 |Key|Value|Desc|
 |---|---|---|
-|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
+|Authorization|Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds|JWT 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
-|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
 
 ### Request Body
 
@@ -140,8 +151,9 @@
 or 
 
 {  
-    "result": "success",  
-    "message": "13 deleted"  
+    "result": "success",
+    "post_id": "레시피 ID",
+    "message": "레시피 삭제 성공"  
 }
 ```
 
@@ -153,9 +165,8 @@ or
 
 |Key|Value|Desc|
 |---|---|---|
-|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
+|Authorization|Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds|JWT 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
-|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
 
 ### Request Body
 
@@ -200,7 +211,8 @@ or
 or
 
 {  
-    "result": "success",  
+    "result": "success",
+    "post_id": "레시피 ID"
     "message": "레시피 등록 성공"  
 }
 ```
@@ -245,10 +257,8 @@ or
 
 |Key|Value|Desc|
 |---|---|---|
-|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
+|Authorization|Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds|JWT 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
-|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
-
 ### Response Body
 
 ```json
@@ -319,10 +329,8 @@ or
 
 |Key|Value|Desc|
 |---|---|---|
-|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
+|Authorization|Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds|JWT 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
-|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
-
 ### Response Body
 
 ```json
@@ -353,10 +361,8 @@ or
 
 |Key|Value|Desc|
 |---|---|---|
-|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
+|Authorization|Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds|JWT 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
-|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
-
 ### Request Body
 
 ```json
@@ -369,7 +375,8 @@ or
 
 ```json
 {  
-    "result": "success",  
+    "result": "success",
+    "comment_id": "댓글 ID",
     "message": "댓글 작성 성공"
 }
 ```
@@ -382,21 +389,19 @@ or
 
 |Key|Value|Desc|
 |---|---|---|
-|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
+|Authorization|Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds|JWT 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
-|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
-
 ### Response Body
 
 ```json
-{  
+{
     "result": "failed",  
     "message": "자신이 작성한 댓글 좋아요 불가"  
 }
 
 or
 
-{  
+{
     "result": "failed",  
     "message": "중복 좋아요 불가"  
 }
@@ -417,10 +422,8 @@ or
 
 |Key|Value|Desc|
 |---|---|---|
-|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
+|Authorization|Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds|JWT 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
-|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
-
 ### Request Body
 
 ```json
@@ -453,10 +456,8 @@ or
 
 |Key|Value|Desc|
 |---|---|---|
-|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
+|Authorization|Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds|JWT 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
-|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
-
 ### Response Body
 
 ```json
@@ -481,7 +482,7 @@ or
 
 ```json
 {
-	"username": "유저네임 (ID)",
+	"username": "유저네임",
 	"password": "패스워드",
 	"email": "email@email.com"
 }
@@ -515,16 +516,6 @@ or
 	"password": "패스워드"
 }
 ```
-
-### Response Header
-
-|Key|Value|Desc|
-|---|---|---|
-|Set-Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY5NzY5MTIyMCwianRpIjoiOGRhM2M2MzUtOTk5NS00MjBiLWFjM2MtODE0NTVkYWEyZTliIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6InBvc3RtYW4wIiwibmJmIjoxNjk3NjkxMjIwLCJjc3JmIjoiNDIwMmRhYjItNDdhMy00Y2I5LWJiMjgtZWJjOGZmY2Q1NGExIiwiZXhwIjoxNjk3NjkzMDIwfQ.V8SGeXBVa7ZnmmJ2nMkmUKnPxjIvh-wJqUTnaKcVGWk; HttpOnly; Path=/|JWT 토큰|
-|Set-Cookie|csrf_access_token=4202dab2-47a3-4cb9-bb28-ebc8ffcd54a1; Path=/|CSRF 토큰|
-|Set-Cookie|refresh_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.e
-|Set-Cookie|csrf_refresh_token=4202dab2-47a3-4cb9-bb28-ebc8ffcd54a1; Path=/|CSRF 토큰|
-
 ### Response Body
 
 ```json
@@ -537,6 +528,11 @@ or
 
 {  
     "result": "success",  
+    "user_id": "사용자 ID",  
+    "username": "사용자 유저네임",  
+    "access_token": "JWT Access Token",
+    "refresh_token": "JWT Refresh Token",
+    "csrf_token": "CSRF Token",  
     "message": "로그인 성공"  
 }
 ```
@@ -549,9 +545,8 @@ or
 
 |Key|Value|Desc|
 |---|---|---|
-|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
+|Authorization|Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds|JWT 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
-|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
 
 ### Response Body
 
@@ -562,7 +557,33 @@ or
 }
 ```
 
-## 16.  `POST` /members/tokens
+## 16. `POST` /members/validation
+
+> 아이디 중복 체크
+
+### Request Body
+
+```json
+{
+	"username": "유저네임"
+}
+```
+
+### Response Body
+
+```json
+{
+	"message": "이미 가입된 아이디입니다."
+}
+
+or
+
+{
+	"message": "사용 가능한 아이디입니다."
+}
+```
+
+## 17.  `POST` /members/tokens
 
 > 토큰 리프레시
 
@@ -570,31 +591,25 @@ or
 
 |Key|Value|Desc|
 |---|---|---|
-|Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds;refresh_token_cookie=ds9fdsj-sdagf45|JWT 토큰, 리프레시 토큰|
+|Authorization|Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eygjfdkgjfsdklgrjkdslfjgkflds|JWT 토큰|
+|Refresh-Token|eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ghdjkslahrfjeksladhfjklehjkdlsafhjdk|리프레시 토큰|
 |X-CSRF-Token|cc4cb641-57f3-4f03-9ff9-690a49227fec|CSRF 토큰|
-|X-CSRF-Refresh-Token|asfdjkgdf-12saf-5ssf-dgfg|CSRF 리프레시 토큰|
-
-### Response Header
-
-|Key|Value|Desc|
-|---|---|---|
-|Set-Cookie|access_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY5NzY5MTIyMCwianRpIjoiOGRhM2M2MzUtOTk5NS00MjBiLWFjM2MtODE0NTVkYWEyZTliIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6InBvc3RtYW4wIiwibmJmIjoxNjk3NjkxMjIwLCJjc3JmIjoiNDIwMmRhYjItNDdhMy00Y2I5LWJiMjgtZWJjOGZmY2Q1NGExIiwiZXhwIjoxNjk3NjkzMDIwfQ.V8SGeXBVa7ZnmmJ2nMkmUKnPxjIvh-wJqUTnaKcVGWk; HttpOnly; Path=/|JWT 토큰|
-|Set-Cookie|csrf_access_token=4202dab2-47a3-4cb9-bb28-ebc8ffcd54a1; Path=/|CSRF 토큰|
-|Set-Cookie|refresh_token_cookie=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.e
-|Set-Cookie|csrf_refresh_token=4202dab2-47a3-4cb9-bb28-ebc8ffcd54a1; Path=/|CSRF 토큰|
 
 ### Response Body
 
 ```json
-{  
-    "result": "failed",  
+{
+    "result": "failed",
     "message": "refresh failed"  
 }
 
 or 
 
 {  
-    "result": "success",  
+    "result": "success",
+    "access_token": "JWT Access Token",
+    "refresh_token": "JWT Refresh Token",
+    "csrf_token": "CSRF Token",  
     "message": "refresh success"  
 }
 ```
