@@ -30,9 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "53c630a68590916c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "취업 특강 입사지원서.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c02968257960340",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -82,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -98,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes.md",
+                "file": "CM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes.md",
+                "file": "CM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes.md"
+                "file": "CM.md"
               }
             }
           },
@@ -169,10 +194,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "051f68f91f4d6769",
+  "active": "9c02968257960340",
   "lastOpenFiles": [
-    "한끼얼마 BE Flask App.md",
+    "취업 특강 입사지원서.md",
+    "CM.md",
     "notes.md",
+    "한끼얼마 BE Flask App.md",
     "Workflow&Convention.md",
     "한끼얼마 RESTful API 명세.md",
     "README.md",
@@ -196,13 +223,11 @@
     "Linux/cron.md",
     "().md",
     "React/Component.md",
-    "React/Basic.md",
     "AWS/assets/as12.png",
     "K8s/assets/sfs3.png",
     "K8s/assets/sfs2.png",
     "K8s/assets/sfs1.png",
     "React",
-    "SSG.md",
     "K8s/assets/store3.png",
     "K8s/assets/store2.png",
     "K8s/assets/store1.png",
