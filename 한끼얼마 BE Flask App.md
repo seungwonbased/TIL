@@ -1,9 +1,22 @@
 # 한끼얼마 Backend Flask App
 ## 1. 🥙 한끼얼마 💰
 
-[메인 페이지 사진]
+![[Screenshot 2023-10-31 at 12.32.50.png]]
 
-### 1.1. 개발 
+### 1.1 개발 인원
+
+- 1인 개발 (배승원)
+
+### 1.2. 기술 스택 및 개발 환경
+
+#### 기술 스택
+
+![Static Badge](https://img.shields.io/badge/Python3-3776AB?logo=Python&logoColor=%23FFFFFF) ![Static Badge](https://img.shields.io/badge/Flask-000000?logo=Flask&logoColor=%23FFFFFF) ![Static Badge](https://img.shields.io/badge/PostgreSQL-4169E1?logo=PostgreSQL&logoColor=%23FFFFFF) ![Static Badge](https://img.shields.io/badge/SQLite-000000?logo=SQLite&logoColor=%23FFFFFF) 
+
+#### 개발 환경
+
+- OS: ![Static Badge](https://img.shields.io/badge/Mac%20OS%20Ventura-%23000000?logo=Apple&logoColor=%23FFFFFF)
+- IDE: ![Static Badge](https://img.shields.io/badge/PyCharm-%23000000?logo=PyCharm&logoColor=%23FFFFFF)
 
 ## 2. 📄 한끼얼마 API 명세서
 
@@ -117,7 +130,7 @@
 ### 3.4. 개발 & 테스트, 운영 환경 분리
 #### 3.4.1. Development & Testing 환경
 
-> Testing API Server URL: https://rest-recipe-book-dptb.run.goorm.site:80
+> Testing API Server URL: https://rest-recipe-book-dptb.run.goorm.site:443
 
 - FE 개발을 협업으로 원활하게 진행하기 위해 Flask 애플리케이션을 Testing API 서버에 배포
 - 이를 통해 React FE 애플리케이션의 개발 환경의 API 서버의 Base URL을 각자의 localhost로 하지 않고 실시간 업데이트되는 API를 호출해 개발할 수 있었음
