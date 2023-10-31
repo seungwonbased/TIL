@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "한끼얼마 BE Flask App.md",
+                "file": "회의.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "051f68f91f4d6769",
+            "id": "6d2a46bb3871671f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes.md",
+                "file": "한끼얼마 Frontend React App.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 209.5,
     "collapsed": true
   },
   "right": {
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes.md",
+                "file": "한끼얼마 Frontend React App.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes.md",
+                "file": "한끼얼마 Frontend React App.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes.md"
+                "file": "한끼얼마 Frontend React App.md"
               }
             }
           },
@@ -170,16 +170,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "051f68f91f4d6769",
+  "active": "6d2a46bb3871671f",
   "lastOpenFiles": [
-    "취업 특강 입사지원서.md",
+    "Network/Basic/Screenshot 2023-10-31 at 12.29.28 2.png",
+    "한끼얼마 BE Flask App.pdf",
     "한끼얼마 BE Flask App.md",
+    "한끼얼마 Frontend React App.md",
+    "회의.md",
+    "code.md",
+    "notes.md",
+    "취업 특강 입사지원서.md",
     "Network/Basic/Screenshot 2023-10-31 at 12.32.50.png",
     "Network/Basic/Screenshot 2023-10-31 at 12.29.28 1.png",
     "Network/Basic/Screenshot 2023-10-31 at 12.29.28.png",
     "한끼얼마 RESTful API 명세.md",
     "CM.md",
-    "notes.md",
     "Workflow&Convention.md",
     "README.md",
     "K8s/Deployments.md",
@@ -189,8 +194,6 @@
     "K8s/Storage.md",
     "K8s/StatefulSet.md",
     "React/Hooks.md",
-    "code.md",
-    "회의.md",
     "스크랩.md",
     "ToBeContinued.md",
     "Untitled",
@@ -200,7 +203,6 @@
     "React/React.md",
     "MSA-2.md",
     "Linux/cron.md",
-    "().md",
     "AWS/assets/as12.png",
     "K8s/assets/sfs3.png",
     "K8s/assets/sfs2.png",
@@ -216,7 +218,6 @@
     "logs",
     "node_modules",
     "Docker/assets",
-    "Docker",
     "Network/Basic/Untitled.canvas",
     "Untitled.canvas"
   ]

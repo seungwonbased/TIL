@@ -1,29 +1,55 @@
 # 한끼얼마 Backend Flask App
 ## 1. 🥙 한끼얼마 💰
 
-![[Screenshot 2023-10-31 at 12.32.50.png]]
+![Screenshot 2023-10-31 at 12.29.28](/Users/baeseungwon/Desktop/Screenshots/Screenshot 2023-10-31 at 12.29.28.png)
 
 ### 1.1 개발 인원
 
 - 1인 개발 (배승원)
 
-### 1.2. 기술 스택 및 개발 환경
+### 1.2. 기술 스택 및 환경
 
-#### 기술 스택
+#### 1.2.1. 기술 스택
 
 ![Static Badge](https://img.shields.io/badge/Python3-3776AB?logo=Python&logoColor=%23FFFFFF) ![Static Badge](https://img.shields.io/badge/Flask-000000?logo=Flask&logoColor=%23FFFFFF) ![Static Badge](https://img.shields.io/badge/PostgreSQL-4169E1?logo=PostgreSQL&logoColor=%23FFFFFF) ![Static Badge](https://img.shields.io/badge/SQLite-000000?logo=SQLite&logoColor=%23FFFFFF) 
 
-#### 개발 환경
+#### 1.2.2. 개발 환경
 
-- OS: ![Static Badge](https://img.shields.io/badge/Mac%20OS%20Ventura-%23000000?logo=Apple&logoColor=%23FFFFFF)
-- IDE: ![Static Badge](https://img.shields.io/badge/PyCharm-%23000000?logo=PyCharm&logoColor=%23FFFFFF)
+![Static Badge](https://img.shields.io/badge/Mac%20OS%20Ventura-%23000000?logo=Apple&logoColor=%23FFFFFF) ![Static Badge](https://img.shields.io/badge/PyCharm-%23000000?logo=PyCharm&logoColor=%23FFFFFF)
 
-## 2. 📄 한끼얼마 API 명세서
+#### 1.2.3. 스테이징 환경
+
+![Static Badge](https://img.shields.io/badge/Groom-3693F3?logo=iCloud&logoColor=FFFFFF)  ![Static Badge](https://img.shields.io/badge/Ubuntu-333333?logo=Linux%20Containers&logoColor=FFFFFF)
+
+#### 1.2.4. 운영 환경
+
+![Static Badge](https://img.shields.io/badge/Docker-2496ED?logo=Docker&logoColor=FFFFFF) ![Static Badge](https://img.shields.io/badge/K8s-326CE5?logo=Kubernetes&logoColor=FFFFFF)
+
+## 2. 📓 디렉터리 구조
+
+```
+📁 rest-recipe-book
+├──── 📁 app
+│      ├──── 📁 api
+│      ├──── 📄 __init__.py
+│      └──── 📄 models.py
+├──── 📁 config
+│      ├──── 📄 __init__.py
+│      ├──── 📄 default.py
+│      ├──── 📄 develoment.py
+│      └──── 📄 production.py
+├──── 📁 test
+├──── 📄 app.db
+├──── 📄 requirements.txt
+└──── 📄 README.md
+```
+
+## 3. 📃 한끼얼마 API 명세서
 
 > [🖋️ 상세 API 명세서 및 요청 & 응답 예시](https://wonsoong.notion.site/BE-Flask-API-04244dd5f68540d096da7b8b3a081575?pvs=4)
 
-## 3. 👀 특징
-### 3.1. RESTful API
+## 4. 👀 특징
+### 4.1. RESTful API
 
 |Index|Method|URI|Description|
 |---|---|---|---|
@@ -46,19 +72,19 @@
 
 - REST 원칙에 따라 URI 설계
 
-#### 3.1.1. REST 구성 요소
+#### 4.1.1. REST 구성 요소
 - URI는 **`리소스`** 의 위치를 식별하는 고유 식별자
 - HTTP Method는 해당 자원에 대한 **`행위`**
 - JSON 형식으로 자원을 **`표현`**
 
-#### 3.1.2. REST 규칙
+#### 4.1.2. REST 규칙
 - URI를 복수 명사로 구성
 - 동사로 표현되는 행위는 HTTP 메서드로 표현
 - URI를 소문자로만 구성
 - / 로 계층 관계를 표현
 - HTTP Status Code를 사용해 응답
 
-### 3.2. JWT Token을 통한 사용자 인증 정보 검증
+### 4.2. JWT Token을 통한 사용자 인증 정보 검증
 
 > 사용 라이브러리: flask_jwt_extended, redis
 
@@ -83,7 +109,7 @@
 }
 ```
 
-#### 3.2.2. JWT 토큰 검증 로직
+#### 4.2.2. JWT 토큰 검증 로직
 1. 클라이언트가 Endpoint로 HTTP 요청
 2. Flask가 해당 엔드포인트를 처리할 함수를 호출하기 전에 @jwt_required 데코레이터가 요청을 가로챔
 3. @jwt_required 데코레이터는 요청에서 JWT 토큰을 추출
@@ -94,7 +120,7 @@
 	- Claims가 유효한지 확인
 5. 요청이 유효하면 해당 엔드포인트를 처리할 함수를 호출하고, 유효하지 않으면 401 Unauthorized Status Code 반환
 
-#### 3.2.3. Refresh Token과 Redis
+#### 4.2.3. Refresh Token과 Redis
 - JWT Access Token의 탈취 위험을 감안해 만료 기한을 30분으로 아주 짧게 설정
 	- 이는 30분마다 사용자는 재로그인을 해야 한다는 것을 의미
 - 사용자의 번거로움을 피할 수 있게 로그인 시 만료 기한이 14일인 Refresh Token, Refresh CSRF Token을 추가로 발급
@@ -102,7 +128,7 @@
 	- Redis에 각 사용자에 1:1로 매핑되는 Access Token, Refresh Token 쌍을 저장해 해결
 - Token Refresh 요청이 들어오면 서버는 Redis를 뒤져 Key: Value 쌍을 검증하고, 해당 검증이 유효할 시에만 Token 재발급
 
-### 3.3. 단위 테스트 코드 작성을 통한 테스트 자동화
+### 4.3. 단위 테스트 코드 작성을 통한 테스트 자동화
 
 > [⚙️ 단위 테스트 실행 영상](https://youtube.com/shorts/meKtduN8dMo?feature=share)
 
@@ -114,21 +140,21 @@
 - 각 단위 테스트는 완전히 독립적
 - 테스트 코드의 요소를 Test, Hook, Fixture로 나눔
 
-#### 3.3.1. Test
+#### 4.3.1. Test
 - 요청에 대한 응답을 검증하는 코드
 - Hook 함수를 호출하고, Status Code, Response Message를 통해 Pass 여부를 검증
 
-#### 3.3.2. Hook
+#### 4.3.2. Hook
 - Test에 필요한 요청 정보 설정과 실제 API 호출 로직을 수행하는 코드
 - 헤더를 세팅하고, 토큰을 받아오는 등의 자주 사용하는 로직을 Hook으로 만들어 재사용성이 증대
 
-#### 3.3.3. Fixture
+#### 4.3.3. Fixture
 - 테스트 코드를 조작하고, 테스트 환경을 성정하는 데 사용되는 도구
 - Python의 yield 키워드를 사용해 한 개의 단위 테스트가 끝나고 리소스를 삭제
 	- 단위 테스트 간 리소스 의존이 전혀 없도록 함
 
-### 3.4. 개발 & 테스트, 운영 환경 분리
-#### 3.4.1. Development & Testing 환경
+### 4.4. 개발 & 테스트, 운영 환경 분리
+#### 4.4.1. Development & Testing 환경
 
 > Testing API Server URL: https://rest-recipe-book-dptb.run.goorm.site:443
 
@@ -159,7 +185,7 @@ flask run -h 0.0.0.0 -p 80
 # sudo nohup ./start.sh > ./logs/app.out &
 ```
 
-#### 3.4.2. Production 환경
+#### 4.4.2. Production 환경
 
 ```python
 # /app/__init__.py
@@ -226,20 +252,20 @@ REDIS_HOST = os.getenv('REDIT_HOST')
 - Flask 애플리케이션을 Application Factory Pattern을 이용해 생성하므로 실행 시 자동으로 환경을 파악하고 그에 맞는 Config 파일을 꽂아서 환경을 구성
 - Docker 또는 K8s 배포를 위한 Production 환경을 분리
 
-### 3.5. Object-Relational Mapping
+### 4.5. Object-Relational Mapping
 
 - 객체와 관계형 데이터베이스 간의 상호 작용을 간단하게 만들어주는 프로그래밍 기술 또는 도구
 - 데이터베이스 테이블과 OOP 언어 간의 불일치를 해결하고 데이터베이스와 애플리케이션 코드 간의 상호 작용을 추상화
 - Python에서는 SQLAlchemy 사용
 
-#### 3.5.1. Workflow
+#### 4.5.1. Workflow
 1. 데이터 모델 정의: 데이터베이스 테이블과 매핑될 데이터 모델(클래스)을 정의
 2. ORM 설정: ORM을 설정하여 데이터베이스 연결 정보와 데이터 모델 간의 매핑 규칙을 설정
 3. CRUD 작업: 애플리케이션 코드에서 ORM을 사용하여 데이터를 CRUD
 4. 쿼리 실행: ORM은 개발자가 작성한 ORM 코드를 기반으로 SQL 쿼리를 생성하고 데이터베이스에 전송하여 실행
 5. 결과 처리: 데이터베이스에서 반환된 결과를 객체로 변환하거나 필요한 작업을 수행
 
-#### 3.5.2. 예시: Python Code -> SQL query
+#### 4.5.2. 예시: Python Code -> SQL query
 
 ```python
 # Python code
@@ -254,7 +280,7 @@ LEFT OUTER JOIN sub_query ON sub_query.post_id = post_list.id
 WHERE post_list.subject ILIKE 'search_value';
 ```
 
-#### 3.5.3. Flask ORM Library: SQLAlchemy
+#### 4.5.3. Flask ORM Library: SQLAlchemy
 - Python을 위한 ORM 및 SQL 툴킷 라이브러리
 - 데이터데이스와 상호작용하기 위한 도구 제공
 - 구성 요소
@@ -268,31 +294,31 @@ WHERE post_list.subject ILIKE 'search_value';
 	- flask db migrate: 모델을 생성하거나 변경할 때 사용
 	- flask db upgrade: 모델의 변경 내용을 실제 데이터베이스에 적용할 때 사용
 
-#### 3.5.4. Model
+#### 4.5.4. Model
 - Models.py 파일에 ORM을 사용해 모델을 정의
 	- 데이터베이스 테이블과 상호작용하기 위한 클래스를 정의
 - 클래스의 각 속성은 매핑되는 테이블의 Column과 일치
 - 데이터 유형과 제약 조건 또한 지정
 
-## 4. 🔧 Issue & Troubleshooting
+## 5. 🔧 Issue & Troubleshooting
 
 > ✅: 해결 이슈 ❓: 미해결 이슈
 
-### 4.1. 사용자 삭제 기능 추가 이후 Null 참조 오류 발생
+### 5.1. 사용자 삭제 기능 추가 이후 Null 참조 오류 발생
 
 - 신규 기능으로 User를 삭제하는 기능을 추가
 - 삭제하려는 사용자가 댓글을 달았을 경우 댓글의 User 참조값이 Null이 되기 때문에 삭제가 불가능하게 되는 에러 발생
 
 > ✅ 해결: ORM Model에서 cascade 옵션 설정으로 자동으로 댓글이 지워지게 함
 
-### 4.2. Cookie를 사용한 Token 전달이 불가능
+### 5.2. Cookie를 사용한 Token 전달이 불가능
 
 - 3.2.1.에 언급했던 문제로 Cookie를 사용해 클라이언트로 Token을 전달할 수 없음
 - 크롬 브라우저의 새로운 쿠키 정책과, HTTPS를 적용할 수 없는 문제가 원인
 
 > ✅ 해결: Token을 Response Body에 넣어서 Client로 전달하고, 이를 Header에 받는 방식으로 토큰 검증, 실제로 최근 많은 서비스들이 보안을 위해 이렇게 토큰을 전달하고, Client Side에서 Local Storage에 토큰을 저장한다고 함
 
-### 4.3. Access Token 만료 기한 정하기
+### 5.3. Access Token 만료 기한 정하기
 
 - Access Token은 보안 상 만료 기한을 아주 짧게 (한 시간 이내) 가져가야 하는데, 사용자가 지속적으로 재인증을 해야 한다는 문제가 발생
 
