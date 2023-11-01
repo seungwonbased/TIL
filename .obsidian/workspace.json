@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "한끼얼마 K8s Cluster.md",
+                "file": "한끼얼마 BE Flask App.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.5
+    "width": 209.5,
+    "collapsed": true
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "한끼얼마 K8s Cluster.md",
+                "file": "한끼얼마 BE Flask App.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "한끼얼마 K8s Cluster.md",
+                "file": "한끼얼마 BE Flask App.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "한끼얼마 K8s Cluster.md"
+                "file": "한끼얼마 BE Flask App.md"
               }
             }
           },
@@ -193,10 +194,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c762f62c267f2a8e",
+  "active": "0dae93edd5a9625d",
   "lastOpenFiles": [
-    "한끼얼마 FE React App.md",
     "한끼얼마 K8s Cluster.md",
+    "한끼얼마 FE React App.md",
     "한끼얼마 BE Flask App.md",
     "한끼얼마 BE Flask App.pdf",
     "Users/baeseungwon/Desktop/Screenshots/Screenshot.md",

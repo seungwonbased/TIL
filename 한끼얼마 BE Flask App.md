@@ -297,6 +297,14 @@ WHERE post_list.subject ILIKE 'search_value';
 - 클래스의 각 속성은 매핑되는 테이블의 Column과 일치
 - 데이터 유형과 제약 조건 또한 지정
 
+### 4.6. Flask + WSGI = Web Application Server
+
+- 테스트 환경 또는 운영 환경에서는 웹 서버와 웹 애플리케이션 간의 표준 인터페이스인 WSGI를 붙여 실행
+- 구현체인 Gunicorn을 5000번 포트에 바인딩해 서비스
+- 운영 환경에서는 Gunicorn을 통해 flask를 서비스하고 보안 상 DEBUG 값을 FALSE로 해놓았기 때문에 로그 파일을 INFO 레벨로 파일에 출력하도록 구성
+
+> 참고: `flask run` 명령은 디버깅이 필요한 개발 환경에서만 사용
+
 ## 5. 🔧 Issue & Troubleshooting
 
 > ✅: 해결 이슈 ❓: 미해결 이슈
