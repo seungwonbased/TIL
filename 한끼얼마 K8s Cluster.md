@@ -85,7 +85,7 @@ CMD ["nginx", "-g", "daemon off;"]
 
 ## 2. 한끼얼마 3-Tier K8s Cluster
 
-[클러스터 아키텍처 사진]
+![k8s](https://github.com/seungwonbased/TIL/blob/main/assets/k1.png)
 
 ### 2.1. 기본 구성
 
@@ -131,7 +131,7 @@ spec:
 
 #### 2.1.4. Bare Metal Database Server
 - 클러스터 외부 물리 서버에 PostgreSQL 데이터베이스 서버를 실행시켜 놓음
-- 데이터의 안정성을 위해 외부에 DB 서버를 구성했으며, 메인 데이터를 영구적으로 저장
+- 데이터의 안정성을 위해 외부에 DB 서버를 구성했으며, 메인 데이터를 영구적으로 저장
 
 ### 2.2. Database Tier: Redis
 
@@ -303,3 +303,57 @@ spec:
 - Load Balancer의 External IP를 10.0.0.4로 고정
 	- API 서버의 CORS 정책의 Origin 허용을 10.0.0.4에 설정해놓았기 때문
 
+## 3. 결과
+
+### 3.1. Pod
+
+![k8s](https://github.com/seungwonbased/TIL/blob/main/assets/k2.png)
+
+- Deployment로 생성한 Pod의 레플리카가 Worker Node에 배포됨
+
+### 3.2. Replica Set, Deployment
+
+![k8s](https://github.com/seungwonbased/TIL/blob/main/assets/k3.png)
+
+![k8s](https://github.com/seungwonbased/TIL/blob/main/assets/k4.png)
+
+### 3.3. Service
+
+![k8s](https://github.com/seungwonbased/TIL/blob/main/assets/k5.png)
+
+- Backend Layer, Frontend Layer에 설정한 Externel IP로 설정됨
+
+### 3.4. Config Map, Namespace
+
+![k8s](https://github.com/seungwonbased/TIL/blob/main/assets/k6.png)
+
+![k8s](https://github.com/seungwonbased/TIL/blob/main/assets/k7.png)
+
+- REDIS_HOST가 설정된 backend Config Map이 생성됨
+- Deployment가 배포되는 default 네임스페이스, Metal LB의 구성요소를 포함하는 metallb-system 네임스페이스가 생성됨
+
+### 3.4. Frontend External IP로 접속
+
+![k8s](https://github.com/seungwonbased/TIL/blob/main/assets/k8.png)
+
+- 설정한 10.0.0.4 IP로 접속 성공
+
+### 3.5. 로그인 요청 - CORS Preflight 요청
+
+![k8s](https://github.com/seungwonbased/TIL/blob/main/assets/k9.png)
+
+- CORS Simple Request 조건(Content-Type Header)이 맞지 않아 브라우저가 자동으로 Preflight 요청 전송
+- 서버 애플리케이션에 허용 Origin을 10.0.0.4로 설정해두었기 때문에 Access-Control-Allow-Origin 헤더가 응답으로 도착하여 브라우저가 허용 여부를 결정
+
+### 3.6. 로그인 요청 - 실제 요청
+
+![k8s](https://github.com/seungwonbased/TIL/blob/main/assets/k10.png)
+
+- Preflight 요청 이후 실제 요청을 보냄
+- 응답으로 토큰값이 각각 쿠키, Body로 넘어옴
+
+### 3.7. 로그인 후 Recoil에 상태 (토큰, 로그인 상태) 저장 확인
+
+![k8s](https://github.com/seungwonbased/TIL/blob/main/assets/k11.png)
+
+- Local Storage의 recoil-persistent에 토큰값과 상태가 저장되었음

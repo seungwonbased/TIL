@@ -4,47 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "397c51c01990cc45",
+        "id": "24d51cd018648026",
         "type": "tabs",
         "children": [
           {
-            "id": "7bbb7d49865433cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "회의.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d2a46bb3871671f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "한끼얼마 BE Flask App.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dec7d23cb6054773",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "한끼얼마 FE React App.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c762f62c267f2a8e",
+            "id": "b1d6d04f634eb228",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,31 +157,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c762f62c267f2a8e",
+  "active": "b1d6d04f634eb228",
   "lastOpenFiles": [
+    "assets/k11.png",
+    "assets/k10.png",
+    "assets/k9.png",
+    "assets/k8.png",
+    "assets/main.PNG",
+    "assets/k7.png",
+    "assets/nsss.PNG",
+    "assets/k6.PNG",
+    "assets/cms.PNG",
+    "assets/k5.png",
+    "assets/svcs.PNG",
     "한끼얼마 FE React App.md",
-    "한끼얼마 BE Flask App.pdf",
-    "한끼얼마 BE Flask App.md",
-    "CM.md",
-    "MSA-2.md",
-    "ToBeContinued.md",
-    "Workflow&Convention.md",
     "한끼얼마 K8s Cluster.md",
     "한끼얼마 RESTful API 명세.md",
+    "MSA.md",
+    "CM.md",
+    "스크랩.md",
+    "Workflow&Convention.md",
+    "SSG.md",
     "회의.md",
-    "Network/Basic/Screenshot 2023-10-31 at 20.40.40.png",
+    "한끼얼마 BE Flask App.md",
+    "한끼얼마 K8s Cluster ty.pdf",
+    "한끼얼마 K8s Cluster~.md",
+    "한끼얼마 BE Flask App.pdf",
+    "ToBeContinued.md",
     "Users/baeseungwon/Desktop/Screenshots/Screenshot.md",
     "Users/baeseungwon/Desktop/Screenshots",
     "Users/baeseungwon/Desktop",
     "Users/baeseungwon",
     "Users",
-    "Network/Basic/Screenshot 2023-10-31 at 12.29.28 2.png",
     "code.md",
     "notes.md",
     "취업 특강 입사지원서.md",
-    "Network/Basic/Screenshot 2023-10-31 at 12.32.50.png",
-    "Network/Basic/Screenshot 2023-10-31 at 12.29.28 1.png",
-    "Network/Basic/Screenshot 2023-10-31 at 12.29.28.png",
     "README.md",
     "K8s/Deployments.md",
     "K8s/Service.md",
@@ -227,20 +200,11 @@
     "K8s/Storage.md",
     "K8s/StatefulSet.md",
     "React/Hooks.md",
-    "스크랩.md",
-    "Untitled",
+    "assets",
     "React/Ref.md",
-    "React/EventHandling.md",
-    "K8s/Ingress.md",
-    "AWS/assets/as12.png",
-    "K8s/assets/sfs3.png",
-    "K8s/assets/sfs2.png",
-    "K8s/assets/sfs1.png",
     "React",
-    "K8s/assets/store3.png",
     "MSA-2",
     "K8s/assets",
-    "K8s",
     "Network/Basic/Untitled.canvas",
     "Untitled.canvas"
   ]
