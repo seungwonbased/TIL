@@ -30,7 +30,7 @@
 > 레시피 리스트 조회
 
 ### Request
-#### Request Parameters
+#### Query String Parameters
 
 |Parameter|Value|Description|
 |---|---|---|
