@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "한끼얼마 Frontend React App.md",
+                "file": "한끼얼마 BE Flask App.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dec7d23cb6054773",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "한끼얼마 FE React App.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c762f62c267f2a8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "한끼얼마 K8s Cluster.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -82,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.5,
-    "collapsed": true
+    "width": 209.5
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -99,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "한끼얼마 Frontend React App.md",
+                "file": "한끼얼마 K8s Cluster.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "한끼얼마 Frontend React App.md",
+                "file": "한끼얼마 K8s Cluster.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "한끼얼마 Frontend React App.md"
+                "file": "한끼얼마 K8s Cluster.md"
               }
             }
           },
@@ -170,12 +193,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6d2a46bb3871671f",
+  "active": "c762f62c267f2a8e",
   "lastOpenFiles": [
-    "Network/Basic/Screenshot 2023-10-31 at 12.29.28 2.png",
-    "한끼얼마 BE Flask App.pdf",
+    "한끼얼마 FE React App.md",
+    "한끼얼마 K8s Cluster.md",
     "한끼얼마 BE Flask App.md",
-    "한끼얼마 Frontend React App.md",
+    "한끼얼마 BE Flask App.pdf",
+    "Users/baeseungwon/Desktop/Screenshots/Screenshot.md",
+    "Users/baeseungwon/Desktop/Screenshots",
+    "Users/baeseungwon/Desktop",
+    "Users/baeseungwon",
+    "Users",
+    "Network/Basic/Screenshot 2023-10-31 at 12.29.28 2.png",
     "회의.md",
     "code.md",
     "notes.md",
@@ -202,7 +231,6 @@
     "K8s/Ingress.md",
     "React/React.md",
     "MSA-2.md",
-    "Linux/cron.md",
     "AWS/assets/as12.png",
     "K8s/assets/sfs3.png",
     "K8s/assets/sfs2.png",
@@ -210,14 +238,9 @@
     "React",
     "K8s/assets/store3.png",
     "K8s/assets/store2.png",
-    "K8s/assets/store1.png",
     "MSA-2",
     "K8s/assets",
     "K8s",
-    "Docker/LAB",
-    "logs",
-    "node_modules",
-    "Docker/assets",
     "Network/Basic/Untitled.canvas",
     "Untitled.canvas"
   ]

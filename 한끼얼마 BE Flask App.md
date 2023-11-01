@@ -1,14 +1,10 @@
-# 한끼얼마 Backend Flask App
+# 한끼얼마 Backend Flask Application Report
 ## 1. 🥙 한끼얼마 💰
-
-![Screenshot 2023-10-31 at 12.29.28](/Users/baeseungwon/Desktop/Screenshots/Screenshot 2023-10-31 at 12.29.28.png)
-
 ### 1.1 개발 인원
 
 - 1인 개발 (배승원)
 
 ### 1.2. 기술 스택 및 환경
-
 #### 1.2.1. 기술 스택
 
 ![Static Badge](https://img.shields.io/badge/Python3-3776AB?logo=Python&logoColor=%23FFFFFF) ![Static Badge](https://img.shields.io/badge/Flask-000000?logo=Flask&logoColor=%23FFFFFF) ![Static Badge](https://img.shields.io/badge/PostgreSQL-4169E1?logo=PostgreSQL&logoColor=%23FFFFFF) ![Static Badge](https://img.shields.io/badge/SQLite-000000?logo=SQLite&logoColor=%23FFFFFF) 
@@ -96,6 +92,7 @@
 	- 이 이슈는 Cookie의 근본적인 보안 결함에서 기인하였기에 Cookie 대신 브라우저의 Local Storage에 토큰을 저장하는 방식을 채택
 - Kakao 로그인 API에서 JWT를 Response Body에 넣어서 보내는 샘플 코드를 레퍼런스로 하여, 이와 비슷한 형식으로 Client에 토큰 전달
 - Response Body를 통한 토큰 전달 예시
+
 ```json
 {  
     "result": "success",  
@@ -156,7 +153,7 @@
 ### 4.4. 개발 & 테스트, 운영 환경 분리
 #### 4.4.1. Development & Testing 환경
 
-> Testing API Server URL: https://rest-recipe-book-dptb.run.goorm.site:443
+> Testing API Server URL: https://rest-recipe-book-dptb.run.goorm.site
 
 - FE 개발을 협업으로 원활하게 진행하기 위해 Flask 애플리케이션을 Testing API 서버에 배포
 - 이를 통해 React FE 애플리케이션의 개발 환경의 API 서버의 Base URL을 각자의 localhost로 하지 않고 실시간 업데이트되는 API를 호출해 개발할 수 있었음
