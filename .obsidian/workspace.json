@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "한끼얼마 BE Flask App.md",
+                "file": "한끼얼마 K8s Cluster.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "한끼얼마 BE Flask App.md",
+                "file": "한끼얼마 K8s Cluster.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "한끼얼마 BE Flask App.md",
+                "file": "한끼얼마 K8s Cluster.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "한끼얼마 BE Flask App.md"
+                "file": "한끼얼마 K8s Cluster.md"
               }
             }
           },
@@ -194,28 +194,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0dae93edd5a9625d",
+  "active": "c762f62c267f2a8e",
   "lastOpenFiles": [
-    "한끼얼마 K8s Cluster.md",
     "한끼얼마 FE React App.md",
-    "한끼얼마 BE Flask App.md",
     "한끼얼마 BE Flask App.pdf",
+    "한끼얼마 BE Flask App.md",
+    "CM.md",
+    "MSA-2.md",
+    "ToBeContinued.md",
+    "Workflow&Convention.md",
+    "한끼얼마 K8s Cluster.md",
+    "한끼얼마 RESTful API 명세.md",
+    "회의.md",
+    "Network/Basic/Screenshot 2023-10-31 at 20.40.40.png",
     "Users/baeseungwon/Desktop/Screenshots/Screenshot.md",
     "Users/baeseungwon/Desktop/Screenshots",
     "Users/baeseungwon/Desktop",
     "Users/baeseungwon",
     "Users",
     "Network/Basic/Screenshot 2023-10-31 at 12.29.28 2.png",
-    "회의.md",
     "code.md",
     "notes.md",
     "취업 특강 입사지원서.md",
     "Network/Basic/Screenshot 2023-10-31 at 12.32.50.png",
     "Network/Basic/Screenshot 2023-10-31 at 12.29.28 1.png",
     "Network/Basic/Screenshot 2023-10-31 at 12.29.28.png",
-    "한끼얼마 RESTful API 명세.md",
-    "CM.md",
-    "Workflow&Convention.md",
     "README.md",
     "K8s/Deployments.md",
     "K8s/Service.md",
@@ -225,20 +228,16 @@
     "K8s/StatefulSet.md",
     "React/Hooks.md",
     "스크랩.md",
-    "ToBeContinued.md",
     "Untitled",
     "React/Ref.md",
     "React/EventHandling.md",
     "K8s/Ingress.md",
-    "React/React.md",
-    "MSA-2.md",
     "AWS/assets/as12.png",
     "K8s/assets/sfs3.png",
     "K8s/assets/sfs2.png",
     "K8s/assets/sfs1.png",
     "React",
     "K8s/assets/store3.png",
-    "K8s/assets/store2.png",
     "MSA-2",
     "K8s/assets",
     "K8s",
