@@ -137,7 +137,6 @@ spec:
 
 - 데이터 관리와 데이터 저장을 처리
 - 빠른 데이터 처리를 위해 인메모리 데이터베이스인 Redis 선택
-- 휘발성 데이터(Refresh Token)를 저장하기 때문에 영구 볼륨 대신 emptyDir 볼륨 설정
 
 #### 2.2.1. redis.yaml
 
@@ -161,12 +160,6 @@ spec:
         image: seungwonbae/recipe-redis:1.0
         ports:
         - containerPort: 6379
-        volumeMounts:
-        - name: redis-data
-          mountPath: /data
-    volumes:
-    - name: redis-data
-      emptyDir: {}
 ---
 apiVersion: v1
 kind: Service
