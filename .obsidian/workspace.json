@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "24d51cd018648026",
+        "id": "b83f714b2f584d8d",
         "type": "tabs",
         "children": [
           {
-            "id": "b1d6d04f634eb228",
+            "id": "e9bb0070be69e4db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "한끼얼마 K8s Cluster.md",
+                "file": "AWS/SSG/2_IAM.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,6 +64,14 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "1d5f2e9fe32431c0",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
           }
         ]
       }
@@ -86,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "한끼얼마 K8s Cluster.md",
+                "file": "AWS/SSG/2_IAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "한끼얼마 K8s Cluster.md",
+                "file": "AWS/SSG/2_IAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "한끼얼마 K8s Cluster.md"
+                "file": "AWS/SSG/2_IAM.md"
               }
             }
           },
@@ -157,12 +165,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1d6d04f634eb228",
+  "active": "0dae93edd5a9625d",
   "lastOpenFiles": [
+    "AWS/SSG/2_IAM.md",
+    "AWS/SSG/1_Cloud Computing.md",
+    "Untitled.md",
+    "AWS/SSG",
+    "AWS/SSG.md",
+    "AWS/Amazon Web Service.md",
+    "한끼얼마 K8s Cluster.md",
     "assets/k1.png",
     "assets/Screenshot 2023-11-02 at 9.17.05.png",
     "한끼얼마 RESTful API 명세.md",
-    "한끼얼마 K8s Cluster.md",
     "assets/k6.png",
     "assets/k11.png",
     "assets/k10.png",
@@ -171,7 +185,6 @@
     "assets/main.PNG",
     "assets/k7.png",
     "assets/nsss.PNG",
-    "assets/k6.PNG",
     "한끼얼마 FE React App.md",
     "MSA.md",
     "CM.md",
@@ -197,14 +210,9 @@
     "K8s/Service.md",
     "Docker/ARGENV.md",
     "K8s/JobCronJob.md",
-    "K8s/Storage.md",
-    "K8s/StatefulSet.md",
-    "React/Hooks.md",
     "assets",
-    "React/Ref.md",
     "React",
     "MSA-2",
-    "K8s/assets",
     "Network/Basic/Untitled.canvas",
     "Untitled.canvas"
   ]

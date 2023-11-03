@@ -71,8 +71,9 @@ gunicorn --bind 0.0.0.0:5000 --timeout 90 "app:create_app()"
 FROM node AS builder
 RUN mkdir /recipe
 WORKDIR /recipe
-COPY . .
+COPY package.json .
 RUN npm install
+COPY . .
 RUN npm run build
 
 FROM nginx AS runtime
@@ -82,6 +83,7 @@ CMD ["nginx", "-g", "daemon off;"]
 
 - 다단계 도커 빌드
 - 리액트를 빌드하고 빌드한 결과를 Nginx에 넣어 서빙 가능하게 함
+- package.json을 먼저 COPY해 종속성을 설치하고, 저 파일이 바뀌지 않는다면 재빌드 시에 캐시되어 있는 데이터로 빌드되기 때문에 효율적인 빌드 가능
 
 ## 2. 한끼얼마 3-Tier K8s Cluster
 
