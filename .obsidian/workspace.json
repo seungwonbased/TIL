@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/SSG/2_IAM.md",
+                "file": "AWS/SSG/3_VPC.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/SSG/3_VPC.md",
+                "file": "AWS/SSG/4_EC2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,11 +177,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c35e4eeec9f40254",
+  "active": "e9bb0070be69e4db",
   "lastOpenFiles": [
-    "Memo.md",
+    "AWS/SSG/4_EC2.md",
     "AWS/SSG/3_VPC.md",
     "AWS/SSG/2_IAM.md",
+    "Memo.md",
     "AWS/SSG/1_Cloud Computing.md",
     "Untitled.md",
     "AWS/SSG",
@@ -222,7 +222,6 @@
     "취업 특강 입사지원서.md",
     "README.md",
     "K8s/Deployments.md",
-    "K8s/Service.md",
     "assets",
     "React",
     "MSA-2",
