@@ -263,7 +263,9 @@
 
 ![vpc](https://github.com/seungwonbased/TIL/blob/main/AWS/assets/vpc12.png)
 
-이번에는 긴 강의를 통해서
+
+![](https://i.imgur.com/tnbjk7x.png)
+
 
 보안 그룹 및 네트워크 ACL 즉 NACL에 대해서 살펴봅시다
 
