@@ -73,3 +73,4 @@ def lambda_handler(event, context):
 - https://myanjini.tistory.com/entry/Serverless-Framework-5-%EB%9E%8C%EB%8B%A4-%ED%95%A8%EC%88%98-%EC%8B%A4%ED%96%89%EC%97%90-%ED%95%84%EC%9A%94%ED%95%9C-%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98-%EC%84%A4%EC%A0%95
 - https://myanjini.tistory.com/entry/Serverless-Framework-6-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%9D%98-%EC%8D%B8%EB%84%A4%EC%9D%BC-%EC%9E%90%EB%8F%99-%EC%83%9D%EC%84%B1
 	- 업로드 이미지의 썸네일 자동 생성
+
