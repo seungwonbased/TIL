@@ -513,62 +513,151 @@
 ![](https://i.imgur.com/d4SSclh.png)
 
 - Flow Logs를 이용해서 어떻게 보안 그룹과 NACL이슈를 해결하는 방법
+- NACL은 상태가 없고, 보안 그룹에는 상태가 있음
+- 만일 Inbound REJECT가 되면
+	- 외부로부터 EC2 인스턴스로 유입되는 요청이 거절된 걸 볼 수 있음
+	- NACL이 요청을 거부하거나 보안 그룹이 요청을 거부한다는 의미
+- Inbound ACCEPT, Outbound REJECT라면 NACL만의 이슈
+	- 이유는 보안 그룹은 상태가 있기 때문
+	- 그리고 ACCEPT에서 알 수 있듯이 인바운드가 허용된다면 보안 그룹의 상태 덕분에 아웃바운드도 자동적으로 허용됨
+- Outbound REJECT라면 NACL이나 보안 그룹에 이슈가 있는 것
+- Outbound ACCEPT이고 Inbound REJECT라면 반드시 NACL에 이슈가 있는 것
 
-예, 우린 ACTION 필드를 확인해요, 그럼 NACL과 서브넷에 유입되는 통상적인 요청을
+### VPC Flow Logs - Architectures
 
-한번 살펴보죠
+![](https://i.imgur.com/tzne3ls.png)
 
-기억하시겠지만 여러분의 NACL은 상태가 없고요, 보안 그룹에는 상태가 있어요
+- Flow Logs가 CloudWatch Logs로 갈 수 있음
+	- 그럼 CloudWatch Contributor Insights라는 걸 이용해서, 예를 들어 VPC가 원하는 것에 대한 네트워크에 가장 많이 기여하는 상위 10개 IP 주소를 확인할 수 있음
+- VPC Flow Logs를 사용해서 그것들을 역시 CloudWatch Logs로 전송할 수도 있음
+	- 여기서 메트릭 필터를 설정해서 예를 들어 SSH 또는 RDP 프로토콜을 검색할 수 있음
+	- 평소보다 SSH 또는 RDP가 있다는 걸 알게 되면, CloudWatch Alarm을 트리거할 수 있음
+	- Amazon SNS 토픽에 경보를 전송할 수 있음
+- VPC Flow Logs를 사용하고 모든 걸 S3 버킷에 전송해서 저장할 수 있음
+	- 그리고 Amazon Athena를 사용해서 SQL로 된 VPC Flow Logs를 분석할 수 있음
+	- Amazon QuickSight로 그걸 시각화할 수도 있음
 
-그럼 어떻게 될까요?
+# AWS Site-to-Site VPN
 
-만일 Inbound REJECT가 되면 어떨까요? 외부로부터 우리 EC2 인스턴스로 유입되는 요청이
+![](https://i.imgur.com/0E4Cmct.png)
 
-거절된 걸 볼 수 있는데요, 이 그래프에서 보면 NACL이 요청을 거부하거나
+- VPC는 구축했으나 특정 구조가 있는 기업 데이터 센터를 AWS와 비공개로 연결하려면 기업은 고객 게이트웨이를 VPC는 VPN 게이트웨이를 갖춰야 함
+- 공용 인터넷을 통해 사설 Site-to-Site VPN을 연결해야함
+- VPN 연결이라서 암호화돼 있음
+	- 공용 인터넷을 거치긴 함
+- 이를 사용해 VPC 네트워크를 기업 데이터 센터 네트워크에 효과적으로 연결 가능
 
-보안 그룹이 요청을 거부한다는 의미예요
+## Virtual Private Gateway
 
-이해가 되죠, 그렇죠?
+- 가상 프라이빗 게이트웨이
+- VPN 연결에서 AWS 측에 있는 VPN 집선기(concentrator)
+- VGW는 생성되면 VPC에 연결됨
+	- Site-to-Site VPN 연결을 생성하려는 VPC
+- ASN을 지정할 수도 있음
 
-하지만 만일 Inbound ACCEPT, Outbound REJECT라면 NACL만의 이슈라는 얘기가 되죠
+## Customer Gateway (CGW)
 
-왜일까요?
+- CGW는 고객 게이트웨이
+- 갖춰야 할 소프트웨어 혹은 물리적 장치로 VPN 연결에서 데이터 센터 측에 속함
+- 연결은 아주 간단
+- 고객 게이트웨이가 있는 기업 데이터 센터와 가상 프라이빗 게이트웨이를 갖춘 VPC가 있음
+- 
+- 온프레미스 고객 게이트웨이를 어떻게 구축해야 할까요?
 
-그 이유는 보안 그룹은 상태가 있기 때문이예요
+어떤 IP 주소를 사용해야 할지도 궁금합니다
 
-그리고 ACCEPT에서 알 수 있듯이 인바운드가 허용된다면 보안 그룹의 상태 덕분에 아웃바운드도
+고객 게이트웨이가 공용이라면
 
-자동적으로 허용되죠
+인터넷 라우팅이 가능한 IP 주소가 고객 게이트웨이 장치에 있습니다
 
-그럼 나가는 요청에 대해서도 비슷한 분석이 가능해요
+그럼 이걸 사용해서 VGW와 CGW를
 
-이 도표는 이미 알고 있고요
+연결하면 됩니다
 
-그럼 만일 Outbound REJECT라면 NACL이나 보안 그룹에 이슈가 있는 거고요
+고객 게이트웨이의 공용 IP를 사용해서요
 
-하지만 Outbound ACCEPT이고 Inbound REJECT라면 반드시 NACL에 이슈가 있는 것이예요
+고객 게이트웨이를 비공개로 남겨 사설 IP를 가질 수도 있습니다
 
-그럼 여러분의 VPC Flow Logs의 몇 가지 아키텍처를 살펴볼까요? 아시는 것처럼 흐름 로그가 CloudWatch Logs로
+그런 경우 대부분
 
-갈 수 있고요
+NAT-T를 활성화하는 NAT 장치 뒤에 있어요
 
-그럼 우린 CloudWatch Contributor Insights라는 걸 이용해서, 예를 들어 여러분의 VPC나 여러분이 원하는 것에 대한
+NAT 장치에 공용 IP가 있을 시
 
-네트워크에 가장 많이 기여하는 상위 10개 IP 주소를 확인할 수 있어요
+이 공용 IP를
 
-또 VPC Flow Logs를 사용해서 그것들을 역시 CloudWatch Logs로 전송할 수도 있고요
+CGW에 사용해야 합니다
 
-여기서 우린 메트릭 필터를 설정해서 예를 들어 SSH 또는 RDP 프로토콜을 검색할 수 있죠
+Site-to-Site VPN 연결은 이렇게 생성됩니다
 
-그리고 평소보다 SSH 또는 RDP가 있다는 걸 알게 되면, CloudWatch Alarm을 트리거할 수 있고요
+시험 문제로 나올 수 있어서 설명하는 거예요
 
-Amazon SNS 토픽에 경보를 전송할 수 있어요, 네트워크에서 뭔가 수상한 게 진행되고 있다는 얘기니까요
+다음으로 시험에 잘 나오는 게
 
-또는 VPC Flow Logs를 사용하고 모든 걸 S3 버킷에 전송해서 저장할 수 있어요, 그리고 Amazon Athena를 사용해서
+서브넷의 VPC에서 라우트 전파를 활성화해야
 
-SQL로 된 VPC Flow Logs를 분석할 수 있고요, Amazon QuickSight로 그걸 시각화할 수도 있죠
+Site-to-Site VPN 연결이 실제로 작동한다는 점입니다
 
-그럼 VPC Flow Logs에 대한 내용은 여기까지고요
+여기까지 마무리되지 않으면 설치해 봤자 작동이 안 돼요
 
-강의가 마음에 드셨기를 바라요, 저는 다음 강의에서 뵐게요
+Site-to-Site VPN 부분에서 이런 문제도 나올 수 있겠죠
 
+온프레미스에서 AWS로 EC2 인스턴스 상태를 진단할 때
+
+보안 그룹 인바운드 ICMP 프로토콜이 활성화됐는지 확인해야 합니다
+
+그렇지 않으면 연결이 안 되거든요
+
+이건 보안 그룹 문제이지만
+
+Site-to-Site VPN 내용과 섞어 놓으면
+
+헷갈리기 쉬우니까 기억해 두시면 도움이 될 거예요
+
+Site-to-Site VPN에서
+
+AWS VPN CloudHub도 꼭 알아 두세요
+
+VGW를 갖춘 VPC가 있고
+
+고객 네트워크와 데이터 센터마다
+
+고객 게이트웨이가 마련된 상황을 가정해 봅시다
+
+CloudHub는 여러 VPN 연결을 통해
+
+모든 사이트 간 안전한 소통을 보장합니다
+
+비용이 적게 드는 허브 및 스포크 모델(hub&spoke)로
+
+VPN만을 활용해 서로 다른 지역 사이
+
+기본 및 보조 네트워크 연결성에 사용합니다
+
+VPC 내 CGW와 VGW 하나 사이에
+
+Site-to-Site VPN을 생성하게 되는 겁니다
+
+이렇게 연결되면
+
+고객 네트워크는
+
+VPN 연결을 통해 서로 소통할 수 있게 되죠
+
+VPN 연결이므로 모든 트래픽이 공용 인터넷을 통합니다
+
+사설 네트워크로는 연결되지 않습니다
+
+공용 인터넷을 통하지만 VPN 연결은 당연히 암호화됩니다
+
+설치 방법은 아주 간단해요
+
+가상 프라이빗 게이트웨이 하나에
+
+Site-to-Site VPN 연결을 여러 개 만들어
+
+동적 라우팅을 활성화하고 라우팅 테이블을 구성하면 됩니다
+
+Site-to-Site VPN 내용을 전부 다뤄 봤습니다
+
+도움이 됐길 바라며 다음 시간에 봅시다
