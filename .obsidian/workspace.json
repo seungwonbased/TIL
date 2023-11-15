@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/NetworkingContentDelivery/VPC.md",
+                "file": "스크랩.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5,
-    "collapsed": true
+    "width": 233.5
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/NetworkingContentDelivery/VPC.md",
+                "file": "스크랩.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/NetworkingContentDelivery/VPC.md",
+                "file": "스크랩.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/NetworkingContentDelivery/VPC.md"
+                "file": "스크랩.md"
               }
             }
           },
@@ -180,11 +179,12 @@
   "active": "e9bb0070be69e4db",
   "lastOpenFiles": [
     "AWS/SSG/8_Serverless.md",
+    "AWS/Amazon Web Service.md",
     "AWS/NetworkingContentDelivery/VPC.md",
+    "AWS/SSG/4_EC2.md",
     "Workflow&Convention.md",
     "AWS/SSG/7_CLI.md",
     "AWS/SSG/6_CloudFormation.md",
-    "AWS/SSG/4_EC2.md",
     "AWS/SSG/5_SNS.md",
     "AWS/SSG/3_VPC.md",
     "AWS/SSG/2_IAM.md",
@@ -193,7 +193,6 @@
     "Untitled.md",
     "AWS/SSG",
     "AWS/SSG.md",
-    "AWS/Amazon Web Service.md",
     "한끼얼마 K8s Cluster.md",
     "assets/k1.png",
     "assets/Screenshot 2023-11-02 at 9.17.05.png",
