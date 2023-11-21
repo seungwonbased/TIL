@@ -34,6 +34,10 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
+    "//Terraform",
+    "Terraform",
+    "//Linux",
+    "//Linux/Linux/Notes",
     "//AWS",
     "//AWS/AWS/SSG"
   ],
@@ -61,7 +65,9 @@
     "/",
     "spaces://$tags"
   ],
-  "rootSpaces": [],
+  "rootSpaces": [
+    "Terraform"
+  ],
   "spacesUseAlias": false,
   "fmKeyAlias": "aliases",
   "fmKeyBanner": "banner",

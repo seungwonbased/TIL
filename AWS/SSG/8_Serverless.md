@@ -74,3 +74,21 @@ def lambda_handler(event, context):
 - https://myanjini.tistory.com/entry/Serverless-Framework-6-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%9D%98-%EC%8D%B8%EB%84%A4%EC%9D%BC-%EC%9E%90%EB%8F%99-%EC%83%9D%EC%84%B1
 	- 업로드 이미지의 썸네일 자동 생성
 
+# REST API 성숙도 모델
+
+## Level 3 : Hypermedia As Engine of Application State
+
+- 3단계까지는 와야 진정한 REST API
+- API 서비스의 모든 endpoint를 최초 진입점이 되는 URI를 통해 Hypertext Link 형태로 제공
+- 요즘 API는 API 문서를 제공하지만 단순한 API 목록 제공뿐만 아니라 어떤 request의 다음 request에 필요한 endpoint까지 제공
+	- 클라이언트에게 다음에 어떤 동작이 가능한지 힌트를 제공할 수 있음
+	- 다음에 무엇을 할 수 있는지, 그것을 하기 위해 다루어야 할 리소스의 URI를 알려줄 수 있음
+- 서버가 클라이언트에 문제를 일으키지 않고 URI scheme을 변경할 수 있음
+- 클라이언트가 링크 URI를 찾는 동안, 서버 팀은 최초 진입점을 제외한 모든 URI 작업을 할 수 있음
+
+# JWT Token
+
+- Decoded
+	- Header
+	- Payload
+	- Verify Signiture
