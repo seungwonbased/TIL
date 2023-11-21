@@ -38,8 +38,7 @@
     "Terraform",
     "//Linux",
     "//Linux/Linux/Notes",
-    "//AWS",
-    "//AWS/AWS/SSG"
+    "//Terraform"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
