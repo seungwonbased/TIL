@@ -33,7 +33,9 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "//AWS",
+    "//AWS/AWS/SSG"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

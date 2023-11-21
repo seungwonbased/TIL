@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b83f714b2f584d8d",
+        "id": "8c2bf63786ed2e73",
         "type": "tabs",
         "children": [
           {
-            "id": "e9bb0070be69e4db",
+            "id": "4c10faab6c4464f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "스크랩.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c35e4eeec9f40254",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS/SSG/4_EC2.md",
+                "file": "AWS/SSG/6_CloudFormation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -105,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "스크랩.md",
+                "file": "AWS/SSG/6_CloudFormation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "스크랩.md",
+                "file": "AWS/SSG/6_CloudFormation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "스크랩.md"
+                "file": "AWS/SSG/6_CloudFormation.md"
               }
             }
           },
@@ -176,20 +165,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e9bb0070be69e4db",
+  "active": "4c10faab6c4464f4",
   "lastOpenFiles": [
-    "AWS/SSG/8_Serverless.md",
-    "AWS/Amazon Web Service.md",
-    "AWS/NetworkingContentDelivery/VPC.md",
     "AWS/SSG/4_EC2.md",
-    "Workflow&Convention.md",
+    "AWS/SSG/3_VPC.md",
     "AWS/SSG/7_CLI.md",
+    "AWS/SSG/8_Serverless.md",
     "AWS/SSG/6_CloudFormation.md",
     "AWS/SSG/5_SNS.md",
-    "AWS/SSG/3_VPC.md",
     "AWS/SSG/2_IAM.md",
-    "Memo.md",
     "AWS/SSG/1_Cloud Computing.md",
+    "스크랩.md",
+    "AWS/Amazon Web Service.md",
+    "AWS/NetworkingContentDelivery/VPC.md",
+    "Workflow&Convention.md",
+    "Memo.md",
     "Untitled.md",
     "AWS/SSG",
     "AWS/SSG.md",
@@ -208,7 +198,6 @@
     "한끼얼마 FE React App.md",
     "MSA.md",
     "CM.md",
-    "스크랩.md",
     "SSG.md",
     "회의.md",
     "한끼얼마 BE Flask App.md",

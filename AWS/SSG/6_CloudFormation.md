@@ -229,3 +229,6 @@ Outputs:
 		- 인스턴스가 실행될 때 활성화되거나 비활성화될 서비스를 정의 (Linux 시스템에서는 sysvinit 또는 systemd를 사용해 지원
 		- Windows 시스템에서는 Windows 서비스 관리자를 사용해 지원
 
+## CloudFormation Helper Script
+
+- AWS에서 제공하는 유틸리티 패키지로, EC2 인스턴스를 프로비저닝하고 초기화하기 위한 도구
