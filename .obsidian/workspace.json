@@ -8,12 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b6708c784d37517b",
+            "id": "bcdb65d7a4b848d1",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "Terraform"
+                "file": "Memo/Final/Kubernetes.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -93,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Memo/Final/Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Memo/Final/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Memo/Final/Kubernetes.md"
+              }
             }
           },
           {
@@ -160,8 +166,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6708c784d37517b",
+  "active": "bcdb65d7a4b848d1",
   "lastOpenFiles": [
+    "Memo/Final/Kubernetes.md",
+    "Memo/.md",
+    "Memo/Final/Final.md",
+    "Memo/Final",
+    "한끼얼마 BE Flask App.md",
+    "ModuleProject-Infra/4. Frontend S3 호스팅.md",
+    "ModuleProject-Infra/3. GitHub에 Push 변경 사항 생기면 Git Action으로 ECR에 도커 이미지 빌드 후 자동 Push.md",
+    "ModuleProject-Infra/1. 테라폼 S3 백엔드 구성.md",
+    "ModuleProject-Infra/2. VPC, 서브넷, ecr 생성.md",
+    "ModuleProject-Infra/argocd 설정.md",
+    "ModuleProject-Infra/한끼얼마 CICD, Cloud Infra 구축.md",
+    "ModuleProject-Infra/7. Bastion Host, Public Subnet 생성.md",
+    "ModuleProject-Infra/10. eks 노드 생성.md",
+    "ModuleProject-Infra/iam role 생성 - eks.md",
+    "ModuleProject-Infra/5. SG 생성.md",
+    "ModuleProject-Infra/6. RDS 생성.md",
+    "한끼얼마 K8s Cluster.md",
+    "ModuleProject-Infra/ModuleProject-Infra.md",
+    "ModuleProject-Infra",
+    "Memo/Memo.md",
+    "Memo",
     "AWS/SSG/9_CodeDeploy.md",
     "AWS/SSG/8_Serverless.md",
     "AWS/SSG/4_EC2.md",
@@ -170,23 +197,8 @@
     "Linux/Notes/BasicCommand.md",
     "한끼얼마 RESTful API 명세.md",
     "한끼얼마 FE React App.md",
-    "Untitled.md",
-    "TIL.md",
     "Terraform",
-    "New Note.md",
-    "AWS/SSG/6_CloudFormation.md",
-    "AWS/SSG/3_VPC.md",
-    "AWS/SSG/7_CLI.md",
-    "AWS/SSG/5_SNS.md",
-    "AWS/SSG/2_IAM.md",
-    "AWS/SSG/1_Cloud Computing.md",
-    "AWS/Amazon Web Service.md",
-    "AWS/NetworkingContentDelivery/VPC.md",
-    "Workflow&Convention.md",
-    "Memo.md",
     "AWS/SSG",
-    "AWS/SSG.md",
-    "한끼얼마 K8s Cluster.md",
     "assets/k1.png",
     "assets/Screenshot 2023-11-02 at 9.17.05.png",
     "assets/k6.png",
@@ -197,17 +209,11 @@
     "assets/main.PNG",
     "assets/k7.png",
     "assets/nsss.PNG",
-    "MSA.md",
-    "CM.md",
-    "SSG.md",
     "한끼얼마 K8s Cluster ty.pdf",
     "한끼얼마 BE Flask App.pdf",
     "Users/baeseungwon/Desktop/Screenshots",
     "Users/baeseungwon/Desktop",
     "Users/baeseungwon",
-    "Users",
-    "assets",
-    "React",
     "Network/Basic/Untitled.canvas",
     "Untitled.canvas"
   ]

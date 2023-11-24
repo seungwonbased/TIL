@@ -36,9 +36,22 @@
     "/",
     "//Terraform",
     "Terraform",
-    "//Linux",
     "//Linux/Linux/Notes",
-    "//Terraform"
+    "//Terraform",
+    "//Memo",
+    "//Memo",
+    "//Memo/Memo/Final",
+    "//Memo/Memo/Final",
+    "//Memo/Memo/Final",
+    "//Portfolio",
+    "//Portfolio",
+    "//Terraform",
+    "//Terraform",
+    "//Terraform",
+    "//Memo/Memo/Final",
+    "//Memo",
+    "//logs",
+    "//Memo/Memo/Final"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -65,7 +78,10 @@
     "spaces://$tags"
   ],
   "rootSpaces": [
-    "Terraform"
+    "Terraform",
+    "Memo",
+    "ModuleProject-Infra",
+    "Memo/Final"
   ],
   "spacesUseAlias": false,
   "fmKeyAlias": "aliases",
