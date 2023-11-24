@@ -1,4 +1,4 @@
-# TiL
+TiL
 
 열심히 해봐야겠습니다.
 
@@ -153,7 +153,7 @@
 - [Vagrant Basic](https://github.com/seungwonbased/TIL/blob/main/K8s/Vagrant.md)
 - [Resources](https://github.com/seungwonbased/TIL/blob/main/K8s/Resources.md)
 - [Pods](https://github.com/seungwonbased/TIL/blob/main/K8s/Pods.md)
-- [ReplicaSet](https://github.com/seungwonbased/TIL/blob/main/K8s/Pods.md)
+- [ReplicaSet](https://github.com/seungwonbased/TIL/blob/main/K8s/ReplicaSet.md)
 - [Deployment](https://github.com/seungwonbased/TIL/blob/main/K8s/Deployments.md)
 - [Deployment Strategies](https://github.com/seungwonbased/TIL/blob/main/K8s/DeploymentStrategies.md)
 - [DaemonSet](https://github.com/seungwonbased/TIL/blob/main/K8s/DaemonSet.md)
