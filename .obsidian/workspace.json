@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d546b5b317fea1e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memo/Final/Docker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -168,6 +180,8 @@
   },
   "active": "bcdb65d7a4b848d1",
   "lastOpenFiles": [
+    "Memo/Final/Docker.md",
+    ".md",
     "Memo/Final/Kubernetes.md",
     "Memo/.md",
     "Memo/Final/Final.md",
@@ -195,8 +209,6 @@
     "Terraform/Terraform.md",
     "스크랩.md",
     "Linux/Notes/BasicCommand.md",
-    "한끼얼마 RESTful API 명세.md",
-    "한끼얼마 FE React App.md",
     "Terraform",
     "AWS/SSG",
     "assets/k1.png",
@@ -213,7 +225,6 @@
     "한끼얼마 BE Flask App.pdf",
     "Users/baeseungwon/Desktop/Screenshots",
     "Users/baeseungwon/Desktop",
-    "Users/baeseungwon",
     "Network/Basic/Untitled.canvas",
     "Untitled.canvas"
   ]
