@@ -25,13 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Memo/Final/React.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "511f4f0ee4525df5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Memo/Final/Docker.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memo/Final/Kubernetes.md",
+                "file": "Memo/Final/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Memo/Final/Kubernetes.md",
+                "file": "Memo/Final/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memo/Final/Kubernetes.md"
+                "file": "Memo/Final/Docker.md"
               }
             }
           },
@@ -178,11 +191,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bcdb65d7a4b848d1",
+  "active": "511f4f0ee4525df5",
   "lastOpenFiles": [
+    "Docker/Dockerfile.md",
     "Memo/Final/Docker.md",
-    ".md",
+    "Memo/Final/React.md",
+    "Memo/Final/AWS.md",
+    "Memo/Final/Terraform.md",
     "Memo/Final/Kubernetes.md",
+    ".md",
     "Memo/.md",
     "Memo/Final/Final.md",
     "Memo/Final",
@@ -206,9 +223,6 @@
     "AWS/SSG/9_CodeDeploy.md",
     "AWS/SSG/8_Serverless.md",
     "AWS/SSG/4_EC2.md",
-    "Terraform/Terraform.md",
-    "스크랩.md",
-    "Linux/Notes/BasicCommand.md",
     "Terraform",
     "AWS/SSG",
     "assets/k1.png",

@@ -51,7 +51,8 @@
     "//Memo/Memo/Final",
     "//Memo",
     "//logs",
-    "//Memo/Memo/Final"
+    "//Memo/Memo/Final",
+    "//Docker"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
