@@ -55,7 +55,8 @@
     "//Docker",
     "//Terraform",
     "//AWS",
-    "//AWS/AWS/SSG"
+    "//AWS/AWS/SSG",
+    "//K8s"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

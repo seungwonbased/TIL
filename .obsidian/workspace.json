@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/SSG/6_CloudFormation.md",
+                "file": "Memo/Final/Kubernetes.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memo/Final/AWS.md",
+                "file": "K8s/ConfigMapSecret.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/SSG/6_CloudFormation.md",
+                "file": "K8s/ConfigMapSecret.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/SSG/6_CloudFormation.md",
+                "file": "K8s/ConfigMapSecret.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/SSG/6_CloudFormation.md"
+                "file": "K8s/ConfigMapSecret.md"
               }
             }
           },
@@ -196,20 +196,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1d5f2e9fe32431c0",
+  "active": "511f4f0ee4525df5",
   "lastOpenFiles": [
+    "Memo/Final/Kubernetes.md",
+    "Memo/Final/AWS.md",
+    "AWS/SSG/6_CloudFormation.md",
     "AWS/SSG/9_CodeDeploy.md",
     "AWS/SSG/7_CLI.md",
     "AWS/SSG/8_Serverless.md",
-    "AWS/SSG/6_CloudFormation.md",
     "AWS/SSG/5_SNS.md",
     "AWS/SSG/4_EC2.md",
     "AWS/SSG/3_VPC.md",
     "AWS/SSG/2_IAM.md",
     "AWS/SSG/1_Cloud Computing.md",
-    "Memo/Final/AWS.md",
     "Memo/Final/Docker.md",
-    "Memo/Final/Kubernetes.md",
     "Memo/Final/Terraform.md",
     "Memo/Final/React.md",
     "Docker/Dockerfile.md",
