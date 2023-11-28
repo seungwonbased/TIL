@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "9088691bed88b937",
+        "id": "6e263646b389b854",
         "type": "tabs",
         "children": [
           {
@@ -13,12 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memo/Final/Kubernetes.md",
+                "file": "AWS/SSG/6_CloudFormation.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "9088691bed88b937",
+        "type": "tabs",
+        "children": [
           {
             "id": "d546b5b317fea1e4",
             "type": "leaf",
@@ -37,14 +43,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memo/Final/Docker.md",
+                "file": "Memo/Final/AWS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5,
-    "collapsed": true
+    "width": 233.5
   },
   "right": {
     "id": "32b778ba99601c77",
@@ -120,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memo/Final/Docker.md",
+                "file": "AWS/SSG/6_CloudFormation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Memo/Final/Docker.md",
+                "file": "AWS/SSG/6_CloudFormation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memo/Final/Docker.md"
+                "file": "AWS/SSG/6_CloudFormation.md"
               }
             }
           },
@@ -191,14 +196,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "511f4f0ee4525df5",
+  "active": "1d5f2e9fe32431c0",
   "lastOpenFiles": [
-    "Docker/Dockerfile.md",
-    "Memo/Final/Docker.md",
-    "Memo/Final/React.md",
+    "AWS/SSG/9_CodeDeploy.md",
+    "AWS/SSG/7_CLI.md",
+    "AWS/SSG/8_Serverless.md",
+    "AWS/SSG/6_CloudFormation.md",
+    "AWS/SSG/5_SNS.md",
+    "AWS/SSG/4_EC2.md",
+    "AWS/SSG/3_VPC.md",
+    "AWS/SSG/2_IAM.md",
+    "AWS/SSG/1_Cloud Computing.md",
     "Memo/Final/AWS.md",
-    "Memo/Final/Terraform.md",
+    "Memo/Final/Docker.md",
     "Memo/Final/Kubernetes.md",
+    "Memo/Final/Terraform.md",
+    "Memo/Final/React.md",
+    "Docker/Dockerfile.md",
     ".md",
     "Memo/.md",
     "Memo/Final/Final.md",
@@ -212,17 +226,8 @@
     "ModuleProject-Infra/한끼얼마 CICD, Cloud Infra 구축.md",
     "ModuleProject-Infra/7. Bastion Host, Public Subnet 생성.md",
     "ModuleProject-Infra/10. eks 노드 생성.md",
-    "ModuleProject-Infra/iam role 생성 - eks.md",
-    "ModuleProject-Infra/5. SG 생성.md",
-    "ModuleProject-Infra/6. RDS 생성.md",
-    "한끼얼마 K8s Cluster.md",
-    "ModuleProject-Infra/ModuleProject-Infra.md",
     "ModuleProject-Infra",
-    "Memo/Memo.md",
     "Memo",
-    "AWS/SSG/9_CodeDeploy.md",
-    "AWS/SSG/8_Serverless.md",
-    "AWS/SSG/4_EC2.md",
     "Terraform",
     "AWS/SSG",
     "assets/k1.png",

@@ -1,4 +1,4 @@
-# SNS (Simple Notification Service)
+# SNS (Simple Notification Service) 🌟
 
 ![](https://i.imgur.com/MDk29Dh.png)
 

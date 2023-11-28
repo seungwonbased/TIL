@@ -2,7 +2,7 @@
 
 - 생명주기 함수를 사용하기 위해서는 클래스형 컴포넌트로 구현해야 함
 	- 함수형 컴포넌트는 Hook 함수를 통해 비슷하게 구현 가능
-- 1. **`constructor(props)`**
+1. **`constructor(props)`**
     - 컴포넌트가 생성될 때 호출되는 함수
     - 컴포넌트의 초기 설정을 담당하며, 이 메서드 내에서 `super(props)`를 호출하여 부모 클래스의 생성자를 실행해야 함
 2. **`static getDerivedStateFromProps(props, state)`**

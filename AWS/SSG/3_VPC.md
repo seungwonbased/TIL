@@ -1,4 +1,4 @@
-# VPC (Virtual Private Cloud)
+# VPC (Virtual Private Cloud) 🌟
 
 - AWS 사용자 계정 전용 가상 네트워크
 - AWS 클라우드에서 다른 가상 네트워크와 논리적으로 분리

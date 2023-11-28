@@ -52,7 +52,10 @@
     "//Memo",
     "//logs",
     "//Memo/Memo/Final",
-    "//Docker"
+    "//Docker",
+    "//Terraform",
+    "//AWS",
+    "//AWS/AWS/SSG"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

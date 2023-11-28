@@ -1,4 +1,4 @@
-# AWS CloudFormation
+# AWS CloudFormation 🌟
 
 - AWS 리소스를 모델링하고 설정하여 리소스 관리 시간을 줄이고 AWS에서 실행되는 애플리케이션에 더 많은 시간을 사용하도록 해주는 IaC 기반의 구성 조정 서비스
 - 필요한 모든 AWS 리소스를 설명하는 템플릿을 생성하면 CloudFormation이 해당 리소스의 프로비저닝과 구성을 담당

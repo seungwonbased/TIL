@@ -1,4 +1,4 @@
-# CodeDeploy
+# CodeDeploy 🌟
 
 - EC2 인스턴스, 온프레미스, 서버리스 Lambda 함수 또는 ECS 서비스로 애플리케이션 배포를 자동화하는 배포 서비스
 

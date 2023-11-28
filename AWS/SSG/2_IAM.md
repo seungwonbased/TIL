@@ -1,4 +1,4 @@
-# IAM (Identity and Access Management)
+# IAM (Identity and Access Management) 🌟
 
 - AWS 서비스 및 리소스에 대한 액세스를 안전하게 제어할 수 있는 웹 서비스
 - User, Group, Role, Policy로 구성
