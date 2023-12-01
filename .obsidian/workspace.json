@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memo/New Note.md",
+                "file": "Memo/국내외 정보보호 인증 동향 및 ISMS-P 인증의 이해.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memo/New Note.md",
+                "file": "Memo/국내외 정보보호 인증 동향 및 ISMS-P 인증의 이해.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Memo/New Note.md",
+                "file": "Memo/국내외 정보보호 인증 동향 및 ISMS-P 인증의 이해.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memo/New Note.md"
+                "file": "Memo/국내외 정보보호 인증 동향 및 ISMS-P 인증의 이해.md"
               }
             }
           },
@@ -168,6 +168,7 @@
   "active": "d49ac7adab7332fc",
   "lastOpenFiles": [
     "Memo/New Note.md",
+    "Memo/국내외 정보보호 인증 동향 및 ISMS-P 인증의 이해.md",
     "Memo/Final/React.md",
     "K8s/ConfigMapSecret.md",
     "Memo/Final/Kubernetes.md",
@@ -194,7 +195,6 @@
     "ModuleProject-Infra/1. 테라폼 S3 백엔드 구성.md",
     "ModuleProject-Infra/2. VPC, 서브넷, ecr 생성.md",
     "ModuleProject-Infra/argocd 설정.md",
-    "ModuleProject-Infra/한끼얼마 CICD, Cloud Infra 구축.md",
     "ModuleProject-Infra",
     "Memo",
     "Terraform",
