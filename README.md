@@ -276,3 +276,7 @@ TiL
 - [Servlet](https://github.com/seungwonbased/TIL/blob/main/Spring/WebApplications/Servlet.md)
 - [Multi Thread](https://github.com/seungwonbased/TIL/blob/main/Spring/WebApplications/MultiThread.md)
 - [HTML, HTTP API](https://github.com/seungwonbased/TIL/blob/main/Spring/WebApplications/HTMLHTTPAPI.md)
+
+# 정보처리기사
+
+- [요구사항 확인](https://github.com/seungwonbased/TIL/blob/main/EIP/1.md)

@@ -11,8 +11,12 @@
             "id": "d49ac7adab7332fc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "EIP/1.md.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "EIP/1.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "EIP/1.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "EIP/1.md.md"
+              }
             }
           },
           {
@@ -136,7 +144,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -149,19 +159,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
     }
   },
   "active": "d49ac7adab7332fc",
   "lastOpenFiles": [
+    "EIP/1.md.md",
+    "README.md",
+    "EIP/EIP.md",
+    "EIP",
+    "New Note.md",
+    "Portfolio/READMETemplate.md",
+    "MSA.md",
     "Memo/strategy.md",
     "Memo/퍼블릭 클라우드 MSA 운영 환경 구축 클라우드 POS [Salesync].md",
-    "New Note.md",
     "Memo/WBS.md",
     "Memo/명세.md",
     "Memo/New Note.md",
@@ -180,13 +196,8 @@
     "AWS/SSG/1_Cloud Computing.md",
     "Memo/Final/Docker.md",
     "Memo/Final/Terraform.md",
-    "Docker/Dockerfile.md",
     ".md",
-    "Memo/.md",
-    "Memo/Final/Final.md",
     "Memo/Final",
-    "한끼얼마 BE Flask App.md",
-    "ModuleProject-Infra/4. Frontend S3 호스팅.md",
     "ModuleProject-Infra",
     "Memo",
     "Terraform",
@@ -204,7 +215,6 @@
     "한끼얼마 K8s Cluster ty.pdf",
     "한끼얼마 BE Flask App.pdf",
     "Users/baeseungwon/Desktop/Screenshots",
-    "Users/baeseungwon/Desktop",
     "Network/Basic/Untitled.canvas",
     "Untitled.canvas"
   ]

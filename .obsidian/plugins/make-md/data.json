@@ -38,20 +38,14 @@
     "Terraform",
     "//Linux/Linux/Notes",
     "//Terraform",
-    "//Memo",
-    "//Memo",
-    "//Portfolio",
-    "//Portfolio",
     "//Terraform",
     "//Terraform",
     "//Terraform",
-    "//Memo",
     "//logs",
-    "//Docker",
     "//Terraform",
-    "//AWS",
     "//AWS/AWS/SSG",
-    "//K8s"
+    "//EIP",
+    "//EIP"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -75,13 +69,15 @@
   "waypoints": [
     "Spaces/Home",
     "/",
+    "EIP",
     "spaces://$tags"
   ],
   "rootSpaces": [
     "Terraform",
     "Memo",
     "ModuleProject-Infra",
-    "Memo/Final"
+    "Memo/Final",
+    "EIP"
   ],
   "spacesUseAlias": false,
   "fmKeyAlias": "aliases",
