@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EIP/4.md.md",
+                "file": "EIP/7.md.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EIP/4.md.md",
+                "file": "EIP/7.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EIP/4.md.md",
+                "file": "EIP/7.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EIP/4.md.md"
+                "file": "EIP/7.md.md"
               }
             }
           },
@@ -169,8 +169,12 @@
   },
   "active": "d49ac7adab7332fc",
   "lastOpenFiles": [
-    "EIP/1.md.md",
+    "EIP/6.md.md",
+    "EIP/7.md 1.md",
+    "EIP/7.md.md",
+    "EIP/5.md.md",
     "EIP/4.md.md",
+    "EIP/1.md.md",
     "EIP/3.md.md",
     "ModuleProject-Infra/한끼얼마 CICD, Cloud Infra 구축.md",
     "EIP/2.md.md",
@@ -192,10 +196,6 @@
     "AWS/SSG/6_CloudFormation.md",
     "AWS/SSG/9_CodeDeploy.md",
     "AWS/SSG/7_CLI.md",
-    "AWS/SSG/8_Serverless.md",
-    "AWS/SSG/5_SNS.md",
-    "AWS/SSG/4_EC2.md",
-    "AWS/SSG/3_VPC.md",
     ".md",
     "Memo/Final",
     "ModuleProject-Infra",
