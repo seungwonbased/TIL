@@ -45,7 +45,9 @@
     "//Terraform",
     "//AWS/AWS/SSG",
     "//EIP",
-    "//EIP"
+    "//EIP",
+    "//EIP",
+    "//ModuleProject-Infra"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

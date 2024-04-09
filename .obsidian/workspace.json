@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EIP/2.md.md",
+                "file": "EIP/4.md.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EIP/2.md.md",
+                "file": "EIP/4.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EIP/2.md.md",
+                "file": "EIP/4.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EIP/2.md.md"
+                "file": "EIP/4.md.md"
               }
             }
           },
@@ -170,6 +170,9 @@
   "active": "d49ac7adab7332fc",
   "lastOpenFiles": [
     "EIP/1.md.md",
+    "EIP/4.md.md",
+    "EIP/3.md.md",
+    "ModuleProject-Infra/한끼얼마 CICD, Cloud Infra 구축.md",
     "EIP/2.md.md",
     "README.md",
     "EIP/EIP.md",
@@ -193,9 +196,6 @@
     "AWS/SSG/5_SNS.md",
     "AWS/SSG/4_EC2.md",
     "AWS/SSG/3_VPC.md",
-    "AWS/SSG/2_IAM.md",
-    "AWS/SSG/1_Cloud Computing.md",
-    "Memo/Final/Docker.md",
     ".md",
     "Memo/Final",
     "ModuleProject-Infra",
