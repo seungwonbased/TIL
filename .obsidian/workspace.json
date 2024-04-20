@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "90e7f5dde2f45884",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EIP/8.md.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EIP/8.md.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EIP/8.md.md"
+                "file": "README.md"
               }
             }
           },
@@ -167,8 +180,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d49ac7adab7332fc",
+  "active": "90e7f5dde2f45884",
   "lastOpenFiles": [
+    "AWS/memo.md",
+    "README.md",
+    "Memo/New Note 1.md",
     "EIP/7.md.md",
     "EIP/8.md.md",
     "EIP/6.md.md",
@@ -179,7 +195,6 @@
     "EIP/3.md.md",
     "ModuleProject-Infra/한끼얼마 CICD, Cloud Infra 구축.md",
     "EIP/2.md.md",
-    "README.md",
     "EIP/EIP.md",
     "EIP",
     "New Note.md",
@@ -194,8 +209,6 @@
     "K8s/ConfigMapSecret.md",
     "Memo/Final/Kubernetes.md",
     "Memo/Final/AWS.md",
-    "AWS/SSG/6_CloudFormation.md",
-    "AWS/SSG/9_CodeDeploy.md",
     ".md",
     "Memo/Final",
     "ModuleProject-Infra",

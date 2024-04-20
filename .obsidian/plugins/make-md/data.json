@@ -43,11 +43,9 @@
     "//Terraform",
     "//logs",
     "//Terraform",
-    "//AWS/AWS/SSG",
-    "//EIP",
-    "//EIP",
-    "//EIP",
-    "//ModuleProject-Infra"
+    "//AWS",
+    "//Memo",
+    "//Memo"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

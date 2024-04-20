@@ -4,6 +4,9 @@ TiL
 
 # AWS
 
+- [정리](https://github.com/seungwonbased/TIL/blob/main/memo.md)
+
+
 ### AWS Global Infrastructure
 
 - [Regions, Availability Zones](https://github.com/seungwonbased/TIL/blob/main/GlobalInfra/GlobalInfra.md)
