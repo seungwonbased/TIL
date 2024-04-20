@@ -4,7 +4,7 @@ TiL
 
 # AWS
 
-- [정리](https://github.com/seungwonbased/TIL/blob/main/memo.md)
+- [정리](https://github.com/seungwonbased/TIL/blob/main/AWS/memo.md)
 
 
 ### AWS Global Infrastructure
