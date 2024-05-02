@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/memo.md",
+                "file": "스크랩.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/memo.md",
+                "file": "스크랩.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/memo.md",
+                "file": "스크랩.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/memo.md"
+                "file": "스크랩.md"
               }
             }
           },
@@ -182,9 +182,11 @@
   },
   "active": "90e7f5dde2f45884",
   "lastOpenFiles": [
-    "README.md",
     "AWS/memo.md",
+    "MSA.md",
     "Memo/New Note 1.md",
+    "Memo/WBS.md",
+    "README.md",
     "EIP/7.md.md",
     "EIP/8.md.md",
     "EIP/6.md.md",
@@ -199,10 +201,8 @@
     "EIP",
     "New Note.md",
     "Portfolio/READMETemplate.md",
-    "MSA.md",
     "Memo/strategy.md",
     "Memo/퍼블릭 클라우드 MSA 운영 환경 구축 클라우드 POS [Salesync].md",
-    "Memo/WBS.md",
     "Memo/명세.md",
     "Memo/New Note.md",
     "Memo/Final/React.md",
